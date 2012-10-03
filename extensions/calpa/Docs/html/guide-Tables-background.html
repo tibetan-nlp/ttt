@@ -1,0 +1,133 @@
+<HTML>
+<BODY bgcolor=ffffff>
+<P>
+<TABLE width=100% cellspacing=0 cellpadding=0>
+<TR>
+<TD>
+<FONT size=-1><B>CalHTMLPane v2.0 Guide</B></FONT>
+</TD>
+<TD align=right>
+<FONT size=-1><B>Example Tag Usage</B></FONT>
+</TD>
+</TR>
+</TABLE>
+<HR width=100% size=1 color=black>
+<P>
+<FONT size=+1><B>1: Tables</B></FONT>
+<P>
+<BLOCKQUOTE>
+<P>
+<B>Attr: bgcolor</B>
+<P>
+<BLOCKQUOTE>
+<TABLE border width=100% cellpadding=6 align=center>
+
+<TR>
+<TD>
+<B>Use Within:</B><BR>
+&lt;TABLE&gt; &lt;THEAD&gt;, &lt;TBODY&gt;, &lt;TFOOT&gt;,
+ &lt;TR&gt;, &lt;COLGROUP&gt;, &lt;COL&gt;, &lt;TH&gt;, and &lt;TD&gt;
+</TD>
+</TR>
+
+<TR>
+<TD>
+<B>Arguments:</B> A hexidecimal color code or default color name.<BR>
+(e.g. bgcolor=4488AA, bgcolor=silver)
+</TD>
+</TR>
+
+<TR>
+<TD>
+<B>Synopsis:</B><BR>
+Sets the background color of a table, table row, table cell etc.
+<P>
+When used within the &lt;TABLE&gt; tag, Netscape Navigator applies the
+specified color only to the &lt;TD/TH&gt; elements within the table - any
+border areas produced with the <B>cellspacing</B> attribute remain in the
+background color of the table's parent (either the document itself or perhaps
+a parent &lt;TD/TH&gt; element). Internet Explorer however renders
+<EM>all</EM> of the table in the specified background color.
+<P>
+The CalPane follows Explorer in this respect, except
+the Pane uses computed colors for any highlight and shadow lines in the table.
+</TD>
+</TR>
+
+<TR>
+<TD>
+<B>Example:</B>
+<P>
+<table align=center bgcolor=ffffdd cellspacing=0 cellpadding=4 rules=none bordercolor=black frame=border>
+<tr>
+<td><FONT color=navy>
+&lt;TABLE border=1 cellspacing=3 cellpadding=2 bgcolor=mediumaquamarine&gt;<BR>
+<code>&nbsp;&nbsp;</code>&lt;TR&gt;&lt;TD&gt; Background Test
+&lt;/TD&gt;&lt;/TR&gt;<BR>
+&lt;/TABLE&gt;</FONT>
+</td>
+</tr>
+</table>
+<P>
+</TR>
+</TD>
+
+<TR>
+<TD>
+<B>Rendering:</B>
+<table align=center cellspacing=6>
+<tr align=center><th><FONT size=-1 face=helvetica>Navigator</FONT></th>
+<th>&nbsp;</th><th><FONT size=-1 face=helvetica>Explorer</FONT></th>
+<th>&nbsp;</th><th><FONT size=-1 face=helvetica>CalPane</FONT></th>
+</tr>
+<tr>
+<td>
+<table border cellspacing=3 cellpadding=2>
+<tr><td bgcolor=mediumaquamarine>Background test</td></tr>
+</table>
+</td>
+<td><code>&nbsp;&nbsp;&nbsp;</code></td>
+<td>
+<table border cellspacing=3 cellpadding=2 bgcolor=mediumaquamarine
+bordercolorlight=c0c0c0 bordercolordark=808080><tr><td>Background test</td></tr></table>
+</td>
+<td><code>&nbsp;&nbsp;&nbsp;</code></td>
+<td>
+<table border bgcolor=mediumaquamarine cellspacing=3 cellpadding=2><tr><td>Background test</td></tr></table>
+</td>
+</tr>
+</table>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<B>Implementation Notes:</B><BR>
+<UL>
+<LI>Some document authors who do not test their pages across multiple browsers
+assume all table rendering is identical to Navigator. They therefore often
+remove the border from a table similar to the one above in order to get
+'empty space' around the TD element. They then proceed to align text and
+images alongside the table, not realising that when such markup is viewed on a browser such
+as Explorer no such 'empty space' exists. This leaves the text and images
+completely flush to the table making the document seem poorly formatted.
+</TD>
+</TR>
+
+</TABLE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+
+<TABLE align=center width=50%>
+<TR>
+<TD align=center>
+<A href="../CalGuide.html">Guide Index</A> &nbsp;&#124;
+<A href="../javadoc/overview-tree.html">&nbsp;JavaDoc</A> &nbsp;&#124;
+<A href="../../README.txt">&nbsp;Previous</A> &nbsp;&#124;
+<A href="guide-Tables-borders.html">&nbsp;Next</A>
+</TD>
+</TR>
+</TABLE>
+
+</BODY>
+</HTML>

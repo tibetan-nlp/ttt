@@ -1,0 +1,111 @@
+<!-- @author David Chandler, dchandler@users.sourceforge.net
+
+     We have a document,
+     http://thdltools.sourceforge.net/BuildSystems.html, that you
+     probably should read.
+-->
+
+<project name="THDLTools-JWS" default="fail-nicely" basedir=".">
+
+
+  <description>
+    This Jakarta Ant buildfile is used to build the Java Web Start
+    releases of Jskad and the Translation Tool.
+    This is separate from build.xml because to use this build file,
+    you must have installed the Venus Application Publisher's (Vamp's)
+    Ant tasks.  Read the comments of this buildfile to learn more, or
+    see 'http://thdltools.sourceforge.net/BuildSystems.html'.
+  </description>
+
+
+  <!--                        -->
+  <!-- Ant extensions we use: -->
+  <!--                        -->
+  <!-- See http://www.vamphq.com/ant.html for vamp*: -->
+  <taskdef name="vampwar"       classname="venus.ant.taskdefs.VampWar" />
+  <taskdef name="vampinstaller" classname="venus.ant.taskdefs.VampInstaller" />
+
+
+  <target name="fail-nicely" description="Tells the user to use build.xml, not this subbuildfile.">
+    <fail message="Do not use this file directly; use build.xml instead, which then uses this file."/>
+  </target>
+
+
+  <target name="this-init">
+    <!-- Create the time stamp -->
+    <tstamp/>
+
+    <mkdir dir="${dist}/java-web-start"/>
+  </target>
+
+
+  <target name="package-for-java-web-start"
+          depends="this-init"
+          description="Builds the Java Web Start version of ${my.app} given that you have compiled it to a JAR with the suffix ${jwsjarsuffix} (and from scratch, since our compilation procedure doesn't konw about dependencies)">
+
+    <!-- First, you must give the passwords so that we can sign the JARs. -->
+    <fail message="Use 'ant -Dkeystore.password=psst' to sign a Java Web Start WAR file."
+          unless="keystore.password"/>
+    <fail message="Use 'ant -Ddgkey.password=psst' to sign a Java Web Start WAR file."
+          unless="dgkey.password"/>
+
+    <!-- Use the Venus Application Publisher's (Vamp's) Ant task to
+         create a .war file.  If you use Tomcat or the like to
+         distribute, then the WAR is all you need.  If not, you don't
+         need the full WAR file.  You in fact need only the JAR file
+         inside it.  There is a ${my.app}.jnlp file inside it, too,
+         but that file uses macros like $$name and $$codebase, which
+         are only appropriate to Tomcat-type environments.
+
+         Thus, you non-Tomcat-users should run 'jar xf
+         ${my.app}-web-start.war ${my.app}.jar' to extract the
+         signed JAR file and copy the .jar and the
+         ${dist}/${my.app}.jnlp file (NOT the one in the WAR) to the
+         web server.  (Be sure that the web server has its MIME types
+         configured correctly so that the .jnlp file is served as an
+         application/jnlp or the like, not text/xml.)
+
+         Yes, it means that we're requiring anyone who wishes to cut a
+         JWS release to install vamp.jar, when we could use the
+         built-in SignJar task instead for non-Tomcat-users.  BUT,
+         this method means that we're ready for a J2EE application
+         server framework like the one at Virginia.
+
+         If you change web servers or the location on the web server
+         where the JAR and jnlp file are located, you have to edit
+         ${my.app}.jnlp.  Note that doing so will mean that users who've
+         installed ${my.app} from the old location will NOT be able to
+         seamlessly upgrade, so don't do this often.
+
+         To install the Vamp Ant task, visit
+         'http://www.vamphq.com/ant.html' and follow the instructions.
+         Note that you *CAN* just drop vamp.jar into Ant's 'lib'
+         directory with Ant 1.5.1.
+
+    -->
+    <vampwar dest="${dist}/java-web-start/${my.app}-web-start.war">
+      <jnlp src="${dist}/${my.app}.jnlp">
+        <resources>
+          <fileset dir="${lib}">
+            <include name="${my.app}${jwsjarsuffix}.jar" />
+          </fileset>
+        </resources>
+      </jnlp>
+
+      <jarsigner
+          keystore  = "${keystore}"
+          storepass = "${keystore.password}"
+          keypass = "${dgkey.password}"
+          alias     = "${key.alias}"/>
+    </vampwar>
+
+    <!-- Extract the JAR file: -->
+    <unwar src="${dist}/java-web-start/${my.app}-web-start.war"
+           dest="${dist}/java-web-start/">
+      <patternset>
+        <include name="${my.app}*.jar"/>
+      </patternset>
+    </unwar>
+  </target>
+
+</project>

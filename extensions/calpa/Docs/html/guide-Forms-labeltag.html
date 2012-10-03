@@ -1,0 +1,101 @@
+<HTML>
+<BODY bgcolor=ffffff>
+<P>
+<TABLE width=100% cellspacing=0 cellpadding=0>
+<TR>
+<TD>
+<FONT size=-1><B>CalHTMLPane v2.0 Guide</B></FONT>
+</TD>
+<TD align=right>
+<FONT size=-1><B>Example Tag Usage</B></FONT>
+</TD>
+</TR>
+</TABLE>
+<HR width=100% size=1 color=black>
+<P>
+<FONT size=+1><B>2: Forms</B></FONT>
+<P>
+<BLOCKQUOTE>
+<P>
+<B>Tag: LABEL</B><BR>
+<P>
+<BLOCKQUOTE>
+<TABLE border align=center cellpadding=6 width=100%>
+
+<TR>
+<TD>
+<B>Synopsis:</B><BR>
+The <B>LABEL</B> tag can contain HTML content, although it cannot contain
+other form components, framesets, or hyperlinks.
+
+<P>The <B>marginwidth</B> and <B>marginheight</B>
+attributes determine the label's insets (the gap between the button's border
+and its content). The default marginwidth is 3 pixels, default marginheight 2 pixels.
+
+<P>Use the <B>for</B> attribute to transfer focus from a label to another
+form component (see HTML4.0 spec).
+
+<P>Use the <B>border</B> attribute to set the size of the label's border and
+the <B>bordercolor</B> attribute to set the border's color.
+
+<P>Use the <B>dropshadow</B> attribute to give the label a small shadow effect.
+
+<P>Note that to get the spacing and word-wrap you desire within the label it
+is often advisable to format content using tables. 
+
+</TD>
+</TR>
+
+<TR>
+<TD>
+<B>Example:</B>
+<P>
+<table align=center bgcolor=ffffdd cellspacing=0 cellpadding=4 rules=none bordercolor=black frame=border>
+<tr>
+<td><FONT color=navy>
+&lt;LABEL dropshadow border=1 bordercolor=black bgcolor=ddddee&gt;<BR>
+<code>&nbsp;&nbsp;</code>&lt;TABLE cellspacing=2&gt;&lt;TR&gt;&lt;TD align=center&gt;<BR>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;</code>&lt;FONT size=-1 face=helvetica&gt;Call now for&lt;BR&gt;information&lt;/FONT&gt;<BR>
+<code>&nbsp;&nbsp;</code>&lt;/TD&gt;&lt;TD&gt;<BR>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;</code>&lt;IMG src="images/phone.gif"&gt;<BR>
+<code>&nbsp;&nbsp;</code>&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;<BR>
+&lt;/LABEL&gt;<BR>
+</td>
+</tr>
+</table>
+<P>
+</TR>
+</TD>
+
+<TR>
+<TD>
+<B>Rendering:</B>
+<DIV align=center>
+<LABEL dropshadow border=1 bordercolor=black bgcolor=ddddee>
+<table cellspacing=2><tr><td align=center>
+<FONT face=helvetica size=-1>Call now for<BR>information</FONT>
+</td><td><IMG src="images/phone.gif"></td></tr>
+</table>
+</LABEL>
+</DIV>
+<BR>
+</TD>
+</TR>
+
+</TABLE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+
+<TABLE align=center width=50%>
+<TR>
+<TD align=center>
+<A href="../CalGuide.html">Guide Index</A> &nbsp;&#124;
+<A href="../javadoc/overview-tree.html">&nbsp;JavaDoc</A> &nbsp;&#124;
+<A href="guide-Forms-buttontag.html">&nbsp;Previous</A> &nbsp;&#124;
+<A href="guide-Forms-accesskey.html">&nbsp;Next</A>
+</TD>
+</TR>
+</TABLE>
+
+</BODY>
+</HTML>

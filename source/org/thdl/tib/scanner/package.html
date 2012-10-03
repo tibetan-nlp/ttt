@@ -1,0 +1,141 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<!--
+
+  @(#)package.html
+
+-->
+</head>
+<body bgcolor="white">
+Provides the classes to take Tibetan language passages and divide the passages up
+into their component phrases and words, and display corresponding dictionary definitions.
+<p>This  tool helps Tibetan to English translators partially automate the
+translation process. In the Tibetan language, the boundaries of individual words
+are not marked in any manner such as the way in which spaces separate and mark
+words in English. Instead, there is
+a punctuation mark called a &quot;tsheg&quot; which separates each syllable. Thus while syllabic boundaries are utterly explicit, word boundaries are
+often unclear. One of the main
+difficulties beginning students thus have with translating Tibetan texts is
+figuring out where each word ends and the next word starts, and determining what
+series of syllables to look up in the dictionary either as constituting a single
+word or a larger compound phrase. This
+entails a very time consuming process of looking up multiple combinations of
+syllables to determine which are found within a given dictionary.</p>
+<p>It partially automates that process by
+breaking up a sentence/paragraph entered in <a href="http://orion.lib.virginia.edu/thdl/tools/ewts.pdf" target="_blank">
+    Extended Wylie</a>  or Tibetan script
+into the biggest component parts it can find in multiple dictionary databases.
+Then for each component part found, it displays its stored definitions and
+relevant information. This will
+thus often yield only the definition of a long phrase, rather than its component
+words, but one can also search for the syllables of that phrase one by one
+separately.</p>
+<p>The tool can run on-line through a:</p>
+<ul>
+  <li> 
+  Java servlet (using Roman script for input and Tibetan script for output) 
+  directly on a browser<p>The text is typed (or pasted) using <a href="http://orion.lib.virginia.edu/thdl/tools/ewts.pdf" target="_blank">
+    Extended Wylie</a> in a
+text box within a form. All of the processing is done on the server, and the
+results are returned in plain HTML. This allows the user to run this version on
+even the most basic browser without needing any additional software installed.
+Also, because the results are returned in HTML, features of HTML like
+hyperlinks, tables, and text formatting allow it to be skimmed more easily. The
+user can choose between seeing the Tibetan within the results in <a href="http://orion.lib.virginia.edu/thdl/tools/ewts.pdf" target="_blank">
+    Extended Wylie</a> or in Tibetan script
+(<a href="http://orion.lib.virginia.edu/thdl/tools/tmw.html" target="_blank">using
+Tibetan Machine Web font now available for free</a>).<br>
+&nbsp;</p>  
+  </li>
+  <li> 
+  Java applet &amp; application (using Tibetan script for both input and output) 
+  communicating to a servlet<p>The text is typed in <a href="http://orion.lib.virginia.edu/thdl/tools/ewts.pdf" target="_blank">
+    Extended Wylie</a>, but with the added
+value that optionally the user can choose to see it directly in the Tibetan script
+(<a href="http://orion.lib.virginia.edu/thdl/tools/tmw.html" target="_blank">using
+Tibetan Machine Web font now available for free</a>) as he types. We
+eventually plan to support other keyboard methods of entry as well. Here all the processing is also done on the server side, and the results
+are displayed interactively within the program's window. Again the user can choose
+to see the results in <a href="http://orion.lib.virginia.edu/thdl/tools/ewts.pdf" target="_blank">
+    Extended Wylie</a> or in the Tibetan script.&nbsp;</p>
+<p>Even though the application runs as a stand-alone application in the
+desktop's user, connection to the Internet is still necessary to access the
+dictionary databases. Easy launching of the application can be done over the
+Internet using <a href="http://java.sun.com/products/javawebstart/">Java Web
+Start</a>, which comes with <a href="#Sun's Java Runtime Environment">
+Sun's Java Runtime Environment version 1.4</a> or higher. This is the
+recommended way to run the tool.</p>
+<p>The applet runs within a browser. The browser not only needs
+to support Java, but since the classes that handle the Tibetan font use <i>Swing</i>, <a href="#Sun's Java Runtime Environment">
+Sun's Java Runtime Environment version 1.4</a> or higher must additionally be installed.<br>
+&nbsp;</p>  
+  </li>
+</ul>
+<p>The tool can  also run off-line in:</p>
+<ul>
+  <li><b>Desktop &amp; laptop computers</b>
+supporting the Sun's <i>Java Runtime Environment</i> version 1.2 or higher;
+    although <a href="#Sun's Java Runtime Environment">version 1.4</a> or higher is
+    recommended.&nbsp;This is distributed as <i>DictionarySearchStandalone.jar</i>.</li>
+  <li><b>Handheld devices</b> supporting <a href="http://java.sun.com/products/personaljava/">PersonalJava
+Application Environment</a> version 1.2a or higher. This is distributed as <i>
+  DictionarySearchHandheld.jar</i>.</li>
+</ul>
+
+<p>The classes designed to be run from the command-line are:</p>
+<ul>
+  <li>BinaryFileGenerator 
+(included only in DictionarySearchStandalone.jar)</li>
+  <li>AcipToWylie 
+(included only in DictionarySearchStandalone.jar)</li>
+  <li>WindowScannerFilter 
+(included in both DictionarySearchStandalone.jar and 
+DictionarySearchHandheld.jar)</li>
+  <li>ConsoleScannerFilter 
+  (included in both DictionarySearchStandalone.jar and 
+  DictionarySearchHandheld.jar)</li>
+</ul>
+
+
+<p><i>Notes on Input:</i></p>
+<ul>
+  <li>For the &quot;punctuation marks&quot;, the tool assumes that
+  <ul>
+  <li>'&nbsp; ' (tsheg), '_' (space), &lt;enter&gt;, &lt;tab&gt;:
+    function as syllable separators and may show up in between component word or phrases.</li>
+  <li> '/' (shad), ';', '|', '!', ':', '[', ']', '^', '@', '#', '$', '%', '=', '&lt;', '&gt;',
+    '(', ')', '{', '}', <i>blank line</i> (two enters in a row): may not show up in between
+    component word or phrases (and hence is interpreted as marking the end of a
+    component word or phrase). See <a href="http://orion.lib.virginia.edu/thdl/tools/ewts.pdf" target="_blank">
+    Extended Wylie</a> documentation for the corresponding symbols in the
+    Tibetan script.
+  </li>
+  <li>all other characters are part of the syllable<br>
+  </li>
+  </ul></li>
+<li>To force the parser to &quot;break up&quot; a component word or phrase into
+its individual syllables, use any character of the second set in between the syllables. For
+  example, if the entry is:
+  <p><i>chos nyid</i></p>
+  <p>or</p>
+<p><i>chos<br>
+nyid</i></p>
+<p>the parser will recognize it as a single word &quot;<i>chos nyid</i>&quot;.
+But if the entry is:</p>
+<p><i>chos / nyid</i></p>
+<p>or</p>
+<p><i>chos</i></p>
+<p><i>nyid</i></p>
+<p>the parser will assume &quot;chos&quot; and &quot;nyid&quot; are independent,
+and will be looked up separately.</p>
+</li>
+</ul>
+
+<p>Author: Andr&eacute;s Montano Pellegrini</p>
+<p>
+<h2>Related Documentation</h2>
+@see <a href="../text/package-summary.html">org.thdl.tib.text</a>
+@see <a href="../input/package-summary.html">org.thdl.tib.input</a>
+</body>
+</html>

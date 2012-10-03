@@ -1,0 +1,912 @@
+{\rtf1\ansi
+{\fonttbl\f0\fnil Monospaced;\f1\fnil TibetanMachine;\f2\fnil Serif;\f3\fnil TibetanMachineSkt1;\f4\fnil TibetanMachineSkt2;\f5\fnil TibetanMachineSkt3;\f6\fnil TibetanMachineSkt4;}
+
+\li0\ri0\fi0\f1\fs144\i0\b0\ul0\cf0 > >\f2\i0\b0\ul0  \fs28\i0\b0\ul0\cf0  font 1; ord 32\par
+\f1\fs144 >!>\f2\i0\b0\ul0 KA\fs28\i0\b0\ul0\cf0  font 1; ord 33\par
+\f1\fs144 >">\f2\i0\b0\ul0 KHA\fs28\i0\b0\ul0\cf0  font 1; ord 34\par
+\f1\fs144 >#>\f2\i0\b0\ul0 GA\fs28\i0\b0\ul0\cf0  font 1; ord 35\par
+\f1\fs144 >$>\f2\i0\b0\ul0 NGA\fs28\i0\b0\ul0\cf0  font 1; ord 36\par
+\f1\fs144 >%>\f2\i0\b0\ul0 CA\fs28\i0\b0\ul0\cf0  font 1; ord 37\par
+\f1\fs144 >&>\f2\i0\b0\ul0 CHA\fs28\i0\b0\ul0\cf0  font 1; ord 38\par
+\f1\fs144 >'>\f2\i0\b0\ul0 JA\fs28\i0\b0\ul0\cf0  font 1; ord 39\par
+\f1\fs144 >(>\f2\i0\b0\ul0 NYA\fs28\i0\b0\ul0\cf0  font 1; ord 40\par
+\f1\fs144 >)>\f2\i0\b0\ul0 TA\fs28\i0\b0\ul0\cf0  font 1; ord 41\par
+\f1\fs144 >*>\f2\i0\b0\ul0 THA\fs28\i0\b0\ul0\cf0  font 1; ord 42\par
+\f1\fs144 >+>\f2\i0\b0\ul0 DA\fs28\i0\b0\ul0\cf0  font 1; ord 43\par
+\f1\fs144 >,>\f2\i0\b0\ul0 NA\fs28\i0\b0\ul0\cf0  font 1; ord 44\par
+\f1\fs144 >->\f2\i0\b0\ul0  \fs28\i0\b0\ul0\cf0  font 1; ord 45\par
+\f1\fs144 >.>\f2\i0\b0\ul0 PHA\fs28\i0\b0\ul0\cf0  font 1; ord 46\par
+\f1\fs144 >/>\f2\i0\b0\ul0 BA\fs28\i0\b0\ul0\cf0  font 1; ord 47\par
+\f1\fs144 >0>\f2\i0\b0\ul0 MA\fs28\i0\b0\ul0\cf0  font 1; ord 48\par
+\f1\fs144 >1>\f2\i0\b0\ul0 TZA\fs28\i0\b0\ul0\cf0  font 1; ord 49\par
+\f1\fs144 >2>\f2\i0\b0\ul0 TSA\fs28\i0\b0\ul0\cf0  font 1; ord 50\par
+\f1\fs144 >3>\f2\i0\b0\ul0 DZA\fs28\i0\b0\ul0\cf0  font 1; ord 51\par
+\f1\fs144 >4>\f2\i0\b0\ul0 WA\fs28\i0\b0\ul0\cf0  font 1; ord 52\par
+\f1\fs144 >5>\f2\i0\b0\ul0 ZHA\fs28\i0\b0\ul0\cf0  font 1; ord 53\par
+\f1\fs144 >6>\f2\i0\b0\ul0 ZA\fs28\i0\b0\ul0\cf0  font 1; ord 54\par
+\f1\fs144 >7>\f2\i0\b0\ul0 'A\fs28\i0\b0\ul0\cf0  font 1; ord 55\par
+\f1\fs144 >8>\f2\i0\b0\ul0 YA\fs28\i0\b0\ul0\cf0  font 1; ord 56\par
+\f1\fs144 >9>\f2\i0\b0\ul0 RA\fs28\i0\b0\ul0\cf0  font 1; ord 57\par
+\f1\fs144 >:>\f2\i0\b0\ul0 LA\fs28\i0\b0\ul0\cf0  font 1; ord 58\par
+\f1\fs144 >;>\f2\i0\b0\ul0 SHA\fs28\i0\b0\ul0\cf0  font 1; ord 59\par
+\f1\fs144 ><>\f2\i0\b0\ul0 SA\fs28\i0\b0\ul0\cf0  font 1; ord 60\par
+\f1\fs144 >=>\f2\i0\b0\ul0 HA\fs28\i0\b0\ul0\cf0  font 1; ord 61\par
+\f1\fs144 >>>\f2\i0\b0\ul0 AA\fs28\i0\b0\ul0\cf0  font 1; ord 62\par
+\f1\fs144 >?>\f2\i0\b0\ul0 RKA\fs28\i0\b0\ul0\cf0  font 1; ord 63\par
+\f1\fs144 >@>\f2\i0\b0\ul0 RGA\fs28\i0\b0\ul0\cf0  font 1; ord 64\par
+\f1\fs144 >A>\f2\i0\b0\ul0 RNGA\fs28\i0\b0\ul0\cf0  font 1; ord 65\par
+\f1\fs144 >B>\f2\i0\b0\ul0 RJA\fs28\i0\b0\ul0\cf0  font 1; ord 66\par
+\f1\fs144 >C>\f2\i0\b0\ul0 RNYA\fs28\i0\b0\ul0\cf0  font 1; ord 67\par
+\f1\fs144 >D>\f2\i0\b0\ul0 RTA\fs28\i0\b0\ul0\cf0  font 1; ord 68\par
+\f1\fs144 >E>\f2\i0\b0\ul0 RDA\fs28\i0\b0\ul0\cf0  font 1; ord 69\par
+\f1\fs144 >F>\f2\i0\b0\ul0 RNA\fs28\i0\b0\ul0\cf0  font 1; ord 70\par
+\f1\fs144 >G>\f2\i0\b0\ul0 RBA\fs28\i0\b0\ul0\cf0  font 1; ord 71\par
+\f1\fs144 >H>\f2\i0\b0\ul0 RMA\fs28\i0\b0\ul0\cf0  font 1; ord 72\par
+\f1\fs144 >I>\f2\i0\b0\ul0 RTZA\fs28\i0\b0\ul0\cf0  font 1; ord 73\par
+\f1\fs144 >J>\f2\i0\b0\ul0 RDZA\fs28\i0\b0\ul0\cf0  font 1; ord 74\par
+\f1\fs144 >K>\f2\i0\b0\ul0 LKA\fs28\i0\b0\ul0\cf0  font 1; ord 75\par
+\f1\fs144 >L>\f2\i0\b0\ul0 LGA\fs28\i0\b0\ul0\cf0  font 1; ord 76\par
+\f1\fs144 >M>\f2\i0\b0\ul0 LNGA\fs28\i0\b0\ul0\cf0  font 1; ord 77\par
+\f1\fs144 >N>\f2\i0\b0\ul0 LCA\fs28\i0\b0\ul0\cf0  font 1; ord 78\par
+\f1\fs144 >O>\f2\i0\b0\ul0 LJA\fs28\i0\b0\ul0\cf0  font 1; ord 79\par
+\f1\fs144 >P>\f2\i0\b0\ul0 LTA\fs28\i0\b0\ul0\cf0  font 1; ord 80\par
+\f1\fs144 >Q>\f2\i0\b0\ul0 LDA\fs28\i0\b0\ul0\cf0  font 1; ord 81\par
+\f1\fs144 >R>\f2\i0\b0\ul0 LPA\fs28\i0\b0\ul0\cf0  font 1; ord 82\par
+\f1\fs144 >S>\f2\i0\b0\ul0 LBA\fs28\i0\b0\ul0\cf0  font 1; ord 83\par
+\f1\fs144 >T>\f2\i0\b0\ul0 LHA\fs28\i0\b0\ul0\cf0  font 1; ord 84\par
+\f1\fs144 >U>\f2\i0\b0\ul0 SKA\fs28\i0\b0\ul0\cf0  font 1; ord 85\par
+\f1\fs144 >V>\f2\i0\b0\ul0 SGA\fs28\i0\b0\ul0\cf0  font 1; ord 86\par
+\f1\fs144 >W>\f2\i0\b0\ul0 SNGA\fs28\i0\b0\ul0\cf0  font 1; ord 87\par
+\f1\fs144 >X>\f2\i0\b0\ul0 SNYA\fs28\i0\b0\ul0\cf0  font 1; ord 88\par
+\f1\fs144 >Y>\f2\i0\b0\ul0 STA\fs28\i0\b0\ul0\cf0  font 1; ord 89\par
+\f1\fs144 >Z>\f2\i0\b0\ul0 SDA\fs28\i0\b0\ul0\cf0  font 1; ord 90\par
+\f1\fs144 >[>\f2\i0\b0\ul0 SNA\fs28\i0\b0\ul0\cf0  font 1; ord 91\par
+\f1\fs144 >\\>\f2\i0\b0\ul0 SPA\fs28\i0\b0\ul0\cf0  font 1; ord 92\par
+\f1\fs144 >]>\f2\i0\b0\ul0 SBA\fs28\i0\b0\ul0\cf0  font 1; ord 93\par
+\f1\fs144 >^>\f2\i0\b0\ul0 SMA\fs28\i0\b0\ul0\cf0  font 1; ord 94\par
+\f1\fs144 >_>\f2\i0\b0\ul0 STZA\fs28\i0\b0\ul0\cf0  font 1; ord 95\par
+\f1\fs144 >`>\f2\i0\b0\ul0 KYA\fs28\i0\b0\ul0\cf0  font 1; ord 96\par
+\f1\fs144 >a>\f2\i0\b0\ul0 KHYA\fs28\i0\b0\ul0\cf0  font 1; ord 97\par
+\f1\fs144 >b>\f2\i0\b0\ul0 GYA\fs28\i0\b0\ul0\cf0  font 1; ord 98\par
+\f1\fs144 >c>\f2\i0\b0\ul0 PYA\fs28\i0\b0\ul0\cf0  font 1; ord 99\par
+\f1\fs144 >d>\f2\i0\b0\ul0 PHYA\fs28\i0\b0\ul0\cf0  font 1; ord 100\par
+\f1\fs144 >e>\f2\i0\b0\ul0 BYA\fs28\i0\b0\ul0\cf0  font 1; ord 101\par
+\f1\fs144 >f>\f2\i0\b0\ul0 MYA\fs28\i0\b0\ul0\cf0  font 1; ord 102\par
+\f1\fs144 >g>\f2\i0\b0\ul0 KRA\fs28\i0\b0\ul0\cf0  font 1; ord 103\par
+\f1\fs144 >h>\f2\i0\b0\ul0 KHRA\fs28\i0\b0\ul0\cf0  font 1; ord 104\par
+\f1\fs144 >i>\f2\i0\b0\ul0 GRA\fs28\i0\b0\ul0\cf0  font 1; ord 105\par
+\f1\fs144 >j>\f2\i0\b0\ul0 TRA\fs28\i0\b0\ul0\cf0  font 1; ord 106\par
+\f1\fs144 >k>\f2\i0\b0\ul0 THRA\fs28\i0\b0\ul0\cf0  font 1; ord 107\par
+\f1\fs144 >l>\f2\i0\b0\ul0 DRA\fs28\i0\b0\ul0\cf0  font 1; ord 108\par
+\f1\fs144 >m>\f2\i0\b0\ul0 PRA\fs28\i0\b0\ul0\cf0  font 1; ord 109\par
+\f1\fs144 >n>\f2\i0\b0\ul0 PHRA\fs28\i0\b0\ul0\cf0  font 1; ord 110\par
+\f1\fs144 >o>\f2\i0\b0\ul0 BRA\fs28\i0\b0\ul0\cf0  font 1; ord 111\par
+\f1\fs144 >p>\f2\i0\b0\ul0 MRA\fs28\i0\b0\ul0\cf0  font 1; ord 112\par
+\f1\fs144 >q>\f2\i0\b0\ul0 SHRA\fs28\i0\b0\ul0\cf0  font 1; ord 113\par
+\f1\fs144 >r>\f2\i0\b0\ul0 SRA\fs28\i0\b0\ul0\cf0  font 1; ord 114\par
+\f1\fs144 >s>\f2\i0\b0\ul0 HRA\fs28\i0\b0\ul0\cf0  font 1; ord 115\par
+\f1\fs144 >t>\f2\i0\b0\ul0 KLA\fs28\i0\b0\ul0\cf0  font 1; ord 116\par
+\f1\fs144 >u>\f2\i0\b0\ul0 GLA\fs28\i0\b0\ul0\cf0  font 1; ord 117\par
+\f1\fs144 >v>\f2\i0\b0\ul0 BLA\fs28\i0\b0\ul0\cf0  font 1; ord 118\par
+\f1\fs144 >w>\f2\i0\b0\ul0 ZLA\fs28\i0\b0\ul0\cf0  font 1; ord 119\par
+\f1\fs144 >x>\f2\i0\b0\ul0 RLA\fs28\i0\b0\ul0\cf0  font 1; ord 120\par
+\f1\fs144 >y>\f2\i0\b0\ul0 SLA\fs28\i0\b0\ul0\cf0  font 1; ord 121\par
+\f1\fs144 >z>\f2\i0\b0\ul0 RKYA\fs28\i0\b0\ul0\cf0  font 1; ord 122\par
+\f1\fs144 >\{>\f2\i0\b0\ul0 RGYA\fs28\i0\b0\ul0\cf0  font 1; ord 123\par
+\f1\fs144 >|>\f2\i0\b0\ul0 RMYA\fs28\i0\b0\ul0\cf0  font 1; ord 124\par
+\f1\fs144 >\}>\f2\i0\b0\ul0 RGVA\fs28\i0\b0\ul0\cf0  font 1; ord 125\par
+\f1\fs144 >~>\f2\i0\b0\ul0 RTZVA\fs28\i0\b0\ul0\cf0  font 1; ord 126\par
+\f1\fs144 >\u128 ?>\f2\i0\b0\ul0 SGYA\fs28\i0\b0\ul0\cf0  font 1; ord 128\par
+\f1\fs144 >\u129 ?>\f2\i0\b0\ul0 SPYA\fs28\i0\b0\ul0\cf0  font 1; ord 129\par
+\f1\fs144 >\u130 ?>\f2\i0\b0\ul0 SBYA\fs28\i0\b0\ul0\cf0  font 1; ord 130\par
+\f1\fs144 >\u131 ?>\f2\i0\b0\ul0 SMYA\fs28\i0\b0\ul0\cf0  font 1; ord 131\par
+\f1\fs144 >\u132 ?>\f2\i0\b0\ul0 SKRA\fs28\i0\b0\ul0\cf0  font 1; ord 132\par
+\f1\fs144 >\u133 ?>\f2\i0\b0\ul0 SGRA\fs28\i0\b0\ul0\cf0  font 1; ord 133\par
+\f1\fs144 >\u134 ?>\f2\i0\b0\ul0 SNRA\fs28\i0\b0\ul0\cf0  font 1; ord 134\par
+\f1\fs144 >\u135 ?>\f2\i0\b0\ul0 SPRA\fs28\i0\b0\ul0\cf0  font 1; ord 135\par
+\f1\fs144 >\u136 ?>\f2\i0\b0\ul0 SBRA\fs28\i0\b0\ul0\cf0  font 1; ord 136\par
+\f1\fs144 >\u137 ?>\f2\i0\b0\ul0 SMRA\fs28\i0\b0\ul0\cf0  font 1; ord 137\par
+\f1\fs144 >\u138 ?>\f2\i0\b0\ul0 KVA\fs28\i0\b0\ul0\cf0  font 1; ord 138\par
+\f1\fs144 >\u139 ?>\f2\i0\b0\ul0 KHVA\fs28\i0\b0\ul0\cf0  font 1; ord 139\par
+\f1\fs144 >\u140 ?>\f2\i0\b0\ul0 GVA\fs28\i0\b0\ul0\cf0  font 1; ord 140\par
+\f1\fs144 >\u141 ?>\f2\i0\b0\ul0 CVA\fs28\i0\b0\ul0\cf0  font 1; ord 141\par
+\f1\fs144 >\u143 ?>\f2\i0\b0\ul0 TVA\fs28\i0\b0\ul0\cf0  font 1; ord 143\par
+\f1\fs144 >\u144 ?>\f2\i0\b0\ul0 DVA\fs28\i0\b0\ul0\cf0  font 1; ord 144\par
+\f1\fs144 >\u145 ?>\f2\i0\b0\ul0 TZVA\fs28\i0\b0\ul0\cf0  font 1; ord 145\par
+\f1\fs144 >\u146 ?>\f2\i0\b0\ul0 TSVA\fs28\i0\b0\ul0\cf0  font 1; ord 146\par
+\f1\fs144 >\u147 ?>\f2\i0\b0\ul0 ZHVA\fs28\i0\b0\ul0\cf0  font 1; ord 147\par
+\f1\fs144 >\u148 ?>\f2\i0\b0\ul0 ZVA\fs28\i0\b0\ul0\cf0  font 1; ord 148\par
+\f1\fs144 >\u149 ?>\f2\i0\b0\ul0 RVA\fs28\i0\b0\ul0\cf0  font 1; ord 149\par
+\f1\fs144 >\u150 ?>\f2\i0\b0\ul0 SHVA\fs28\i0\b0\ul0\cf0  font 1; ord 150\par
+\f1\fs144 >\u151 ?>\f2\i0\b0\ul0 SVA\fs28\i0\b0\ul0\cf0  font 1; ord 151\par
+\f1\fs144 >\u152 ?>\f2\i0\b0\ul0 HVA\fs28\i0\b0\ul0\cf0  font 1; ord 152\par
+\f1\fs144 >\u153 ?>\f2\i0\b0\ul0 GRVA\fs28\i0\b0\ul0\cf0  font 1; ord 153\par
+\f1\fs144 >\u154 ?>\f2\i0\b0\ul0 DRVA\fs28\i0\b0\ul0\cf0  font 1; ord 154\par
+\f1\fs144 >\u155 ?>\f2\i0\b0\ul0 PHYVA\fs28\i0\b0\ul0\cf0  font 1; ord 155\par
+\f1\fs144 >\u156 ?>\f2\i0\b0\ul0 HA\fs28\i0\b0\ul0\cf0  font 1; ord 156\par
+\f1\fs144 >\u157 ?>\f2\i0\b0\ul0 NYVA\fs28\i0\b0\ul0\cf0  font 1; ord 157\par
+\f1\fs144 >\u159 ?>\f2\i0\b0\ul0 VA\fs28\i0\b0\ul0\cf0  font 1; ord 159\par
+\f1\fs144 >\'a1>\f2\i0\b0\ul0 'A\fs28\i0\b0\ul0\cf0  font 1; ord 161\par
+\f1\fs144 >\'a2>\f2\i0\b0\ul0 'A\fs28\i0\b0\ul0\cf0  font 1; ord 162\par
+\f1\fs144 >\'a3>\f2\i0\b0\ul0 'A\fs28\i0\b0\ul0\cf0  font 1; ord 163\par
+\f1\fs144 >\'a4>\f2\i0\b0\ul0 'A\fs28\i0\b0\ul0\cf0  font 1; ord 164\par
+\f1\fs144 >\'a5>\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 1; ord 165\par
+\f1\fs144 >\'a7>\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 1; ord 167\par
+\f1\fs144 >\'a8>\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 1; ord 168\par
+\f1\fs144 >\'a9>\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 1; ord 169\par
+\f1\fs144 >\'aa>\f2\i0\b0\ul0 tA\fs28\i0\b0\ul0\cf0  font 1; ord 170\par
+\f1\fs144 >\'ab>\f2\i0\b0\ul0 thA\fs28\i0\b0\ul0\cf0  font 1; ord 171\par
+\f1\fs144 >\'ac>\f2\i0\b0\ul0 dA\fs28\i0\b0\ul0\cf0  font 1; ord 172\par
+\f1\fs144 >\'ad>\f2\i0\b0\ul0 nA\fs28\i0\b0\ul0\cf0  font 1; ord 173\par
+\f1\fs144 >\'ae>\f2\i0\b0\ul0 shA\fs28\i0\b0\ul0\cf0  font 1; ord 174\par
+\f1\fs144 >\'af>\f2\i0\b0\ul0 KshA\fs28\i0\b0\ul0\cf0  font 1; ord 175\par
+\f1\fs144 >\'b0>\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 1; ord 176\par
+\f1\fs144 >\'b1>\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 1; ord 177\par
+\f1\fs144 >\'b2>\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 1; ord 178\par
+\f1\fs144 >\'b3>\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 1; ord 179\par
+\f1\fs144 >\'b4>\f2\i0\b0\ul0 KA\fs28\i0\b0\ul0\cf0  font 1; ord 180\par
+\f1\fs144 >\'b5>\f2\i0\b0\ul0 GA\fs28\i0\b0\ul0\cf0  font 1; ord 181\par
+\f1\fs144 >\'b6>\f2\i0\b0\ul0 NYA\fs28\i0\b0\ul0\cf0  font 1; ord 182\par
+\f1\fs144 >\'b7>\f2\i0\b0\ul0 TA\fs28\i0\b0\ul0\cf0  font 1; ord 183\par
+\f1\fs144 >\'b8>\f2\i0\b0\ul0 DA\fs28\i0\b0\ul0\cf0  font 1; ord 184\par
+\f1\fs144 >\'b9>\f2\i0\b0\ul0 NA\fs28\i0\b0\ul0\cf0  font 1; ord 185\par
+\f1\fs144 >\'ba>\f2\i0\b0\ul0 ZHA\fs28\i0\b0\ul0\cf0  font 1; ord 186\par
+\f1\fs144 >\'bb>\f2\i0\b0\ul0 SHA\fs28\i0\b0\ul0\cf0  font 1; ord 187\par
+\f1\fs144 >\'bc>\f2\i0\b0\ul0 HA\fs28\i0\b0\ul0\cf0  font 1; ord 188\par
+\f1\fs144 >\'bd>\f2\i0\b0\ul0 RTA\fs28\i0\b0\ul0\cf0  font 1; ord 189\par
+\f1\fs144 >\'be>\f2\i0\b0\ul0 0\fs28\i0\b0\ul0\cf0  font 1; ord 190\par
+\f1\fs144 >\'bf>\f2\i0\b0\ul0 1\fs28\i0\b0\ul0\cf0  font 1; ord 191\par
+\f1\fs144 >\'c0>\f2\i0\b0\ul0 2\fs28\i0\b0\ul0\cf0  font 1; ord 192\par
+\f1\fs144 >\'c1>\f2\i0\b0\ul0 3\fs28\i0\b0\ul0\cf0  font 1; ord 193\par
+\f1\fs144 >\'c2>\f2\i0\b0\ul0 4\fs28\i0\b0\ul0\cf0  font 1; ord 194\par
+\f1\fs144 >\'c3>\f2\i0\b0\ul0 5\fs28\i0\b0\ul0\cf0  font 1; ord 195\par
+\f1\fs144 >\'c4>\f2\i0\b0\ul0 6\fs28\i0\b0\ul0\cf0  font 1; ord 196\par
+\f1\fs144 >\'c5>\f2\i0\b0\ul0 7\fs28\i0\b0\ul0\cf0  font 1; ord 197\par
+\f1\fs144 >\'c6>\f2\i0\b0\ul0 8\fs28\i0\b0\ul0\cf0  font 1; ord 198\par
+\f1\fs144 >\'c7>\f2\i0\b0\ul0 9\fs28\i0\b0\ul0\cf0  font 1; ord 199\par
+\f1\fs144 >\'c8>\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert <glyph font=TibetanMachineWeb8 charNum=39 character='/> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 1; ord 200\par
+\f1\fs144 >\'c9>\f2\i0\b0\ul0 *\fs28\i0\b0\ul0\cf0  font 1; ord 201\par
+\f1\fs144 >\'ca>\f2\i0\b0\ul0 ,\fs28\i0\b0\ul0\cf0  font 1; ord 202\par
+\f1\fs144 >\'cb>\f2\i0\b0\ul0 ;\fs28\i0\b0\ul0\cf0  font 1; ord 203\par
+\f1\fs144 >\'cc>\f2\i0\b0\ul0 `\fs28\i0\b0\ul0\cf0  font 1; ord 204\par
+\f1\fs144 >\'cd>\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert <glyph font=TibetanMachineWeb charNum=108 character=l/> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 1; ord 205\par
+\f1\fs144 >\'ce>\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert <glyph font=TibetanMachineWeb charNum=105 character=i/> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 1; ord 206\par
+\f1\fs144 >\'cf>\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert <glyph font=TibetanMachineWeb charNum=106 character=j/> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 1; ord 207\par
+\f1\fs144 >\'d0>\f2\i0\b0\ul0 /\fs28\i0\b0\ul0\cf0  font 1; ord 208\par
+\f1\fs144 >\'d1>\f2\i0\b0\ul0 /\fs28\i0\b0\ul0\cf0  font 1; ord 209\par
+\f1\fs144 >\'d2>\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert <glyph font=TibetanMachineWeb8 charNum=38 character=&/> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 1; ord 210\par
+\f1\fs144 >\'d3>\f2\i0\b0\ul0 'A\fs28\i0\b0\ul0\cf0  font 1; ord 211\par
+\f1\fs144 >\'d4>\f2\i0\b0\ul0 'A\fs28\i0\b0\ul0\cf0  font 1; ord 212\par
+\f1\fs144 >\'d5>\f2\i0\b0\ul0 'U\fs28\i0\b0\ul0\cf0  font 1; ord 213\par
+\f1\fs144 >\'d6>\f2\i0\b0\ul0 'U\fs28\i0\b0\ul0\cf0  font 1; ord 214\par
+\f1\fs144 >\'d7>\f2\i0\b0\ul0 'U\fs28\i0\b0\ul0\cf0  font 1; ord 215\par
+\f1\fs144 >\'d8>\f2\i0\b0\ul0 'U\fs28\i0\b0\ul0\cf0  font 1; ord 216\par
+\f1\fs144 >\'d9>\f2\i0\b0\ul0 'U\fs28\i0\b0\ul0\cf0  font 1; ord 217\par
+\f1\fs144 >\'da>\f2\i0\b0\ul0 'U\fs28\i0\b0\ul0\cf0  font 1; ord 218\par
+\f1\fs144 >\'db>\f2\i0\b0\ul0 'U\fs28\i0\b0\ul0\cf0  font 1; ord 219\par
+\f1\fs144 >\'dc>\f2\i0\b0\ul0 I\fs28\i0\b0\ul0\cf0  font 1; ord 220\par
+\f1\fs144 >\'dd>\f2\i0\b0\ul0 I\fs28\i0\b0\ul0\cf0  font 1; ord 221\par
+\f1\fs144 >\'de>\f2\i0\b0\ul0 i\fs28\i0\b0\ul0\cf0  font 1; ord 222\par
+\f1\fs144 >\'df>\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 1; ord 223\par
+\f1\fs144 >\'e0>\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 1; ord 224\par
+\f1\fs144 >\'e1>\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 1; ord 225\par
+\f1\fs144 >\'e2>\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 1; ord 226\par
+\f1\fs144 >\'e3>\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 1; ord 227\par
+\f1\fs144 >\'e4>\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 1; ord 228\par
+\f1\fs144 >\'e5>\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 1; ord 229\par
+\f1\fs144 >\'e6>\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 1; ord 230\par
+\f1\fs144 >\'e7>\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 1; ord 231\par
+\f1\fs144 >\'e8>\f2\i0\b0\ul0 E\fs28\i0\b0\ul0\cf0  font 1; ord 232\par
+\f1\fs144 >\'e9>\f2\i0\b0\ul0 E\fs28\i0\b0\ul0\cf0  font 1; ord 233\par
+\f1\fs144 >\'ea>\f2\i0\b0\ul0 EE\fs28\i0\b0\ul0\cf0  font 1; ord 234\par
+\f1\fs144 >\'eb>\f2\i0\b0\ul0 O\fs28\i0\b0\ul0\cf0  font 1; ord 235\par
+\f1\fs144 >\'ec>\f2\i0\b0\ul0 O\fs28\i0\b0\ul0\cf0  font 1; ord 236\par
+\f1\fs144 >\'ed>\f2\i0\b0\ul0 OO\fs28\i0\b0\ul0\cf0  font 1; ord 237\par
+\f1\fs144 >\'ee>\f2\i0\b0\ul0 m\fs28\i0\b0\ul0\cf0  font 1; ord 238\par
+\f1\fs144 >\'ef>\f2\i0\b0\ul0 :\fs28\i0\b0\ul0\cf0  font 1; ord 239\par
+\f1\fs144 >\'f1>\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie ~M to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 1; ord 241\par
+\f1\fs144 >\'f2>\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie ~M` to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 1; ord 242\par
+\f1\fs144 >\'f3>\f2\i0\b0\ul0 Im\fs28\i0\b0\ul0\cf0  font 1; ord 243\par
+\f1\fs144 >\'f4>\f2\i0\b0\ul0 Im\fs28\i0\b0\ul0\cf0  font 1; ord 244\par
+\f1\fs144 >\'f5>\f2\i0\b0\ul0 im\fs28\i0\b0\ul0\cf0  font 1; ord 245\par
+\f1\fs144 >\'f6>\f2\i0\b0\ul0 Em\fs28\i0\b0\ul0\cf0  font 1; ord 246\par
+\f1\fs144 >\'f7>\f2\i0\b0\ul0 Em\fs28\i0\b0\ul0\cf0  font 1; ord 247\par
+\f1\fs144 >\'f8>\f2\i0\b0\ul0 EEm\fs28\i0\b0\ul0\cf0  font 1; ord 248\par
+\f1\fs144 >\'f9>\f2\i0\b0\ul0 Om\fs28\i0\b0\ul0\cf0  font 1; ord 249\par
+\f1\fs144 >\'fa>\f2\i0\b0\ul0 Om\fs28\i0\b0\ul0\cf0  font 1; ord 250\par
+\f1\fs144 >\'fb>\f2\i0\b0\ul0 OOm\fs28\i0\b0\ul0\cf0  font 1; ord 251\par
+\f1\fs144 >\'fc>\f2\i0\b0\ul0\\\fs28\i0\b0\ul0\cf0  font 1; ord 252\par
+\f1\fs144 >\'fd>\f2\i0\b0\ul0 PA\fs28\i0\b0\ul0\cf0  font 1; ord 253\par
+\f1\fs144 >\'fe>\f2\i0\b0\ul0 SKYA\fs28\i0\b0\ul0\cf0  font 1; ord 254\par
+\f1\fs144 >\f3  \f1 >\f2\i0\b0\ul0  \fs28\i0\b0\ul0\cf0  font 2; ord 32\par
+\f1\fs144 >\f3 !\f1 >\f2\i0\b0\ul0 K+KA\fs28\i0\b0\ul0\cf0  font 2; ord 33\par
+\f1\fs144 >\f3 "\f1 >\f2\i0\b0\ul0 K+KHA\fs28\i0\b0\ul0\cf0  font 2; ord 34\par
+\f1\fs144 >\f3 #\f1 >\f2\i0\b0\ul0 K+NGA\fs28\i0\b0\ul0\cf0  font 2; ord 35\par
+\f1\fs144 >\f3 $\f1 >\f2\i0\b0\ul0 K+TZA\fs28\i0\b0\ul0\cf0  font 2; ord 36\par
+\f1\fs144 >\f3 %\f1 >\f2\i0\b0\ul0 K+TA\fs28\i0\b0\ul0\cf0  font 2; ord 37\par
+\f1\fs144 >\f3 &\f1 >\f2\i0\b0\ul0 K+T+YA\fs28\i0\b0\ul0\cf0  font 2; ord 38\par
+\f1\fs144 >\f3 '\f1 >\f2\i0\b0\ul0 K+T+RA\fs28\i0\b0\ul0\cf0  font 2; ord 39\par
+\f1\fs144 >\f3 (\f1 >\f2\i0\b0\ul0 K+T+R+YA\fs28\i0\b0\ul0\cf0  font 2; ord 40\par
+\f1\fs144 >\f3 )\f1 >\f2\i0\b0\ul0 K+T+VA\fs28\i0\b0\ul0\cf0  font 2; ord 41\par
+\f1\fs144 >\f3 *\f1 >\f2\i0\b0\ul0 K+THA\fs28\i0\b0\ul0\cf0  font 2; ord 42\par
+\f1\fs144 >\f3 +\f1 >\f2\i0\b0\ul0 K+TH+YA\fs28\i0\b0\ul0\cf0  font 2; ord 43\par
+\f1\fs144 >\f3 ,\f1 >\f2\i0\b0\ul0 K+nA\fs28\i0\b0\ul0\cf0  font 2; ord 44\par
+\f1\fs144 >\f3 .\f1 >\f2\i0\b0\ul0 K+N+YA\fs28\i0\b0\ul0\cf0  font 2; ord 46\par
+\f1\fs144 >\f3 /\f1 >\f2\i0\b0\ul0 K+PHA\fs28\i0\b0\ul0\cf0  font 2; ord 47\par
+\f1\fs144 >\f3 0\f1 >\f2\i0\b0\ul0 K+MA\fs28\i0\b0\ul0\cf0  font 2; ord 48\par
+\f1\fs144 >\f3 1\f1 >\f2\i0\b0\ul0 K+M+YA\fs28\i0\b0\ul0\cf0  font 2; ord 49\par
+\f1\fs144 >\f3 2\f1 >\f2\i0\b0\ul0 K+R+YA\fs28\i0\b0\ul0\cf0  font 2; ord 50\par
+\f1\fs144 >\f3 3\f1 >\f2\i0\b0\ul0 K+SHA\fs28\i0\b0\ul0\cf0  font 2; ord 51\par
+\f1\fs144 >\f3 4\f1 >\f2\i0\b0\ul0 K+SA\fs28\i0\b0\ul0\cf0  font 2; ord 52\par
+\f1\fs144 >\f3 5\f1 >\f2\i0\b0\ul0 K+S+NA\fs28\i0\b0\ul0\cf0  font 2; ord 53\par
+\f1\fs144 >\f3 6\f1 >\f2\i0\b0\ul0 K+S+MA\fs28\i0\b0\ul0\cf0  font 2; ord 54\par
+\f1\fs144 >\f3 7\f1 >\f2\i0\b0\ul0 K+S+YA\fs28\i0\b0\ul0\cf0  font 2; ord 55\par
+\f1\fs144 >\f3 8\f1 >\f2\i0\b0\ul0 K+S+VA\fs28\i0\b0\ul0\cf0  font 2; ord 56\par
+\f1\fs144 >\f3 9\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F88+k to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 2; ord 57\par
+\f1\fs144 >\f3 :\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F88+kh to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 2; ord 58\par
+\f1\fs144 >\f3 ;\f1 >\f2\i0\b0\ul0 KH+KHA\fs28\i0\b0\ul0\cf0  font 2; ord 59\par
+\f1\fs144 >\f3 <\f1 >\f2\i0\b0\ul0 KH+NA\fs28\i0\b0\ul0\cf0  font 2; ord 60\par
+\f1\fs144 >\f3 =\f1 >\f2\i0\b0\ul0 KH+LA\fs28\i0\b0\ul0\cf0  font 2; ord 61\par
+\f1\fs144 >\f3 >\f1 >\f2\i0\b0\ul0 G+GA\fs28\i0\b0\ul0\cf0  font 2; ord 62\par
+\f1\fs144 >\f3 ?\f1 >\f2\i0\b0\ul0 G+G+HA\fs28\i0\b0\ul0\cf0  font 2; ord 63\par
+\f1\fs144 >\f3 @\f1 >\f2\i0\b0\ul0 G+NYA\fs28\i0\b0\ul0\cf0  font 2; ord 64\par
+\f1\fs144 >\f3 A\f1 >\f2\i0\b0\ul0 G+DA\fs28\i0\b0\ul0\cf0  font 2; ord 65\par
+\f1\fs144 >\f3 B\f1 >\f2\i0\b0\ul0 G+D+HA\fs28\i0\b0\ul0\cf0  font 2; ord 66\par
+\f1\fs144 >\f3 C\f1 >\f2\i0\b0\ul0 G+D+H+YA\fs28\i0\b0\ul0\cf0  font 2; ord 67\par
+\f1\fs144 >\f3 D\f1 >\f2\i0\b0\ul0 G+D+H+VA\fs28\i0\b0\ul0\cf0  font 2; ord 68\par
+\f1\fs144 >\f3 E\f1 >\f2\i0\b0\ul0 G+NA\fs28\i0\b0\ul0\cf0  font 2; ord 69\par
+\f1\fs144 >\f3 F\f1 >\f2\i0\b0\ul0 G+N+YA\fs28\i0\b0\ul0\cf0  font 2; ord 70\par
+\f1\fs144 >\f3 G\f1 >\f2\i0\b0\ul0 G+PA\fs28\i0\b0\ul0\cf0  font 2; ord 71\par
+\f1\fs144 >\f3 H\f1 >\f2\i0\b0\ul0 G+B+HA\fs28\i0\b0\ul0\cf0  font 2; ord 72\par
+\f1\fs144 >\f3 I\f1 >\f2\i0\b0\ul0 G+B+H+YA\fs28\i0\b0\ul0\cf0  font 2; ord 73\par
+\f1\fs144 >\f3 J\f1 >\f2\i0\b0\ul0 G+MA\fs28\i0\b0\ul0\cf0  font 2; ord 74\par
+\f1\fs144 >\f3 K\f1 >\f2\i0\b0\ul0 G+M+YA\fs28\i0\b0\ul0\cf0  font 2; ord 75\par
+\f1\fs144 >\f3 L\f1 >\f2\i0\b0\ul0 G+R+YA\fs28\i0\b0\ul0\cf0  font 2; ord 76\par
+\f1\fs144 >\f3 M\f1 >\f2\i0\b0\ul0 GHA\fs28\i0\b0\ul0\cf0  font 2; ord 77\par
+\f1\fs144 >\f3 N\f1 >\f2\i0\b0\ul0 G+H+G+HA\fs28\i0\b0\ul0\cf0  font 2; ord 78\par
+\f1\fs144 >\f3 O\f1 >\f2\i0\b0\ul0 G+H+NYA\fs28\i0\b0\ul0\cf0  font 2; ord 79\par
+\f1\fs144 >\f3 P\f1 >\f2\i0\b0\ul0 G+H+NA\fs28\i0\b0\ul0\cf0  font 2; ord 80\par
+\f1\fs144 >\f3 Q\f1 >\f2\i0\b0\ul0 G+H+N+YA\fs28\i0\b0\ul0\cf0  font 2; ord 81\par
+\f1\fs144 >\f3 R\f1 >\f2\i0\b0\ul0 G+H+MA\fs28\i0\b0\ul0\cf0  font 2; ord 82\par
+\f1\fs144 >\f3 S\f1 >\f2\i0\b0\ul0 G+H+LA\fs28\i0\b0\ul0\cf0  font 2; ord 83\par
+\f1\fs144 >\f3 T\f1 >\f2\i0\b0\ul0 G+H+YA\fs28\i0\b0\ul0\cf0  font 2; ord 84\par
+\f1\fs144 >\f3 U\f1 >\f2\i0\b0\ul0 G+H+RA\fs28\i0\b0\ul0\cf0  font 2; ord 85\par
+\f1\fs144 >\f3 V\f1 >\f2\i0\b0\ul0 G+H+VA\fs28\i0\b0\ul0\cf0  font 2; ord 86\par
+\f1\fs144 >\f3 W\f1 >\f2\i0\b0\ul0 NG+KA\fs28\i0\b0\ul0\cf0  font 2; ord 87\par
+\f1\fs144 >\f3 X\f1 >\f2\i0\b0\ul0 NG+K+TA\fs28\i0\b0\ul0\cf0  font 2; ord 88\par
+\f1\fs144 >\f3 Y\f1 >\f2\i0\b0\ul0 NG+K+T+YA\fs28\i0\b0\ul0\cf0  font 2; ord 89\par
+\f1\fs144 >\f3 Z\f1 >\f2\i0\b0\ul0 NG+K+YA\fs28\i0\b0\ul0\cf0  font 2; ord 90\par
+\f1\fs144 >\f3 [\f1 >\f2\i0\b0\ul0 NG+KHA\fs28\i0\b0\ul0\cf0  font 2; ord 91\par
+\f1\fs144 >\f3\\\f1 >\f2\i0\b0\ul0 NG+KH+YA\fs28\i0\b0\ul0\cf0  font 2; ord 92\par
+\f1\fs144 >\f3 ]\f1 >\f2\i0\b0\ul0 NG+GA\fs28\i0\b0\ul0\cf0  font 2; ord 93\par
+\f1\fs144 >\f3 ^\f1 >\f2\i0\b0\ul0 NG+G+RA\fs28\i0\b0\ul0\cf0  font 2; ord 94\par
+\f1\fs144 >\f3 _\f1 >\f2\i0\b0\ul0 NG+G+YA\fs28\i0\b0\ul0\cf0  font 2; ord 95\par
+\f1\fs144 >\f3 `\f1 >\f2\i0\b0\ul0 NG+G+HA\fs28\i0\b0\ul0\cf0  font 2; ord 96\par
+\f1\fs144 >\f3 a\f1 >\f2\i0\b0\ul0 NG+G+H+YA\fs28\i0\b0\ul0\cf0  font 2; ord 97\par
+\f1\fs144 >\f3 b\f1 >\f2\i0\b0\ul0 NG+G+H+RA\fs28\i0\b0\ul0\cf0  font 2; ord 98\par
+\f1\fs144 >\f3 c\f1 >\f2\i0\b0\ul0 NG+NGA\fs28\i0\b0\ul0\cf0  font 2; ord 99\par
+\f1\fs144 >\f3 d\f1 >\f2\i0\b0\ul0 NG+TA\fs28\i0\b0\ul0\cf0  font 2; ord 100\par
+\f1\fs144 >\f3 e\f1 >\f2\i0\b0\ul0 NG+NA\fs28\i0\b0\ul0\cf0  font 2; ord 101\par
+\f1\fs144 >\f3 f\f1 >\f2\i0\b0\ul0 NG+MA\fs28\i0\b0\ul0\cf0  font 2; ord 102\par
+\f1\fs144 >\f3 g\f1 >\f2\i0\b0\ul0 NG+YA\fs28\i0\b0\ul0\cf0  font 2; ord 103\par
+\f1\fs144 >\f3 h\f1 >\f2\i0\b0\ul0 NG+LA\fs28\i0\b0\ul0\cf0  font 2; ord 104\par
+\f1\fs144 >\f3 i\f1 >\f2\i0\b0\ul0 NG+SHA\fs28\i0\b0\ul0\cf0  font 2; ord 105\par
+\f1\fs144 >\f3 j\f1 >\f2\i0\b0\ul0 NG+HA\fs28\i0\b0\ul0\cf0  font 2; ord 106\par
+\f1\fs144 >\f3 k\f1 >\f2\i0\b0\ul0 NG+K+shA\fs28\i0\b0\ul0\cf0  font 2; ord 107\par
+\f1\fs144 >\f3 l\f1 >\f2\i0\b0\ul0 NG+K+sh+VA\fs28\i0\b0\ul0\cf0  font 2; ord 108\par
+\f1\fs144 >\f3 m\f1 >\f2\i0\b0\ul0 NG+K+sh+YA\fs28\i0\b0\ul0\cf0  font 2; ord 109\par
+\f1\fs144 >\f3 n\f1 >\f2\i0\b0\ul0 TZ+TZA\fs28\i0\b0\ul0\cf0  font 2; ord 110\par
+\f1\fs144 >\f3 o\f1 >\f2\i0\b0\ul0 TZ+TSA\fs28\i0\b0\ul0\cf0  font 2; ord 111\par
+\f1\fs144 >\f3 p\f1 >\f2\i0\b0\ul0 TZ+TS+VA\fs28\i0\b0\ul0\cf0  font 2; ord 112\par
+\f1\fs144 >\f3 q\f1 >\f2\i0\b0\ul0 TZ+TS+RA\fs28\i0\b0\ul0\cf0  font 2; ord 113\par
+\f1\fs144 >\f3 r\f1 >\f2\i0\b0\ul0 TZ+NYA\fs28\i0\b0\ul0\cf0  font 2; ord 114\par
+\f1\fs144 >\f3 s\f1 >\f2\i0\b0\ul0 TZ+N+YA\fs28\i0\b0\ul0\cf0  font 2; ord 115\par
+\f1\fs144 >\f3 t\f1 >\f2\i0\b0\ul0 TZ+MA\fs28\i0\b0\ul0\cf0  font 2; ord 116\par
+\f1\fs144 >\f3 u\f1 >\f2\i0\b0\ul0 TZ+YA\fs28\i0\b0\ul0\cf0  font 2; ord 117\par
+\f1\fs144 >\f3 v\f1 >\f2\i0\b0\ul0 TZ+RA\fs28\i0\b0\ul0\cf0  font 2; ord 118\par
+\f1\fs144 >\f3 w\f1 >\f2\i0\b0\ul0 TZ+LA\fs28\i0\b0\ul0\cf0  font 2; ord 119\par
+\f1\fs144 >\f3 x\f1 >\f2\i0\b0\ul0 TZ+H+YA\fs28\i0\b0\ul0\cf0  font 2; ord 120\par
+\f1\fs144 >\f3 y\f1 >\f2\i0\b0\ul0 TS+THA\fs28\i0\b0\ul0\cf0  font 2; ord 121\par
+\f1\fs144 >\f3 z\f1 >\f2\i0\b0\ul0 TS+TSA\fs28\i0\b0\ul0\cf0  font 2; ord 122\par
+\f1\fs144 >\f3\{\f1 >\f2\i0\b0\ul0 TS+YA\fs28\i0\b0\ul0\cf0  font 2; ord 123\par
+\f1\fs144 >\f3 |\f1 >\f2\i0\b0\ul0 TS+RA\fs28\i0\b0\ul0\cf0  font 2; ord 124\par
+\f1\fs144 >\f3\}\f1 >\f2\i0\b0\ul0 TS+LA\fs28\i0\b0\ul0\cf0  font 2; ord 125\par
+\f1\fs144 >\f3 ~\f1 >\f2\i0\b0\ul0 DZ+DZA\fs28\i0\b0\ul0\cf0  font 2; ord 126\par
+\f1\fs144 >\f3\u128 ?\f1 >\f2\i0\b0\ul0 DZ+DZ+VA\fs28\i0\b0\ul0\cf0  font 2; ord 128\par
+\f1\fs144 >\f3\u129 ?\f1 >\f2\i0\b0\ul0 DZ+DZ+HA\fs28\i0\b0\ul0\cf0  font 2; ord 129\par
+\f1\fs144 >\f3\u130 ?\f1 >\f2\i0\b0\ul0 DZ+H+DZ+HA\fs28\i0\b0\ul0\cf0  font 2; ord 130\par
+\f1\fs144 >\f3\u131 ?\f1 >\f2\i0\b0\ul0 DZ+NYA\fs28\i0\b0\ul0\cf0  font 2; ord 131\par
+\f1\fs144 >\f3\u132 ?\f1 >\f2\i0\b0\ul0 DZ+NY+YA\fs28\i0\b0\ul0\cf0  font 2; ord 132\par
+\f1\fs144 >\f3\u133 ?\f1 >\f2\i0\b0\ul0 DZ+NA\fs28\i0\b0\ul0\cf0  font 2; ord 133\par
+\f1\fs144 >\f3\u134 ?\f1 >\f2\i0\b0\ul0 DZ+N+VA\fs28\i0\b0\ul0\cf0  font 2; ord 134\par
+\f1\fs144 >\f3\u135 ?\f1 >\f2\i0\b0\ul0 DZ+MA\fs28\i0\b0\ul0\cf0  font 2; ord 135\par
+\f1\fs144 >\f3\u136 ?\f1 >\f2\i0\b0\ul0 DZ+YA\fs28\i0\b0\ul0\cf0  font 2; ord 136\par
+\f1\fs144 >\f3\u137 ?\f1 >\f2\i0\b0\ul0 DZ+RA\fs28\i0\b0\ul0\cf0  font 2; ord 137\par
+\f1\fs144 >\f3\u138 ?\f1 >\f2\i0\b0\ul0 DZ+VA\fs28\i0\b0\ul0\cf0  font 2; ord 138\par
+\f1\fs144 >\f3\u139 ?\f1 >\f2\i0\b0\ul0 DZHA\fs28\i0\b0\ul0\cf0  font 2; ord 139\par
+\f1\fs144 >\f3\u140 ?\f1 >\f2\i0\b0\ul0 DZ+H+YA\fs28\i0\b0\ul0\cf0  font 2; ord 140\par
+\f1\fs144 >\f3\u141 ?\f1 >\f2\i0\b0\ul0 DZ+H+RA\fs28\i0\b0\ul0\cf0  font 2; ord 141\par
+\f1\fs144 >\f3\u143 ?\f1 >\f2\i0\b0\ul0 DZ+H+VA\fs28\i0\b0\ul0\cf0  font 2; ord 143\par
+\f1\fs144 >\f3\u144 ?\f1 >\f2\i0\b0\ul0 NY+TZA\fs28\i0\b0\ul0\cf0  font 2; ord 144\par
+\f1\fs144 >\f3\u145 ?\f1 >\f2\i0\b0\ul0 NY+TZ+MA\fs28\i0\b0\ul0\cf0  font 2; ord 145\par
+\f1\fs144 >\f3\u146 ?\f1 >\f2\i0\b0\ul0 NY+TZ+YA\fs28\i0\b0\ul0\cf0  font 2; ord 146\par
+\f1\fs144 >\f3\u147 ?\f1 >\f2\i0\b0\ul0 NY+TSA\fs28\i0\b0\ul0\cf0  font 2; ord 147\par
+\f1\fs144 >\f3\u148 ?\f1 >\f2\i0\b0\ul0 NY+DZA\fs28\i0\b0\ul0\cf0  font 2; ord 148\par
+\f1\fs144 >\f3\u149 ?\f1 >\f2\i0\b0\ul0 NY+DZ+YA\fs28\i0\b0\ul0\cf0  font 2; ord 149\par
+\f1\fs144 >\f3\u150 ?\f1 >\f2\i0\b0\ul0 NY+DZ+HA\fs28\i0\b0\ul0\cf0  font 2; ord 150\par
+\f1\fs144 >\f3\u151 ?\f1 >\f2\i0\b0\ul0 NY+NYA\fs28\i0\b0\ul0\cf0  font 2; ord 151\par
+\f1\fs144 >\f3\u152 ?\f1 >\f2\i0\b0\ul0 NY+PA\fs28\i0\b0\ul0\cf0  font 2; ord 152\par
+\f1\fs144 >\f3\u153 ?\f1 >\f2\i0\b0\ul0 NY+PHA\fs28\i0\b0\ul0\cf0  font 2; ord 153\par
+\f1\fs144 >\f3\u154 ?\f1 >\f2\i0\b0\ul0 NY+YA\fs28\i0\b0\ul0\cf0  font 2; ord 154\par
+\f1\fs144 >\f3\u155 ?\f1 >\f2\i0\b0\ul0 NY+RA\fs28\i0\b0\ul0\cf0  font 2; ord 155\par
+\f1\fs144 >\f3\u156 ?\f1 >\f2\i0\b0\ul0 NY+LA\fs28\i0\b0\ul0\cf0  font 2; ord 156\par
+\f1\fs144 >\f3\u157 ?\f1 >\f2\i0\b0\ul0 NY+SHA\fs28\i0\b0\ul0\cf0  font 2; ord 157\par
+\f1\fs144 >\f3\u159 ?\f1 >\f2\i0\b0\ul0 t+tA\fs28\i0\b0\ul0\cf0  font 2; ord 159\par
+\f1\fs144 >\f3\'a1\f1 >\f2\i0\b0\ul0 t+PA\fs28\i0\b0\ul0\cf0  font 2; ord 161\par
+\f1\fs144 >\f3\'a2\f1 >\f2\i0\b0\ul0 t+MA\fs28\i0\b0\ul0\cf0  font 2; ord 162\par
+\f1\fs144 >\f3\'a3\f1 >\f2\i0\b0\ul0 t+YA\fs28\i0\b0\ul0\cf0  font 2; ord 163\par
+\f1\fs144 >\f3\'a4\f1 >\f2\i0\b0\ul0 t+VA\fs28\i0\b0\ul0\cf0  font 2; ord 164\par
+\f1\fs144 >\f3\'a5\f1 >\f2\i0\b0\ul0 t+SA\fs28\i0\b0\ul0\cf0  font 2; ord 165\par
+\f1\fs144 >\f3\'a7\f1 >\f2\i0\b0\ul0 th+RA\fs28\i0\b0\ul0\cf0  font 2; ord 167\par
+\f1\fs144 >\f3\'a8\f1 >\f2\i0\b0\ul0 d+GA\fs28\i0\b0\ul0\cf0  font 2; ord 168\par
+\f1\fs144 >\f3\'a9\f1 >\f2\i0\b0\ul0 d+G+YA\fs28\i0\b0\ul0\cf0  font 2; ord 169\par
+\f1\fs144 >\f3\'aa\f1 >\f2\i0\b0\ul0 d+G+HA\fs28\i0\b0\ul0\cf0  font 2; ord 170\par
+\f1\fs144 >\f3\'ab\f1 >\f2\i0\b0\ul0 d+G+H+RA\fs28\i0\b0\ul0\cf0  font 2; ord 171\par
+\f1\fs144 >\f3\'ac\f1 >\f2\i0\b0\ul0 d+dA\fs28\i0\b0\ul0\cf0  font 2; ord 172\par
+\f1\fs144 >\f3\'ad\f1 >\f2\i0\b0\ul0 d+d+HA\fs28\i0\b0\ul0\cf0  font 2; ord 173\par
+\f1\fs144 >\f3\'ae\f1 >\f2\i0\b0\ul0 d+d+H+YA\fs28\i0\b0\ul0\cf0  font 2; ord 174\par
+\f1\fs144 >\f3\'af\f1 >\f2\i0\b0\ul0 d+NA\fs28\i0\b0\ul0\cf0  font 2; ord 175\par
+\f1\fs144 >\f3\'b0\f1 >\f2\i0\b0\ul0 d+MA\fs28\i0\b0\ul0\cf0  font 2; ord 176\par
+\f1\fs144 >\f3\'b1\f1 >\f2\i0\b0\ul0 d+YA\fs28\i0\b0\ul0\cf0  font 2; ord 177\par
+\f1\fs144 >\f3\'b2\f1 >\f2\i0\b0\ul0 d+RA\fs28\i0\b0\ul0\cf0  font 2; ord 178\par
+\f1\fs144 >\f3\'b3\f1 >\f2\i0\b0\ul0 d+VA\fs28\i0\b0\ul0\cf0  font 2; ord 179\par
+\f1\fs144 >\f3\'b4\f1 >\f2\i0\b0\ul0 dHA\fs28\i0\b0\ul0\cf0  font 2; ord 180\par
+\f1\fs144 >\f3\'b5\f1 >\f2\i0\b0\ul0 d+H+d+HA\fs28\i0\b0\ul0\cf0  font 2; ord 181\par
+\f1\fs144 >\f3\'b6\f1 >\f2\i0\b0\ul0 d+H+MA\fs28\i0\b0\ul0\cf0  font 2; ord 182\par
+\f1\fs144 >\f3\'b7\f1 >\f2\i0\b0\ul0 d+H+YA\fs28\i0\b0\ul0\cf0  font 2; ord 183\par
+\f1\fs144 >\f3\'b8\f1 >\f2\i0\b0\ul0 d+H+RA\fs28\i0\b0\ul0\cf0  font 2; ord 184\par
+\f1\fs144 >\f3\'b9\f1 >\f2\i0\b0\ul0 d+H+VA\fs28\i0\b0\ul0\cf0  font 2; ord 185\par
+\f1\fs144 >\f3\'ba\f1 >\f2\i0\b0\ul0 n+tA\fs28\i0\b0\ul0\cf0  font 2; ord 186\par
+\f1\fs144 >\f3\'bb\f1 >\f2\i0\b0\ul0 n+thA\fs28\i0\b0\ul0\cf0  font 2; ord 187\par
+\f1\fs144 >\f3\'bc\f1 >\f2\i0\b0\ul0 n+dA\fs28\i0\b0\ul0\cf0  font 2; ord 188\par
+\f1\fs144 >\f3\'bd\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie N+D+Y to ACIP.  Please transcribe this yourself.]A\fs28\i0\b0\ul0\cf0  font 2; ord 189\par
+\f1\fs144 >\f3\'be\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie N+D+R+y to ACIP.  Please transcribe this yourself.]A\fs28\i0\b0\ul0\cf0  font 2; ord 190\par
+\f1\fs144 >\f3\'bf\f1 >\f2\i0\b0\ul0 n+d+HA\fs28\i0\b0\ul0\cf0  font 2; ord 191\par
+\f1\fs144 >\f3\'c0\f1 >\f2\i0\b0\ul0 n+nA\fs28\i0\b0\ul0\cf0  font 2; ord 192\par
+\f1\fs144 >\f3\'c1\f1 >\f2\i0\b0\ul0 n+D+RA\fs28\i0\b0\ul0\cf0  font 2; ord 193\par
+\f1\fs144 >\f3\'c2\f1 >\f2\i0\b0\ul0 n+MA\fs28\i0\b0\ul0\cf0  font 2; ord 194\par
+\f1\fs144 >\f3\'c3\f1 >\f2\i0\b0\ul0 n+YA\fs28\i0\b0\ul0\cf0  font 2; ord 195\par
+\f1\fs144 >\f3\'c4\f1 >\f2\i0\b0\ul0 n+VA\fs28\i0\b0\ul0\cf0  font 2; ord 196\par
+\f1\fs144 >\f3\'c5\f1 >\f2\i0\b0\ul0 T+KA\fs28\i0\b0\ul0\cf0  font 2; ord 197\par
+\f1\fs144 >\f3\'c6\f1 >\f2\i0\b0\ul0 T+K+RA\fs28\i0\b0\ul0\cf0  font 2; ord 198\par
+\f1\fs144 >\f3\'c7\f1 >\f2\i0\b0\ul0 T+K+SA\fs28\i0\b0\ul0\cf0  font 2; ord 199\par
+\f1\fs144 >\f3\'c9\f1 >\f2\i0\b0\ul0 'A\fs28\i0\b0\ul0\cf0  font 2; ord 201\par
+\f1\fs144 >\f3\'ca\f1 >\f2\i0\b0\ul0 'A\fs28\i0\b0\ul0\cf0  font 2; ord 202\par
+\f1\fs144 >\f3\'cb\f1 >\f2\i0\b0\ul0 'A\fs28\i0\b0\ul0\cf0  font 2; ord 203\par
+\f1\fs144 >\f3\'cc\f1 >\f2\i0\b0\ul0 'A\fs28\i0\b0\ul0\cf0  font 2; ord 204\par
+\f1\fs144 >\f3\'cd\f1 >\f2\i0\b0\ul0 'A\fs28\i0\b0\ul0\cf0  font 2; ord 205\par
+\f1\fs144 >\f3\'ce\f1 >\f2\i0\b0\ul0 'A\fs28\i0\b0\ul0\cf0  font 2; ord 206\par
+\f1\fs144 >\f3\'cf\f1 >\f2\i0\b0\ul0 'A\fs28\i0\b0\ul0\cf0  font 2; ord 207\par
+\f1\fs144 >\f3\'d3\f1 >\f2\i0\b0\ul0 'U\fs28\i0\b0\ul0\cf0  font 2; ord 211\par
+\f1\fs144 >\f3\'d4\f1 >\f2\i0\b0\ul0 'U\fs28\i0\b0\ul0\cf0  font 2; ord 212\par
+\f1\fs144 >\f3\'d5\f1 >\f2\i0\b0\ul0 'U\fs28\i0\b0\ul0\cf0  font 2; ord 213\par
+\f1\fs144 >\f3\'d6\f1 >\f2\i0\b0\ul0 'U\fs28\i0\b0\ul0\cf0  font 2; ord 214\par
+\f1\fs144 >\f3\'d7\f1 >\f2\i0\b0\ul0 'U\fs28\i0\b0\ul0\cf0  font 2; ord 215\par
+\f1\fs144 >\f3\'d8\f1 >\f2\i0\b0\ul0 'U\fs28\i0\b0\ul0\cf0  font 2; ord 216\par
+\f1\fs144 >\f3\'d9\f1 >\f2\i0\b0\ul0 'U\fs28\i0\b0\ul0\cf0  font 2; ord 217\par
+\f1\fs144 >\f3\'e0\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 2; ord 224\par
+\f1\fs144 >\f3\'e1\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 2; ord 225\par
+\f1\fs144 >\f3\'e2\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 2; ord 226\par
+\f1\fs144 >\f3\'e3\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 2; ord 227\par
+\f1\fs144 >\f3\'e4\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 2; ord 228\par
+\f1\fs144 >\f3\'e5\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 2; ord 229\par
+\f1\fs144 >\f3\'e6\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 2; ord 230\par
+\f1\fs144 >\f3\'f9\f1 >\f2\i0\b0\ul0 DZ+H+LA\fs28\i0\b0\ul0\cf0  font 2; ord 249\par
+\f1\fs144 >\f3\'fa\f1 >\f2\i0\b0\ul0 t+KA\fs28\i0\b0\ul0\cf0  font 2; ord 250\par
+\f1\fs144 >\f3\'fb\f1 >\f2\i0\b0\ul0 th+YA\fs28\i0\b0\ul0\cf0  font 2; ord 251\par
+\f1\fs144 >\f3\'fc\f1 >\f2\i0\b0\ul0 K+NA\fs28\i0\b0\ul0\cf0  font 2; ord 252\par
+\f1\fs144 >\f3\'fd\f1 >\f2\i0\b0\ul0 DZ+DZ+NYA\fs28\i0\b0\ul0\cf0  font 2; ord 253\par
+\f1\fs144 >\f3\'fe\f1 >\f2\i0\b0\ul0 t+t+HA\fs28\i0\b0\ul0\cf0  font 2; ord 254\par
+\f1\fs144 >\f4  \f1 >\f2\i0\b0\ul0  \fs28\i0\b0\ul0\cf0  font 3; ord 32\par
+\f1\fs144 >\f4 !\f1 >\f2\i0\b0\ul0 T+K+VA\fs28\i0\b0\ul0\cf0  font 3; ord 33\par
+\f1\fs144 >\f4 "\f1 >\f2\i0\b0\ul0 T+NYA\fs28\i0\b0\ul0\cf0  font 3; ord 34\par
+\f1\fs144 >\f4 #\f1 >\f2\i0\b0\ul0 T+thA\fs28\i0\b0\ul0\cf0  font 3; ord 35\par
+\f1\fs144 >\f4 $\f1 >\f2\i0\b0\ul0 T+TA\fs28\i0\b0\ul0\cf0  font 3; ord 36\par
+\f1\fs144 >\f4 %\f1 >\f2\i0\b0\ul0 T+T+YA\fs28\i0\b0\ul0\cf0  font 3; ord 37\par
+\f1\fs144 >\f4 &\f1 >\f2\i0\b0\ul0 T+T+RA\fs28\i0\b0\ul0\cf0  font 3; ord 38\par
+\f1\fs144 >\f4 '\f1 >\f2\i0\b0\ul0 T+T+VA\fs28\i0\b0\ul0\cf0  font 3; ord 39\par
+\f1\fs144 >\f4 (\f1 >\f2\i0\b0\ul0 T+THA\fs28\i0\b0\ul0\cf0  font 3; ord 40\par
+\f1\fs144 >\f4 )\f1 >\f2\i0\b0\ul0 T+TH+YA\fs28\i0\b0\ul0\cf0  font 3; ord 41\par
+\f1\fs144 >\f4 *\f1 >\f2\i0\b0\ul0 T+NA\fs28\i0\b0\ul0\cf0  font 3; ord 42\par
+\f1\fs144 >\f4 +\f1 >\f2\i0\b0\ul0 T+N+YA\fs28\i0\b0\ul0\cf0  font 3; ord 43\par
+\f1\fs144 >\f4 ,\f1 >\f2\i0\b0\ul0 T+PA\fs28\i0\b0\ul0\cf0  font 3; ord 44\par
+\f1\fs144 >\f4 .\f1 >\f2\i0\b0\ul0 T+PHA\fs28\i0\b0\ul0\cf0  font 3; ord 46\par
+\f1\fs144 >\f4 /\f1 >\f2\i0\b0\ul0 T+MA\fs28\i0\b0\ul0\cf0  font 3; ord 47\par
+\f1\fs144 >\f4 0\f1 >\f2\i0\b0\ul0 T+M+YA\fs28\i0\b0\ul0\cf0  font 3; ord 48\par
+\f1\fs144 >\f4 1\f1 >\f2\i0\b0\ul0 T+YA\fs28\i0\b0\ul0\cf0  font 3; ord 49\par
+\f1\fs144 >\f4 2\f1 >\f2\i0\b0\ul0 T+R+NA\fs28\i0\b0\ul0\cf0  font 3; ord 50\par
+\f1\fs144 >\f4 3\f1 >\f2\i0\b0\ul0 T+SA\fs28\i0\b0\ul0\cf0  font 3; ord 51\par
+\f1\fs144 >\f4 4\f1 >\f2\i0\b0\ul0 T+S+THA\fs28\i0\b0\ul0\cf0  font 3; ord 52\par
+\f1\fs144 >\f4 5\f1 >\f2\i0\b0\ul0 T+S+NA\fs28\i0\b0\ul0\cf0  font 3; ord 53\par
+\f1\fs144 >\f4 6\f1 >\f2\i0\b0\ul0 T+S+N+YA\fs28\i0\b0\ul0\cf0  font 3; ord 54\par
+\f1\fs144 >\f4 7\f1 >\f2\i0\b0\ul0 T+S+MA\fs28\i0\b0\ul0\cf0  font 3; ord 55\par
+\f1\fs144 >\f4 8\f1 >\f2\i0\b0\ul0 T+S+M+YA\fs28\i0\b0\ul0\cf0  font 3; ord 56\par
+\f1\fs144 >\f4 9\f1 >\f2\i0\b0\ul0 T+S+YA\fs28\i0\b0\ul0\cf0  font 3; ord 57\par
+\f1\fs144 >\f4 :\f1 >\f2\i0\b0\ul0 T+S+RA\fs28\i0\b0\ul0\cf0  font 3; ord 58\par
+\f1\fs144 >\f4 ;\f1 >\f2\i0\b0\ul0 T+S+VA\fs28\i0\b0\ul0\cf0  font 3; ord 59\par
+\f1\fs144 >\f4 <\f1 >\f2\i0\b0\ul0 T+R+YA\fs28\i0\b0\ul0\cf0  font 3; ord 60\par
+\f1\fs144 >\f4 =\f1 >\f2\i0\b0\ul0 T+V+YA\fs28\i0\b0\ul0\cf0  font 3; ord 61\par
+\f1\fs144 >\f4 >\f1 >\f2\i0\b0\ul0 T+K+shA\fs28\i0\b0\ul0\cf0  font 3; ord 62\par
+\f1\fs144 >\f4 ?\f1 >\f2\i0\b0\ul0 TH+YA\fs28\i0\b0\ul0\cf0  font 3; ord 63\par
+\f1\fs144 >\f4 @\f1 >\f2\i0\b0\ul0 TH+VA\fs28\i0\b0\ul0\cf0  font 3; ord 64\par
+\f1\fs144 >\f4 A\f1 >\f2\i0\b0\ul0 D+GA\fs28\i0\b0\ul0\cf0  font 3; ord 65\par
+\f1\fs144 >\f4 B\f1 >\f2\i0\b0\ul0 D+G+YA\fs28\i0\b0\ul0\cf0  font 3; ord 66\par
+\f1\fs144 >\f4 C\f1 >\f2\i0\b0\ul0 D+G+RA\fs28\i0\b0\ul0\cf0  font 3; ord 67\par
+\f1\fs144 >\f4 D\f1 >\f2\i0\b0\ul0 D+G+HA\fs28\i0\b0\ul0\cf0  font 3; ord 68\par
+\f1\fs144 >\f4 E\f1 >\f2\i0\b0\ul0 D+G+H+RA\fs28\i0\b0\ul0\cf0  font 3; ord 69\par
+\f1\fs144 >\f4 F\f1 >\f2\i0\b0\ul0 D+DZA\fs28\i0\b0\ul0\cf0  font 3; ord 70\par
+\f1\fs144 >\f4 G\f1 >\f2\i0\b0\ul0 D+DA\fs28\i0\b0\ul0\cf0  font 3; ord 71\par
+\f1\fs144 >\f4 H\f1 >\f2\i0\b0\ul0 D+D+YA\fs28\i0\b0\ul0\cf0  font 3; ord 72\par
+\f1\fs144 >\f4 I\f1 >\f2\i0\b0\ul0 D+D+RA\fs28\i0\b0\ul0\cf0  font 3; ord 73\par
+\f1\fs144 >\f4 J\f1 >\f2\i0\b0\ul0 D+D+VA\fs28\i0\b0\ul0\cf0  font 3; ord 74\par
+\f1\fs144 >\f4 K\f1 >\f2\i0\b0\ul0 D+D+HA\fs28\i0\b0\ul0\cf0  font 3; ord 75\par
+\f1\fs144 >\f4 L\f1 >\f2\i0\b0\ul0 D+D+H+NA\fs28\i0\b0\ul0\cf0  font 3; ord 76\par
+\f1\fs144 >\f4 M\f1 >\f2\i0\b0\ul0 D+D+H+YA\fs28\i0\b0\ul0\cf0  font 3; ord 77\par
+\f1\fs144 >\f4 N\f1 >\f2\i0\b0\ul0 D+D+H+RA\fs28\i0\b0\ul0\cf0  font 3; ord 78\par
+\f1\fs144 >\f4 O\f1 >\f2\i0\b0\ul0 D+D+H+VA\fs28\i0\b0\ul0\cf0  font 3; ord 79\par
+\f1\fs144 >\f4 P\f1 >\f2\i0\b0\ul0 D+NA\fs28\i0\b0\ul0\cf0  font 3; ord 80\par
+\f1\fs144 >\f4 Q\f1 >\f2\i0\b0\ul0 D+BA\fs28\i0\b0\ul0\cf0  font 3; ord 81\par
+\f1\fs144 >\f4 R\f1 >\f2\i0\b0\ul0 D+B+RA\fs28\i0\b0\ul0\cf0  font 3; ord 82\par
+\f1\fs144 >\f4 S\f1 >\f2\i0\b0\ul0 D+B+HA\fs28\i0\b0\ul0\cf0  font 3; ord 83\par
+\f1\fs144 >\f4 T\f1 >\f2\i0\b0\ul0 D+B+H+YA\fs28\i0\b0\ul0\cf0  font 3; ord 84\par
+\f1\fs144 >\f4 U\f1 >\f2\i0\b0\ul0 D+B+H+RA\fs28\i0\b0\ul0\cf0  font 3; ord 85\par
+\f1\fs144 >\f4 V\f1 >\f2\i0\b0\ul0 D+MA\fs28\i0\b0\ul0\cf0  font 3; ord 86\par
+\f1\fs144 >\f4 W\f1 >\f2\i0\b0\ul0 D+YA\fs28\i0\b0\ul0\cf0  font 3; ord 87\par
+\f1\fs144 >\f4 X\f1 >\f2\i0\b0\ul0 D+R+YA\fs28\i0\b0\ul0\cf0  font 3; ord 88\par
+\f1\fs144 >\f4 Y\f1 >\f2\i0\b0\ul0 D+V+YA\fs28\i0\b0\ul0\cf0  font 3; ord 89\par
+\f1\fs144 >\f4 Z\f1 >\f2\i0\b0\ul0 DHA\fs28\i0\b0\ul0\cf0  font 3; ord 90\par
+\f1\fs144 >\f4 [\f1 >\f2\i0\b0\ul0 D+H+NA\fs28\i0\b0\ul0\cf0  font 3; ord 91\par
+\f1\fs144 >\f4\\\f1 >\f2\i0\b0\ul0 D+H+N+YA\fs28\i0\b0\ul0\cf0  font 3; ord 92\par
+\f1\fs144 >\f4 ]\f1 >\f2\i0\b0\ul0 D+H+MA\fs28\i0\b0\ul0\cf0  font 3; ord 93\par
+\f1\fs144 >\f4 ^\f1 >\f2\i0\b0\ul0 D+H+YA\fs28\i0\b0\ul0\cf0  font 3; ord 94\par
+\f1\fs144 >\f4 _\f1 >\f2\i0\b0\ul0 D+H+RA\fs28\i0\b0\ul0\cf0  font 3; ord 95\par
+\f1\fs144 >\f4 `\f1 >\f2\i0\b0\ul0 D+H+R+YA\fs28\i0\b0\ul0\cf0  font 3; ord 96\par
+\f1\fs144 >\f4 a\f1 >\f2\i0\b0\ul0 D+H+VA\fs28\i0\b0\ul0\cf0  font 3; ord 97\par
+\f1\fs144 >\f4 b\f1 >\f2\i0\b0\ul0 N+KA\fs28\i0\b0\ul0\cf0  font 3; ord 98\par
+\f1\fs144 >\f4 c\f1 >\f2\i0\b0\ul0 N+K+TA\fs28\i0\b0\ul0\cf0  font 3; ord 99\par
+\f1\fs144 >\f4 e\f1 >\f2\i0\b0\ul0 N+G+HA\fs28\i0\b0\ul0\cf0  font 3; ord 101\par
+\f1\fs144 >\f4 f\f1 >\f2\i0\b0\ul0 N+NGA\fs28\i0\b0\ul0\cf0  font 3; ord 102\par
+\f1\fs144 >\f4 g\f1 >\f2\i0\b0\ul0 N+DZA\fs28\i0\b0\ul0\cf0  font 3; ord 103\par
+\f1\fs144 >\f4 h\f1 >\f2\i0\b0\ul0 N+DZ+YA\fs28\i0\b0\ul0\cf0  font 3; ord 104\par
+\f1\fs144 >\f4 i\f1 >\f2\i0\b0\ul0 N+dA\fs28\i0\b0\ul0\cf0  font 3; ord 105\par
+\f1\fs144 >\f4 j\f1 >\f2\i0\b0\ul0 N+TA\fs28\i0\b0\ul0\cf0  font 3; ord 106\par
+\f1\fs144 >\f4 k\f1 >\f2\i0\b0\ul0 N+T+YA\fs28\i0\b0\ul0\cf0  font 3; ord 107\par
+\f1\fs144 >\f4 l\f1 >\f2\i0\b0\ul0 N+T+RA\fs28\i0\b0\ul0\cf0  font 3; ord 108\par
+\f1\fs144 >\f4 m\f1 >\f2\i0\b0\ul0 N+T+R+YA\fs28\i0\b0\ul0\cf0  font 3; ord 109\par
+\f1\fs144 >\f4 n\f1 >\f2\i0\b0\ul0 N+T+VA\fs28\i0\b0\ul0\cf0  font 3; ord 110\par
+\f1\fs144 >\f4 o\f1 >\f2\i0\b0\ul0 N+T+SA\fs28\i0\b0\ul0\cf0  font 3; ord 111\par
+\f1\fs144 >\f4 p\f1 >\f2\i0\b0\ul0 N+THA\fs28\i0\b0\ul0\cf0  font 3; ord 112\par
+\f1\fs144 >\f4 q\f1 >\f2\i0\b0\ul0 N+DA\fs28\i0\b0\ul0\cf0  font 3; ord 113\par
+\f1\fs144 >\f4 r\f1 >\f2\i0\b0\ul0 N+D+DA\fs28\i0\b0\ul0\cf0  font 3; ord 114\par
+\f1\fs144 >\f4 s\f1 >\f2\i0\b0\ul0 N+D+D+RA\fs28\i0\b0\ul0\cf0  font 3; ord 115\par
+\f1\fs144 >\f4 t\f1 >\f2\i0\b0\ul0 N+D+YA\fs28\i0\b0\ul0\cf0  font 3; ord 116\par
+\f1\fs144 >\f4 u\f1 >\f2\i0\b0\ul0 N+D+RA\fs28\i0\b0\ul0\cf0  font 3; ord 117\par
+\f1\fs144 >\f4 v\f1 >\f2\i0\b0\ul0 N+D+HA\fs28\i0\b0\ul0\cf0  font 3; ord 118\par
+\f1\fs144 >\f4 w\f1 >\f2\i0\b0\ul0 N+D+H+RA\fs28\i0\b0\ul0\cf0  font 3; ord 119\par
+\f1\fs144 >\f4 x\f1 >\f2\i0\b0\ul0 N+D+H+YA\fs28\i0\b0\ul0\cf0  font 3; ord 120\par
+\f1\fs144 >\f4 y\f1 >\f2\i0\b0\ul0 N+NA\fs28\i0\b0\ul0\cf0  font 3; ord 121\par
+\f1\fs144 >\f4\{\f1 >\f2\i0\b0\ul0 N+N+YA\fs28\i0\b0\ul0\cf0  font 3; ord 123\par
+\f1\fs144 >\f4 |\f1 >\f2\i0\b0\ul0 N+PA\fs28\i0\b0\ul0\cf0  font 3; ord 124\par
+\f1\fs144 >\f4\}\f1 >\f2\i0\b0\ul0 N+P+RA\fs28\i0\b0\ul0\cf0  font 3; ord 125\par
+\f1\fs144 >\f4 ~\f1 >\f2\i0\b0\ul0 N+PHA\fs28\i0\b0\ul0\cf0  font 3; ord 126\par
+\f1\fs144 >\f4\u128 ?\f1 >\f2\i0\b0\ul0 N+B+H+YA\fs28\i0\b0\ul0\cf0  font 3; ord 128\par
+\f1\fs144 >\f4\u129 ?\f1 >\f2\i0\b0\ul0 N+TZA\fs28\i0\b0\ul0\cf0  font 3; ord 129\par
+\f1\fs144 >\f4\u130 ?\f1 >\f2\i0\b0\ul0 N+YA\fs28\i0\b0\ul0\cf0  font 3; ord 130\par
+\f1\fs144 >\f4\u131 ?\f1 >\f2\i0\b0\ul0 N+RA\fs28\i0\b0\ul0\cf0  font 3; ord 131\par
+\f1\fs144 >\f4\u132 ?\f1 >\f2\i0\b0\ul0 N+VA\fs28\i0\b0\ul0\cf0  font 3; ord 132\par
+\f1\fs144 >\f4\u133 ?\f1 >\f2\i0\b0\ul0 N+V+YA\fs28\i0\b0\ul0\cf0  font 3; ord 133\par
+\f1\fs144 >\f4\u134 ?\f1 >\f2\i0\b0\ul0 N+SA\fs28\i0\b0\ul0\cf0  font 3; ord 134\par
+\f1\fs144 >\f4\u135 ?\f1 >\f2\i0\b0\ul0 N+S+YA\fs28\i0\b0\ul0\cf0  font 3; ord 135\par
+\f1\fs144 >\f4\u136 ?\f1 >\f2\i0\b0\ul0 N+HA\fs28\i0\b0\ul0\cf0  font 3; ord 136\par
+\f1\fs144 >\f4\u137 ?\f1 >\f2\i0\b0\ul0 N+H+RA\fs28\i0\b0\ul0\cf0  font 3; ord 137\par
+\f1\fs144 >\f4\u138 ?\f1 >\f2\i0\b0\ul0 P+TA\fs28\i0\b0\ul0\cf0  font 3; ord 138\par
+\f1\fs144 >\f4\u139 ?\f1 >\f2\i0\b0\ul0 P+T+YA\fs28\i0\b0\ul0\cf0  font 3; ord 139\par
+\f1\fs144 >\f4\u140 ?\f1 >\f2\i0\b0\ul0 P+T+R+YA\fs28\i0\b0\ul0\cf0  font 3; ord 140\par
+\f1\fs144 >\f4\u141 ?\f1 >\f2\i0\b0\ul0 P+NA\fs28\i0\b0\ul0\cf0  font 3; ord 141\par
+\f1\fs144 >\f4\u143 ?\f1 >\f2\i0\b0\ul0 P+PA\fs28\i0\b0\ul0\cf0  font 3; ord 143\par
+\f1\fs144 >\f4\u144 ?\f1 >\f2\i0\b0\ul0 P+MA\fs28\i0\b0\ul0\cf0  font 3; ord 144\par
+\f1\fs144 >\f4\u145 ?\f1 >\f2\i0\b0\ul0 P+LA\fs28\i0\b0\ul0\cf0  font 3; ord 145\par
+\f1\fs144 >\f4\u146 ?\f1 >\f2\i0\b0\ul0 P+VA\fs28\i0\b0\ul0\cf0  font 3; ord 146\par
+\f1\fs144 >\f4\u147 ?\f1 >\f2\i0\b0\ul0 P+SA\fs28\i0\b0\ul0\cf0  font 3; ord 147\par
+\f1\fs144 >\f4\u148 ?\f1 >\f2\i0\b0\ul0 P+S+N+YA\fs28\i0\b0\ul0\cf0  font 3; ord 148\par
+\f1\fs144 >\f4\u149 ?\f1 >\f2\i0\b0\ul0 P+S+VA\fs28\i0\b0\ul0\cf0  font 3; ord 149\par
+\f1\fs144 >\f4\u150 ?\f1 >\f2\i0\b0\ul0 P+S+YA\fs28\i0\b0\ul0\cf0  font 3; ord 150\par
+\f1\fs144 >\f4\u151 ?\f1 >\f2\i0\b0\ul0 B+G+HA\fs28\i0\b0\ul0\cf0  font 3; ord 151\par
+\f1\fs144 >\f4\u152 ?\f1 >\f2\i0\b0\ul0 B+DZA\fs28\i0\b0\ul0\cf0  font 3; ord 152\par
+\f1\fs144 >\f4\u153 ?\f1 >\f2\i0\b0\ul0 B+DA\fs28\i0\b0\ul0\cf0  font 3; ord 153\par
+\f1\fs144 >\f4\u154 ?\f1 >\f2\i0\b0\ul0 B+D+DZA\fs28\i0\b0\ul0\cf0  font 3; ord 154\par
+\f1\fs144 >\f4\u155 ?\f1 >\f2\i0\b0\ul0 B+D+HA\fs28\i0\b0\ul0\cf0  font 3; ord 155\par
+\f1\fs144 >\f4\u156 ?\f1 >\f2\i0\b0\ul0 B+D+H+VA\fs28\i0\b0\ul0\cf0  font 3; ord 156\par
+\f1\fs144 >\f4\u157 ?\f1 >\f2\i0\b0\ul0 B+TA\fs28\i0\b0\ul0\cf0  font 3; ord 157\par
+\f1\fs144 >\f4\u159 ?\f1 >\f2\i0\b0\ul0 B+BA\fs28\i0\b0\ul0\cf0  font 3; ord 159\par
+\f1\fs144 >\f4\'a1\f1 >\f2\i0\b0\ul0 B+B+H+YA\fs28\i0\b0\ul0\cf0  font 3; ord 161\par
+\f1\fs144 >\f4\'a2\f1 >\f2\i0\b0\ul0 B+MA\fs28\i0\b0\ul0\cf0  font 3; ord 162\par
+\f1\fs144 >\f4\'a3\f1 >\f2\i0\b0\ul0 BHA\fs28\i0\b0\ul0\cf0  font 3; ord 163\par
+\f1\fs144 >\f4\'a4\f1 >\f2\i0\b0\ul0 B+H+nA\fs28\i0\b0\ul0\cf0  font 3; ord 164\par
+\f1\fs144 >\f4\'a5\f1 >\f2\i0\b0\ul0 B+H+NA\fs28\i0\b0\ul0\cf0  font 3; ord 165\par
+\f1\fs144 >\f4\'a7\f1 >\f2\i0\b0\ul0 B+H+YA\fs28\i0\b0\ul0\cf0  font 3; ord 167\par
+\f1\fs144 >\f4\'a8\f1 >\f2\i0\b0\ul0 B+H+RA\fs28\i0\b0\ul0\cf0  font 3; ord 168\par
+\f1\fs144 >\f4\'a9\f1 >\f2\i0\b0\ul0 B+H+VA\fs28\i0\b0\ul0\cf0  font 3; ord 169\par
+\f1\fs144 >\f4\'aa\f1 >\f2\i0\b0\ul0 M+NYA\fs28\i0\b0\ul0\cf0  font 3; ord 170\par
+\f1\fs144 >\f4\'ab\f1 >\f2\i0\b0\ul0 M+nA\fs28\i0\b0\ul0\cf0  font 3; ord 171\par
+\f1\fs144 >\f4\'ac\f1 >\f2\i0\b0\ul0 M+NA\fs28\i0\b0\ul0\cf0  font 3; ord 172\par
+\f1\fs144 >\f4\'ad\f1 >\f2\i0\b0\ul0 M+N+YA\fs28\i0\b0\ul0\cf0  font 3; ord 173\par
+\f1\fs144 >\f4\'ae\f1 >\f2\i0\b0\ul0 M+PA\fs28\i0\b0\ul0\cf0  font 3; ord 174\par
+\f1\fs144 >\f4\'af\f1 >\f2\i0\b0\ul0 M+P+RA\fs28\i0\b0\ul0\cf0  font 3; ord 175\par
+\f1\fs144 >\f4\'b0\f1 >\f2\i0\b0\ul0 M+PHA\fs28\i0\b0\ul0\cf0  font 3; ord 176\par
+\f1\fs144 >\f4\'b1\f1 >\f2\i0\b0\ul0 M+BA\fs28\i0\b0\ul0\cf0  font 3; ord 177\par
+\f1\fs144 >\f4\'b2\f1 >\f2\i0\b0\ul0 M+B+HA\fs28\i0\b0\ul0\cf0  font 3; ord 178\par
+\f1\fs144 >\f4\'b3\f1 >\f2\i0\b0\ul0 M+B+H+YA\fs28\i0\b0\ul0\cf0  font 3; ord 179\par
+\f1\fs144 >\f4\'b4\f1 >\f2\i0\b0\ul0 M+MA\fs28\i0\b0\ul0\cf0  font 3; ord 180\par
+\f1\fs144 >\f4\'b5\f1 >\f2\i0\b0\ul0 M+LA\fs28\i0\b0\ul0\cf0  font 3; ord 181\par
+\f1\fs144 >\f4\'b6\f1 >\f2\i0\b0\ul0 M+VA\fs28\i0\b0\ul0\cf0  font 3; ord 182\par
+\f1\fs144 >\f4\'b7\f1 >\f2\i0\b0\ul0 M+SA\fs28\i0\b0\ul0\cf0  font 3; ord 183\par
+\f1\fs144 >\f4\'b8\f1 >\f2\i0\b0\ul0 M+HA\fs28\i0\b0\ul0\cf0  font 3; ord 184\par
+\f1\fs144 >\f4\'b9\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie y+Y to ACIP.  Please transcribe this yourself.]A\fs28\i0\b0\ul0\cf0  font 3; ord 185\par
+\f1\fs144 >\f4\'ba\f1 >\f2\i0\b0\ul0 Y+RA\fs28\i0\b0\ul0\cf0  font 3; ord 186\par
+\f1\fs144 >\f4\'bb\f1 >\f2\i0\b0\ul0 Y+VA\fs28\i0\b0\ul0\cf0  font 3; ord 187\par
+\f1\fs144 >\f4\'bc\f1 >\f2\i0\b0\ul0 Y+SA\fs28\i0\b0\ul0\cf0  font 3; ord 188\par
+\f1\fs144 >\f4\'bd\f1 >\f2\i0\b0\ul0 R+KHA\fs28\i0\b0\ul0\cf0  font 3; ord 189\par
+\f1\fs144 >\f4\'be\f1 >\f2\i0\b0\ul0 R+G+HA\fs28\i0\b0\ul0\cf0  font 3; ord 190\par
+\f1\fs144 >\f4\'bf\f1 >\f2\i0\b0\ul0 R+G+H+YA\fs28\i0\b0\ul0\cf0  font 3; ord 191\par
+\f1\fs144 >\f4\'c0\f1 >\f2\i0\b0\ul0 R+TZ+YA\fs28\i0\b0\ul0\cf0  font 3; ord 192\par
+\f1\fs144 >\f4\'c1\f1 >\f2\i0\b0\ul0 R+TSA\fs28\i0\b0\ul0\cf0  font 3; ord 193\par
+\f1\fs144 >\f4\'c2\f1 >\f2\i0\b0\ul0 R+DZ+NYA\fs28\i0\b0\ul0\cf0  font 3; ord 194\par
+\f1\fs144 >\f4\'c3\f1 >\f2\i0\b0\ul0 R+DZ+YA\fs28\i0\b0\ul0\cf0  font 3; ord 195\par
+\f1\fs144 >\f4\'c4\f1 >\f2\i0\b0\ul0 R+tA\fs28\i0\b0\ul0\cf0  font 3; ord 196\par
+\f1\fs144 >\f4\'c5\f1 >\f2\i0\b0\ul0 R+thA\fs28\i0\b0\ul0\cf0  font 3; ord 197\par
+\f1\fs144 >\f4\'c6\f1 >\f2\i0\b0\ul0 R+dA\fs28\i0\b0\ul0\cf0  font 3; ord 198\par
+\f1\fs144 >\f4\'c7\f1 >\f2\i0\b0\ul0 R+nA\fs28\i0\b0\ul0\cf0  font 3; ord 199\par
+\f1\fs144 >\f4\'c9\f1 >\f2\i0\b0\ul0 'A\fs28\i0\b0\ul0\cf0  font 3; ord 201\par
+\f1\fs144 >\f4\'ca\f1 >\f2\i0\b0\ul0 'A\fs28\i0\b0\ul0\cf0  font 3; ord 202\par
+\f1\fs144 >\f4\'cb\f1 >\f2\i0\b0\ul0 'A\fs28\i0\b0\ul0\cf0  font 3; ord 203\par
+\f1\fs144 >\f4\'cc\f1 >\f2\i0\b0\ul0 'A\fs28\i0\b0\ul0\cf0  font 3; ord 204\par
+\f1\fs144 >\f4\'cd\f1 >\f2\i0\b0\ul0 'A\fs28\i0\b0\ul0\cf0  font 3; ord 205\par
+\f1\fs144 >\f4\'ce\f1 >\f2\i0\b0\ul0 'A\fs28\i0\b0\ul0\cf0  font 3; ord 206\par
+\f1\fs144 >\f4\'cf\f1 >\f2\i0\b0\ul0 'A\fs28\i0\b0\ul0\cf0  font 3; ord 207\par
+\f1\fs144 >\f4\'d3\f1 >\f2\i0\b0\ul0 'U\fs28\i0\b0\ul0\cf0  font 3; ord 211\par
+\f1\fs144 >\f4\'d4\f1 >\f2\i0\b0\ul0 'U\fs28\i0\b0\ul0\cf0  font 3; ord 212\par
+\f1\fs144 >\f4\'d5\f1 >\f2\i0\b0\ul0 'U\fs28\i0\b0\ul0\cf0  font 3; ord 213\par
+\f1\fs144 >\f4\'d6\f1 >\f2\i0\b0\ul0 'U\fs28\i0\b0\ul0\cf0  font 3; ord 214\par
+\f1\fs144 >\f4\'d7\f1 >\f2\i0\b0\ul0 'U\fs28\i0\b0\ul0\cf0  font 3; ord 215\par
+\f1\fs144 >\f4\'d8\f1 >\f2\i0\b0\ul0 'U\fs28\i0\b0\ul0\cf0  font 3; ord 216\par
+\f1\fs144 >\f4\'d9\f1 >\f2\i0\b0\ul0 'U\fs28\i0\b0\ul0\cf0  font 3; ord 217\par
+\f1\fs144 >\f4\'e0\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 3; ord 224\par
+\f1\fs144 >\f4\'e1\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 3; ord 225\par
+\f1\fs144 >\f4\'e2\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 3; ord 226\par
+\f1\fs144 >\f4\'e3\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 3; ord 227\par
+\f1\fs144 >\f4\'e4\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 3; ord 228\par
+\f1\fs144 >\f4\'e5\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 3; ord 229\par
+\f1\fs144 >\f4\'e6\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 3; ord 230\par
+\f1\fs144 >\f4\'f9\f1 >\f2\i0\b0\ul0 P+N+YA\fs28\i0\b0\ul0\cf0  font 3; ord 249\par
+\f1\fs144 >\f4\'fa\f1 >\f2\i0\b0\ul0 B+NA\fs28\i0\b0\ul0\cf0  font 3; ord 250\par
+\f1\fs144 >\f4\'fb\f1 >\f2\i0\b0\ul0 B+H+MA\fs28\i0\b0\ul0\cf0  font 3; ord 251\par
+\f1\fs144 >\f4\'fc\f1 >\f2\i0\b0\ul0 T+P+RA\fs28\i0\b0\ul0\cf0  font 3; ord 252\par
+\f1\fs144 >\f4\'fd\f1 >\f2\i0\b0\ul0 N+MA\fs28\i0\b0\ul0\cf0  font 3; ord 253\par
+\f1\fs144 >\f4\'fe\f1 >\f2\i0\b0\ul0 B+B+HA\fs28\i0\b0\ul0\cf0  font 3; ord 254\par
+\f1\fs144 >\f5  \f1 >\f2\i0\b0\ul0  \fs28\i0\b0\ul0\cf0  font 4; ord 32\par
+\f1\fs144 >\f5 !\f1 >\f2\i0\b0\ul0 R+T+VA\fs28\i0\b0\ul0\cf0  font 4; ord 33\par
+\f1\fs144 >\f5 "\f1 >\f2\i0\b0\ul0 R+T+TA\fs28\i0\b0\ul0\cf0  font 4; ord 34\par
+\f1\fs144 >\f5 #\f1 >\f2\i0\b0\ul0 R+T+SA\fs28\i0\b0\ul0\cf0  font 4; ord 35\par
+\f1\fs144 >\f5 $\f1 >\f2\i0\b0\ul0 R+T+S+NA\fs28\i0\b0\ul0\cf0  font 4; ord 36\par
+\f1\fs144 >\f5 %\f1 >\f2\i0\b0\ul0 R+T+S+N+YA\fs28\i0\b0\ul0\cf0  font 4; ord 37\par
+\f1\fs144 >\f5 &\f1 >\f2\i0\b0\ul0 R+THA\fs28\i0\b0\ul0\cf0  font 4; ord 38\par
+\f1\fs144 >\f5 '\f1 >\f2\i0\b0\ul0 R+TH+YA\fs28\i0\b0\ul0\cf0  font 4; ord 39\par
+\f1\fs144 >\f5 (\f1 >\f2\i0\b0\ul0 R+D+D+HA\fs28\i0\b0\ul0\cf0  font 4; ord 40\par
+\f1\fs144 >\f5 )\f1 >\f2\i0\b0\ul0 R+D+D+H+YA\fs28\i0\b0\ul0\cf0  font 4; ord 41\par
+\f1\fs144 >\f5 *\f1 >\f2\i0\b0\ul0 R+D+YA\fs28\i0\b0\ul0\cf0  font 4; ord 42\par
+\f1\fs144 >\f5 +\f1 >\f2\i0\b0\ul0 R+D+HA\fs28\i0\b0\ul0\cf0  font 4; ord 43\par
+\f1\fs144 >\f5 ,\f1 >\f2\i0\b0\ul0 R+D+H+MA\fs28\i0\b0\ul0\cf0  font 4; ord 44\par
+\f1\fs144 >\f5 .\f1 >\f2\i0\b0\ul0 R+D+H+RA\fs28\i0\b0\ul0\cf0  font 4; ord 46\par
+\f1\fs144 >\f5 /\f1 >\f2\i0\b0\ul0 R+PA\fs28\i0\b0\ul0\cf0  font 4; ord 47\par
+\f1\fs144 >\f5 0\f1 >\f2\i0\b0\ul0 R+B+PA\fs28\i0\b0\ul0\cf0  font 4; ord 48\par
+\f1\fs144 >\f5 1\f1 >\f2\i0\b0\ul0 R+B+BA\fs28\i0\b0\ul0\cf0  font 4; ord 49\par
+\f1\fs144 >\f5 2\f1 >\f2\i0\b0\ul0 R+B+HA\fs28\i0\b0\ul0\cf0  font 4; ord 50\par
+\f1\fs144 >\f5 3\f1 >\f2\i0\b0\ul0 R+M+MA\fs28\i0\b0\ul0\cf0  font 4; ord 51\par
+\f1\fs144 >\f5 4\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie R+Y to ACIP because the ACIP R+... could imply the short superscribed form, but this most likely intends the full form (i.e., Unicode character U+0F6A).  Please transcribe this yourself.]A\fs28\i0\b0\ul0\cf0  font 4; ord 52\par
+\f1\fs144 >\f5 5\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie R+sh to ACIP because the ACIP R+... could imply the short superscribed form, but this most likely intends the full form (i.e., Unicode character U+0F6A).  Please transcribe this yourself.]A\fs28\i0\b0\ul0\cf0  font 4; ord 53\par
+\f1\fs144 >\f5 6\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie R+sh+y to ACIP because the ACIP R+... could imply the short superscribed form, but this most likely intends the full form (i.e., Unicode character U+0F6A).  Please transcribe this yourself.]A\fs28\i0\b0\ul0\cf0  font 4; ord 54\par
+\f1\fs144 >\f5 7\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie R+Sh to ACIP because the ACIP R+... could imply the short superscribed form, but this most likely intends the full form (i.e., Unicode character U+0F6A).  Please transcribe this yourself.]A\fs28\i0\b0\ul0\cf0  font 4; ord 55\par
+\f1\fs144 >\f5 8\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie R+Sh+N to ACIP because the ACIP R+... could imply the short superscribed form, but this most likely intends the full form (i.e., Unicode character U+0F6A).  Please transcribe this yourself.]A\fs28\i0\b0\ul0\cf0  font 4; ord 56\par
+\f1\fs144 >\f5 9\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie R+Sh+N+y to ACIP because the ACIP R+... could imply the short superscribed form, but this most likely intends the full form (i.e., Unicode character U+0F6A).  Please transcribe this yourself.]A\fs28\i0\b0\ul0\cf0  font 4; ord 57\par
+\f1\fs144 >\f5 :\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie R+Sh+m to ACIP because the ACIP R+... could imply the short superscribed form, but this most likely intends the full form (i.e., Unicode character U+0F6A).  Please transcribe this yourself.]A\fs28\i0\b0\ul0\cf0  font 4; ord 58\par
+\f1\fs144 >\f5 ;\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie R+Sh+y to ACIP because the ACIP R+... could imply the short superscribed form, but this most likely intends the full form (i.e., Unicode character U+0F6A).  Please transcribe this yourself.]A\fs28\i0\b0\ul0\cf0  font 4; ord 59\par
+\f1\fs144 >\f5 <\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie R+s to ACIP because the ACIP R+... could imply the short superscribed form, but this most likely intends the full form (i.e., Unicode character U+0F6A).  Please transcribe this yourself.]A\fs28\i0\b0\ul0\cf0  font 4; ord 60\par
+\f1\fs144 >\f5 =\f1 >\f2\i0\b0\ul0 R+HA\fs28\i0\b0\ul0\cf0  font 4; ord 61\par
+\f1\fs144 >\f5 >\f1 >\f2\i0\b0\ul0 R+K+shA\fs28\i0\b0\ul0\cf0  font 4; ord 62\par
+\f1\fs144 >\f5 ?\f1 >\f2\i0\b0\ul0 L+G+VA\fs28\i0\b0\ul0\cf0  font 4; ord 63\par
+\f1\fs144 >\f5 @\f1 >\f2\i0\b0\ul0 L+B+YA\fs28\i0\b0\ul0\cf0  font 4; ord 64\par
+\f1\fs144 >\f5 A\f1 >\f2\i0\b0\ul0 L+MA\fs28\i0\b0\ul0\cf0  font 4; ord 65\par
+\f1\fs144 >\f5 B\f1 >\f2\i0\b0\ul0 L+YA\fs28\i0\b0\ul0\cf0  font 4; ord 66\par
+\f1\fs144 >\f5 C\f1 >\f2\i0\b0\ul0 L+VA\fs28\i0\b0\ul0\cf0  font 4; ord 67\par
+\f1\fs144 >\f5 D\f1 >\f2\i0\b0\ul0 L+LA\fs28\i0\b0\ul0\cf0  font 4; ord 68\par
+\f1\fs144 >\f5 E\f1 >\f2\i0\b0\ul0 W+YA\fs28\i0\b0\ul0\cf0  font 4; ord 69\par
+\f1\fs144 >\f5 F\f1 >\f2\i0\b0\ul0 W+RA\fs28\i0\b0\ul0\cf0  font 4; ord 70\par
+\f1\fs144 >\f5 G\f1 >\f2\i0\b0\ul0 SH+TZA\fs28\i0\b0\ul0\cf0  font 4; ord 71\par
+\f1\fs144 >\f5 H\f1 >\f2\i0\b0\ul0 SH+TZ+YA\fs28\i0\b0\ul0\cf0  font 4; ord 72\par
+\f1\fs144 >\f5 I\f1 >\f2\i0\b0\ul0 SH+TSA\fs28\i0\b0\ul0\cf0  font 4; ord 73\par
+\f1\fs144 >\f5 J\f1 >\f2\i0\b0\ul0 SH+nA\fs28\i0\b0\ul0\cf0  font 4; ord 74\par
+\f1\fs144 >\f5 K\f1 >\f2\i0\b0\ul0 SH+NA\fs28\i0\b0\ul0\cf0  font 4; ord 75\par
+\f1\fs144 >\f5 L\f1 >\f2\i0\b0\ul0 SH+PA\fs28\i0\b0\ul0\cf0  font 4; ord 76\par
+\f1\fs144 >\f5 M\f1 >\f2\i0\b0\ul0 SH+B+YA\fs28\i0\b0\ul0\cf0  font 4; ord 77\par
+\f1\fs144 >\f5 N\f1 >\f2\i0\b0\ul0 SH+MA\fs28\i0\b0\ul0\cf0  font 4; ord 78\par
+\f1\fs144 >\f5 O\f1 >\f2\i0\b0\ul0 SH+YA\fs28\i0\b0\ul0\cf0  font 4; ord 79\par
+\f1\fs144 >\f5 P\f1 >\f2\i0\b0\ul0 SH+R+YA\fs28\i0\b0\ul0\cf0  font 4; ord 80\par
+\f1\fs144 >\f5 Q\f1 >\f2\i0\b0\ul0 SH+LA\fs28\i0\b0\ul0\cf0  font 4; ord 81\par
+\f1\fs144 >\f5 R\f1 >\f2\i0\b0\ul0 SH+V+GA\fs28\i0\b0\ul0\cf0  font 4; ord 82\par
+\f1\fs144 >\f5 S\f1 >\f2\i0\b0\ul0 SH+V+YA\fs28\i0\b0\ul0\cf0  font 4; ord 83\par
+\f1\fs144 >\f5 T\f1 >\f2\i0\b0\ul0 SH+SHA\fs28\i0\b0\ul0\cf0  font 4; ord 84\par
+\f1\fs144 >\f5 U\f1 >\f2\i0\b0\ul0 sh+KA\fs28\i0\b0\ul0\cf0  font 4; ord 85\par
+\f1\fs144 >\f5 V\f1 >\f2\i0\b0\ul0 sh+K+RA\fs28\i0\b0\ul0\cf0  font 4; ord 86\par
+\f1\fs144 >\f5 W\f1 >\f2\i0\b0\ul0 sh+tA\fs28\i0\b0\ul0\cf0  font 4; ord 87\par
+\f1\fs144 >\f5 X\f1 >\f2\i0\b0\ul0 sh+t+YA\fs28\i0\b0\ul0\cf0  font 4; ord 88\par
+\f1\fs144 >\f5 Y\f1 >\f2\i0\b0\ul0 sh+t+RA\fs28\i0\b0\ul0\cf0  font 4; ord 89\par
+\f1\fs144 >\f5 Z\f1 >\f2\i0\b0\ul0 sh+t+R+YA\fs28\i0\b0\ul0\cf0  font 4; ord 90\par
+\f1\fs144 >\f5 [\f1 >\f2\i0\b0\ul0 sh+t+VA\fs28\i0\b0\ul0\cf0  font 4; ord 91\par
+\f1\fs144 >\f5\\\f1 >\f2\i0\b0\ul0 sh+thA\fs28\i0\b0\ul0\cf0  font 4; ord 92\par
+\f1\fs144 >\f5 ]\f1 >\f2\i0\b0\ul0 sh+th+YA\fs28\i0\b0\ul0\cf0  font 4; ord 93\par
+\f1\fs144 >\f5 ^\f1 >\f2\i0\b0\ul0 sh+nA\fs28\i0\b0\ul0\cf0  font 4; ord 94\par
+\f1\fs144 >\f5 _\f1 >\f2\i0\b0\ul0 sh+n+YA\fs28\i0\b0\ul0\cf0  font 4; ord 95\par
+\f1\fs144 >\f5 `\f1 >\f2\i0\b0\ul0 sh+dA\fs28\i0\b0\ul0\cf0  font 4; ord 96\par
+\f1\fs144 >\f5 a\f1 >\f2\i0\b0\ul0 sh+PA\fs28\i0\b0\ul0\cf0  font 4; ord 97\par
+\f1\fs144 >\f5 b\f1 >\f2\i0\b0\ul0 sh+P+RA\fs28\i0\b0\ul0\cf0  font 4; ord 98\par
+\f1\fs144 >\f5 c\f1 >\f2\i0\b0\ul0 sh+MA\fs28\i0\b0\ul0\cf0  font 4; ord 99\par
+\f1\fs144 >\f5 d\f1 >\f2\i0\b0\ul0 sh+YA\fs28\i0\b0\ul0\cf0  font 4; ord 100\par
+\f1\fs144 >\f5 e\f1 >\f2\i0\b0\ul0 sh+VA\fs28\i0\b0\ul0\cf0  font 4; ord 101\par
+\f1\fs144 >\f5 f\f1 >\f2\i0\b0\ul0 sh+shA\fs28\i0\b0\ul0\cf0  font 4; ord 102\par
+\f1\fs144 >\f5 g\f1 >\f2\i0\b0\ul0 S+K+SA\fs28\i0\b0\ul0\cf0  font 4; ord 103\par
+\f1\fs144 >\f5 h\f1 >\f2\i0\b0\ul0 S+KHA\fs28\i0\b0\ul0\cf0  font 4; ord 104\par
+\f1\fs144 >\f5 i\f1 >\f2\i0\b0\ul0 S+TZ+YA\fs28\i0\b0\ul0\cf0  font 4; ord 105\par
+\f1\fs144 >\f5 j\f1 >\f2\i0\b0\ul0 S+tA\fs28\i0\b0\ul0\cf0  font 4; ord 106\par
+\f1\fs144 >\f5 k\f1 >\f2\i0\b0\ul0 S+thA\fs28\i0\b0\ul0\cf0  font 4; ord 107\par
+\f1\fs144 >\f5 l\f1 >\f2\i0\b0\ul0 S+T+YA\fs28\i0\b0\ul0\cf0  font 4; ord 108\par
+\f1\fs144 >\f5 m\f1 >\f2\i0\b0\ul0 S+T+RA\fs28\i0\b0\ul0\cf0  font 4; ord 109\par
+\f1\fs144 >\f5 n\f1 >\f2\i0\b0\ul0 S+T+VA\fs28\i0\b0\ul0\cf0  font 4; ord 110\par
+\f1\fs144 >\f5 o\f1 >\f2\i0\b0\ul0 S+THA\fs28\i0\b0\ul0\cf0  font 4; ord 111\par
+\f1\fs144 >\f5 p\f1 >\f2\i0\b0\ul0 S+TH+YA\fs28\i0\b0\ul0\cf0  font 4; ord 112\par
+\f1\fs144 >\f5 q\f1 >\f2\i0\b0\ul0 S+N+YA\fs28\i0\b0\ul0\cf0  font 4; ord 113\par
+\f1\fs144 >\f5 r\f1 >\f2\i0\b0\ul0 S+N+VA\fs28\i0\b0\ul0\cf0  font 4; ord 114\par
+\f1\fs144 >\f5 s\f1 >\f2\i0\b0\ul0 S+PHA\fs28\i0\b0\ul0\cf0  font 4; ord 115\par
+\f1\fs144 >\f5 t\f1 >\f2\i0\b0\ul0 S+PH+YA\fs28\i0\b0\ul0\cf0  font 4; ord 116\par
+\f1\fs144 >\f5 u\f1 >\f2\i0\b0\ul0 S+YA\fs28\i0\b0\ul0\cf0  font 4; ord 117\par
+\f1\fs144 >\f5 v\f1 >\f2\i0\b0\ul0 S+R+VA\fs28\i0\b0\ul0\cf0  font 4; ord 118\par
+\f1\fs144 >\f5 w\f1 >\f2\i0\b0\ul0 S+SA\fs28\i0\b0\ul0\cf0  font 4; ord 119\par
+\f1\fs144 >\f5 x\f1 >\f2\i0\b0\ul0 S+S+VA\fs28\i0\b0\ul0\cf0  font 4; ord 120\par
+\f1\fs144 >\f5 y\f1 >\f2\i0\b0\ul0 S+HA\fs28\i0\b0\ul0\cf0  font 4; ord 121\par
+\f1\fs144 >\f5 z\f1 >\f2\i0\b0\ul0 S+V+YA\fs28\i0\b0\ul0\cf0  font 4; ord 122\par
+\f1\fs144 >\f5\{\f1 >\f2\i0\b0\ul0 H+NYA\fs28\i0\b0\ul0\cf0  font 4; ord 123\par
+\f1\fs144 >\f5 |\f1 >\f2\i0\b0\ul0 H+nA\fs28\i0\b0\ul0\cf0  font 4; ord 124\par
+\f1\fs144 >\f5\}\f1 >\f2\i0\b0\ul0 H+TA\fs28\i0\b0\ul0\cf0  font 4; ord 125\par
+\f1\fs144 >\f5 ~\f1 >\f2\i0\b0\ul0 H+NA\fs28\i0\b0\ul0\cf0  font 4; ord 126\par
+\f1\fs144 >\f5\u128 ?\f1 >\f2\i0\b0\ul0 H+PA\fs28\i0\b0\ul0\cf0  font 4; ord 128\par
+\f1\fs144 >\f5\u129 ?\f1 >\f2\i0\b0\ul0 H+PHA\fs28\i0\b0\ul0\cf0  font 4; ord 129\par
+\f1\fs144 >\f5\u130 ?\f1 >\f2\i0\b0\ul0 H+MA\fs28\i0\b0\ul0\cf0  font 4; ord 130\par
+\f1\fs144 >\f5\u131 ?\f1 >\f2\i0\b0\ul0 H+YA\fs28\i0\b0\ul0\cf0  font 4; ord 131\par
+\f1\fs144 >\f5\u132 ?\f1 >\f2\i0\b0\ul0 H+LA\fs28\i0\b0\ul0\cf0  font 4; ord 132\par
+\f1\fs144 >\f5\u133 ?\f1 >\f2\i0\b0\ul0 H+SA\fs28\i0\b0\ul0\cf0  font 4; ord 133\par
+\f1\fs144 >\f5\u134 ?\f1 >\f2\i0\b0\ul0 H+S+VA\fs28\i0\b0\ul0\cf0  font 4; ord 134\par
+\f1\fs144 >\f5\u135 ?\f1 >\f2\i0\b0\ul0 H+V+YA\fs28\i0\b0\ul0\cf0  font 4; ord 135\par
+\f1\fs144 >\f5\u136 ?\f1 >\f2\i0\b0\ul0 K+sh+nA\fs28\i0\b0\ul0\cf0  font 4; ord 136\par
+\f1\fs144 >\f5\u137 ?\f1 >\f2\i0\b0\ul0 K+sh+MA\fs28\i0\b0\ul0\cf0  font 4; ord 137\par
+\f1\fs144 >\f5\u138 ?\f1 >\f2\i0\b0\ul0 K+sh+M+YA\fs28\i0\b0\ul0\cf0  font 4; ord 138\par
+\f1\fs144 >\f5\u139 ?\f1 >\f2\i0\b0\ul0 K+sh+YA\fs28\i0\b0\ul0\cf0  font 4; ord 139\par
+\f1\fs144 >\f5\u140 ?\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie k+Sh+R to ACIP.  Please transcribe this yourself.]A\fs28\i0\b0\ul0\cf0  font 4; ord 140\par
+\f1\fs144 >\f5\u141 ?\f1 >\f2\i0\b0\ul0 K+sh+LA\fs28\i0\b0\ul0\cf0  font 4; ord 141\par
+\f1\fs144 >\f5\u143 ?\f1 >\f2\i0\b0\ul0 A+YA\fs28\i0\b0\ul0\cf0  font 4; ord 143\par
+\f1\fs144 >\f5\u144 ?\f1 >\f2\i0\b0\ul0 A+RA\fs28\i0\b0\ul0\cf0  font 4; ord 144\par
+\f1\fs144 >\f5\u145 ?\f1 >\f2\i0\b0\ul0 A+R+YA\fs28\i0\b0\ul0\cf0  font 4; ord 145\par
+\f1\fs144 >\f5\'ad\f1 >\f2\i0\b0\ul0 RA\fs28\i0\b0\ul0\cf0  font 4; ord 173\par
+\f1\fs144 >\f5\'ae\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie ^ to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 4; ord 174\par
+\f1\fs144 >\f5\'af\f1 >\f2\i0\b0\ul0 YA\fs28\i0\b0\ul0\cf0  font 4; ord 175\par
+\f1\fs144 >\f5\'b0\f1 >\f2\i0\b0\ul0 RA\fs28\i0\b0\ul0\cf0  font 4; ord 176\par
+\f1\fs144 >\f5\'b1\f1 >\f2\i0\b0\ul0 &\fs28\i0\b0\ul0\cf0  font 4; ord 177\par
+\f1\fs144 >\f5\'b2\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F88 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 4; ord 178\par
+\f1\fs144 >\f5\'b3\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F01 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 4; ord 179\par
+\f1\fs144 >\f5\'b4\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb7 charNum=74 character=J/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 4; ord 180\par
+\f1\fs144 >\f5\'b5\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF023 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 4; ord 181\par
+\f1\fs144 >\f5\'b6\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF022 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 4; ord 182\par
+\f1\fs144 >\f5\'b7\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF021 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 4; ord 183\par
+\f1\fs144 >\f5\'b8\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF02D to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 4; ord 184\par
+\f1\fs144 >\f5\'b9\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF02E to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 4; ord 185\par
+\f1\fs144 >\f5\'ba\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF02F to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 4; ord 186\par
+\f1\fs144 >\f5\'bb\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF030 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 4; ord 187\par
+\f1\fs144 >\f5\'bc\f1 >\f2\i0\b0\ul0 t+NA\fs28\i0\b0\ul0\cf0  font 4; ord 188\par
+\f1\fs144 >\f5\'bd\f1 >\f2\i0\b0\ul0 T+GA\fs28\i0\b0\ul0\cf0  font 4; ord 189\par
+\f1\fs144 >\f5\'be\f1 >\f2\i0\b0\ul0 P+DA\fs28\i0\b0\ul0\cf0  font 4; ord 190\par
+\f1\fs144 >\f5\'bf\f1 >\f2\i0\b0\ul0 sh+THA\fs28\i0\b0\ul0\cf0  font 4; ord 191\par
+\f1\fs144 >\f5\'c0\f1 >\f2\i0\b0\ul0 K+V+YA\fs28\i0\b0\ul0\cf0  font 4; ord 192\par
+\f1\fs144 >\f5\'c1\f1 >\f2\i0\b0\ul0 n+d+RA\fs28\i0\b0\ul0\cf0  font 4; ord 193\par
+\f1\fs144 >\f5\'c2\f1 >\f2\i0\b0\ul0 W+WA\fs28\i0\b0\ul0\cf0  font 4; ord 194\par
+\f1\fs144 >\f5\'c3\f1 >\f2\i0\b0\ul0 W+NA\fs28\i0\b0\ul0\cf0  font 4; ord 195\par
+\f1\fs144 >\f5\'c4\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie R+W to ACIP because the ACIP R+... could imply the short superscribed form, but this most likely intends the full form (i.e., Unicode character U+0F6A).  Please transcribe this yourself.]A\fs28\i0\b0\ul0\cf0  font 4; ord 196\par
+\f1\fs144 >\f5\'c5\f1 >\f2\i0\b0\ul0 L+H+VA\fs28\i0\b0\ul0\cf0  font 4; ord 197\par
+\f1\fs144 >\f5\'c9\f1 >\f2\i0\b0\ul0 'A\fs28\i0\b0\ul0\cf0  font 4; ord 201\par
+\f1\fs144 >\f5\'ca\f1 >\f2\i0\b0\ul0 'A\fs28\i0\b0\ul0\cf0  font 4; ord 202\par
+\f1\fs144 >\f5\'cb\f1 >\f2\i0\b0\ul0 'A\fs28\i0\b0\ul0\cf0  font 4; ord 203\par
+\f1\fs144 >\f5\'cc\f1 >\f2\i0\b0\ul0 'A\fs28\i0\b0\ul0\cf0  font 4; ord 204\par
+\f1\fs144 >\f5\'cd\f1 >\f2\i0\b0\ul0 'A\fs28\i0\b0\ul0\cf0  font 4; ord 205\par
+\f1\fs144 >\f5\'ce\f1 >\f2\i0\b0\ul0 'A\fs28\i0\b0\ul0\cf0  font 4; ord 206\par
+\f1\fs144 >\f5\'cf\f1 >\f2\i0\b0\ul0 'A\fs28\i0\b0\ul0\cf0  font 4; ord 207\par
+\f1\fs144 >\f5\'d3\f1 >\f2\i0\b0\ul0 'U\fs28\i0\b0\ul0\cf0  font 4; ord 211\par
+\f1\fs144 >\f5\'d4\f1 >\f2\i0\b0\ul0 'U\fs28\i0\b0\ul0\cf0  font 4; ord 212\par
+\f1\fs144 >\f5\'d5\f1 >\f2\i0\b0\ul0 'U\fs28\i0\b0\ul0\cf0  font 4; ord 213\par
+\f1\fs144 >\f5\'d6\f1 >\f2\i0\b0\ul0 'U\fs28\i0\b0\ul0\cf0  font 4; ord 214\par
+\f1\fs144 >\f5\'d7\f1 >\f2\i0\b0\ul0 'U\fs28\i0\b0\ul0\cf0  font 4; ord 215\par
+\f1\fs144 >\f5\'d8\f1 >\f2\i0\b0\ul0 'U\fs28\i0\b0\ul0\cf0  font 4; ord 216\par
+\f1\fs144 >\f5\'d9\f1 >\f2\i0\b0\ul0 'U\fs28\i0\b0\ul0\cf0  font 4; ord 217\par
+\f1\fs144 >\f5\'e0\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 4; ord 224\par
+\f1\fs144 >\f5\'e1\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 4; ord 225\par
+\f1\fs144 >\f5\'e2\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 4; ord 226\par
+\f1\fs144 >\f5\'e3\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 4; ord 227\par
+\f1\fs144 >\f5\'e4\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 4; ord 228\par
+\f1\fs144 >\f5\'e5\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 4; ord 229\par
+\f1\fs144 >\f5\'e6\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 4; ord 230\par
+\f1\fs144 >\f5\'f9\f1 >\f2\i0\b0\ul0 K+sh+VA\fs28\i0\b0\ul0\cf0  font 4; ord 249\par
+\f1\fs144 >\f5\'fc\f1 >\f2\i0\b0\ul0 R+D+H+YA\fs28\i0\b0\ul0\cf0  font 4; ord 252\par
+\f1\fs144 >\f5\'fd\f1 >\f2\i0\b0\ul0 H+N+YA\fs28\i0\b0\ul0\cf0  font 4; ord 253\par
+\f1\fs144 >\f6  \f1 >\f2\i0\b0\ul0  \fs28\i0\b0\ul0\cf0  font 5; ord 32\par
+\f1\fs144 >\f6 !\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F0A to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 33\par
+\f1\fs144 >\f6 "\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF024 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 34\par
+\f1\fs144 >\f6 #\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF025 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 35\par
+\f1\fs144 >\f6 $\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F09 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 36\par
+\f1\fs144 >\f6 %\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF026 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 37\par
+\f1\fs144 >\f6 &\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert <glyph font=TibetanMachineWeb8 charNum=41 character=)/> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 38\par
+\f1\fs144 >\f6 '\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert <glyph font=TibetanMachineWeb8 charNum=42 character=*/> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 39\par
+\f1\fs144 >\f6 (\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert <glyph font=TibetanMachineWeb8 charNum=43 character=+/> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 40\par
+\f1\fs144 >\f6 )\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF02B to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 41\par
+\f1\fs144 >\f6 *\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF02C to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 42\par
+\f1\fs144 >\f6 +\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F10 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 43\par
+\f1\fs144 >\f6 ,\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF028 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 44\par
+\f1\fs144 >\f6 .\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF02A to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 46\par
+\f1\fs144 >\f6 /\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF029 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 47\par
+\f1\fs144 >\f6 0\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F12 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 48\par
+\f1\fs144 >\f6 2\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=53 character=5/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 50\par
+\f1\fs144 >\f6 3\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=54 character=6/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 51\par
+\f1\fs144 >\f6 4\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=55 character=7/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 52\par
+\f1\fs144 >\f6 5\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=56 character=8/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 53\par
+\f1\fs144 >\f6 6\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=57 character=9/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 54\par
+\f1\fs144 >\f6 7\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=58 character=:/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 55\par
+\f1\fs144 >\f6 8\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=59 character=;/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 56\par
+\f1\fs144 >\f6 9\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=60 character=</> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 57\par
+\f1\fs144 >\f6 :\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=61 character==/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 58\par
+\f1\fs144 >\f6 ;\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=62 character=>/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 59\par
+\f1\fs144 >\f6 <\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=63 character=?/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 60\par
+\f1\fs144 >\f6 =\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=64 character=@/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 61\par
+\f1\fs144 >\f6 >\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=65 character=A/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 62\par
+\f1\fs144 >\f6 ?\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=66 character=B/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 63\par
+\f1\fs144 >\f6 @\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=67 character=C/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 64\par
+\f1\fs144 >\f6 A\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=68 character=D/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 65\par
+\f1\fs144 >\f6 B\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=69 character=E/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 66\par
+\f1\fs144 >\f6 C\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=70 character=F/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 67\par
+\f1\fs144 >\f6 D\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=71 character=G/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 68\par
+\f1\fs144 >\f6 E\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=72 character=H/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 69\par
+\f1\fs144 >\f6 F\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F33 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 70\par
+\f1\fs144 >\f6 G\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F2A to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 71\par
+\f1\fs144 >\f6 H\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F2B to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 72\par
+\f1\fs144 >\f6 I\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F2C to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 73\par
+\f1\fs144 >\f6 J\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F2D to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 74\par
+\f1\fs144 >\f6 K\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F2E to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 75\par
+\f1\fs144 >\f6 L\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F2F to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 76\par
+\f1\fs144 >\f6 M\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F30 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 77\par
+\f1\fs144 >\f6 N\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F31 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 78\par
+\f1\fs144 >\f6 O\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F32 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 79\par
+\f1\fs144 >\f6 P\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0FC0 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 80\par
+\f1\fs144 >\f6 Q\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0FC1 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 81\par
+\f1\fs144 >\f6 R\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0FC2 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 82\par
+\f1\fs144 >\f6 S\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0FC3 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 83\par
+\f1\fs144 >\f6 T\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF03B to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 84\par
+\f1\fs144 >\f6 Z\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF039 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 90\par
+\f1\fs144 >\f6 [\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF03A to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 91\par
+\f1\fs144 >\f6\\\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF035 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 92\par
+\f1\fs144 >\f6 ]\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF036 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 93\par
+\f1\fs144 >\f6 ^\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F13 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 94\par
+\f1\fs144 >\f6 _\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie < to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 95\par
+\f1\fs144 >\f6 `\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie > to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 96\par
+\f1\fs144 >\f6 a\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u5350 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 97\par
+\f1\fs144 >\f6 b\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u534D to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 98\par
+\f1\fs144 >\f6 c\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF038 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 99\par
+\f1\fs144 >\f6 d\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF037 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 100\par
+\f1\fs144 >\f6 e\f1 >\f2\i0\b0\ul0 o\fs28\i0\b0\ul0\cf0  font 5; ord 101\par
+\f1\fs144 >\f6 f\f1 >\f2\i0\b0\ul0 %\fs28\i0\b0\ul0\cf0  font 5; ord 102\par
+\f1\fs144 >\f6 g\f1 >\f2\i0\b0\ul0 ^\fs28\i0\b0\ul0\cf0  font 5; ord 103\par
+\f1\fs144 >\f6 h\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0FBE to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 104\par
+\f1\fs144 >\f6 i\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0FBF to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 105\par
+\f1\fs144 >\f6 j\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F36 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 106\par
+\f1\fs144 >\f6 k\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F87 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 107\par
+\f1\fs144 >\f6 l\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F86 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 108\par
+\f1\fs144 >\f6 m\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F89 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 109\par
+\f1\fs144 >\f6 n\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F8A to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 110\par
+\f1\fs144 >\f6 o\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F8B to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 111\par
+\f1\fs144 >\f6 s\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F1A to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 115\par
+\f1\fs144 >\f6 t\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F1D to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 116\par
+\f1\fs144 >\f6 u\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F1B to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 117\par
+\f1\fs144 >\f6 v\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F1E to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 118\par
+\f1\fs144 >\f6 w\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F1F to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 119\par
+\f1\fs144 >\f6 x\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F1C to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 120\par
+\f1\fs144 >\f6 y\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0FCF to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 121\par
+\f1\fs144 >\f6 z\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF03C to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 122\par
+\f1\fs144 >\f6\{\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF03D to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 123\par
+\f1\fs144 >\f6 |\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF03E to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 124\par
+\f1\fs144 >\f6\}\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF03F to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 125\par
+\f1\fs144 >\f6 ~\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF040 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 126\par
+\f1\fs144 >\f6\u128 ?\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF041 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 128\par
+\f1\fs144 >\f6\u129 ?\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F15 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 129\par
+\f1\fs144 >\f6\u130 ?\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F16 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 130\par
+\f1\fs144 >\f6\u131 ?\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F17 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 131\par
+\f1\fs144 >\f6\u132 ?\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F18 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 132\par
+\f1\fs144 >\f6\u133 ?\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0F19 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 133\par
+\f1\fs144 >\f6\u134 ?\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert <glyph font=TibetanMachineWeb9 charNum=39 character='/> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 134\par
+\f1\fs144 >\f6\u135 ?\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert <glyph font=TibetanMachineWeb9 charNum=40 character=(/> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 135\par
+\f1\fs144 >\f6\u145 ?\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF034 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 145\par
+\f1\fs144 >\f6\u146 ?\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF031 to ACIP.  Please transcribe this yourself.]A\fs28\i0\b0\ul0\cf0  font 5; ord 146\par
+\f1\fs144 >\f6\u147 ?\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF032 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 147\par
+\f1\fs144 >\f6\u148 ?\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF033 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 148\par
+\f1\fs144 >\f6\u149 ?\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\uF027 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 149\par
+\f1\fs144 >\f6\u153 ?\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie f to ACIP.  Please transcribe this yourself.]A\fs28\i0\b0\ul0\cf0  font 5; ord 153\par
+\f1\fs144 >\f6\u154 ?\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie v to ACIP.  Please transcribe this yourself.]A\fs28\i0\b0\ul0\cf0  font 5; ord 154\par
+\f1\fs144 >\f6\u155 ?\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb9 charNum=60 character=</> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>> to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 155\par
+\f1\fs144 >\f6\u156 ?\f1 >\f2\i0\b0\ul0 O'I\fs28\i0\b0\ul0\cf0  font 5; ord 156\par
+\f1\fs144 >\f6\'be\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0FC4 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 190\par
+\f1\fs144 >\f6\'bf\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0FC5 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 191\par
+\f1\fs144 >\f6\'c0\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0FC6 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 192\par
+\f1\fs144 >\f6\'c1\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0FC7 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 193\par
+\f1\fs144 >\f6\'c2\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0FC8 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 194\par
+\f1\fs144 >\f6\'c3\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0FC9 to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 195\par
+\f1\fs144 >\f6\'c4\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0FCA to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 196\par
+\f1\fs144 >\f6\'c5\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0FCB to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 197\par
+\f1\fs144 >\f6\'c6\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie \\u0FCC to ACIP.  Please transcribe this yourself.]\fs28\i0\b0\ul0\cf0  font 5; ord 198\par
+\f1\fs144 >\f6\'c8\f1 >\f2\i0\b0\ul0 KA\fs28\i0\b0\ul0\cf0  font 5; ord 200\par
+\f1\fs144 >\f6\'c9\f1 >\f2\i0\b0\ul0 KHA\fs28\i0\b0\ul0\cf0  font 5; ord 201\par
+\f1\fs144 >\f6\'ca\f1 >\f2\i0\b0\ul0 GA\fs28\i0\b0\ul0\cf0  font 5; ord 202\par
+\f1\fs144 >\f6\'cb\f1 >\f2\i0\b0\ul0 GHA\fs28\i0\b0\ul0\cf0  font 5; ord 203\par
+\f1\fs144 >\f6\'cc\f1 >\f2\i0\b0\ul0 NGA\fs28\i0\b0\ul0\cf0  font 5; ord 204\par
+\f1\fs144 >\f6\'cd\f1 >\f2\i0\b0\ul0 CA\fs28\i0\b0\ul0\cf0  font 5; ord 205\par
+\f1\fs144 >\f6\'ce\f1 >\f2\i0\b0\ul0 CHA\fs28\i0\b0\ul0\cf0  font 5; ord 206\par
+\f1\fs144 >\f6\'cf\f1 >\f2\i0\b0\ul0 JA\fs28\i0\b0\ul0\cf0  font 5; ord 207\par
+\f1\fs144 >\f6\'d0\f1 >\f2\i0\b0\ul0 NYA\fs28\i0\b0\ul0\cf0  font 5; ord 208\par
+\f1\fs144 >\f6\'d1\f1 >\f2\i0\b0\ul0 tA\fs28\i0\b0\ul0\cf0  font 5; ord 209\par
+\f1\fs144 >\f6\'d2\f1 >\f2\i0\b0\ul0 thA\fs28\i0\b0\ul0\cf0  font 5; ord 210\par
+\f1\fs144 >\f6\'d3\f1 >\f2\i0\b0\ul0 dA\fs28\i0\b0\ul0\cf0  font 5; ord 211\par
+\f1\fs144 >\f6\'d4\f1 >\f2\i0\b0\ul0 dHA\fs28\i0\b0\ul0\cf0  font 5; ord 212\par
+\f1\fs144 >\f6\'d5\f1 >\f2\i0\b0\ul0 nA\fs28\i0\b0\ul0\cf0  font 5; ord 213\par
+\f1\fs144 >\f6\'d6\f1 >\f2\i0\b0\ul0 TA\fs28\i0\b0\ul0\cf0  font 5; ord 214\par
+\f1\fs144 >\f6\'d7\f1 >\f2\i0\b0\ul0 THA\fs28\i0\b0\ul0\cf0  font 5; ord 215\par
+\f1\fs144 >\f6\'d8\f1 >\f2\i0\b0\ul0 DA\fs28\i0\b0\ul0\cf0  font 5; ord 216\par
+\f1\fs144 >\f6\'d9\f1 >\f2\i0\b0\ul0 DHA\fs28\i0\b0\ul0\cf0  font 5; ord 217\par
+\f1\fs144 >\f6\'da\f1 >\f2\i0\b0\ul0 NA\fs28\i0\b0\ul0\cf0  font 5; ord 218\par
+\f1\fs144 >\f6\'db\f1 >\f2\i0\b0\ul0 PA\fs28\i0\b0\ul0\cf0  font 5; ord 219\par
+\f1\fs144 >\f6\'dc\f1 >\f2\i0\b0\ul0 PHA\fs28\i0\b0\ul0\cf0  font 5; ord 220\par
+\f1\fs144 >\f6\'dd\f1 >\f2\i0\b0\ul0 BA\fs28\i0\b0\ul0\cf0  font 5; ord 221\par
+\f1\fs144 >\f6\'de\f1 >\f2\i0\b0\ul0 BHA\fs28\i0\b0\ul0\cf0  font 5; ord 222\par
+\f1\fs144 >\f6\'df\f1 >\f2\i0\b0\ul0 MA\fs28\i0\b0\ul0\cf0  font 5; ord 223\par
+\f1\fs144 >\f6\'e0\f1 >\f2\i0\b0\ul0 TZA\fs28\i0\b0\ul0\cf0  font 5; ord 224\par
+\f1\fs144 >\f6\'e1\f1 >\f2\i0\b0\ul0 TSA\fs28\i0\b0\ul0\cf0  font 5; ord 225\par
+\f1\fs144 >\f6\'e2\f1 >\f2\i0\b0\ul0 DZA\fs28\i0\b0\ul0\cf0  font 5; ord 226\par
+\f1\fs144 >\f6\'e3\f1 >\f2\i0\b0\ul0 DZHA\fs28\i0\b0\ul0\cf0  font 5; ord 227\par
+\f1\fs144 >\f6\'e4\f1 >\f2\i0\b0\ul0 WA\fs28\i0\b0\ul0\cf0  font 5; ord 228\par
+\f1\fs144 >\f6\'e5\f1 >\f2\i0\b0\ul0 ZHA\fs28\i0\b0\ul0\cf0  font 5; ord 229\par
+\f1\fs144 >\f6\'e6\f1 >\f2\i0\b0\ul0 ZA\fs28\i0\b0\ul0\cf0  font 5; ord 230\par
+\f1\fs144 >\f6\'e7\f1 >\f2\i0\b0\ul0 'A\fs28\i0\b0\ul0\cf0  font 5; ord 231\par
+\f1\fs144 >\f6\'e8\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie Y to ACIP.  Please transcribe this yourself.]A\fs28\i0\b0\ul0\cf0  font 5; ord 232\par
+\f1\fs144 >\f6\'e9\f1 >\f2\i0\b0\ul0 [# JSKAD_TMW_TO_ACIP_ERROR_NO_SUCH_ACIP: Cannot convert glyph with THDL Extended Wylie R to ACIP.  Please transcribe this yourself.]A\fs28\i0\b0\ul0\cf0  font 5; ord 233\par
+\f1\fs144 >\f6\'ea\f1 >\f2\i0\b0\ul0 LA\fs28\i0\b0\ul0\cf0  font 5; ord 234\par
+\f1\fs144 >\f6\'eb\f1 >\f2\i0\b0\ul0 SHA\fs28\i0\b0\ul0\cf0  font 5; ord 235\par
+\f1\fs144 >\f6\'ec\f1 >\f2\i0\b0\ul0 shA\fs28\i0\b0\ul0\cf0  font 5; ord 236\par
+\f1\fs144 >\f6\'ed\f1 >\f2\i0\b0\ul0 SA\fs28\i0\b0\ul0\cf0  font 5; ord 237\par
+\f1\fs144 >\f6\'ee\f1 >\f2\i0\b0\ul0 HA\fs28\i0\b0\ul0\cf0  font 5; ord 238\par
+\f1\fs144 >\f6\'ef\f1 >\f2\i0\b0\ul0 AA\fs28\i0\b0\ul0\cf0  font 5; ord 239\par
+\f1\fs144 >\f6\'f0\f1 >\f2\i0\b0\ul0 KshA\fs28\i0\b0\ul0\cf0  font 5; ord 240\par
+\fs72\i0\b0\ul0\par
+\par
+\fs24\par
+}

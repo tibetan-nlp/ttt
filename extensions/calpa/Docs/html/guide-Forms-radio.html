@@ -1,0 +1,151 @@
+<HTML>
+<BODY bgcolor=ffffff>
+<P>
+<TABLE width=100% cellspacing=0 cellpadding=0>
+<TR>
+<TD>
+<FONT size=-1><B>CalHTMLPane v2.0 Guide</B></FONT>
+</TD>
+<TD align=right>
+<FONT size=-1><B>Example Tag Usage</B></FONT>
+</TD>
+</TR>
+</TABLE>
+<HR width=100% size=1 color=black>
+<P>
+<FONT size=+1><B>2: Forms</B></FONT>
+<P>
+<BLOCKQUOTE>
+<P>
+<B>Tag: INPUT (radio)</B><BR>
+<P>
+<BLOCKQUOTE>
+<TABLE border align=center width=100% cellpadding=12>
+
+<TR>
+<TD>
+<B>Default Rendering (no color modification):</B>
+<P>
+<FORM>
+<table align=center border=2 cellspacing=2 cellpadding=5 width=400 bgcolor=uicontrol>
+<colgroup span=4 align=center width=25%>
+</colgroup>
+<tr><th>&nbsp;</th><th>lookandfeel</th><th>threedee</th><th>flush</th></tr>
+<tr>
+<td><B>uicontrol</B>
+<td><input type=radio style=lookandfeel name=a value=1> Text</td>
+<td><input type=radio style=threedee name=b value=1> Text</td>
+<td><input type=radio style=flush name=c value=1> Text</td>
+</tr>
+<tr bgcolor=white>
+<td><B>white</B>
+<td><input type=radio style=lookandfeel name=a value=2> Text</td>
+<td><input type=radio style=threedee name=b value=2> Text</td>
+<td><input type=radio style=flush name=c value=2> Text</td>
+</tr>
+<tr bgcolor=black>
+<td><B><FONT color=white>black</FONT></B>
+<td><input type=radio style=lookandfeel name=a value=3> <FONT color=white>Text</FONT></td>
+<td><input type=radio style=threedee name=b value=3> <FONT color=white>Text</FONT></td>
+<td><input type=radio style=flush name=c value=3> <FONT color=white>Text</FONT></td>
+</tr>
+<tr bgcolor=ddccee>
+<td><B>(light)</B>
+<td><input type=radio style=lookandfeel name=a value=4> Text</td>
+<td><input type=radio style=threedee name=b value=4> Text</td>
+<td><input type=radio style=flush name=c value=4> Text</td>
+</tr>
+<tr bgcolor=557733>
+<td><B>(dark)</B>
+<td><input type=radio style=lookandfeel name=a value=5> Text</td>
+<td><input type=radio style=threedee name=b value=5> Text</td>
+<td><input type=radio style=flush name=c value=5> Text</td>
+</tr>
+</table>
+</FORM>
+<BR>
+</TD></TR>
+<TR><TD>
+<B>Setting color attributes:</B>
+<P>
+<table align=center bgcolor=ffffdd cellspacing=0 cellpadding=4 rules=none bordercolor=black frame=border>
+<tr>
+<td><FONT color=navy>
+&lt;TABLE border=2 cellspacing=2 cellpadding=5 width=200 bgcolor=uicontrol&gt;<BR>
+<code>&nbsp;&nbsp;</code>&lt;COLGROUP span=2 align=center width=50%&gt;&lt;/COLGROUP&gt;<BR>
+<code>&nbsp;&nbsp;</code>&lt;TR&gt;&lt;TH&gt;threedee&lt;/TH&gt;&lt;TH&gt;flush&lt;/TH&gt;&lt;/TR&gt;<BR>
+<code>&nbsp;&nbsp;</code>&lt;TR bgcolor=aa88aa&gt;&lt;TD&gt;<BR>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;</code>&lt;INPUT type=radio style=threedee bgcolor=aa88aa&gt; Text<BR>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;</code>&lt;INPUT type=radio style=flush bgcolor=aa88aa&gt; Text<BR>
+<code>&nbsp;&nbsp;</code>&lt;/TD&gt;&lt;/TR&gt;<BR>
+
+<code>&nbsp;&nbsp;</code>&lt;TR bgcolor=779988&gt;&lt;TD&gt;<BR>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;</code>&lt;INPUT type=radio style=threedee bgcolor=779988&gt; Text<BR>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;</code>&lt;INPUT type=radio style=flush bgcolor=779988&gt; Text<BR>
+<code>&nbsp;&nbsp;</code>&lt;/TD&gt;&lt;/TR&gt;<BR>
+
+<code>&nbsp;&nbsp;</code>&lt;TR bgcolor=ee99aa&gt;&lt;TD&gt;<BR>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;</code>&lt;INPUT type=radio style=threedee bgcolor=ee99aa&gt; Text<BR>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;</code>&lt;INPUT type=radio style=flush bgcolor=ee99aa&gt; Text<BR>
+<code>&nbsp;&nbsp;</code>&lt;/TD&gt;&lt;/TR&gt;<BR>
+
+<code>&nbsp;&nbsp;</code>&lt;TR bgcolor=ccaa22&gt;&lt;TD&gt;<BR>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;</code>&lt;INPUT type=radio style=threedee bgcolor=ccaa22&gt; Text<BR>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;</code>&lt;INPUT type=radio style=flush bgcolor=ccaa22&gt; Text<BR>
+<code>&nbsp;&nbsp;</code>&lt;/TD&gt;&lt;/TR&gt;<BR>
+
+
+&lt;/TABLE&gt;</FONT>
+</td>
+</tr>
+</table>
+<P>
+</TR>
+</TD>
+<TR><TD>
+<P>
+<B>Rendering:</B>
+<BR>
+<table align=center border=2 cellspacing=2 cellpadding=5 width=200 bgcolor=uicontrol>
+<colgroup span=2 align=center width=50%>
+</colgroup>
+<tr><th>threedee</th><th>flush</th></tr>
+<tr bgcolor=aa88aa>
+<td><input type=radio style=threedee bgcolor=aa88aa> Text</td>
+<td><input type=radio style=flush bgcolor=aa88aa> Text</td>
+</tr>
+<tr bgcolor=779988>
+<td><input type=radio style=threedee bgcolor=779988> Text</td>
+<td><input type=radio style=flush bgcolor=779988> Text</td>
+</tr>
+<tr bgcolor=ee99aa>
+<td><input type=radio style=threedee bgcolor=ee99aa> Text</td>
+<td><input type=radio style=flush bgcolor=ee99aa> Text</td>
+</tr>
+<tr bgcolor=ccaa22>
+<td><input type=radio style=threedee bgcolor=ccaa22 > Text</td>
+<td><input type=radio style=flush bgcolor=ccaa22> Text</td>
+</tr>
+</table>
+<BR>
+</TD>
+</TR>
+
+
+</TABLE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+
+<TABLE align=center width=50%>
+<TR>
+<TD align=center>
+<A href="../CalGuide.html">Guide Index</A> &nbsp;&#124;
+<A href="../javadoc/overview-tree.html">&nbsp;JavaDoc</A> &nbsp;&#124;
+<A href="guide-Forms-checkbox.html">&nbsp;Previous</A> &nbsp;&#124;
+<A href="guide-Forms-combobox.html">&nbsp;Next</A>
+</TD>
+</TR>
+</TABLE>
+
+</BODY>
+</HTML>

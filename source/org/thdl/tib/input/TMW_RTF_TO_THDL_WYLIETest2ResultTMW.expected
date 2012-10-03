@@ -1,0 +1,911 @@
+{\rtf1\ansi
+{\fonttbl\f0\fnil Monospaced;\f1\fnil TibetanMachineWeb;\f2\fnil TibetanMachineWeb1;\f3\fnil Serif;\f4\fnil TibetanMachineWeb7;\f5\fnil TibetanMachineWeb9;\f6\fnil TibetanMachineWeb8;\f7\fnil TibetanMachineWeb3;\f8\fnil TibetanMachineWeb2;\f9\fnil TibetanMachineWeb4;\f10\fnil TibetanMachineWeb5;\f11\fnil TibetanMachineWeb6;}
+
+\li0\ri0\fi0\f1\fs144 ? ?\f2\i0\b0\ul0\cf0  \f3\fs28  font 1; ord 32\par
+\f1\fs144\i0\b0\ul0 ?!?\i0\b0\ul0\cf0 !\f3\fs28  font 1; ord 33\par
+\f1\fs144\i0\b0\ul0 ?"?\i0\b0\ul0\cf0 "\f3\fs28  font 1; ord 34\par
+\f1\fs144\i0\b0\ul0 ?#?\i0\b0\ul0\cf0 #\f3\fs28  font 1; ord 35\par
+\f1\fs144\i0\b0\ul0 ?$?\i0\b0\ul0\cf0 $\f3\fs28  font 1; ord 36\par
+\f1\fs144\i0\b0\ul0 ?%?\i0\b0\ul0\cf0 %\f3\fs28  font 1; ord 37\par
+\f1\fs144\i0\b0\ul0 ?&?\i0\b0\ul0\cf0 &\f3\fs28  font 1; ord 38\par
+\f1\fs144\i0\b0\ul0 ?'?\i0\b0\ul0\cf0 '\f3\fs28  font 1; ord 39\par
+\f1\fs144\i0\b0\ul0 ?(?\i0\b0\ul0\cf0 (\f3\fs28  font 1; ord 40\par
+\f1\fs144\i0\b0\ul0 ?)?\i0\b0\ul0\cf0 )\f3\fs28  font 1; ord 41\par
+\f1\fs144\i0\b0\ul0 ?*?\i0\b0\ul0\cf0 *\f3\fs28  font 1; ord 42\par
+\f1\fs144\i0\b0\ul0 ?+?\i0\b0\ul0\cf0 +\f3\fs28  font 1; ord 43\par
+\f1\fs144\i0\b0\ul0 ?,?\i0\b0\ul0\cf0 ,\f3\fs28  font 1; ord 44\par
+\f1\fs144\i0\b0\ul0 ?-?\f2\i0\b0\ul0\cf0 -\f3\fs28  font 1; ord 45\par
+\f1\fs144\i0\b0\ul0 ?/?\i0\b0\ul0\cf0 /\f3\fs28  font 1; ord 46\par
+\f1\fs144\i0\b0\ul0 ?0?\i0\b0\ul0\cf0 0\f3\fs28  font 1; ord 47\par
+\f1\fs144\i0\b0\ul0 ?1?\i0\b0\ul0\cf0 1\f3\fs28  font 1; ord 48\par
+\f1\fs144\i0\b0\ul0 ?2?\i0\b0\ul0\cf0 2\f3\fs28  font 1; ord 49\par
+\f1\fs144\i0\b0\ul0 ?3?\i0\b0\ul0\cf0 3\f3\fs28  font 1; ord 50\par
+\f1\fs144\i0\b0\ul0 ?4?\i0\b0\ul0\cf0 4\f3\fs28  font 1; ord 51\par
+\f1\fs144\i0\b0\ul0 ?5?\i0\b0\ul0\cf0 5\f3\fs28  font 1; ord 52\par
+\f1\fs144\i0\b0\ul0 ?6?\i0\b0\ul0\cf0 6\f3\fs28  font 1; ord 53\par
+\f1\fs144\i0\b0\ul0 ?7?\i0\b0\ul0\cf0 7\f3\fs28  font 1; ord 54\par
+\f1\fs144\i0\b0\ul0 ?8?\i0\b0\ul0\cf0 8\f3\fs28  font 1; ord 55\par
+\f1\fs144\i0\b0\ul0 ?9?\i0\b0\ul0\cf0 9\f3\fs28  font 1; ord 56\par
+\f1\fs144\i0\b0\ul0 ?:?\i0\b0\ul0\cf0 :\f3\fs28  font 1; ord 57\par
+\f1\fs144\i0\b0\ul0 ?;?\i0\b0\ul0\cf0 ;\f3\fs28  font 1; ord 58\par
+\f1\fs144\i0\b0\ul0 ?<?\i0\b0\ul0\cf0 <\f3\fs28  font 1; ord 59\par
+\f1\fs144\i0\b0\ul0 ?=?\i0\b0\ul0\cf0 =\f3\fs28  font 1; ord 60\par
+\f1\fs144\i0\b0\ul0 ?>?\i0\b0\ul0\cf0 >\f3\fs28  font 1; ord 61\par
+\f1\fs144\i0\b0\ul0 ???\i0\b0\ul0\cf0 ?\f3\fs28  font 1; ord 62\par
+\f1\fs144\i0\b0\ul0 ?F?\i0\b0\ul0\cf0 F\f3\fs28  font 1; ord 63\par
+\f1\fs144\i0\b0\ul0 ?G?\i0\b0\ul0\cf0 G\f3\fs28  font 1; ord 64\par
+\f1\fs144\i0\b0\ul0 ?H?\i0\b0\ul0\cf0 H\f3\fs28  font 1; ord 65\par
+\f1\fs144\i0\b0\ul0 ?I?\i0\b0\ul0\cf0 I\f3\fs28  font 1; ord 66\par
+\f1\fs144\i0\b0\ul0 ?J?\i0\b0\ul0\cf0 J\f3\fs28  font 1; ord 67\par
+\f1\fs144\i0\b0\ul0 ?K?\i0\b0\ul0\cf0 K\f3\fs28  font 1; ord 68\par
+\f1\fs144\i0\b0\ul0 ?L?\i0\b0\ul0\cf0 L\f3\fs28  font 1; ord 69\par
+\f1\fs144\i0\b0\ul0 ?M?\i0\b0\ul0\cf0 M\f3\fs28  font 1; ord 70\par
+\f1\fs144\i0\b0\ul0 ?N?\i0\b0\ul0\cf0 N\f3\fs28  font 1; ord 71\par
+\f1\fs144\i0\b0\ul0 ?O?\i0\b0\ul0\cf0 O\f3\fs28  font 1; ord 72\par
+\f1\fs144\i0\b0\ul0 ?P?\i0\b0\ul0\cf0 P\f3\fs28  font 1; ord 73\par
+\f1\fs144\i0\b0\ul0 ?Q?\i0\b0\ul0\cf0 Q\f3\fs28  font 1; ord 74\par
+\f1\fs144\i0\b0\ul0 ?R?\i0\b0\ul0\cf0 R\f3\fs28  font 1; ord 75\par
+\f1\fs144\i0\b0\ul0 ?S?\i0\b0\ul0\cf0 S\f3\fs28  font 1; ord 76\par
+\f1\fs144\i0\b0\ul0 ?T?\i0\b0\ul0\cf0 T\f3\fs28  font 1; ord 77\par
+\f1\fs144\i0\b0\ul0 ?U?\i0\b0\ul0\cf0 U\f3\fs28  font 1; ord 78\par
+\f1\fs144\i0\b0\ul0 ?V?\i0\b0\ul0\cf0 V\f3\fs28  font 1; ord 79\par
+\f1\fs144\i0\b0\ul0 ?W?\i0\b0\ul0\cf0 W\f3\fs28  font 1; ord 80\par
+\f1\fs144\i0\b0\ul0 ?X?\i0\b0\ul0\cf0 X\f3\fs28  font 1; ord 81\par
+\f1\fs144\i0\b0\ul0 ?Y?\i0\b0\ul0\cf0 Y\f3\fs28  font 1; ord 82\par
+\f1\fs144\i0\b0\ul0 ?Z?\i0\b0\ul0\cf0 Z\f3\fs28  font 1; ord 83\par
+\f1\fs144\i0\b0\ul0 ?[?\i0\b0\ul0\cf0 [\f3\fs28  font 1; ord 84\par
+\f1\fs144\i0\b0\ul0 ?\f2 !\f1 ?\f2\i0\b0\ul0\cf0 !\f3\fs28  font 1; ord 85\par
+\f1\fs144\i0\b0\ul0 ?\f2 "\f1 ?\f2\i0\b0\ul0\cf0 "\f3\fs28  font 1; ord 86\par
+\f1\fs144\i0\b0\ul0 ?\f2 #\f1 ?\f2\i0\b0\ul0\cf0 #\f3\fs28  font 1; ord 87\par
+\f1\fs144\i0\b0\ul0 ?\f2 $\f1 ?\f2\i0\b0\ul0\cf0 $\f3\fs28  font 1; ord 88\par
+\f1\fs144\i0\b0\ul0 ?\f2 %\f1 ?\f2\i0\b0\ul0\cf0 %\f3\fs28  font 1; ord 89\par
+\f1\fs144\i0\b0\ul0 ?\f2 &\f1 ?\f2\i0\b0\ul0\cf0 &\f3\fs28  font 1; ord 90\par
+\f1\fs144\i0\b0\ul0 ?\f2 '\f1 ?\f2\i0\b0\ul0\cf0 '\f3\fs28  font 1; ord 91\par
+\f1\fs144\i0\b0\ul0 ?\f2 (\f1 ?\f2\i0\b0\ul0\cf0 (\f3\fs28  font 1; ord 92\par
+\f1\fs144\i0\b0\ul0 ?\f2 )\f1 ?\f2\i0\b0\ul0\cf0 )\f3\fs28  font 1; ord 93\par
+\f1\fs144\i0\b0\ul0 ?\f2 *\f1 ?\f2\i0\b0\ul0\cf0 *\f3\fs28  font 1; ord 94\par
+\f1\fs144\i0\b0\ul0 ?\f2 +\f1 ?\f2\i0\b0\ul0\cf0 +\f3\fs28  font 1; ord 95\par
+\f1\fs144\i0\b0\ul0 ?\f2 <\f1 ?\f2\i0\b0\ul0\cf0 <\f3\fs28  font 1; ord 96\par
+\f1\fs144\i0\b0\ul0 ?\f2 =\f1 ?\f2\i0\b0\ul0\cf0 =\f3\fs28  font 1; ord 97\par
+\f1\fs144\i0\b0\ul0 ?\f2 >\f1 ?\f2\i0\b0\ul0\cf0 >\f3\fs28  font 1; ord 98\par
+\f1\fs144\i0\b0\ul0 ?\f2 ?\f1 ?\f2\i0\b0\ul0\cf0 ?\f3\fs28  font 1; ord 99\par
+\f1\fs144\i0\b0\ul0 ?\f2 @\f1 ?\f2\i0\b0\ul0\cf0 @\f3\fs28  font 1; ord 100\par
+\f1\fs144\i0\b0\ul0 ?\f2 A\f1 ?\f2\i0\b0\ul0\cf0 A\f3\fs28  font 1; ord 101\par
+\f1\fs144\i0\b0\ul0 ?\f2 B\f1 ?\f2\i0\b0\ul0\cf0 B\f3\fs28  font 1; ord 102\par
+\f1\fs144\i0\b0\ul0 ?\f2 C\f1 ?\f2\i0\b0\ul0\cf0 C\f3\fs28  font 1; ord 103\par
+\f1\fs144\i0\b0\ul0 ?\f2 D\f1 ?\f2\i0\b0\ul0\cf0 D\f3\fs28  font 1; ord 104\par
+\f1\fs144\i0\b0\ul0 ?\f2 E\f1 ?\f2\i0\b0\ul0\cf0 E\f3\fs28  font 1; ord 105\par
+\f1\fs144\i0\b0\ul0 ?\f2 F\f1 ?\f2\i0\b0\ul0\cf0 F\f3\fs28  font 1; ord 106\par
+\f1\fs144\i0\b0\ul0 ?\f2 G\f1 ?\f2\i0\b0\ul0\cf0 G\f3\fs28  font 1; ord 107\par
+\f1\fs144\i0\b0\ul0 ?\f2 H\f1 ?\f2\i0\b0\ul0\cf0 H\f3\fs28  font 1; ord 108\par
+\f1\fs144\i0\b0\ul0 ?\f2 I\f1 ?\f2\i0\b0\ul0\cf0 I\f3\fs28  font 1; ord 109\par
+\f1\fs144\i0\b0\ul0 ?\f2 J\f1 ?\f2\i0\b0\ul0\cf0 J\f3\fs28  font 1; ord 110\par
+\f1\fs144\i0\b0\ul0 ?\f2 K\f1 ?\f2\i0\b0\ul0\cf0 K\f3\fs28  font 1; ord 111\par
+\f1\fs144\i0\b0\ul0 ?\f2 L\f1 ?\f2\i0\b0\ul0\cf0 L\f3\fs28  font 1; ord 112\par
+\f1\fs144\i0\b0\ul0 ?\f2 M\f1 ?\f2\i0\b0\ul0\cf0 M\f3\fs28  font 1; ord 113\par
+\f1\fs144\i0\b0\ul0 ?\f2 N\f1 ?\f2\i0\b0\ul0\cf0 N\f3\fs28  font 1; ord 114\par
+\f1\fs144\i0\b0\ul0 ?\f2 O\f1 ?\f2\i0\b0\ul0\cf0 O\f3\fs28  font 1; ord 115\par
+\f1\fs144\i0\b0\ul0 ?\f2 P\f1 ?\f2\i0\b0\ul0\cf0 P\f3\fs28  font 1; ord 116\par
+\f1\fs144\i0\b0\ul0 ?\f2 Q\f1 ?\f2\i0\b0\ul0\cf0 Q\f3\fs28  font 1; ord 117\par
+\f1\fs144\i0\b0\ul0 ?\f2 R\f1 ?\f2\i0\b0\ul0\cf0 R\f3\fs28  font 1; ord 118\par
+\f1\fs144\i0\b0\ul0 ?\f2 S\f1 ?\f2\i0\b0\ul0\cf0 S\f3\fs28  font 1; ord 119\par
+\f1\fs144\i0\b0\ul0 ?\f2 T\f1 ?\f2\i0\b0\ul0\cf0 T\f3\fs28  font 1; ord 120\par
+\f1\fs144\i0\b0\ul0 ?\f2 U\f1 ?\f2\i0\b0\ul0\cf0 U\f3\fs28  font 1; ord 121\par
+\f1\fs144\i0\b0\ul0 ?\f2 V\f1 ?\f2\i0\b0\ul0\cf0 V\f3\fs28  font 1; ord 122\par
+\f1\fs144\i0\b0\ul0 ?\f2 W\f1 ?\f2\i0\b0\ul0\cf0 W\f3\fs28  font 1; ord 123\par
+\f1\fs144\i0\b0\ul0 ?\f2 X\f1 ?\f2\i0\b0\ul0\cf0 X\f3\fs28  font 1; ord 124\par
+\f1\fs144\i0\b0\ul0 ?\f2 Y\f1 ?\f2\i0\b0\ul0\cf0 Y\f3\fs28  font 1; ord 125\par
+\f1\fs144\i0\b0\ul0 ?\f2 Z\f1 ?\f2\i0\b0\ul0\cf0 Z\f3\fs28  font 1; ord 126\par
+\f1\fs144\i0\b0\ul0 ?\f2\\\f1 ?\f2\i0\b0\ul0\cf0\\\f3\fs28  font 1; ord 128\par
+\f1\fs144\i0\b0\ul0 ?\f2 ]\f1 ?\f2\i0\b0\ul0\cf0 ]\f3\fs28  font 1; ord 129\par
+\f1\fs144\i0\b0\ul0 ?\f2 ^\f1 ?\f2\i0\b0\ul0\cf0 ^\f3\fs28  font 1; ord 130\par
+\f1\fs144\i0\b0\ul0 ?\f2 _\f1 ?\f2\i0\b0\ul0\cf0 _\f3\fs28  font 1; ord 131\par
+\f1\fs144\i0\b0\ul0 ?\f2 `\f1 ?\f2\i0\b0\ul0\cf0 `\f3\fs28  font 1; ord 132\par
+\f1\fs144\i0\b0\ul0 ?\f2 a\f1 ?\f2\i0\b0\ul0\cf0 a\f3\fs28  font 1; ord 133\par
+\f1\fs144\i0\b0\ul0 ?\f2 b\f1 ?\f2\i0\b0\ul0\cf0 b\f3\fs28  font 1; ord 134\par
+\f1\fs144\i0\b0\ul0 ?\f2 c\f1 ?\f2\i0\b0\ul0\cf0 c\f3\fs28  font 1; ord 135\par
+\f1\fs144\i0\b0\ul0 ?\f2 d\f1 ?\f2\i0\b0\ul0\cf0 d\f3\fs28  font 1; ord 136\par
+\f1\fs144\i0\b0\ul0 ?\f2 e\f1 ?\f2\i0\b0\ul0\cf0 e\f3\fs28  font 1; ord 137\par
+\f1\fs144\i0\b0\ul0 ?\f2 ,\f1 ?\f2\i0\b0\ul0\cf0 ,\f3\fs28  font 1; ord 138\par
+\f1\fs144\i0\b0\ul0 ?\f2 .\f1 ?\f2\i0\b0\ul0\cf0 .\f3\fs28  font 1; ord 139\par
+\f1\fs144\i0\b0\ul0 ?\f2 /\f1 ?\f2\i0\b0\ul0\cf0 /\f3\fs28  font 1; ord 140\par
+\f1\fs144\i0\b0\ul0 ?\f2 0\f1 ?\f2\i0\b0\ul0\cf0 0\f3\fs28  font 1; ord 141\par
+\f1\fs144\i0\b0\ul0 ?\f2 2\f1 ?\f2\i0\b0\ul0\cf0 2\f3\fs28  font 1; ord 143\par
+\f1\fs144\i0\b0\ul0 ?\f2 3\f1 ?\f2\i0\b0\ul0\cf0 3\f3\fs28  font 1; ord 144\par
+\f1\fs144\i0\b0\ul0 ?\f2 4\f1 ?\f2\i0\b0\ul0\cf0 4\f3\fs28  font 1; ord 145\par
+\f1\fs144\i0\b0\ul0 ?\f2 5\f1 ?\f2\i0\b0\ul0\cf0 5\f3\fs28  font 1; ord 146\par
+\f1\fs144\i0\b0\ul0 ?\f2 6\f1 ?\f2\i0\b0\ul0\cf0 6\f3\fs28  font 1; ord 147\par
+\f1\fs144\i0\b0\ul0 ?\f2 7\f1 ?\f2\i0\b0\ul0\cf0 7\f3\fs28  font 1; ord 148\par
+\f1\fs144\i0\b0\ul0 ?\f2 8\f1 ?\f2\i0\b0\ul0\cf0 8\f3\fs28  font 1; ord 149\par
+\f1\fs144\i0\b0\ul0 ?\f2 9\f1 ?\f2\i0\b0\ul0\cf0 9\f3\fs28  font 1; ord 150\par
+\f1\fs144\i0\b0\ul0 ?\f2 :\f1 ?\f2\i0\b0\ul0\cf0 :\f3\fs28  font 1; ord 151\par
+\f1\fs144\i0\b0\ul0 ?\f2 ;\f1 ?\f2\i0\b0\ul0\cf0 ;\f3\fs28  font 1; ord 152\par
+\f1\fs144\i0\b0\ul0 ?\f2 f\f1 ?\f2\i0\b0\ul0\cf0 f\f3\fs28  font 1; ord 153\par
+\f1\fs144\i0\b0\ul0 ?\f2 g\f1 ?\f2\i0\b0\ul0\cf0 g\f3\fs28  font 1; ord 154\par
+\f1\fs144\i0\b0\ul0 ?\f2 h\f1 ?\f2\i0\b0\ul0\cf0 h\f3\fs28  font 1; ord 155\par
+\f1\fs144\i0\b0\ul0 ?f?\i0\b0\ul0\cf0 f\f3\fs28  font 1; ord 156\par
+\f1\fs144\i0\b0\ul0 ?\f2 1\f1 ?\f2\i0\b0\ul0\cf0 1\f3\fs28  font 1; ord 157\par
+\f1\fs144\i0\b0\ul0 ?\f4 E\f1 ?\f4\i0\b0\ul0\cf0 E\f3\fs28  font 1; ord 159\par
+\f1\fs144\i0\b0\ul0 ?\f5 r\f1 ?\f5\i0\b0\ul0\cf0 r\f3\fs28  font 1; ord 161\par
+\f1\fs144\i0\b0\ul0 ?\f5 s\f1 ?\f5\i0\b0\ul0\cf0 s\f3\fs28  font 1; ord 162\par
+\f1\fs144\i0\b0\ul0 ?\f5 t\f1 ?\f5\i0\b0\ul0\cf0 t\f3\fs28  font 1; ord 163\par
+\f1\fs144\i0\b0\ul0 ?\f5 u\f1 ?\f5\i0\b0\ul0\cf0 u\f3\fs28  font 1; ord 164\par
+\f1\fs144\i0\b0\ul0 ?o?\i0\b0\ul0\cf0 o\f3\fs28  font 1; ord 165\par
+\f1\fs144\i0\b0\ul0 ?q?\i0\b0\ul0\cf0 q\f3\fs28  font 1; ord 167\par
+\f1\fs144\i0\b0\ul0 ?\f2 q\f1 ?\f2\i0\b0\ul0\cf0 q\f3\fs28  font 1; ord 168\par
+\f1\fs144\i0\b0\ul0 ?\f2 r\f1 ?\f2\i0\b0\ul0\cf0 r\f3\fs28  font 1; ord 169\par
+\f1\fs144\i0\b0\ul0 ?@?\i0\b0\ul0\cf0 @\f3\fs28  font 1; ord 170\par
+\f1\fs144\i0\b0\ul0 ?A?\i0\b0\ul0\cf0 A\f3\fs28  font 1; ord 171\par
+\f1\fs144\i0\b0\ul0 ?B?\i0\b0\ul0\cf0 B\f3\fs28  font 1; ord 172\par
+\f1\fs144\i0\b0\ul0 ?C?\i0\b0\ul0\cf0 C\f3\fs28  font 1; ord 173\par
+\f1\fs144\i0\b0\ul0 ?D?\i0\b0\ul0\cf0 D\f3\fs28  font 1; ord 174\par
+\f1\fs144\i0\b0\ul0 ?E?\i0\b0\ul0\cf0 E\f3\fs28  font 1; ord 175\par
+\f1\fs144\i0\b0\ul0 ?t?\i0\b0\ul0\cf0 t\f3\fs28  font 1; ord 176\par
+\f1\fs144\i0\b0\ul0 ?u?\i0\b0\ul0\cf0 u\f3\fs28  font 1; ord 177\par
+\f1\fs144\i0\b0\ul0 ?\f2 o\f1 ?\f2\i0\b0\ul0\cf0 o\f3\fs28  font 1; ord 178\par
+\f1\fs144\i0\b0\ul0 ?\f2 p\f1 ?\f2\i0\b0\ul0\cf0 p\f3\fs28  font 1; ord 179\par
+\f1\fs144\i0\b0\ul0 ?\\?\i0\b0\ul0\cf0\\\f3\fs28  font 1; ord 180\par
+\f1\fs144\i0\b0\ul0 ?]?\i0\b0\ul0\cf0 ]\f3\fs28  font 1; ord 181\par
+\f1\fs144\i0\b0\ul0 ?^?\i0\b0\ul0\cf0 ^\f3\fs28  font 1; ord 182\par
+\f1\fs144\i0\b0\ul0 ?_?\i0\b0\ul0\cf0 _\f3\fs28  font 1; ord 183\par
+\f1\fs144\i0\b0\ul0 ?`?\i0\b0\ul0\cf0 `\f3\fs28  font 1; ord 184\par
+\f1\fs144\i0\b0\ul0 ?a?\i0\b0\ul0\cf0 a\f3\fs28  font 1; ord 185\par
+\f1\fs144\i0\b0\ul0 ?b?\i0\b0\ul0\cf0 b\f3\fs28  font 1; ord 186\par
+\f1\fs144\i0\b0\ul0 ?c?\i0\b0\ul0\cf0 c\f3\fs28  font 1; ord 187\par
+\f1\fs144\i0\b0\ul0 ?d?\i0\b0\ul0\cf0 d\f3\fs28  font 1; ord 188\par
+\f1\fs144\i0\b0\ul0 ?e?\i0\b0\ul0\cf0 e\f3\fs28  font 1; ord 189\par
+\f1\fs144\i0\b0\ul0 ?\f5 0\f1 ?\f5\i0\b0\ul0\cf0 0\f3\fs28  font 1; ord 190\par
+\f1\fs144\i0\b0\ul0 ?\f5 1\f1 ?\f5\i0\b0\ul0\cf0 1\f3\fs28  font 1; ord 191\par
+\f1\fs144\i0\b0\ul0 ?\f5 2\f1 ?\f5\i0\b0\ul0\cf0 2\f3\fs28  font 1; ord 192\par
+\f1\fs144\i0\b0\ul0 ?\f5 3\f1 ?\f5\i0\b0\ul0\cf0 3\f3\fs28  font 1; ord 193\par
+\f1\fs144\i0\b0\ul0 ?\f5 4\f1 ?\f5\i0\b0\ul0\cf0 4\f3\fs28  font 1; ord 194\par
+\f1\fs144\i0\b0\ul0 ?\f5 5\f1 ?\f5\i0\b0\ul0\cf0 5\f3\fs28  font 1; ord 195\par
+\f1\fs144\i0\b0\ul0 ?\f5 6\f1 ?\f5\i0\b0\ul0\cf0 6\f3\fs28  font 1; ord 196\par
+\f1\fs144\i0\b0\ul0 ?\f5 7\f1 ?\f5\i0\b0\ul0\cf0 7\f3\fs28  font 1; ord 197\par
+\f1\fs144\i0\b0\ul0 ?\f5 8\f1 ?\f5\i0\b0\ul0\cf0 8\f3\fs28  font 1; ord 198\par
+\f1\fs144\i0\b0\ul0 ?\f5 9\f1 ?\f5\i0\b0\ul0\cf0 9\f3\fs28  font 1; ord 199\par
+\f1\fs144\i0\b0\ul0 ?\f6 '\f1 ?\f6\i0\b0\ul0\cf0 '\f3\fs28  font 1; ord 200\par
+\f1\fs144\i0\b0\ul0 ?\f6 (\f1 ?\f6\i0\b0\ul0\cf0 (\f3\fs28  font 1; ord 201\par
+\f1\fs144\i0\b0\ul0 ?k?\i0\b0\ul0\cf0 k\f3\fs28  font 1; ord 202\par
+\f1\fs144\i0\b0\ul0 ?g?\i0\b0\ul0\cf0 g\f3\fs28  font 1; ord 203\par
+\f1\fs144\i0\b0\ul0 ?h?\i0\b0\ul0\cf0 h\f3\fs28  font 1; ord 204\par
+\f1\fs144\i0\b0\ul0 ?l?\i0\b0\ul0\cf0 l\f3\fs28  font 1; ord 205\par
+\f1\fs144\i0\b0\ul0 ?i?\i0\b0\ul0\cf0 i\f3\fs28  font 1; ord 206\par
+\f1\fs144\i0\b0\ul0 ?j?\i0\b0\ul0\cf0 j\f3\fs28  font 1; ord 207\par
+\f1\fs144\i0\b0\ul0 ?\f6 ]\f1 ?\f6\i0\b0\ul0\cf0 ]\f3\fs28  font 1; ord 208\par
+\f1\fs144\i0\b0\ul0 ?\f6 ^\f1 ?\f6\i0\b0\ul0\cf0 ^\f3\fs28  font 1; ord 209\par
+\f1\fs144\i0\b0\ul0 ?\f6 &\f1 ?\f6\i0\b0\ul0\cf0 &\f3\fs28  font 1; ord 210\par
+\f1\fs144\i0\b0\ul0 ?\f5 v\f1 ?\f5\i0\b0\ul0\cf0 v\f3\fs28  font 1; ord 211\par
+\f1\fs144\i0\b0\ul0 ?\f5 w\f1 ?\f5\i0\b0\ul0\cf0 w\f3\fs28  font 1; ord 212\par
+\f1\fs144\i0\b0\ul0 ?\f5 x\f1 ?\f5\i0\b0\ul0\cf0 x\f3\fs28  font 1; ord 213\par
+\f1\fs144\i0\b0\ul0 ?\f5 y\f1 ?\f5\i0\b0\ul0\cf0 y\f3\fs28  font 1; ord 214\par
+\f1\fs144\i0\b0\ul0 ?\f5 z\f1 ?\f5\i0\b0\ul0\cf0 z\f3\fs28  font 1; ord 215\par
+\f1\fs144\i0\b0\ul0 ?\f5\{\f1 ?\f5\i0\b0\ul0\cf0\{\f3\fs28  font 1; ord 216\par
+\f1\fs144\i0\b0\ul0 ?\f5 |\f1 ?\f5\i0\b0\ul0\cf0 |\f3\fs28  font 1; ord 217\par
+\f1\fs144\i0\b0\ul0 ?\f5\}\f1 ?\f5\i0\b0\ul0\cf0\}\f3\fs28  font 1; ord 218\par
+\f1\fs144\i0\b0\ul0 ?\f5 ~\f1 ?\f5\i0\b0\ul0\cf0 ~\f3\fs28  font 1; ord 219\par
+\f1\fs144\i0\b0\ul0 ?m?\i0\b0\ul0\cf0 m\f3\fs28  font 1; ord 220\par
+\f1\fs144\i0\b0\ul0 ?n?\i0\b0\ul0\cf0 n\f3\fs28  font 1; ord 221\par
+\f1\fs144\i0\b0\ul0 ?\f4 W\f1 ?\f4\i0\b0\ul0\cf0 W\f3\fs28  font 1; ord 222\par
+\f1\fs144\i0\b0\ul0 ?v?\i0\b0\ul0\cf0 v\f3\fs28  font 1; ord 223\par
+\f1\fs144\i0\b0\ul0 ?w?\i0\b0\ul0\cf0 w\f3\fs28  font 1; ord 224\par
+\f1\fs144\i0\b0\ul0 ?\f2 s\f1 ?\f2\i0\b0\ul0\cf0 s\f3\fs28  font 1; ord 225\par
+\f1\fs144\i0\b0\ul0 ?p?\i0\b0\ul0\cf0 p\f3\fs28  font 1; ord 226\par
+\f1\fs144\i0\b0\ul0 ?y?\i0\b0\ul0\cf0 y\f3\fs28  font 1; ord 227\par
+\f1\fs144\i0\b0\ul0 ?\f2 t\f1 ?\f2\i0\b0\ul0\cf0 t\f3\fs28  font 1; ord 228\par
+\f1\fs144\i0\b0\ul0 ?\f2 u\f1 ?\f2\i0\b0\ul0\cf0 u\f3\fs28  font 1; ord 229\par
+\f1\fs144\i0\b0\ul0 ?\f2 v\f1 ?\f2\i0\b0\ul0\cf0 v\f3\fs28  font 1; ord 230\par
+\f1\fs144\i0\b0\ul0 ?\f2 w\f1 ?\f2\i0\b0\ul0\cf0 w\f3\fs28  font 1; ord 231\par
+\f1\fs144\i0\b0\ul0 ?\{?\i0\b0\ul0\cf0\{\f3\fs28  font 1; ord 232\par
+\f1\fs144\i0\b0\ul0 ?|?\i0\b0\ul0\cf0 |\f3\fs28  font 1; ord 233\par
+\f1\fs144\i0\b0\ul0 ?\f4 X\f1 ?\f4\i0\b0\ul0\cf0 X\f3\fs28  font 1; ord 234\par
+\f1\fs144\i0\b0\ul0 ?\}?\i0\b0\ul0\cf0\}\f3\fs28  font 1; ord 235\par
+\f1\fs144\i0\b0\ul0 ?~?\i0\b0\ul0\cf0 ~\f3\fs28  font 1; ord 236\par
+\f1\fs144\i0\b0\ul0 ?\f4 Y\f1 ?\f4\i0\b0\ul0\cf0 Y\f3\fs28  font 1; ord 237\par
+\f1\fs144\i0\b0\ul0 ?\f4 Z\f1 ?\f4\i0\b0\ul0\cf0 Z\f3\fs28  font 1; ord 238\par
+\f1\fs144\i0\b0\ul0 ?\f4\\\f1 ?\f4\i0\b0\ul0\cf0\\\f3\fs28  font 1; ord 239\par
+\f1\fs144\i0\b0\ul0 ?\f4 ^\f1 ?\f4\i0\b0\ul0\cf0 ^\f3\fs28  font 1; ord 241\par
+\f1\fs144\i0\b0\ul0 ?\f4 _\f1 ?\f4\i0\b0\ul0\cf0 _\f3\fs28  font 1; ord 242\par
+\f1\fs144\i0\b0\ul0 ?\f4 `\f1 ?\f4\i0\b0\ul0\cf0 `\f3\fs28  font 1; ord 243\par
+\f1\fs144\i0\b0\ul0 ?\f4 a\f1 ?\f4\i0\b0\ul0\cf0 a\f3\fs28  font 1; ord 244\par
+\f1\fs144\i0\b0\ul0 ?\f4 b\f1 ?\f4\i0\b0\ul0\cf0 b\f3\fs28  font 1; ord 245\par
+\f1\fs144\i0\b0\ul0 ?\f4 c\f1 ?\f4\i0\b0\ul0\cf0 c\f3\fs28  font 1; ord 246\par
+\f1\fs144\i0\b0\ul0 ?\f4 d\f1 ?\f4\i0\b0\ul0\cf0 d\f3\fs28  font 1; ord 247\par
+\f1\fs144\i0\b0\ul0 ?\f4 e\f1 ?\f4\i0\b0\ul0\cf0 e\f3\fs28  font 1; ord 248\par
+\f1\fs144\i0\b0\ul0 ?\f4 f\f1 ?\f4\i0\b0\ul0\cf0 f\f3\fs28  font 1; ord 249\par
+\f1\fs144\i0\b0\ul0 ?\f4 g\f1 ?\f4\i0\b0\ul0\cf0 g\f3\fs28  font 1; ord 250\par
+\f1\fs144\i0\b0\ul0 ?\f4 h\f1 ?\f4\i0\b0\ul0\cf0 h\f3\fs28  font 1; ord 251\par
+\f1\fs144\i0\b0\ul0 ?\f4 i\f1 ?\f4\i0\b0\ul0\cf0 i\f3\fs28  font 1; ord 252\par
+\f1\fs144\i0\b0\ul0 ?.?\i0\b0\ul0\cf0 .\f3\fs28  font 1; ord 253\par
+\f1\fs144\i0\b0\ul0 ?\f2 [\f1 ?\f2\i0\b0\ul0\cf0 [\f3\fs28  font 1; ord 254\par
+\f1\fs144\i0\b0\ul0 ? ?\f7\i0\b0\ul0\cf0  \f3\fs28  font 2; ord 32\par
+\f1\fs144\i0\b0\ul0 ?\f8 !\f1 ?\f8\i0\b0\ul0\cf0 !\f3\fs28  font 2; ord 33\par
+\f1\fs144\i0\b0\ul0 ?\f8 "\f1 ?\f8\i0\b0\ul0\cf0 "\f3\fs28  font 2; ord 34\par
+\f1\fs144\i0\b0\ul0 ?\f8 #\f1 ?\f8\i0\b0\ul0\cf0 #\f3\fs28  font 2; ord 35\par
+\f1\fs144\i0\b0\ul0 ?\f8 $\f1 ?\f8\i0\b0\ul0\cf0 $\f3\fs28  font 2; ord 36\par
+\f1\fs144\i0\b0\ul0 ?\f8 %\f1 ?\f8\i0\b0\ul0\cf0 %\f3\fs28  font 2; ord 37\par
+\f1\fs144\i0\b0\ul0 ?\f8 &\f1 ?\f8\i0\b0\ul0\cf0 &\f3\fs28  font 2; ord 38\par
+\f1\fs144\i0\b0\ul0 ?\f8 '\f1 ?\f8\i0\b0\ul0\cf0 '\f3\fs28  font 2; ord 39\par
+\f1\fs144\i0\b0\ul0 ?\f8 (\f1 ?\f8\i0\b0\ul0\cf0 (\f3\fs28  font 2; ord 40\par
+\f1\fs144\i0\b0\ul0 ?\f8 )\f1 ?\f8\i0\b0\ul0\cf0 )\f3\fs28  font 2; ord 41\par
+\f1\fs144\i0\b0\ul0 ?\f8 *\f1 ?\f8\i0\b0\ul0\cf0 *\f3\fs28  font 2; ord 42\par
+\f1\fs144\i0\b0\ul0 ?\f8 +\f1 ?\f8\i0\b0\ul0\cf0 +\f3\fs28  font 2; ord 43\par
+\f1\fs144\i0\b0\ul0 ?\f8 ,\f1 ?\f8\i0\b0\ul0\cf0 ,\f3\fs28  font 2; ord 44\par
+\f1\fs144\i0\b0\ul0 ?\f8 /\f1 ?\f8\i0\b0\ul0\cf0 /\f3\fs28  font 2; ord 46\par
+\f1\fs144\i0\b0\ul0 ?\f8 0\f1 ?\f8\i0\b0\ul0\cf0 0\f3\fs28  font 2; ord 47\par
+\f1\fs144\i0\b0\ul0 ?\f8 1\f1 ?\f8\i0\b0\ul0\cf0 1\f3\fs28  font 2; ord 48\par
+\f1\fs144\i0\b0\ul0 ?\f8 2\f1 ?\f8\i0\b0\ul0\cf0 2\f3\fs28  font 2; ord 49\par
+\f1\fs144\i0\b0\ul0 ?\f8 3\f1 ?\f8\i0\b0\ul0\cf0 3\f3\fs28  font 2; ord 50\par
+\f1\fs144\i0\b0\ul0 ?\f8 5\f1 ?\f8\i0\b0\ul0\cf0 5\f3\fs28  font 2; ord 51\par
+\f1\fs144\i0\b0\ul0 ?\f8 6\f1 ?\f8\i0\b0\ul0\cf0 6\f3\fs28  font 2; ord 52\par
+\f1\fs144\i0\b0\ul0 ?\f8 7\f1 ?\f8\i0\b0\ul0\cf0 7\f3\fs28  font 2; ord 53\par
+\f1\fs144\i0\b0\ul0 ?\f8 8\f1 ?\f8\i0\b0\ul0\cf0 8\f3\fs28  font 2; ord 54\par
+\f1\fs144\i0\b0\ul0 ?\f8 9\f1 ?\f8\i0\b0\ul0\cf0 9\f3\fs28  font 2; ord 55\par
+\f1\fs144\i0\b0\ul0 ?\f8 :\f1 ?\f8\i0\b0\ul0\cf0 :\f3\fs28  font 2; ord 56\par
+\f1\fs144\i0\b0\ul0 ?\f8 ;\f1 ?\f8\i0\b0\ul0\cf0 ;\f3\fs28  font 2; ord 57\par
+\f1\fs144\i0\b0\ul0 ?\f8 <\f1 ?\f8\i0\b0\ul0\cf0 <\f3\fs28  font 2; ord 58\par
+\f1\fs144\i0\b0\ul0 ?\f8 =\f1 ?\f8\i0\b0\ul0\cf0 =\f3\fs28  font 2; ord 59\par
+\f1\fs144\i0\b0\ul0 ?\f8 >\f1 ?\f8\i0\b0\ul0\cf0 >\f3\fs28  font 2; ord 60\par
+\f1\fs144\i0\b0\ul0 ?\f8 ?\f1 ?\f8\i0\b0\ul0\cf0 ?\f3\fs28  font 2; ord 61\par
+\f1\fs144\i0\b0\ul0 ?\f8 @\f1 ?\f8\i0\b0\ul0\cf0 @\f3\fs28  font 2; ord 62\par
+\f1\fs144\i0\b0\ul0 ?\f8 A\f1 ?\f8\i0\b0\ul0\cf0 A\f3\fs28  font 2; ord 63\par
+\f1\fs144\i0\b0\ul0 ?\f8 B\f1 ?\f8\i0\b0\ul0\cf0 B\f3\fs28  font 2; ord 64\par
+\f1\fs144\i0\b0\ul0 ?\f8 C\f1 ?\f8\i0\b0\ul0\cf0 C\f3\fs28  font 2; ord 65\par
+\f1\fs144\i0\b0\ul0 ?\f8 D\f1 ?\f8\i0\b0\ul0\cf0 D\f3\fs28  font 2; ord 66\par
+\f1\fs144\i0\b0\ul0 ?\f8 E\f1 ?\f8\i0\b0\ul0\cf0 E\f3\fs28  font 2; ord 67\par
+\f1\fs144\i0\b0\ul0 ?\f8 F\f1 ?\f8\i0\b0\ul0\cf0 F\f3\fs28  font 2; ord 68\par
+\f1\fs144\i0\b0\ul0 ?\f8 G\f1 ?\f8\i0\b0\ul0\cf0 G\f3\fs28  font 2; ord 69\par
+\f1\fs144\i0\b0\ul0 ?\f8 H\f1 ?\f8\i0\b0\ul0\cf0 H\f3\fs28  font 2; ord 70\par
+\f1\fs144\i0\b0\ul0 ?\f8 I\f1 ?\f8\i0\b0\ul0\cf0 I\f3\fs28  font 2; ord 71\par
+\f1\fs144\i0\b0\ul0 ?\f8 J\f1 ?\f8\i0\b0\ul0\cf0 J\f3\fs28  font 2; ord 72\par
+\f1\fs144\i0\b0\ul0 ?\f8 K\f1 ?\f8\i0\b0\ul0\cf0 K\f3\fs28  font 2; ord 73\par
+\f1\fs144\i0\b0\ul0 ?\f8 L\f1 ?\f8\i0\b0\ul0\cf0 L\f3\fs28  font 2; ord 74\par
+\f1\fs144\i0\b0\ul0 ?\f8 M\f1 ?\f8\i0\b0\ul0\cf0 M\f3\fs28  font 2; ord 75\par
+\f1\fs144\i0\b0\ul0 ?\f8 N\f1 ?\f8\i0\b0\ul0\cf0 N\f3\fs28  font 2; ord 76\par
+\f1\fs144\i0\b0\ul0 ?\f8 O\f1 ?\f8\i0\b0\ul0\cf0 O\f3\fs28  font 2; ord 77\par
+\f1\fs144\i0\b0\ul0 ?\f8 P\f1 ?\f8\i0\b0\ul0\cf0 P\f3\fs28  font 2; ord 78\par
+\f1\fs144\i0\b0\ul0 ?\f8 Q\f1 ?\f8\i0\b0\ul0\cf0 Q\f3\fs28  font 2; ord 79\par
+\f1\fs144\i0\b0\ul0 ?\f8 R\f1 ?\f8\i0\b0\ul0\cf0 R\f3\fs28  font 2; ord 80\par
+\f1\fs144\i0\b0\ul0 ?\f8 S\f1 ?\f8\i0\b0\ul0\cf0 S\f3\fs28  font 2; ord 81\par
+\f1\fs144\i0\b0\ul0 ?\f8 T\f1 ?\f8\i0\b0\ul0\cf0 T\f3\fs28  font 2; ord 82\par
+\f1\fs144\i0\b0\ul0 ?\f8 U\f1 ?\f8\i0\b0\ul0\cf0 U\f3\fs28  font 2; ord 83\par
+\f1\fs144\i0\b0\ul0 ?\f8 V\f1 ?\f8\i0\b0\ul0\cf0 V\f3\fs28  font 2; ord 84\par
+\f1\fs144\i0\b0\ul0 ?\f8 W\f1 ?\f8\i0\b0\ul0\cf0 W\f3\fs28  font 2; ord 85\par
+\f1\fs144\i0\b0\ul0 ?\f8 X\f1 ?\f8\i0\b0\ul0\cf0 X\f3\fs28  font 2; ord 86\par
+\f1\fs144\i0\b0\ul0 ?\f8 Y\f1 ?\f8\i0\b0\ul0\cf0 Y\f3\fs28  font 2; ord 87\par
+\f1\fs144\i0\b0\ul0 ?\f8 Z\f1 ?\f8\i0\b0\ul0\cf0 Z\f3\fs28  font 2; ord 88\par
+\f1\fs144\i0\b0\ul0 ?\f8 [\f1 ?\f8\i0\b0\ul0\cf0 [\f3\fs28  font 2; ord 89\par
+\f1\fs144\i0\b0\ul0 ?\f8\\\f1 ?\f8\i0\b0\ul0\cf0\\\f3\fs28  font 2; ord 90\par
+\f1\fs144\i0\b0\ul0 ?\f8 ]\f1 ?\f8\i0\b0\ul0\cf0 ]\f3\fs28  font 2; ord 91\par
+\f1\fs144\i0\b0\ul0 ?\f8 ^\f1 ?\f8\i0\b0\ul0\cf0 ^\f3\fs28  font 2; ord 92\par
+\f1\fs144\i0\b0\ul0 ?\f8 _\f1 ?\f8\i0\b0\ul0\cf0 _\f3\fs28  font 2; ord 93\par
+\f1\fs144\i0\b0\ul0 ?\f8 `\f1 ?\f8\i0\b0\ul0\cf0 `\f3\fs28  font 2; ord 94\par
+\f1\fs144\i0\b0\ul0 ?\f8 a\f1 ?\f8\i0\b0\ul0\cf0 a\f3\fs28  font 2; ord 95\par
+\f1\fs144\i0\b0\ul0 ?\f8 b\f1 ?\f8\i0\b0\ul0\cf0 b\f3\fs28  font 2; ord 96\par
+\f1\fs144\i0\b0\ul0 ?\f8 c\f1 ?\f8\i0\b0\ul0\cf0 c\f3\fs28  font 2; ord 97\par
+\f1\fs144\i0\b0\ul0 ?\f8 d\f1 ?\f8\i0\b0\ul0\cf0 d\f3\fs28  font 2; ord 98\par
+\f1\fs144\i0\b0\ul0 ?\f8 e\f1 ?\f8\i0\b0\ul0\cf0 e\f3\fs28  font 2; ord 99\par
+\f1\fs144\i0\b0\ul0 ?\f8 f\f1 ?\f8\i0\b0\ul0\cf0 f\f3\fs28  font 2; ord 100\par
+\f1\fs144\i0\b0\ul0 ?\f8 g\f1 ?\f8\i0\b0\ul0\cf0 g\f3\fs28  font 2; ord 101\par
+\f1\fs144\i0\b0\ul0 ?\f8 h\f1 ?\f8\i0\b0\ul0\cf0 h\f3\fs28  font 2; ord 102\par
+\f1\fs144\i0\b0\ul0 ?\f8 i\f1 ?\f8\i0\b0\ul0\cf0 i\f3\fs28  font 2; ord 103\par
+\f1\fs144\i0\b0\ul0 ?\f8 j\f1 ?\f8\i0\b0\ul0\cf0 j\f3\fs28  font 2; ord 104\par
+\f1\fs144\i0\b0\ul0 ?\f8 k\f1 ?\f8\i0\b0\ul0\cf0 k\f3\fs28  font 2; ord 105\par
+\f1\fs144\i0\b0\ul0 ?\f8 l\f1 ?\f8\i0\b0\ul0\cf0 l\f3\fs28  font 2; ord 106\par
+\f1\fs144\i0\b0\ul0 ?\f8 m\f1 ?\f8\i0\b0\ul0\cf0 m\f3\fs28  font 2; ord 107\par
+\f1\fs144\i0\b0\ul0 ?\f8 n\f1 ?\f8\i0\b0\ul0\cf0 n\f3\fs28  font 2; ord 108\par
+\f1\fs144\i0\b0\ul0 ?\f8 o\f1 ?\f8\i0\b0\ul0\cf0 o\f3\fs28  font 2; ord 109\par
+\f1\fs144\i0\b0\ul0 ?\f8 p\f1 ?\f8\i0\b0\ul0\cf0 p\f3\fs28  font 2; ord 110\par
+\f1\fs144\i0\b0\ul0 ?\f8 q\f1 ?\f8\i0\b0\ul0\cf0 q\f3\fs28  font 2; ord 111\par
+\f1\fs144\i0\b0\ul0 ?\f8 r\f1 ?\f8\i0\b0\ul0\cf0 r\f3\fs28  font 2; ord 112\par
+\f1\fs144\i0\b0\ul0 ?\f8 s\f1 ?\f8\i0\b0\ul0\cf0 s\f3\fs28  font 2; ord 113\par
+\f1\fs144\i0\b0\ul0 ?\f8 t\f1 ?\f8\i0\b0\ul0\cf0 t\f3\fs28  font 2; ord 114\par
+\f1\fs144\i0\b0\ul0 ?\f8 u\f1 ?\f8\i0\b0\ul0\cf0 u\f3\fs28  font 2; ord 115\par
+\f1\fs144\i0\b0\ul0 ?\f8 v\f1 ?\f8\i0\b0\ul0\cf0 v\f3\fs28  font 2; ord 116\par
+\f1\fs144\i0\b0\ul0 ?\f8 w\f1 ?\f8\i0\b0\ul0\cf0 w\f3\fs28  font 2; ord 117\par
+\f1\fs144\i0\b0\ul0 ?\f8 x\f1 ?\f8\i0\b0\ul0\cf0 x\f3\fs28  font 2; ord 118\par
+\f1\fs144\i0\b0\ul0 ?\f8 y\f1 ?\f8\i0\b0\ul0\cf0 y\f3\fs28  font 2; ord 119\par
+\f1\fs144\i0\b0\ul0 ?\f8 z\f1 ?\f8\i0\b0\ul0\cf0 z\f3\fs28  font 2; ord 120\par
+\f1\fs144\i0\b0\ul0 ?\f8\{\f1 ?\f8\i0\b0\ul0\cf0\{\f3\fs28  font 2; ord 121\par
+\f1\fs144\i0\b0\ul0 ?\f8 |\f1 ?\f8\i0\b0\ul0\cf0 |\f3\fs28  font 2; ord 122\par
+\f1\fs144\i0\b0\ul0 ?\f8\}\f1 ?\f8\i0\b0\ul0\cf0\}\f3\fs28  font 2; ord 123\par
+\f1\fs144\i0\b0\ul0 ?\f8 ~\f1 ?\f8\i0\b0\ul0\cf0 ~\f3\fs28  font 2; ord 124\par
+\f1\fs144\i0\b0\ul0 ?\f7 !\f1 ?\f7\i0\b0\ul0\cf0 !\f3\fs28  font 2; ord 125\par
+\f1\fs144\i0\b0\ul0 ?\f7 "\f1 ?\f7\i0\b0\ul0\cf0 "\f3\fs28  font 2; ord 126\par
+\f1\fs144\i0\b0\ul0 ?\f7 $\f1 ?\f7\i0\b0\ul0\cf0 $\f3\fs28  font 2; ord 128\par
+\f1\fs144\i0\b0\ul0 ?\f7 %\f1 ?\f7\i0\b0\ul0\cf0 %\f3\fs28  font 2; ord 129\par
+\f1\fs144\i0\b0\ul0 ?\f7 &\f1 ?\f7\i0\b0\ul0\cf0 &\f3\fs28  font 2; ord 130\par
+\f1\fs144\i0\b0\ul0 ?\f7 '\f1 ?\f7\i0\b0\ul0\cf0 '\f3\fs28  font 2; ord 131\par
+\f1\fs144\i0\b0\ul0 ?\f7 (\f1 ?\f7\i0\b0\ul0\cf0 (\f3\fs28  font 2; ord 132\par
+\f1\fs144\i0\b0\ul0 ?\f7 )\f1 ?\f7\i0\b0\ul0\cf0 )\f3\fs28  font 2; ord 133\par
+\f1\fs144\i0\b0\ul0 ?\f7 *\f1 ?\f7\i0\b0\ul0\cf0 *\f3\fs28  font 2; ord 134\par
+\f1\fs144\i0\b0\ul0 ?\f7 +\f1 ?\f7\i0\b0\ul0\cf0 +\f3\fs28  font 2; ord 135\par
+\f1\fs144\i0\b0\ul0 ?\f7 ,\f1 ?\f7\i0\b0\ul0\cf0 ,\f3\fs28  font 2; ord 136\par
+\f1\fs144\i0\b0\ul0 ?\f7 .\f1 ?\f7\i0\b0\ul0\cf0 .\f3\fs28  font 2; ord 137\par
+\f1\fs144\i0\b0\ul0 ?\f7 /\f1 ?\f7\i0\b0\ul0\cf0 /\f3\fs28  font 2; ord 138\par
+\f1\fs144\i0\b0\ul0 ?\f7 0\f1 ?\f7\i0\b0\ul0\cf0 0\f3\fs28  font 2; ord 139\par
+\f1\fs144\i0\b0\ul0 ?\f7 1\f1 ?\f7\i0\b0\ul0\cf0 1\f3\fs28  font 2; ord 140\par
+\f1\fs144\i0\b0\ul0 ?\f7 2\f1 ?\f7\i0\b0\ul0\cf0 2\f3\fs28  font 2; ord 141\par
+\f1\fs144\i0\b0\ul0 ?\f7 4\f1 ?\f7\i0\b0\ul0\cf0 4\f3\fs28  font 2; ord 143\par
+\f1\fs144\i0\b0\ul0 ?\f7 5\f1 ?\f7\i0\b0\ul0\cf0 5\f3\fs28  font 2; ord 144\par
+\f1\fs144\i0\b0\ul0 ?\f7 6\f1 ?\f7\i0\b0\ul0\cf0 6\f3\fs28  font 2; ord 145\par
+\f1\fs144\i0\b0\ul0 ?\f7 7\f1 ?\f7\i0\b0\ul0\cf0 7\f3\fs28  font 2; ord 146\par
+\f1\fs144\i0\b0\ul0 ?\f7 8\f1 ?\f7\i0\b0\ul0\cf0 8\f3\fs28  font 2; ord 147\par
+\f1\fs144\i0\b0\ul0 ?\f7 9\f1 ?\f7\i0\b0\ul0\cf0 9\f3\fs28  font 2; ord 148\par
+\f1\fs144\i0\b0\ul0 ?\f7 :\f1 ?\f7\i0\b0\ul0\cf0 :\f3\fs28  font 2; ord 149\par
+\f1\fs144\i0\b0\ul0 ?\f7 ;\f1 ?\f7\i0\b0\ul0\cf0 ;\f3\fs28  font 2; ord 150\par
+\f1\fs144\i0\b0\ul0 ?\f7 <\f1 ?\f7\i0\b0\ul0\cf0 <\f3\fs28  font 2; ord 151\par
+\f1\fs144\i0\b0\ul0 ?\f7 =\f1 ?\f7\i0\b0\ul0\cf0 =\f3\fs28  font 2; ord 152\par
+\f1\fs144\i0\b0\ul0 ?\f7 >\f1 ?\f7\i0\b0\ul0\cf0 >\f3\fs28  font 2; ord 153\par
+\f1\fs144\i0\b0\ul0 ?\f7 ?\f1 ?\f7\i0\b0\ul0\cf0 ?\f3\fs28  font 2; ord 154\par
+\f1\fs144\i0\b0\ul0 ?\f7 @\f1 ?\f7\i0\b0\ul0\cf0 @\f3\fs28  font 2; ord 155\par
+\f1\fs144\i0\b0\ul0 ?\f7 A\f1 ?\f7\i0\b0\ul0\cf0 A\f3\fs28  font 2; ord 156\par
+\f1\fs144\i0\b0\ul0 ?\f7 B\f1 ?\f7\i0\b0\ul0\cf0 B\f3\fs28  font 2; ord 157\par
+\f1\fs144\i0\b0\ul0 ?\f7 D\f1 ?\f7\i0\b0\ul0\cf0 D\f3\fs28  font 2; ord 159\par
+\f1\fs144\i0\b0\ul0 ?\f7 G\f1 ?\f7\i0\b0\ul0\cf0 G\f3\fs28  font 2; ord 161\par
+\f1\fs144\i0\b0\ul0 ?\f7 H\f1 ?\f7\i0\b0\ul0\cf0 H\f3\fs28  font 2; ord 162\par
+\f1\fs144\i0\b0\ul0 ?\f7 I\f1 ?\f7\i0\b0\ul0\cf0 I\f3\fs28  font 2; ord 163\par
+\f1\fs144\i0\b0\ul0 ?\f7 J\f1 ?\f7\i0\b0\ul0\cf0 J\f3\fs28  font 2; ord 164\par
+\f1\fs144\i0\b0\ul0 ?\f7 K\f1 ?\f7\i0\b0\ul0\cf0 K\f3\fs28  font 2; ord 165\par
+\f1\fs144\i0\b0\ul0 ?\f7 M\f1 ?\f7\i0\b0\ul0\cf0 M\f3\fs28  font 2; ord 167\par
+\f1\fs144\i0\b0\ul0 ?\f7 N\f1 ?\f7\i0\b0\ul0\cf0 N\f3\fs28  font 2; ord 168\par
+\f1\fs144\i0\b0\ul0 ?\f7 O\f1 ?\f7\i0\b0\ul0\cf0 O\f3\fs28  font 2; ord 169\par
+\f1\fs144\i0\b0\ul0 ?\f7 P\f1 ?\f7\i0\b0\ul0\cf0 P\f3\fs28  font 2; ord 170\par
+\f1\fs144\i0\b0\ul0 ?\f7 Q\f1 ?\f7\i0\b0\ul0\cf0 Q\f3\fs28  font 2; ord 171\par
+\f1\fs144\i0\b0\ul0 ?\f7 R\f1 ?\f7\i0\b0\ul0\cf0 R\f3\fs28  font 2; ord 172\par
+\f1\fs144\i0\b0\ul0 ?\f7 S\f1 ?\f7\i0\b0\ul0\cf0 S\f3\fs28  font 2; ord 173\par
+\f1\fs144\i0\b0\ul0 ?\f7 T\f1 ?\f7\i0\b0\ul0\cf0 T\f3\fs28  font 2; ord 174\par
+\f1\fs144\i0\b0\ul0 ?\f7 U\f1 ?\f7\i0\b0\ul0\cf0 U\f3\fs28  font 2; ord 175\par
+\f1\fs144\i0\b0\ul0 ?\f7 V\f1 ?\f7\i0\b0\ul0\cf0 V\f3\fs28  font 2; ord 176\par
+\f1\fs144\i0\b0\ul0 ?\f7 W\f1 ?\f7\i0\b0\ul0\cf0 W\f3\fs28  font 2; ord 177\par
+\f1\fs144\i0\b0\ul0 ?\f7 X\f1 ?\f7\i0\b0\ul0\cf0 X\f3\fs28  font 2; ord 178\par
+\f1\fs144\i0\b0\ul0 ?\f7 Y\f1 ?\f7\i0\b0\ul0\cf0 Y\f3\fs28  font 2; ord 179\par
+\f1\fs144\i0\b0\ul0 ?\f7 Z\f1 ?\f7\i0\b0\ul0\cf0 Z\f3\fs28  font 2; ord 180\par
+\f1\fs144\i0\b0\ul0 ?\f7 [\f1 ?\f7\i0\b0\ul0\cf0 [\f3\fs28  font 2; ord 181\par
+\f1\fs144\i0\b0\ul0 ?\f7\\\f1 ?\f7\i0\b0\ul0\cf0\\\f3\fs28  font 2; ord 182\par
+\f1\fs144\i0\b0\ul0 ?\f7 ]\f1 ?\f7\i0\b0\ul0\cf0 ]\f3\fs28  font 2; ord 183\par
+\f1\fs144\i0\b0\ul0 ?\f7 ^\f1 ?\f7\i0\b0\ul0\cf0 ^\f3\fs28  font 2; ord 184\par
+\f1\fs144\i0\b0\ul0 ?\f7 _\f1 ?\f7\i0\b0\ul0\cf0 _\f3\fs28  font 2; ord 185\par
+\f1\fs144\i0\b0\ul0 ?\f7 `\f1 ?\f7\i0\b0\ul0\cf0 `\f3\fs28  font 2; ord 186\par
+\f1\fs144\i0\b0\ul0 ?\f7 a\f1 ?\f7\i0\b0\ul0\cf0 a\f3\fs28  font 2; ord 187\par
+\f1\fs144\i0\b0\ul0 ?\f7 b\f1 ?\f7\i0\b0\ul0\cf0 b\f3\fs28  font 2; ord 188\par
+\f1\fs144\i0\b0\ul0 ?\f7 c\f1 ?\f7\i0\b0\ul0\cf0 c\f3\fs28  font 2; ord 189\par
+\f1\fs144\i0\b0\ul0 ?\f7 e\f1 ?\f7\i0\b0\ul0\cf0 e\f3\fs28  font 2; ord 190\par
+\f1\fs144\i0\b0\ul0 ?\f7 f\f1 ?\f7\i0\b0\ul0\cf0 f\f3\fs28  font 2; ord 191\par
+\f1\fs144\i0\b0\ul0 ?\f7 g\f1 ?\f7\i0\b0\ul0\cf0 g\f3\fs28  font 2; ord 192\par
+\f1\fs144\i0\b0\ul0 ?\f7 h\f1 ?\f7\i0\b0\ul0\cf0 h\f3\fs28  font 2; ord 193\par
+\f1\fs144\i0\b0\ul0 ?\f7 i\f1 ?\f7\i0\b0\ul0\cf0 i\f3\fs28  font 2; ord 194\par
+\f1\fs144\i0\b0\ul0 ?\f9 !\f1 ?\f9\i0\b0\ul0\cf0 !\f3\fs28  font 2; ord 195\par
+\f1\fs144\i0\b0\ul0 ?\f9 "\f1 ?\f9\i0\b0\ul0\cf0 "\f3\fs28  font 2; ord 196\par
+\f1\fs144\i0\b0\ul0 ?\f9 #\f1 ?\f9\i0\b0\ul0\cf0 #\f3\fs28  font 2; ord 197\par
+\f1\fs144\i0\b0\ul0 ?\f9 $\f1 ?\f9\i0\b0\ul0\cf0 $\f3\fs28  font 2; ord 198\par
+\f1\fs144\i0\b0\ul0 ?\f9 &\f1 ?\f9\i0\b0\ul0\cf0 &\f3\fs28  font 2; ord 199\par
+\f1\fs144\i0\b0\ul0 ?\f7 j\f1 ?\f7\i0\b0\ul0\cf0 j\f3\fs28  font 2; ord 201\par
+\f1\fs144\i0\b0\ul0 ?\f7 k\f1 ?\f7\i0\b0\ul0\cf0 k\f3\fs28  font 2; ord 202\par
+\f1\fs144\i0\b0\ul0 ?\f7 l\f1 ?\f7\i0\b0\ul0\cf0 l\f3\fs28  font 2; ord 203\par
+\f1\fs144\i0\b0\ul0 ?\f7 m\f1 ?\f7\i0\b0\ul0\cf0 m\f3\fs28  font 2; ord 204\par
+\f1\fs144\i0\b0\ul0 ?\f7 n\f1 ?\f7\i0\b0\ul0\cf0 n\f3\fs28  font 2; ord 205\par
+\f1\fs144\i0\b0\ul0 ?\f7 o\f1 ?\f7\i0\b0\ul0\cf0 o\f3\fs28  font 2; ord 206\par
+\f1\fs144\i0\b0\ul0 ?\f7 p\f1 ?\f7\i0\b0\ul0\cf0 p\f3\fs28  font 2; ord 207\par
+\f1\fs144\i0\b0\ul0 ?\f7 q\f1 ?\f7\i0\b0\ul0\cf0 q\f3\fs28  font 2; ord 211\par
+\f1\fs144\i0\b0\ul0 ?\f7 r\f1 ?\f7\i0\b0\ul0\cf0 r\f3\fs28  font 2; ord 212\par
+\f1\fs144\i0\b0\ul0 ?\f7 s\f1 ?\f7\i0\b0\ul0\cf0 s\f3\fs28  font 2; ord 213\par
+\f1\fs144\i0\b0\ul0 ?\f7 t\f1 ?\f7\i0\b0\ul0\cf0 t\f3\fs28  font 2; ord 214\par
+\f1\fs144\i0\b0\ul0 ?\f7 u\f1 ?\f7\i0\b0\ul0\cf0 u\f3\fs28  font 2; ord 215\par
+\f1\fs144\i0\b0\ul0 ?\f7 v\f1 ?\f7\i0\b0\ul0\cf0 v\f3\fs28  font 2; ord 216\par
+\f1\fs144\i0\b0\ul0 ?\f7 w\f1 ?\f7\i0\b0\ul0\cf0 w\f3\fs28  font 2; ord 217\par
+\f1\fs144\i0\b0\ul0 ?\f7 x\f1 ?\f7\i0\b0\ul0\cf0 x\f3\fs28  font 2; ord 224\par
+\f1\fs144\i0\b0\ul0 ?\f7 y\f1 ?\f7\i0\b0\ul0\cf0 y\f3\fs28  font 2; ord 225\par
+\f1\fs144\i0\b0\ul0 ?\f7 z\f1 ?\f7\i0\b0\ul0\cf0 z\f3\fs28  font 2; ord 226\par
+\f1\fs144\i0\b0\ul0 ?\f7\{\f1 ?\f7\i0\b0\ul0\cf0\{\f3\fs28  font 2; ord 227\par
+\f1\fs144\i0\b0\ul0 ?\f7 |\f1 ?\f7\i0\b0\ul0\cf0 |\f3\fs28  font 2; ord 228\par
+\f1\fs144\i0\b0\ul0 ?\f7\}\f1 ?\f7\i0\b0\ul0\cf0\}\f3\fs28  font 2; ord 229\par
+\f1\fs144\i0\b0\ul0 ?\f7 ~\f1 ?\f7\i0\b0\ul0\cf0 ~\f3\fs28  font 2; ord 230\par
+\f1\fs144\i0\b0\ul0 ?\f7 3\f1 ?\f7\i0\b0\ul0\cf0 3\f3\fs28  font 2; ord 249\par
+\f1\fs144\i0\b0\ul0 ?\f7 C\f1 ?\f7\i0\b0\ul0\cf0 C\f3\fs28  font 2; ord 250\par
+\f1\fs144\i0\b0\ul0 ?\f7 L\f1 ?\f7\i0\b0\ul0\cf0 L\f3\fs28  font 2; ord 251\par
+\f1\fs144\i0\b0\ul0 ?\f8 .\f1 ?\f8\i0\b0\ul0\cf0 .\f3\fs28  font 2; ord 252\par
+\f1\fs144\i0\b0\ul0 ?\f7 #\f1 ?\f7\i0\b0\ul0\cf0 #\f3\fs28  font 2; ord 253\par
+\f1\fs144\i0\b0\ul0 ?\f7 E\f1 ?\f7\i0\b0\ul0\cf0 E\f3\fs28  font 2; ord 254\par
+\f1\fs144\i0\b0\ul0 ? ?\f10\i0\b0\ul0\cf0  \f3\fs28  font 3; ord 32\par
+\f1\fs144\i0\b0\ul0 ?\f9 %\f1 ?\f9\i0\b0\ul0\cf0 %\f3\fs28  font 3; ord 33\par
+\f1\fs144\i0\b0\ul0 ?\f9 (\f1 ?\f9\i0\b0\ul0\cf0 (\f3\fs28  font 3; ord 34\par
+\f1\fs144\i0\b0\ul0 ?\f9 )\f1 ?\f9\i0\b0\ul0\cf0 )\f3\fs28  font 3; ord 35\par
+\f1\fs144\i0\b0\ul0 ?\f9 *\f1 ?\f9\i0\b0\ul0\cf0 *\f3\fs28  font 3; ord 36\par
+\f1\fs144\i0\b0\ul0 ?\f9 +\f1 ?\f9\i0\b0\ul0\cf0 +\f3\fs28  font 3; ord 37\par
+\f1\fs144\i0\b0\ul0 ?\f9 ,\f1 ?\f9\i0\b0\ul0\cf0 ,\f3\fs28  font 3; ord 38\par
+\f1\fs144\i0\b0\ul0 ?\f9 .\f1 ?\f9\i0\b0\ul0\cf0 .\f3\fs28  font 3; ord 39\par
+\f1\fs144\i0\b0\ul0 ?\f9 /\f1 ?\f9\i0\b0\ul0\cf0 /\f3\fs28  font 3; ord 40\par
+\f1\fs144\i0\b0\ul0 ?\f9 0\f1 ?\f9\i0\b0\ul0\cf0 0\f3\fs28  font 3; ord 41\par
+\f1\fs144\i0\b0\ul0 ?\f9 1\f1 ?\f9\i0\b0\ul0\cf0 1\f3\fs28  font 3; ord 42\par
+\f1\fs144\i0\b0\ul0 ?\f9 2\f1 ?\f9\i0\b0\ul0\cf0 2\f3\fs28  font 3; ord 43\par
+\f1\fs144\i0\b0\ul0 ?\f9 3\f1 ?\f9\i0\b0\ul0\cf0 3\f3\fs28  font 3; ord 44\par
+\f1\fs144\i0\b0\ul0 ?\f9 5\f1 ?\f9\i0\b0\ul0\cf0 5\f3\fs28  font 3; ord 46\par
+\f1\fs144\i0\b0\ul0 ?\f9 6\f1 ?\f9\i0\b0\ul0\cf0 6\f3\fs28  font 3; ord 47\par
+\f1\fs144\i0\b0\ul0 ?\f9 7\f1 ?\f9\i0\b0\ul0\cf0 7\f3\fs28  font 3; ord 48\par
+\f1\fs144\i0\b0\ul0 ?\f9 8\f1 ?\f9\i0\b0\ul0\cf0 8\f3\fs28  font 3; ord 49\par
+\f1\fs144\i0\b0\ul0 ?\f9 9\f1 ?\f9\i0\b0\ul0\cf0 9\f3\fs28  font 3; ord 50\par
+\f1\fs144\i0\b0\ul0 ?\f9 :\f1 ?\f9\i0\b0\ul0\cf0 :\f3\fs28  font 3; ord 51\par
+\f1\fs144\i0\b0\ul0 ?\f9 ;\f1 ?\f9\i0\b0\ul0\cf0 ;\f3\fs28  font 3; ord 52\par
+\f1\fs144\i0\b0\ul0 ?\f9 <\f1 ?\f9\i0\b0\ul0\cf0 <\f3\fs28  font 3; ord 53\par
+\f1\fs144\i0\b0\ul0 ?\f9 =\f1 ?\f9\i0\b0\ul0\cf0 =\f3\fs28  font 3; ord 54\par
+\f1\fs144\i0\b0\ul0 ?\f9 >\f1 ?\f9\i0\b0\ul0\cf0 >\f3\fs28  font 3; ord 55\par
+\f1\fs144\i0\b0\ul0 ?\f9 ?\f1 ?\f9\i0\b0\ul0\cf0 ?\f3\fs28  font 3; ord 56\par
+\f1\fs144\i0\b0\ul0 ?\f9 @\f1 ?\f9\i0\b0\ul0\cf0 @\f3\fs28  font 3; ord 57\par
+\f1\fs144\i0\b0\ul0 ?\f9 A\f1 ?\f9\i0\b0\ul0\cf0 A\f3\fs28  font 3; ord 58\par
+\f1\fs144\i0\b0\ul0 ?\f9 B\f1 ?\f9\i0\b0\ul0\cf0 B\f3\fs28  font 3; ord 59\par
+\f1\fs144\i0\b0\ul0 ?\f9 C\f1 ?\f9\i0\b0\ul0\cf0 C\f3\fs28  font 3; ord 60\par
+\f1\fs144\i0\b0\ul0 ?\f9 D\f1 ?\f9\i0\b0\ul0\cf0 D\f3\fs28  font 3; ord 61\par
+\f1\fs144\i0\b0\ul0 ?\f9 E\f1 ?\f9\i0\b0\ul0\cf0 E\f3\fs28  font 3; ord 62\par
+\f1\fs144\i0\b0\ul0 ?\f9 F\f1 ?\f9\i0\b0\ul0\cf0 F\f3\fs28  font 3; ord 63\par
+\f1\fs144\i0\b0\ul0 ?\f9 G\f1 ?\f9\i0\b0\ul0\cf0 G\f3\fs28  font 3; ord 64\par
+\f1\fs144\i0\b0\ul0 ?\f9 H\f1 ?\f9\i0\b0\ul0\cf0 H\f3\fs28  font 3; ord 65\par
+\f1\fs144\i0\b0\ul0 ?\f9 I\f1 ?\f9\i0\b0\ul0\cf0 I\f3\fs28  font 3; ord 66\par
+\f1\fs144\i0\b0\ul0 ?\f9 J\f1 ?\f9\i0\b0\ul0\cf0 J\f3\fs28  font 3; ord 67\par
+\f1\fs144\i0\b0\ul0 ?\f9 K\f1 ?\f9\i0\b0\ul0\cf0 K\f3\fs28  font 3; ord 68\par
+\f1\fs144\i0\b0\ul0 ?\f9 L\f1 ?\f9\i0\b0\ul0\cf0 L\f3\fs28  font 3; ord 69\par
+\f1\fs144\i0\b0\ul0 ?\f9 M\f1 ?\f9\i0\b0\ul0\cf0 M\f3\fs28  font 3; ord 70\par
+\f1\fs144\i0\b0\ul0 ?\f9 N\f1 ?\f9\i0\b0\ul0\cf0 N\f3\fs28  font 3; ord 71\par
+\f1\fs144\i0\b0\ul0 ?\f9 O\f1 ?\f9\i0\b0\ul0\cf0 O\f3\fs28  font 3; ord 72\par
+\f1\fs144\i0\b0\ul0 ?\f9 P\f1 ?\f9\i0\b0\ul0\cf0 P\f3\fs28  font 3; ord 73\par
+\f1\fs144\i0\b0\ul0 ?\f9 Q\f1 ?\f9\i0\b0\ul0\cf0 Q\f3\fs28  font 3; ord 74\par
+\f1\fs144\i0\b0\ul0 ?\f9 R\f1 ?\f9\i0\b0\ul0\cf0 R\f3\fs28  font 3; ord 75\par
+\f1\fs144\i0\b0\ul0 ?\f9 S\f1 ?\f9\i0\b0\ul0\cf0 S\f3\fs28  font 3; ord 76\par
+\f1\fs144\i0\b0\ul0 ?\f9 T\f1 ?\f9\i0\b0\ul0\cf0 T\f3\fs28  font 3; ord 77\par
+\f1\fs144\i0\b0\ul0 ?\f9 U\f1 ?\f9\i0\b0\ul0\cf0 U\f3\fs28  font 3; ord 78\par
+\f1\fs144\i0\b0\ul0 ?\f9 V\f1 ?\f9\i0\b0\ul0\cf0 V\f3\fs28  font 3; ord 79\par
+\f1\fs144\i0\b0\ul0 ?\f9 W\f1 ?\f9\i0\b0\ul0\cf0 W\f3\fs28  font 3; ord 80\par
+\f1\fs144\i0\b0\ul0 ?\f9 X\f1 ?\f9\i0\b0\ul0\cf0 X\f3\fs28  font 3; ord 81\par
+\f1\fs144\i0\b0\ul0 ?\f9 Y\f1 ?\f9\i0\b0\ul0\cf0 Y\f3\fs28  font 3; ord 82\par
+\f1\fs144\i0\b0\ul0 ?\f9 Z\f1 ?\f9\i0\b0\ul0\cf0 Z\f3\fs28  font 3; ord 83\par
+\f1\fs144\i0\b0\ul0 ?\f9 [\f1 ?\f9\i0\b0\ul0\cf0 [\f3\fs28  font 3; ord 84\par
+\f1\fs144\i0\b0\ul0 ?\f9\\\f1 ?\f9\i0\b0\ul0\cf0\\\f3\fs28  font 3; ord 85\par
+\f1\fs144\i0\b0\ul0 ?\f9 ]\f1 ?\f9\i0\b0\ul0\cf0 ]\f3\fs28  font 3; ord 86\par
+\f1\fs144\i0\b0\ul0 ?\f9 ^\f1 ?\f9\i0\b0\ul0\cf0 ^\f3\fs28  font 3; ord 87\par
+\f1\fs144\i0\b0\ul0 ?\f9 _\f1 ?\f9\i0\b0\ul0\cf0 _\f3\fs28  font 3; ord 88\par
+\f1\fs144\i0\b0\ul0 ?\f9 `\f1 ?\f9\i0\b0\ul0\cf0 `\f3\fs28  font 3; ord 89\par
+\f1\fs144\i0\b0\ul0 ?\f9 a\f1 ?\f9\i0\b0\ul0\cf0 a\f3\fs28  font 3; ord 90\par
+\f1\fs144\i0\b0\ul0 ?\f9 b\f1 ?\f9\i0\b0\ul0\cf0 b\f3\fs28  font 3; ord 91\par
+\f1\fs144\i0\b0\ul0 ?\f9 c\f1 ?\f9\i0\b0\ul0\cf0 c\f3\fs28  font 3; ord 92\par
+\f1\fs144\i0\b0\ul0 ?\f9 d\f1 ?\f9\i0\b0\ul0\cf0 d\f3\fs28  font 3; ord 93\par
+\f1\fs144\i0\b0\ul0 ?\f9 e\f1 ?\f9\i0\b0\ul0\cf0 e\f3\fs28  font 3; ord 94\par
+\f1\fs144\i0\b0\ul0 ?\f9 f\f1 ?\f9\i0\b0\ul0\cf0 f\f3\fs28  font 3; ord 95\par
+\f1\fs144\i0\b0\ul0 ?\f9 g\f1 ?\f9\i0\b0\ul0\cf0 g\f3\fs28  font 3; ord 96\par
+\f1\fs144\i0\b0\ul0 ?\f9 h\f1 ?\f9\i0\b0\ul0\cf0 h\f3\fs28  font 3; ord 97\par
+\f1\fs144\i0\b0\ul0 ?\f9 i\f1 ?\f9\i0\b0\ul0\cf0 i\f3\fs28  font 3; ord 98\par
+\f1\fs144\i0\b0\ul0 ?\f9 j\f1 ?\f9\i0\b0\ul0\cf0 j\f3\fs28  font 3; ord 99\par
+\f1\fs144\i0\b0\ul0 ?\f9 k\f1 ?\f9\i0\b0\ul0\cf0 k\f3\fs28  font 3; ord 101\par
+\f1\fs144\i0\b0\ul0 ?\f9 l\f1 ?\f9\i0\b0\ul0\cf0 l\f3\fs28  font 3; ord 102\par
+\f1\fs144\i0\b0\ul0 ?\f9 m\f1 ?\f9\i0\b0\ul0\cf0 m\f3\fs28  font 3; ord 103\par
+\f1\fs144\i0\b0\ul0 ?\f9 n\f1 ?\f9\i0\b0\ul0\cf0 n\f3\fs28  font 3; ord 104\par
+\f1\fs144\i0\b0\ul0 ?\f9 o\f1 ?\f9\i0\b0\ul0\cf0 o\f3\fs28  font 3; ord 105\par
+\f1\fs144\i0\b0\ul0 ?\f9 p\f1 ?\f9\i0\b0\ul0\cf0 p\f3\fs28  font 3; ord 106\par
+\f1\fs144\i0\b0\ul0 ?\f9 q\f1 ?\f9\i0\b0\ul0\cf0 q\f3\fs28  font 3; ord 107\par
+\f1\fs144\i0\b0\ul0 ?\f9 r\f1 ?\f9\i0\b0\ul0\cf0 r\f3\fs28  font 3; ord 108\par
+\f1\fs144\i0\b0\ul0 ?\f9 s\f1 ?\f9\i0\b0\ul0\cf0 s\f3\fs28  font 3; ord 109\par
+\f1\fs144\i0\b0\ul0 ?\f9 t\f1 ?\f9\i0\b0\ul0\cf0 t\f3\fs28  font 3; ord 110\par
+\f1\fs144\i0\b0\ul0 ?\f9 u\f1 ?\f9\i0\b0\ul0\cf0 u\f3\fs28  font 3; ord 111\par
+\f1\fs144\i0\b0\ul0 ?\f9 v\f1 ?\f9\i0\b0\ul0\cf0 v\f3\fs28  font 3; ord 112\par
+\f1\fs144\i0\b0\ul0 ?\f9 w\f1 ?\f9\i0\b0\ul0\cf0 w\f3\fs28  font 3; ord 113\par
+\f1\fs144\i0\b0\ul0 ?\f9 x\f1 ?\f9\i0\b0\ul0\cf0 x\f3\fs28  font 3; ord 114\par
+\f1\fs144\i0\b0\ul0 ?\f9 y\f1 ?\f9\i0\b0\ul0\cf0 y\f3\fs28  font 3; ord 115\par
+\f1\fs144\i0\b0\ul0 ?\f9 z\f1 ?\f9\i0\b0\ul0\cf0 z\f3\fs28  font 3; ord 116\par
+\f1\fs144\i0\b0\ul0 ?\f9\{\f1 ?\f9\i0\b0\ul0\cf0\{\f3\fs28  font 3; ord 117\par
+\f1\fs144\i0\b0\ul0 ?\f9 |\f1 ?\f9\i0\b0\ul0\cf0 |\f3\fs28  font 3; ord 118\par
+\f1\fs144\i0\b0\ul0 ?\f9\}\f1 ?\f9\i0\b0\ul0\cf0\}\f3\fs28  font 3; ord 119\par
+\f1\fs144\i0\b0\ul0 ?\f9 ~\f1 ?\f9\i0\b0\ul0\cf0 ~\f3\fs28  font 3; ord 120\par
+\f1\fs144\i0\b0\ul0 ?\f10 !\f1 ?\f10\i0\b0\ul0\cf0 !\f3\fs28  font 3; ord 121\par
+\f1\fs144\i0\b0\ul0 ?\f10 "\f1 ?\f10\i0\b0\ul0\cf0 "\f3\fs28  font 3; ord 123\par
+\f1\fs144\i0\b0\ul0 ?\f10 #\f1 ?\f10\i0\b0\ul0\cf0 #\f3\fs28  font 3; ord 124\par
+\f1\fs144\i0\b0\ul0 ?\f10 $\f1 ?\f10\i0\b0\ul0\cf0 $\f3\fs28  font 3; ord 125\par
+\f1\fs144\i0\b0\ul0 ?\f10 %\f1 ?\f10\i0\b0\ul0\cf0 %\f3\fs28  font 3; ord 126\par
+\f1\fs144\i0\b0\ul0 ?\f10 &\f1 ?\f10\i0\b0\ul0\cf0 &\f3\fs28  font 3; ord 128\par
+\f1\fs144\i0\b0\ul0 ?\f10 (\f1 ?\f10\i0\b0\ul0\cf0 (\f3\fs28  font 3; ord 129\par
+\f1\fs144\i0\b0\ul0 ?\f10 )\f1 ?\f10\i0\b0\ul0\cf0 )\f3\fs28  font 3; ord 130\par
+\f1\fs144\i0\b0\ul0 ?\f10 *\f1 ?\f10\i0\b0\ul0\cf0 *\f3\fs28  font 3; ord 131\par
+\f1\fs144\i0\b0\ul0 ?\f10 +\f1 ?\f10\i0\b0\ul0\cf0 +\f3\fs28  font 3; ord 132\par
+\f1\fs144\i0\b0\ul0 ?\f10 ,\f1 ?\f10\i0\b0\ul0\cf0 ,\f3\fs28  font 3; ord 133\par
+\f1\fs144\i0\b0\ul0 ?\f10 .\f1 ?\f10\i0\b0\ul0\cf0 .\f3\fs28  font 3; ord 134\par
+\f1\fs144\i0\b0\ul0 ?\f10 /\f1 ?\f10\i0\b0\ul0\cf0 /\f3\fs28  font 3; ord 135\par
+\f1\fs144\i0\b0\ul0 ?\f10 0\f1 ?\f10\i0\b0\ul0\cf0 0\f3\fs28  font 3; ord 136\par
+\f1\fs144\i0\b0\ul0 ?\f10 1\f1 ?\f10\i0\b0\ul0\cf0 1\f3\fs28  font 3; ord 137\par
+\f1\fs144\i0\b0\ul0 ?\f10 2\f1 ?\f10\i0\b0\ul0\cf0 2\f3\fs28  font 3; ord 138\par
+\f1\fs144\i0\b0\ul0 ?\f10 3\f1 ?\f10\i0\b0\ul0\cf0 3\f3\fs28  font 3; ord 139\par
+\f1\fs144\i0\b0\ul0 ?\f10 4\f1 ?\f10\i0\b0\ul0\cf0 4\f3\fs28  font 3; ord 140\par
+\f1\fs144\i0\b0\ul0 ?\f10 6\f1 ?\f10\i0\b0\ul0\cf0 6\f3\fs28  font 3; ord 141\par
+\f1\fs144\i0\b0\ul0 ?\f10 8\f1 ?\f10\i0\b0\ul0\cf0 8\f3\fs28  font 3; ord 143\par
+\f1\fs144\i0\b0\ul0 ?\f10 9\f1 ?\f10\i0\b0\ul0\cf0 9\f3\fs28  font 3; ord 144\par
+\f1\fs144\i0\b0\ul0 ?\f10 :\f1 ?\f10\i0\b0\ul0\cf0 :\f3\fs28  font 3; ord 145\par
+\f1\fs144\i0\b0\ul0 ?\f10 ;\f1 ?\f10\i0\b0\ul0\cf0 ;\f3\fs28  font 3; ord 146\par
+\f1\fs144\i0\b0\ul0 ?\f10 <\f1 ?\f10\i0\b0\ul0\cf0 <\f3\fs28  font 3; ord 147\par
+\f1\fs144\i0\b0\ul0 ?\f10 =\f1 ?\f10\i0\b0\ul0\cf0 =\f3\fs28  font 3; ord 148\par
+\f1\fs144\i0\b0\ul0 ?\f10 >\f1 ?\f10\i0\b0\ul0\cf0 >\f3\fs28  font 3; ord 149\par
+\f1\fs144\i0\b0\ul0 ?\f10 ?\f1 ?\f10\i0\b0\ul0\cf0 ?\f3\fs28  font 3; ord 150\par
+\f1\fs144\i0\b0\ul0 ?\f10 @\f1 ?\f10\i0\b0\ul0\cf0 @\f3\fs28  font 3; ord 151\par
+\f1\fs144\i0\b0\ul0 ?\f10 A\f1 ?\f10\i0\b0\ul0\cf0 A\f3\fs28  font 3; ord 152\par
+\f1\fs144\i0\b0\ul0 ?\f10 B\f1 ?\f10\i0\b0\ul0\cf0 B\f3\fs28  font 3; ord 153\par
+\f1\fs144\i0\b0\ul0 ?\f10 C\f1 ?\f10\i0\b0\ul0\cf0 C\f3\fs28  font 3; ord 154\par
+\f1\fs144\i0\b0\ul0 ?\f10 D\f1 ?\f10\i0\b0\ul0\cf0 D\f3\fs28  font 3; ord 155\par
+\f1\fs144\i0\b0\ul0 ?\f10 E\f1 ?\f10\i0\b0\ul0\cf0 E\f3\fs28  font 3; ord 156\par
+\f1\fs144\i0\b0\ul0 ?\f10 F\f1 ?\f10\i0\b0\ul0\cf0 F\f3\fs28  font 3; ord 157\par
+\f1\fs144\i0\b0\ul0 ?\f10 H\f1 ?\f10\i0\b0\ul0\cf0 H\f3\fs28  font 3; ord 159\par
+\f1\fs144\i0\b0\ul0 ?\f10 J\f1 ?\f10\i0\b0\ul0\cf0 J\f3\fs28  font 3; ord 161\par
+\f1\fs144\i0\b0\ul0 ?\f10 K\f1 ?\f10\i0\b0\ul0\cf0 K\f3\fs28  font 3; ord 162\par
+\f1\fs144\i0\b0\ul0 ?\f10 L\f1 ?\f10\i0\b0\ul0\cf0 L\f3\fs28  font 3; ord 163\par
+\f1\fs144\i0\b0\ul0 ?\f10 M\f1 ?\f10\i0\b0\ul0\cf0 M\f3\fs28  font 3; ord 164\par
+\f1\fs144\i0\b0\ul0 ?\f10 N\f1 ?\f10\i0\b0\ul0\cf0 N\f3\fs28  font 3; ord 165\par
+\f1\fs144\i0\b0\ul0 ?\f10 P\f1 ?\f10\i0\b0\ul0\cf0 P\f3\fs28  font 3; ord 167\par
+\f1\fs144\i0\b0\ul0 ?\f10 Q\f1 ?\f10\i0\b0\ul0\cf0 Q\f3\fs28  font 3; ord 168\par
+\f1\fs144\i0\b0\ul0 ?\f10 R\f1 ?\f10\i0\b0\ul0\cf0 R\f3\fs28  font 3; ord 169\par
+\f1\fs144\i0\b0\ul0 ?\f10 S\f1 ?\f10\i0\b0\ul0\cf0 S\f3\fs28  font 3; ord 170\par
+\f1\fs144\i0\b0\ul0 ?\f10 T\f1 ?\f10\i0\b0\ul0\cf0 T\f3\fs28  font 3; ord 171\par
+\f1\fs144\i0\b0\ul0 ?\f10 U\f1 ?\f10\i0\b0\ul0\cf0 U\f3\fs28  font 3; ord 172\par
+\f1\fs144\i0\b0\ul0 ?\f10 V\f1 ?\f10\i0\b0\ul0\cf0 V\f3\fs28  font 3; ord 173\par
+\f1\fs144\i0\b0\ul0 ?\f10 W\f1 ?\f10\i0\b0\ul0\cf0 W\f3\fs28  font 3; ord 174\par
+\f1\fs144\i0\b0\ul0 ?\f10 X\f1 ?\f10\i0\b0\ul0\cf0 X\f3\fs28  font 3; ord 175\par
+\f1\fs144\i0\b0\ul0 ?\f10 Y\f1 ?\f10\i0\b0\ul0\cf0 Y\f3\fs28  font 3; ord 176\par
+\f1\fs144\i0\b0\ul0 ?\f10 Z\f1 ?\f10\i0\b0\ul0\cf0 Z\f3\fs28  font 3; ord 177\par
+\f1\fs144\i0\b0\ul0 ?\f10 [\f1 ?\f10\i0\b0\ul0\cf0 [\f3\fs28  font 3; ord 178\par
+\f1\fs144\i0\b0\ul0 ?\f10\\\f1 ?\f10\i0\b0\ul0\cf0\\\f3\fs28  font 3; ord 179\par
+\f1\fs144\i0\b0\ul0 ?\f10 ]\f1 ?\f10\i0\b0\ul0\cf0 ]\f3\fs28  font 3; ord 180\par
+\f1\fs144\i0\b0\ul0 ?\f10 ^\f1 ?\f10\i0\b0\ul0\cf0 ^\f3\fs28  font 3; ord 181\par
+\f1\fs144\i0\b0\ul0 ?\f10 _\f1 ?\f10\i0\b0\ul0\cf0 _\f3\fs28  font 3; ord 182\par
+\f1\fs144\i0\b0\ul0 ?\f10 `\f1 ?\f10\i0\b0\ul0\cf0 `\f3\fs28  font 3; ord 183\par
+\f1\fs144\i0\b0\ul0 ?\f10 a\f1 ?\f10\i0\b0\ul0\cf0 a\f3\fs28  font 3; ord 184\par
+\f1\fs144\i0\b0\ul0 ?\f10 b\f1 ?\f10\i0\b0\ul0\cf0 b\f3\fs28  font 3; ord 185\par
+\f1\fs144\i0\b0\ul0 ?\f10 c\f1 ?\f10\i0\b0\ul0\cf0 c\f3\fs28  font 3; ord 186\par
+\f1\fs144\i0\b0\ul0 ?\f10 d\f1 ?\f10\i0\b0\ul0\cf0 d\f3\fs28  font 3; ord 187\par
+\f1\fs144\i0\b0\ul0 ?\f10 e\f1 ?\f10\i0\b0\ul0\cf0 e\f3\fs28  font 3; ord 188\par
+\f1\fs144\i0\b0\ul0 ?\f10 f\f1 ?\f10\i0\b0\ul0\cf0 f\f3\fs28  font 3; ord 189\par
+\f1\fs144\i0\b0\ul0 ?\f10 g\f1 ?\f10\i0\b0\ul0\cf0 g\f3\fs28  font 3; ord 190\par
+\f1\fs144\i0\b0\ul0 ?\f10 h\f1 ?\f10\i0\b0\ul0\cf0 h\f3\fs28  font 3; ord 191\par
+\f1\fs144\i0\b0\ul0 ?\f10 i\f1 ?\f10\i0\b0\ul0\cf0 i\f3\fs28  font 3; ord 192\par
+\f1\fs144\i0\b0\ul0 ?\f11 !\f1 ?\f11\i0\b0\ul0\cf0 !\f3\fs28  font 3; ord 193\par
+\f1\fs144\i0\b0\ul0 ?\f11 "\f1 ?\f11\i0\b0\ul0\cf0 "\f3\fs28  font 3; ord 194\par
+\f1\fs144\i0\b0\ul0 ?\f11 #\f1 ?\f11\i0\b0\ul0\cf0 #\f3\fs28  font 3; ord 195\par
+\f1\fs144\i0\b0\ul0 ?\f11 $\f1 ?\f11\i0\b0\ul0\cf0 $\f3\fs28  font 3; ord 196\par
+\f1\fs144\i0\b0\ul0 ?\f11 %\f1 ?\f11\i0\b0\ul0\cf0 %\f3\fs28  font 3; ord 197\par
+\f1\fs144\i0\b0\ul0 ?\f11 &\f1 ?\f11\i0\b0\ul0\cf0 &\f3\fs28  font 3; ord 198\par
+\f1\fs144\i0\b0\ul0 ?\f11 '\f1 ?\f11\i0\b0\ul0\cf0 '\f3\fs28  font 3; ord 199\par
+\f1\fs144\i0\b0\ul0 ?\f10 j\f1 ?\f10\i0\b0\ul0\cf0 j\f3\fs28  font 3; ord 201\par
+\f1\fs144\i0\b0\ul0 ?\f10 k\f1 ?\f10\i0\b0\ul0\cf0 k\f3\fs28  font 3; ord 202\par
+\f1\fs144\i0\b0\ul0 ?\f10 l\f1 ?\f10\i0\b0\ul0\cf0 l\f3\fs28  font 3; ord 203\par
+\f1\fs144\i0\b0\ul0 ?\f10 m\f1 ?\f10\i0\b0\ul0\cf0 m\f3\fs28  font 3; ord 204\par
+\f1\fs144\i0\b0\ul0 ?\f10 n\f1 ?\f10\i0\b0\ul0\cf0 n\f3\fs28  font 3; ord 205\par
+\f1\fs144\i0\b0\ul0 ?\f10 o\f1 ?\f10\i0\b0\ul0\cf0 o\f3\fs28  font 3; ord 206\par
+\f1\fs144\i0\b0\ul0 ?\f10 p\f1 ?\f10\i0\b0\ul0\cf0 p\f3\fs28  font 3; ord 207\par
+\f1\fs144\i0\b0\ul0 ?\f10 q\f1 ?\f10\i0\b0\ul0\cf0 q\f3\fs28  font 3; ord 211\par
+\f1\fs144\i0\b0\ul0 ?\f10 r\f1 ?\f10\i0\b0\ul0\cf0 r\f3\fs28  font 3; ord 212\par
+\f1\fs144\i0\b0\ul0 ?\f10 s\f1 ?\f10\i0\b0\ul0\cf0 s\f3\fs28  font 3; ord 213\par
+\f1\fs144\i0\b0\ul0 ?\f10 t\f1 ?\f10\i0\b0\ul0\cf0 t\f3\fs28  font 3; ord 214\par
+\f1\fs144\i0\b0\ul0 ?\f10 u\f1 ?\f10\i0\b0\ul0\cf0 u\f3\fs28  font 3; ord 215\par
+\f1\fs144\i0\b0\ul0 ?\f10 v\f1 ?\f10\i0\b0\ul0\cf0 v\f3\fs28  font 3; ord 216\par
+\f1\fs144\i0\b0\ul0 ?\f10 w\f1 ?\f10\i0\b0\ul0\cf0 w\f3\fs28  font 3; ord 217\par
+\f1\fs144\i0\b0\ul0 ?\f10 x\f1 ?\f10\i0\b0\ul0\cf0 x\f3\fs28  font 3; ord 224\par
+\f1\fs144\i0\b0\ul0 ?\f10 y\f1 ?\f10\i0\b0\ul0\cf0 y\f3\fs28  font 3; ord 225\par
+\f1\fs144\i0\b0\ul0 ?\f10 z\f1 ?\f10\i0\b0\ul0\cf0 z\f3\fs28  font 3; ord 226\par
+\f1\fs144\i0\b0\ul0 ?\f10\{\f1 ?\f10\i0\b0\ul0\cf0\{\f3\fs28  font 3; ord 227\par
+\f1\fs144\i0\b0\ul0 ?\f10 |\f1 ?\f10\i0\b0\ul0\cf0 |\f3\fs28  font 3; ord 228\par
+\f1\fs144\i0\b0\ul0 ?\f10\}\f1 ?\f10\i0\b0\ul0\cf0\}\f3\fs28  font 3; ord 229\par
+\f1\fs144\i0\b0\ul0 ?\f10 ~\f1 ?\f10\i0\b0\ul0\cf0 ~\f3\fs28  font 3; ord 230\par
+\f1\fs144\i0\b0\ul0 ?\f10 7\f1 ?\f10\i0\b0\ul0\cf0 7\f3\fs28  font 3; ord 249\par
+\f1\fs144\i0\b0\ul0 ?\f10 G\f1 ?\f10\i0\b0\ul0\cf0 G\f3\fs28  font 3; ord 250\par
+\f1\fs144\i0\b0\ul0 ?\f10 O\f1 ?\f10\i0\b0\ul0\cf0 O\f3\fs28  font 3; ord 251\par
+\f1\fs144\i0\b0\ul0 ?\f9 4\f1 ?\f9\i0\b0\ul0\cf0 4\f3\fs28  font 3; ord 252\par
+\f1\fs144\i0\b0\ul0 ?\f10 '\f1 ?\f10\i0\b0\ul0\cf0 '\f3\fs28  font 3; ord 253\par
+\f1\fs144\i0\b0\ul0 ?\f10 I\f1 ?\f10\i0\b0\ul0\cf0 I\f3\fs28  font 3; ord 254\par
+\f1\fs144\i0\b0\ul0 ? ?\f4\i0\b0\ul0\cf0  \f3\fs28  font 4; ord 32\par
+\f1\fs144\i0\b0\ul0 ?\f11 (\f1 ?\f11\i0\b0\ul0\cf0 (\f3\fs28  font 4; ord 33\par
+\f1\fs144\i0\b0\ul0 ?\f11 )\f1 ?\f11\i0\b0\ul0\cf0 )\f3\fs28  font 4; ord 34\par
+\f1\fs144\i0\b0\ul0 ?\f11 *\f1 ?\f11\i0\b0\ul0\cf0 *\f3\fs28  font 4; ord 35\par
+\f1\fs144\i0\b0\ul0 ?\f11 +\f1 ?\f11\i0\b0\ul0\cf0 +\f3\fs28  font 4; ord 36\par
+\f1\fs144\i0\b0\ul0 ?\f11 ,\f1 ?\f11\i0\b0\ul0\cf0 ,\f3\fs28  font 4; ord 37\par
+\f1\fs144\i0\b0\ul0 ?\f11 .\f1 ?\f11\i0\b0\ul0\cf0 .\f3\fs28  font 4; ord 38\par
+\f1\fs144\i0\b0\ul0 ?\f11 /\f1 ?\f11\i0\b0\ul0\cf0 /\f3\fs28  font 4; ord 39\par
+\f1\fs144\i0\b0\ul0 ?\f11 0\f1 ?\f11\i0\b0\ul0\cf0 0\f3\fs28  font 4; ord 40\par
+\f1\fs144\i0\b0\ul0 ?\f11 1\f1 ?\f11\i0\b0\ul0\cf0 1\f3\fs28  font 4; ord 41\par
+\f1\fs144\i0\b0\ul0 ?\f11 2\f1 ?\f11\i0\b0\ul0\cf0 2\f3\fs28  font 4; ord 42\par
+\f1\fs144\i0\b0\ul0 ?\f11 3\f1 ?\f11\i0\b0\ul0\cf0 3\f3\fs28  font 4; ord 43\par
+\f1\fs144\i0\b0\ul0 ?\f11 4\f1 ?\f11\i0\b0\ul0\cf0 4\f3\fs28  font 4; ord 44\par
+\f1\fs144\i0\b0\ul0 ?\f11 6\f1 ?\f11\i0\b0\ul0\cf0 6\f3\fs28  font 4; ord 46\par
+\f1\fs144\i0\b0\ul0 ?\f11 7\f1 ?\f11\i0\b0\ul0\cf0 7\f3\fs28  font 4; ord 47\par
+\f1\fs144\i0\b0\ul0 ?\f11 8\f1 ?\f11\i0\b0\ul0\cf0 8\f3\fs28  font 4; ord 48\par
+\f1\fs144\i0\b0\ul0 ?\f11 9\f1 ?\f11\i0\b0\ul0\cf0 9\f3\fs28  font 4; ord 49\par
+\f1\fs144\i0\b0\ul0 ?\f11 :\f1 ?\f11\i0\b0\ul0\cf0 :\f3\fs28  font 4; ord 50\par
+\f1\fs144\i0\b0\ul0 ?\f11 ;\f1 ?\f11\i0\b0\ul0\cf0 ;\f3\fs28  font 4; ord 51\par
+\f1\fs144\i0\b0\ul0 ?\f11 <\f1 ?\f11\i0\b0\ul0\cf0 <\f3\fs28  font 4; ord 52\par
+\f1\fs144\i0\b0\ul0 ?\f11 >\f1 ?\f11\i0\b0\ul0\cf0 >\f3\fs28  font 4; ord 53\par
+\f1\fs144\i0\b0\ul0 ?\f11 ?\f1 ?\f11\i0\b0\ul0\cf0 ?\f3\fs28  font 4; ord 54\par
+\f1\fs144\i0\b0\ul0 ?\f11 @\f1 ?\f11\i0\b0\ul0\cf0 @\f3\fs28  font 4; ord 55\par
+\f1\fs144\i0\b0\ul0 ?\f11 A\f1 ?\f11\i0\b0\ul0\cf0 A\f3\fs28  font 4; ord 56\par
+\f1\fs144\i0\b0\ul0 ?\f11 B\f1 ?\f11\i0\b0\ul0\cf0 B\f3\fs28  font 4; ord 57\par
+\f1\fs144\i0\b0\ul0 ?\f11 C\f1 ?\f11\i0\b0\ul0\cf0 C\f3\fs28  font 4; ord 58\par
+\f1\fs144\i0\b0\ul0 ?\f11 D\f1 ?\f11\i0\b0\ul0\cf0 D\f3\fs28  font 4; ord 59\par
+\f1\fs144\i0\b0\ul0 ?\f11 E\f1 ?\f11\i0\b0\ul0\cf0 E\f3\fs28  font 4; ord 60\par
+\f1\fs144\i0\b0\ul0 ?\f11 F\f1 ?\f11\i0\b0\ul0\cf0 F\f3\fs28  font 4; ord 61\par
+\f1\fs144\i0\b0\ul0 ?\f11 G\f1 ?\f11\i0\b0\ul0\cf0 G\f3\fs28  font 4; ord 62\par
+\f1\fs144\i0\b0\ul0 ?\f11 H\f1 ?\f11\i0\b0\ul0\cf0 H\f3\fs28  font 4; ord 63\par
+\f1\fs144\i0\b0\ul0 ?\f11 I\f1 ?\f11\i0\b0\ul0\cf0 I\f3\fs28  font 4; ord 64\par
+\f1\fs144\i0\b0\ul0 ?\f11 J\f1 ?\f11\i0\b0\ul0\cf0 J\f3\fs28  font 4; ord 65\par
+\f1\fs144\i0\b0\ul0 ?\f11 K\f1 ?\f11\i0\b0\ul0\cf0 K\f3\fs28  font 4; ord 66\par
+\f1\fs144\i0\b0\ul0 ?\f11 L\f1 ?\f11\i0\b0\ul0\cf0 L\f3\fs28  font 4; ord 67\par
+\f1\fs144\i0\b0\ul0 ?\f11 M\f1 ?\f11\i0\b0\ul0\cf0 M\f3\fs28  font 4; ord 68\par
+\f1\fs144\i0\b0\ul0 ?\f11 O\f1 ?\f11\i0\b0\ul0\cf0 O\f3\fs28  font 4; ord 69\par
+\f1\fs144\i0\b0\ul0 ?\f11 P\f1 ?\f11\i0\b0\ul0\cf0 P\f3\fs28  font 4; ord 70\par
+\f1\fs144\i0\b0\ul0 ?\f11 S\f1 ?\f11\i0\b0\ul0\cf0 S\f3\fs28  font 4; ord 71\par
+\f1\fs144\i0\b0\ul0 ?\f11 T\f1 ?\f11\i0\b0\ul0\cf0 T\f3\fs28  font 4; ord 72\par
+\f1\fs144\i0\b0\ul0 ?\f11 U\f1 ?\f11\i0\b0\ul0\cf0 U\f3\fs28  font 4; ord 73\par
+\f1\fs144\i0\b0\ul0 ?\f11 V\f1 ?\f11\i0\b0\ul0\cf0 V\f3\fs28  font 4; ord 74\par
+\f1\fs144\i0\b0\ul0 ?\f11 W\f1 ?\f11\i0\b0\ul0\cf0 W\f3\fs28  font 4; ord 75\par
+\f1\fs144\i0\b0\ul0 ?\f11 X\f1 ?\f11\i0\b0\ul0\cf0 X\f3\fs28  font 4; ord 76\par
+\f1\fs144\i0\b0\ul0 ?\f11 Y\f1 ?\f11\i0\b0\ul0\cf0 Y\f3\fs28  font 4; ord 77\par
+\f1\fs144\i0\b0\ul0 ?\f11 Z\f1 ?\f11\i0\b0\ul0\cf0 Z\f3\fs28  font 4; ord 78\par
+\f1\fs144\i0\b0\ul0 ?\f11 [\f1 ?\f11\i0\b0\ul0\cf0 [\f3\fs28  font 4; ord 79\par
+\f1\fs144\i0\b0\ul0 ?\f11\\\f1 ?\f11\i0\b0\ul0\cf0\\\f3\fs28  font 4; ord 80\par
+\f1\fs144\i0\b0\ul0 ?\f11 ]\f1 ?\f11\i0\b0\ul0\cf0 ]\f3\fs28  font 4; ord 81\par
+\f1\fs144\i0\b0\ul0 ?\f11 ^\f1 ?\f11\i0\b0\ul0\cf0 ^\f3\fs28  font 4; ord 82\par
+\f1\fs144\i0\b0\ul0 ?\f11 _\f1 ?\f11\i0\b0\ul0\cf0 _\f3\fs28  font 4; ord 83\par
+\f1\fs144\i0\b0\ul0 ?\f11 `\f1 ?\f11\i0\b0\ul0\cf0 `\f3\fs28  font 4; ord 84\par
+\f1\fs144\i0\b0\ul0 ?\f11 a\f1 ?\f11\i0\b0\ul0\cf0 a\f3\fs28  font 4; ord 85\par
+\f1\fs144\i0\b0\ul0 ?\f11 b\f1 ?\f11\i0\b0\ul0\cf0 b\f3\fs28  font 4; ord 86\par
+\f1\fs144\i0\b0\ul0 ?\f11 c\f1 ?\f11\i0\b0\ul0\cf0 c\f3\fs28  font 4; ord 87\par
+\f1\fs144\i0\b0\ul0 ?\f11 d\f1 ?\f11\i0\b0\ul0\cf0 d\f3\fs28  font 4; ord 88\par
+\f1\fs144\i0\b0\ul0 ?\f11 e\f1 ?\f11\i0\b0\ul0\cf0 e\f3\fs28  font 4; ord 89\par
+\f1\fs144\i0\b0\ul0 ?\f11 f\f1 ?\f11\i0\b0\ul0\cf0 f\f3\fs28  font 4; ord 90\par
+\f1\fs144\i0\b0\ul0 ?\f11 g\f1 ?\f11\i0\b0\ul0\cf0 g\f3\fs28  font 4; ord 91\par
+\f1\fs144\i0\b0\ul0 ?\f11 h\f1 ?\f11\i0\b0\ul0\cf0 h\f3\fs28  font 4; ord 92\par
+\f1\fs144\i0\b0\ul0 ?\f11 i\f1 ?\f11\i0\b0\ul0\cf0 i\f3\fs28  font 4; ord 93\par
+\f1\fs144\i0\b0\ul0 ?\f11 j\f1 ?\f11\i0\b0\ul0\cf0 j\f3\fs28  font 4; ord 94\par
+\f1\fs144\i0\b0\ul0 ?\f11 k\f1 ?\f11\i0\b0\ul0\cf0 k\f3\fs28  font 4; ord 95\par
+\f1\fs144\i0\b0\ul0 ?\f11 l\f1 ?\f11\i0\b0\ul0\cf0 l\f3\fs28  font 4; ord 96\par
+\f1\fs144\i0\b0\ul0 ?\f11 n\f1 ?\f11\i0\b0\ul0\cf0 n\f3\fs28  font 4; ord 97\par
+\f1\fs144\i0\b0\ul0 ?\f11 o\f1 ?\f11\i0\b0\ul0\cf0 o\f3\fs28  font 4; ord 98\par
+\f1\fs144\i0\b0\ul0 ?\f11 p\f1 ?\f11\i0\b0\ul0\cf0 p\f3\fs28  font 4; ord 99\par
+\f1\fs144\i0\b0\ul0 ?\f11 q\f1 ?\f11\i0\b0\ul0\cf0 q\f3\fs28  font 4; ord 100\par
+\f1\fs144\i0\b0\ul0 ?\f11 r\f1 ?\f11\i0\b0\ul0\cf0 r\f3\fs28  font 4; ord 101\par
+\f1\fs144\i0\b0\ul0 ?\f11 s\f1 ?\f11\i0\b0\ul0\cf0 s\f3\fs28  font 4; ord 102\par
+\f1\fs144\i0\b0\ul0 ?\f11 t\f1 ?\f11\i0\b0\ul0\cf0 t\f3\fs28  font 4; ord 103\par
+\f1\fs144\i0\b0\ul0 ?\f11 u\f1 ?\f11\i0\b0\ul0\cf0 u\f3\fs28  font 4; ord 104\par
+\f1\fs144\i0\b0\ul0 ?\f11 v\f1 ?\f11\i0\b0\ul0\cf0 v\f3\fs28  font 4; ord 105\par
+\f1\fs144\i0\b0\ul0 ?\f11 w\f1 ?\f11\i0\b0\ul0\cf0 w\f3\fs28  font 4; ord 106\par
+\f1\fs144\i0\b0\ul0 ?\f11 x\f1 ?\f11\i0\b0\ul0\cf0 x\f3\fs28  font 4; ord 107\par
+\f1\fs144\i0\b0\ul0 ?\f11 y\f1 ?\f11\i0\b0\ul0\cf0 y\f3\fs28  font 4; ord 108\par
+\f1\fs144\i0\b0\ul0 ?\f11 z\f1 ?\f11\i0\b0\ul0\cf0 z\f3\fs28  font 4; ord 109\par
+\f1\fs144\i0\b0\ul0 ?\f11\{\f1 ?\f11\i0\b0\ul0\cf0\{\f3\fs28  font 4; ord 110\par
+\f1\fs144\i0\b0\ul0 ?\f11 |\f1 ?\f11\i0\b0\ul0\cf0 |\f3\fs28  font 4; ord 111\par
+\f1\fs144\i0\b0\ul0 ?\f11\}\f1 ?\f11\i0\b0\ul0\cf0\}\f3\fs28  font 4; ord 112\par
+\f1\fs144\i0\b0\ul0 ?\f11 ~\f1 ?\f11\i0\b0\ul0\cf0 ~\f3\fs28  font 4; ord 113\par
+\f1\fs144\i0\b0\ul0 ?\f4 !\f1 ?\f4\i0\b0\ul0\cf0 !\f3\fs28  font 4; ord 114\par
+\f1\fs144\i0\b0\ul0 ?\f4 "\f1 ?\f4\i0\b0\ul0\cf0 "\f3\fs28  font 4; ord 115\par
+\f1\fs144\i0\b0\ul0 ?\f4 #\f1 ?\f4\i0\b0\ul0\cf0 #\f3\fs28  font 4; ord 116\par
+\f1\fs144\i0\b0\ul0 ?\f4 $\f1 ?\f4\i0\b0\ul0\cf0 $\f3\fs28  font 4; ord 117\par
+\f1\fs144\i0\b0\ul0 ?\f4 %\f1 ?\f4\i0\b0\ul0\cf0 %\f3\fs28  font 4; ord 118\par
+\f1\fs144\i0\b0\ul0 ?\f4 &\f1 ?\f4\i0\b0\ul0\cf0 &\f3\fs28  font 4; ord 119\par
+\f1\fs144\i0\b0\ul0 ?\f4 '\f1 ?\f4\i0\b0\ul0\cf0 '\f3\fs28  font 4; ord 120\par
+\f1\fs144\i0\b0\ul0 ?\f4 (\f1 ?\f4\i0\b0\ul0\cf0 (\f3\fs28  font 4; ord 121\par
+\f1\fs144\i0\b0\ul0 ?\f4 )\f1 ?\f4\i0\b0\ul0\cf0 )\f3\fs28  font 4; ord 122\par
+\f1\fs144\i0\b0\ul0 ?\f4 *\f1 ?\f4\i0\b0\ul0\cf0 *\f3\fs28  font 4; ord 123\par
+\f1\fs144\i0\b0\ul0 ?\f4 +\f1 ?\f4\i0\b0\ul0\cf0 +\f3\fs28  font 4; ord 124\par
+\f1\fs144\i0\b0\ul0 ?\f4 ,\f1 ?\f4\i0\b0\ul0\cf0 ,\f3\fs28  font 4; ord 125\par
+\f1\fs144\i0\b0\ul0 ?\f4 .\f1 ?\f4\i0\b0\ul0\cf0 .\f3\fs28  font 4; ord 126\par
+\f1\fs144\i0\b0\ul0 ?\f4 0\f1 ?\f4\i0\b0\ul0\cf0 0\f3\fs28  font 4; ord 128\par
+\f1\fs144\i0\b0\ul0 ?\f4 1\f1 ?\f4\i0\b0\ul0\cf0 1\f3\fs28  font 4; ord 129\par
+\f1\fs144\i0\b0\ul0 ?\f4 2\f1 ?\f4\i0\b0\ul0\cf0 2\f3\fs28  font 4; ord 130\par
+\f1\fs144\i0\b0\ul0 ?\f4 3\f1 ?\f4\i0\b0\ul0\cf0 3\f3\fs28  font 4; ord 131\par
+\f1\fs144\i0\b0\ul0 ?\f4 4\f1 ?\f4\i0\b0\ul0\cf0 4\f3\fs28  font 4; ord 132\par
+\f1\fs144\i0\b0\ul0 ?\f4 5\f1 ?\f4\i0\b0\ul0\cf0 5\f3\fs28  font 4; ord 133\par
+\f1\fs144\i0\b0\ul0 ?\f4 6\f1 ?\f4\i0\b0\ul0\cf0 6\f3\fs28  font 4; ord 134\par
+\f1\fs144\i0\b0\ul0 ?\f4 7\f1 ?\f4\i0\b0\ul0\cf0 7\f3\fs28  font 4; ord 135\par
+\f1\fs144\i0\b0\ul0 ?\f4 8\f1 ?\f4\i0\b0\ul0\cf0 8\f3\fs28  font 4; ord 136\par
+\f1\fs144\i0\b0\ul0 ?\f4 9\f1 ?\f4\i0\b0\ul0\cf0 9\f3\fs28  font 4; ord 137\par
+\f1\fs144\i0\b0\ul0 ?\f4 :\f1 ?\f4\i0\b0\ul0\cf0 :\f3\fs28  font 4; ord 138\par
+\f1\fs144\i0\b0\ul0 ?\f4 ;\f1 ?\f4\i0\b0\ul0\cf0 ;\f3\fs28  font 4; ord 139\par
+\f1\fs144\i0\b0\ul0 ?\f4 <\f1 ?\f4\i0\b0\ul0\cf0 <\f3\fs28  font 4; ord 140\par
+\f1\fs144\i0\b0\ul0 ?\f4 =\f1 ?\f4\i0\b0\ul0\cf0 =\f3\fs28  font 4; ord 141\par
+\f1\fs144\i0\b0\ul0 ?\f4 ?\f1 ?\f4\i0\b0\ul0\cf0 ?\f3\fs28  font 4; ord 143\par
+\f1\fs144\i0\b0\ul0 ?\f4 @\f1 ?\f4\i0\b0\ul0\cf0 @\f3\fs28  font 4; ord 144\par
+\f1\fs144\i0\b0\ul0 ?\f4 A\f1 ?\f4\i0\b0\ul0\cf0 A\f3\fs28  font 4; ord 145\par
+\f1\fs144\i0\b0\ul0 ?\f4 B\f1 ?\f4\i0\b0\ul0\cf0 B\f3\fs28  font 4; ord 173\par
+\f1\fs144\i0\b0\ul0 ?\f4 C\f1 ?\f4\i0\b0\ul0\cf0 C\f3\fs28  font 4; ord 174\par
+\f1\fs144\i0\b0\ul0 ?\f4 F\f1 ?\f4\i0\b0\ul0\cf0 F\f3\fs28  font 4; ord 175\par
+\f1\fs144\i0\b0\ul0 ?\f4 G\f1 ?\f4\i0\b0\ul0\cf0 G\f3\fs28  font 4; ord 176\par
+\f1\fs144\i0\b0\ul0 ?\f4 ]\f1 ?\f4\i0\b0\ul0\cf0 ]\f3\fs28  font 4; ord 177\par
+\f1\fs144\i0\b0\ul0 ?\f4 H\f1 ?\f4\i0\b0\ul0\cf0 H\f3\fs28  font 4; ord 178\par
+\f1\fs144\i0\b0\ul0 ?\f4 I\f1 ?\f4\i0\b0\ul0\cf0 I\f3\fs28  font 4; ord 179\par
+\f1\fs144\i0\b0\ul0 ?\f4 J\f1 ?\f4\i0\b0\ul0\cf0 J\f3\fs28  font 4; ord 180\par
+\f1\fs144\i0\b0\ul0 ?\f4 K\f1 ?\f4\i0\b0\ul0\cf0 K\f3\fs28  font 4; ord 181\par
+\f1\fs144\i0\b0\ul0 ?\f4 L\f1 ?\f4\i0\b0\ul0\cf0 L\f3\fs28  font 4; ord 182\par
+\f1\fs144\i0\b0\ul0 ?\f4 M\f1 ?\f4\i0\b0\ul0\cf0 M\f3\fs28  font 4; ord 183\par
+\f1\fs144\i0\b0\ul0 ?\f4 O\f1 ?\f4\i0\b0\ul0\cf0 O\f3\fs28  font 4; ord 184\par
+\f1\fs144\i0\b0\ul0 ?\f4 P\f1 ?\f4\i0\b0\ul0\cf0 P\f3\fs28  font 4; ord 185\par
+\f1\fs144\i0\b0\ul0 ?\f4 Q\f1 ?\f4\i0\b0\ul0\cf0 Q\f3\fs28  font 4; ord 186\par
+\f1\fs144\i0\b0\ul0 ?\f4 R\f1 ?\f4\i0\b0\ul0\cf0 R\f3\fs28  font 4; ord 187\par
+\f1\fs144\i0\b0\ul0 ?\f7 F\f1 ?\f7\i0\b0\ul0\cf0 F\f3\fs28  font 4; ord 188\par
+\f1\fs144\i0\b0\ul0 ?\f9 '\f1 ?\f9\i0\b0\ul0\cf0 '\f3\fs28  font 4; ord 189\par
+\f1\fs144\i0\b0\ul0 ?\f10 5\f1 ?\f10\i0\b0\ul0\cf0 5\f3\fs28  font 4; ord 190\par
+\f1\fs144\i0\b0\ul0 ?\f11 m\f1 ?\f11\i0\b0\ul0\cf0 m\f3\fs28  font 4; ord 191\par
+\f1\fs144\i0\b0\ul0 ?\f8 4\f1 ?\f8\i0\b0\ul0\cf0 4\f3\fs28  font 4; ord 192\par
+\f1\fs144\i0\b0\ul0 ?\f7 d\f1 ?\f7\i0\b0\ul0\cf0 d\f3\fs28  font 4; ord 193\par
+\f1\fs144\i0\b0\ul0 ?\f11 R\f1 ?\f11\i0\b0\ul0\cf0 R\f3\fs28  font 4; ord 194\par
+\f1\fs144\i0\b0\ul0 ?\f11 Q\f1 ?\f11\i0\b0\ul0\cf0 Q\f3\fs28  font 4; ord 195\par
+\f1\fs144\i0\b0\ul0 ?\f11 =\f1 ?\f11\i0\b0\ul0\cf0 =\f3\fs28  font 4; ord 196\par
+\f1\fs144\i0\b0\ul0 ?\f11 N\f1 ?\f11\i0\b0\ul0\cf0 N\f3\fs28  font 4; ord 197\par
+\f1\fs144\i0\b0\ul0 ?\f4 j\f1 ?\f4\i0\b0\ul0\cf0 j\f3\fs28  font 4; ord 201\par
+\f1\fs144\i0\b0\ul0 ?\f4 k\f1 ?\f4\i0\b0\ul0\cf0 k\f3\fs28  font 4; ord 202\par
+\f1\fs144\i0\b0\ul0 ?\f4 l\f1 ?\f4\i0\b0\ul0\cf0 l\f3\fs28  font 4; ord 203\par
+\f1\fs144\i0\b0\ul0 ?\f4 m\f1 ?\f4\i0\b0\ul0\cf0 m\f3\fs28  font 4; ord 204\par
+\f1\fs144\i0\b0\ul0 ?\f4 n\f1 ?\f4\i0\b0\ul0\cf0 n\f3\fs28  font 4; ord 205\par
+\f1\fs144\i0\b0\ul0 ?\f4 o\f1 ?\f4\i0\b0\ul0\cf0 o\f3\fs28  font 4; ord 206\par
+\f1\fs144\i0\b0\ul0 ?\f4 p\f1 ?\f4\i0\b0\ul0\cf0 p\f3\fs28  font 4; ord 207\par
+\f1\fs144\i0\b0\ul0 ?\f4 q\f1 ?\f4\i0\b0\ul0\cf0 q\f3\fs28  font 4; ord 211\par
+\f1\fs144\i0\b0\ul0 ?\f4 r\f1 ?\f4\i0\b0\ul0\cf0 r\f3\fs28  font 4; ord 212\par
+\f1\fs144\i0\b0\ul0 ?\f4 s\f1 ?\f4\i0\b0\ul0\cf0 s\f3\fs28  font 4; ord 213\par
+\f1\fs144\i0\b0\ul0 ?\f4 t\f1 ?\f4\i0\b0\ul0\cf0 t\f3\fs28  font 4; ord 214\par
+\f1\fs144\i0\b0\ul0 ?\f4 u\f1 ?\f4\i0\b0\ul0\cf0 u\f3\fs28  font 4; ord 215\par
+\f1\fs144\i0\b0\ul0 ?\f4 v\f1 ?\f4\i0\b0\ul0\cf0 v\f3\fs28  font 4; ord 216\par
+\f1\fs144\i0\b0\ul0 ?\f4 w\f1 ?\f4\i0\b0\ul0\cf0 w\f3\fs28  font 4; ord 217\par
+\f1\fs144\i0\b0\ul0 ?\f4 x\f1 ?\f4\i0\b0\ul0\cf0 x\f3\fs28  font 4; ord 224\par
+\f1\fs144\i0\b0\ul0 ?\f4 y\f1 ?\f4\i0\b0\ul0\cf0 y\f3\fs28  font 4; ord 225\par
+\f1\fs144\i0\b0\ul0 ?\f4 z\f1 ?\f4\i0\b0\ul0\cf0 z\f3\fs28  font 4; ord 226\par
+\f1\fs144\i0\b0\ul0 ?\f4\{\f1 ?\f4\i0\b0\ul0\cf0\{\f3\fs28  font 4; ord 227\par
+\f1\fs144\i0\b0\ul0 ?\f4 |\f1 ?\f4\i0\b0\ul0\cf0 |\f3\fs28  font 4; ord 228\par
+\f1\fs144\i0\b0\ul0 ?\f4\}\f1 ?\f4\i0\b0\ul0\cf0\}\f3\fs28  font 4; ord 229\par
+\f1\fs144\i0\b0\ul0 ?\f4 ~\f1 ?\f4\i0\b0\ul0\cf0 ~\f3\fs28  font 4; ord 230\par
+\f1\fs144\i0\b0\ul0 ?\f4 >\f1 ?\f4\i0\b0\ul0\cf0 >\f3\fs28  font 4; ord 249\par
+\f1\fs144\i0\b0\ul0 ?\f11 5\f1 ?\f11\i0\b0\ul0\cf0 5\f3\fs28  font 4; ord 252\par
+\f1\fs144\i0\b0\ul0 ?\f4 /\f1 ?\f4\i0\b0\ul0\cf0 /\f3\fs28  font 4; ord 253\par
+\f1\fs144\i0\b0\ul0 ? ?\f5\i0\b0\ul0\cf0  \f3\fs28  font 5; ord 32\par
+\f1\fs144\i0\b0\ul0 ?\f6 !\f1 ?\f6\i0\b0\ul0\cf0 !\f3\fs28  font 5; ord 33\par
+\f1\fs144\i0\b0\ul0 ?\f6 "\f1 ?\f6\i0\b0\ul0\cf0 "\f3\fs28  font 5; ord 34\par
+\f1\fs144\i0\b0\ul0 ?\f6 #\f1 ?\f6\i0\b0\ul0\cf0 #\f3\fs28  font 5; ord 35\par
+\f1\fs144\i0\b0\ul0 ?\f6 $\f1 ?\f6\i0\b0\ul0\cf0 $\f3\fs28  font 5; ord 36\par
+\f1\fs144\i0\b0\ul0 ?\f6 %\f1 ?\f6\i0\b0\ul0\cf0 %\f3\fs28  font 5; ord 37\par
+\f1\fs144\i0\b0\ul0 ?\f6 )\f1 ?\f6\i0\b0\ul0\cf0 )\f3\fs28  font 5; ord 38\par
+\f1\fs144\i0\b0\ul0 ?\f6 *\f1 ?\f6\i0\b0\ul0\cf0 *\f3\fs28  font 5; ord 39\par
+\f1\fs144\i0\b0\ul0 ?\f6 +\f1 ?\f6\i0\b0\ul0\cf0 +\f3\fs28  font 5; ord 40\par
+\f1\fs144\i0\b0\ul0 ?\f6 ,\f1 ?\f6\i0\b0\ul0\cf0 ,\f3\fs28  font 5; ord 41\par
+\f1\fs144\i0\b0\ul0 ?\f6 .\f1 ?\f6\i0\b0\ul0\cf0 .\f3\fs28  font 5; ord 42\par
+\f1\fs144\i0\b0\ul0 ?\f6 /\f1 ?\f6\i0\b0\ul0\cf0 /\f3\fs28  font 5; ord 43\par
+\f1\fs144\i0\b0\ul0 ?\f6 0\f1 ?\f6\i0\b0\ul0\cf0 0\f3\fs28  font 5; ord 44\par
+\f1\fs144\i0\b0\ul0 ?\f6 1\f1 ?\f6\i0\b0\ul0\cf0 1\f3\fs28  font 5; ord 46\par
+\f1\fs144\i0\b0\ul0 ?\f6 2\f1 ?\f6\i0\b0\ul0\cf0 2\f3\fs28  font 5; ord 47\par
+\f1\fs144\i0\b0\ul0 ?\f6 3\f1 ?\f6\i0\b0\ul0\cf0 3\f3\fs28  font 5; ord 48\par
+\f1\fs144\i0\b0\ul0 ?\f6 5\f1 ?\f6\i0\b0\ul0\cf0 5\f3\fs28  font 5; ord 50\par
+\f1\fs144\i0\b0\ul0 ?\f6 6\f1 ?\f6\i0\b0\ul0\cf0 6\f3\fs28  font 5; ord 51\par
+\f1\fs144\i0\b0\ul0 ?\f6 7\f1 ?\f6\i0\b0\ul0\cf0 7\f3\fs28  font 5; ord 52\par
+\f1\fs144\i0\b0\ul0 ?\f6 8\f1 ?\f6\i0\b0\ul0\cf0 8\f3\fs28  font 5; ord 53\par
+\f1\fs144\i0\b0\ul0 ?\f6 9\f1 ?\f6\i0\b0\ul0\cf0 9\f3\fs28  font 5; ord 54\par
+\f1\fs144\i0\b0\ul0 ?\f6 :\f1 ?\f6\i0\b0\ul0\cf0 :\f3\fs28  font 5; ord 55\par
+\f1\fs144\i0\b0\ul0 ?\f6 ;\f1 ?\f6\i0\b0\ul0\cf0 ;\f3\fs28  font 5; ord 56\par
+\f1\fs144\i0\b0\ul0 ?\f6 <\f1 ?\f6\i0\b0\ul0\cf0 <\f3\fs28  font 5; ord 57\par
+\f1\fs144\i0\b0\ul0 ?\f6 =\f1 ?\f6\i0\b0\ul0\cf0 =\f3\fs28  font 5; ord 58\par
+\f1\fs144\i0\b0\ul0 ?\f6 >\f1 ?\f6\i0\b0\ul0\cf0 >\f3\fs28  font 5; ord 59\par
+\f1\fs144\i0\b0\ul0 ?\f6 ?\f1 ?\f6\i0\b0\ul0\cf0 ?\f3\fs28  font 5; ord 60\par
+\f1\fs144\i0\b0\ul0 ?\f6 @\f1 ?\f6\i0\b0\ul0\cf0 @\f3\fs28  font 5; ord 61\par
+\f1\fs144\i0\b0\ul0 ?\f6 A\f1 ?\f6\i0\b0\ul0\cf0 A\f3\fs28  font 5; ord 62\par
+\f1\fs144\i0\b0\ul0 ?\f6 B\f1 ?\f6\i0\b0\ul0\cf0 B\f3\fs28  font 5; ord 63\par
+\f1\fs144\i0\b0\ul0 ?\f6 C\f1 ?\f6\i0\b0\ul0\cf0 C\f3\fs28  font 5; ord 64\par
+\f1\fs144\i0\b0\ul0 ?\f6 D\f1 ?\f6\i0\b0\ul0\cf0 D\f3\fs28  font 5; ord 65\par
+\f1\fs144\i0\b0\ul0 ?\f6 E\f1 ?\f6\i0\b0\ul0\cf0 E\f3\fs28  font 5; ord 66\par
+\f1\fs144\i0\b0\ul0 ?\f6 F\f1 ?\f6\i0\b0\ul0\cf0 F\f3\fs28  font 5; ord 67\par
+\f1\fs144\i0\b0\ul0 ?\f6 G\f1 ?\f6\i0\b0\ul0\cf0 G\f3\fs28  font 5; ord 68\par
+\f1\fs144\i0\b0\ul0 ?\f6 H\f1 ?\f6\i0\b0\ul0\cf0 H\f3\fs28  font 5; ord 69\par
+\f1\fs144\i0\b0\ul0 ?\f6 I\f1 ?\f6\i0\b0\ul0\cf0 I\f3\fs28  font 5; ord 70\par
+\f1\fs144\i0\b0\ul0 ?\f6 J\f1 ?\f6\i0\b0\ul0\cf0 J\f3\fs28  font 5; ord 71\par
+\f1\fs144\i0\b0\ul0 ?\f6 K\f1 ?\f6\i0\b0\ul0\cf0 K\f3\fs28  font 5; ord 72\par
+\f1\fs144\i0\b0\ul0 ?\f6 L\f1 ?\f6\i0\b0\ul0\cf0 L\f3\fs28  font 5; ord 73\par
+\f1\fs144\i0\b0\ul0 ?\f6 M\f1 ?\f6\i0\b0\ul0\cf0 M\f3\fs28  font 5; ord 74\par
+\f1\fs144\i0\b0\ul0 ?\f6 N\f1 ?\f6\i0\b0\ul0\cf0 N\f3\fs28  font 5; ord 75\par
+\f1\fs144\i0\b0\ul0 ?\f6 O\f1 ?\f6\i0\b0\ul0\cf0 O\f3\fs28  font 5; ord 76\par
+\f1\fs144\i0\b0\ul0 ?\f6 P\f1 ?\f6\i0\b0\ul0\cf0 P\f3\fs28  font 5; ord 77\par
+\f1\fs144\i0\b0\ul0 ?\f6 Q\f1 ?\f6\i0\b0\ul0\cf0 Q\f3\fs28  font 5; ord 78\par
+\f1\fs144\i0\b0\ul0 ?\f6 R\f1 ?\f6\i0\b0\ul0\cf0 R\f3\fs28  font 5; ord 79\par
+\f1\fs144\i0\b0\ul0 ?\f6 S\f1 ?\f6\i0\b0\ul0\cf0 S\f3\fs28  font 5; ord 80\par
+\f1\fs144\i0\b0\ul0 ?\f6 T\f1 ?\f6\i0\b0\ul0\cf0 T\f3\fs28  font 5; ord 81\par
+\f1\fs144\i0\b0\ul0 ?\f6 U\f1 ?\f6\i0\b0\ul0\cf0 U\f3\fs28  font 5; ord 82\par
+\f1\fs144\i0\b0\ul0 ?\f6 V\f1 ?\f6\i0\b0\ul0\cf0 V\f3\fs28  font 5; ord 83\par
+\f1\fs144\i0\b0\ul0 ?\f6 W\f1 ?\f6\i0\b0\ul0\cf0 W\f3\fs28  font 5; ord 84\par
+\f1\fs144\i0\b0\ul0 ?\f6 X\f1 ?\f6\i0\b0\ul0\cf0 X\f3\fs28  font 5; ord 90\par
+\f1\fs144\i0\b0\ul0 ?\f6 Y\f1 ?\f6\i0\b0\ul0\cf0 Y\f3\fs28  font 5; ord 91\par
+\f1\fs144\i0\b0\ul0 ?\f6 Z\f1 ?\f6\i0\b0\ul0\cf0 Z\f3\fs28  font 5; ord 92\par
+\f1\fs144\i0\b0\ul0 ?\f6 [\f1 ?\f6\i0\b0\ul0\cf0 [\f3\fs28  font 5; ord 93\par
+\f1\fs144\i0\b0\ul0 ?\f6\\\f1 ?\f6\i0\b0\ul0\cf0\\\f3\fs28  font 5; ord 94\par
+\f1\fs144\i0\b0\ul0 ?\f6 _\f1 ?\f6\i0\b0\ul0\cf0 _\f3\fs28  font 5; ord 95\par
+\f1\fs144\i0\b0\ul0 ?\f6 `\f1 ?\f6\i0\b0\ul0\cf0 `\f3\fs28  font 5; ord 96\par
+\f1\fs144\i0\b0\ul0 ?\f6 a\f1 ?\f6\i0\b0\ul0\cf0 a\f3\fs28  font 5; ord 97\par
+\f1\fs144\i0\b0\ul0 ?\f6 b\f1 ?\f6\i0\b0\ul0\cf0 b\f3\fs28  font 5; ord 98\par
+\f1\fs144\i0\b0\ul0 ?\f6 c\f1 ?\f6\i0\b0\ul0\cf0 c\f3\fs28  font 5; ord 99\par
+\f1\fs144\i0\b0\ul0 ?\f6 d\f1 ?\f6\i0\b0\ul0\cf0 d\f3\fs28  font 5; ord 100\par
+\f1\fs144\i0\b0\ul0 ?\f6 e\f1 ?\f6\i0\b0\ul0\cf0 e\f3\fs28  font 5; ord 101\par
+\f1\fs144\i0\b0\ul0 ?\f6 f\f1 ?\f6\i0\b0\ul0\cf0 f\f3\fs28  font 5; ord 102\par
+\f1\fs144\i0\b0\ul0 ?\f6 g\f1 ?\f6\i0\b0\ul0\cf0 g\f3\fs28  font 5; ord 103\par
+\f1\fs144\i0\b0\ul0 ?\f6 h\f1 ?\f6\i0\b0\ul0\cf0 h\f3\fs28  font 5; ord 104\par
+\f1\fs144\i0\b0\ul0 ?\f6 i\f1 ?\f6\i0\b0\ul0\cf0 i\f3\fs28  font 5; ord 105\par
+\f1\fs144\i0\b0\ul0 ?\f6 j\f1 ?\f6\i0\b0\ul0\cf0 j\f3\fs28  font 5; ord 106\par
+\f1\fs144\i0\b0\ul0 ?\f6 k\f1 ?\f6\i0\b0\ul0\cf0 k\f3\fs28  font 5; ord 107\par
+\f1\fs144\i0\b0\ul0 ?\f6 l\f1 ?\f6\i0\b0\ul0\cf0 l\f3\fs28  font 5; ord 108\par
+\f1\fs144\i0\b0\ul0 ?\f6 m\f1 ?\f6\i0\b0\ul0\cf0 m\f3\fs28  font 5; ord 109\par
+\f1\fs144\i0\b0\ul0 ?\f6 n\f1 ?\f6\i0\b0\ul0\cf0 n\f3\fs28  font 5; ord 110\par
+\f1\fs144\i0\b0\ul0 ?\f6 o\f1 ?\f6\i0\b0\ul0\cf0 o\f3\fs28  font 5; ord 111\par
+\f1\fs144\i0\b0\ul0 ?\f6 s\f1 ?\f6\i0\b0\ul0\cf0 s\f3\fs28  font 5; ord 115\par
+\f1\fs144\i0\b0\ul0 ?\f6 t\f1 ?\f6\i0\b0\ul0\cf0 t\f3\fs28  font 5; ord 116\par
+\f1\fs144\i0\b0\ul0 ?\f6 u\f1 ?\f6\i0\b0\ul0\cf0 u\f3\fs28  font 5; ord 117\par
+\f1\fs144\i0\b0\ul0 ?\f6 v\f1 ?\f6\i0\b0\ul0\cf0 v\f3\fs28  font 5; ord 118\par
+\f1\fs144\i0\b0\ul0 ?\f6 w\f1 ?\f6\i0\b0\ul0\cf0 w\f3\fs28  font 5; ord 119\par
+\f1\fs144\i0\b0\ul0 ?\f6 x\f1 ?\f6\i0\b0\ul0\cf0 x\f3\fs28  font 5; ord 120\par
+\f1\fs144\i0\b0\ul0 ?\f6 y\f1 ?\f6\i0\b0\ul0\cf0 y\f3\fs28  font 5; ord 121\par
+\f1\fs144\i0\b0\ul0 ?\f6 z\f1 ?\f6\i0\b0\ul0\cf0 z\f3\fs28  font 5; ord 122\par
+\f1\fs144\i0\b0\ul0 ?\f6\{\f1 ?\f6\i0\b0\ul0\cf0\{\f3\fs28  font 5; ord 123\par
+\f1\fs144\i0\b0\ul0 ?\f6 |\f1 ?\f6\i0\b0\ul0\cf0 |\f3\fs28  font 5; ord 124\par
+\f1\fs144\i0\b0\ul0 ?\f6\}\f1 ?\f6\i0\b0\ul0\cf0\}\f3\fs28  font 5; ord 125\par
+\f1\fs144\i0\b0\ul0 ?\f6 ~\f1 ?\f6\i0\b0\ul0\cf0 ~\f3\fs28  font 5; ord 126\par
+\f1\fs144\i0\b0\ul0 ?\f5 !\f1 ?\f5\i0\b0\ul0\cf0 !\f3\fs28  font 5; ord 128\par
+\f1\fs144\i0\b0\ul0 ?\f5 "\f1 ?\f5\i0\b0\ul0\cf0 "\f3\fs28  font 5; ord 129\par
+\f1\fs144\i0\b0\ul0 ?\f5 #\f1 ?\f5\i0\b0\ul0\cf0 #\f3\fs28  font 5; ord 130\par
+\f1\fs144\i0\b0\ul0 ?\f5 $\f1 ?\f5\i0\b0\ul0\cf0 $\f3\fs28  font 5; ord 131\par
+\f1\fs144\i0\b0\ul0 ?\f5 %\f1 ?\f5\i0\b0\ul0\cf0 %\f3\fs28  font 5; ord 132\par
+\f1\fs144\i0\b0\ul0 ?\f5 &\f1 ?\f5\i0\b0\ul0\cf0 &\f3\fs28  font 5; ord 133\par
+\f1\fs144\i0\b0\ul0 ?\f5 '\f1 ?\f5\i0\b0\ul0\cf0 '\f3\fs28  font 5; ord 134\par
+\f1\fs144\i0\b0\ul0 ?\f5 (\f1 ?\f5\i0\b0\ul0\cf0 (\f3\fs28  font 5; ord 135\par
+\f1\fs144\i0\b0\ul0 ?\f4 D\f1 ?\f4\i0\b0\ul0\cf0 D\f3\fs28  font 5; ord 145\par
+\f1\fs144\i0\b0\ul0 ?\f5 *\f1 ?\f5\i0\b0\ul0\cf0 *\f3\fs28  font 5; ord 146\par
+\f1\fs144\i0\b0\ul0 ?\f5 +\f1 ?\f5\i0\b0\ul0\cf0 +\f3\fs28  font 5; ord 147\par
+\f1\fs144\i0\b0\ul0 ?\f5 ,\f1 ?\f5\i0\b0\ul0\cf0 ,\f3\fs28  font 5; ord 148\par
+\f1\fs144\i0\b0\ul0 ?\f4 N\f1 ?\f4\i0\b0\ul0\cf0 N\f3\fs28  font 5; ord 149\par
+\f1\fs144\i0\b0\ul0 ?\f5 :\f1 ?\f5\i0\b0\ul0\cf0 :\f3\fs28  font 5; ord 153\par
+\f1\fs144\i0\b0\ul0 ?\f5 ;\f1 ?\f5\i0\b0\ul0\cf0 ;\f3\fs28  font 5; ord 154\par
+\f1\fs144\i0\b0\ul0 ?\f5 <\f1 ?\f5\i0\b0\ul0\cf0 <\f3\fs28  font 5; ord 155\par
+\f1\fs144\i0\b0\ul0 ?\f5 =\f1 ?\f5\i0\b0\ul0\cf0 =\f3\fs28  font 5; ord 156\par
+\f1\fs144\i0\b0\ul0 ?\f5 >\f1 ?\f5\i0\b0\ul0\cf0 >\f3\fs28  font 5; ord 190\par
+\f1\fs144\i0\b0\ul0 ?\f5 ?\f1 ?\f5\i0\b0\ul0\cf0 ?\f3\fs28  font 5; ord 191\par
+\f1\fs144\i0\b0\ul0 ?\f5 @\f1 ?\f5\i0\b0\ul0\cf0 @\f3\fs28  font 5; ord 192\par
+\f1\fs144\i0\b0\ul0 ?\f5 A\f1 ?\f5\i0\b0\ul0\cf0 A\f3\fs28  font 5; ord 193\par
+\f1\fs144\i0\b0\ul0 ?\f5 B\f1 ?\f5\i0\b0\ul0\cf0 B\f3\fs28  font 5; ord 194\par
+\f1\fs144\i0\b0\ul0 ?\f5 C\f1 ?\f5\i0\b0\ul0\cf0 C\f3\fs28  font 5; ord 195\par
+\f1\fs144\i0\b0\ul0 ?\f5 D\f1 ?\f5\i0\b0\ul0\cf0 D\f3\fs28  font 5; ord 196\par
+\f1\fs144\i0\b0\ul0 ?\f5 E\f1 ?\f5\i0\b0\ul0\cf0 E\f3\fs28  font 5; ord 197\par
+\f1\fs144\i0\b0\ul0 ?\f5 F\f1 ?\f5\i0\b0\ul0\cf0 F\f3\fs28  font 5; ord 198\par
+\f1\fs144\i0\b0\ul0 ?\f5 G\f1 ?\f5\i0\b0\ul0\cf0 G\f3\fs28  font 5; ord 200\par
+\f1\fs144\i0\b0\ul0 ?\f5 H\f1 ?\f5\i0\b0\ul0\cf0 H\f3\fs28  font 5; ord 201\par
+\f1\fs144\i0\b0\ul0 ?\f5 I\f1 ?\f5\i0\b0\ul0\cf0 I\f3\fs28  font 5; ord 202\par
+\f1\fs144\i0\b0\ul0 ?\f5 J\f1 ?\f5\i0\b0\ul0\cf0 J\f3\fs28  font 5; ord 203\par
+\f1\fs144\i0\b0\ul0 ?\f5 K\f1 ?\f5\i0\b0\ul0\cf0 K\f3\fs28  font 5; ord 204\par
+\f1\fs144\i0\b0\ul0 ?\f5 L\f1 ?\f5\i0\b0\ul0\cf0 L\f3\fs28  font 5; ord 205\par
+\f1\fs144\i0\b0\ul0 ?\f5 M\f1 ?\f5\i0\b0\ul0\cf0 M\f3\fs28  font 5; ord 206\par
+\f1\fs144\i0\b0\ul0 ?\f5 N\f1 ?\f5\i0\b0\ul0\cf0 N\f3\fs28  font 5; ord 207\par
+\f1\fs144\i0\b0\ul0 ?\f5 O\f1 ?\f5\i0\b0\ul0\cf0 O\f3\fs28  font 5; ord 208\par
+\f1\fs144\i0\b0\ul0 ?\f5 P\f1 ?\f5\i0\b0\ul0\cf0 P\f3\fs28  font 5; ord 209\par
+\f1\fs144\i0\b0\ul0 ?\f5 Q\f1 ?\f5\i0\b0\ul0\cf0 Q\f3\fs28  font 5; ord 210\par
+\f1\fs144\i0\b0\ul0 ?\f5 R\f1 ?\f5\i0\b0\ul0\cf0 R\f3\fs28  font 5; ord 211\par
+\f1\fs144\i0\b0\ul0 ?\f5 S\f1 ?\f5\i0\b0\ul0\cf0 S\f3\fs28  font 5; ord 212\par
+\f1\fs144\i0\b0\ul0 ?\f5 T\f1 ?\f5\i0\b0\ul0\cf0 T\f3\fs28  font 5; ord 213\par
+\f1\fs144\i0\b0\ul0 ?\f5 U\f1 ?\f5\i0\b0\ul0\cf0 U\f3\fs28  font 5; ord 214\par
+\f1\fs144\i0\b0\ul0 ?\f5 V\f1 ?\f5\i0\b0\ul0\cf0 V\f3\fs28  font 5; ord 215\par
+\f1\fs144\i0\b0\ul0 ?\f5 W\f1 ?\f5\i0\b0\ul0\cf0 W\f3\fs28  font 5; ord 216\par
+\f1\fs144\i0\b0\ul0 ?\f5 X\f1 ?\f5\i0\b0\ul0\cf0 X\f3\fs28  font 5; ord 217\par
+\f1\fs144\i0\b0\ul0 ?\f5 Y\f1 ?\f5\i0\b0\ul0\cf0 Y\f3\fs28  font 5; ord 218\par
+\f1\fs144\i0\b0\ul0 ?\f5 Z\f1 ?\f5\i0\b0\ul0\cf0 Z\f3\fs28  font 5; ord 219\par
+\f1\fs144\i0\b0\ul0 ?\f5 [\f1 ?\f5\i0\b0\ul0\cf0 [\f3\fs28  font 5; ord 220\par
+\f1\fs144\i0\b0\ul0 ?\f5\\\f1 ?\f5\i0\b0\ul0\cf0\\\f3\fs28  font 5; ord 221\par
+\f1\fs144\i0\b0\ul0 ?\f5 ]\f1 ?\f5\i0\b0\ul0\cf0 ]\f3\fs28  font 5; ord 222\par
+\f1\fs144\i0\b0\ul0 ?\f5 ^\f1 ?\f5\i0\b0\ul0\cf0 ^\f3\fs28  font 5; ord 223\par
+\f1\fs144\i0\b0\ul0 ?\f5 _\f1 ?\f5\i0\b0\ul0\cf0 _\f3\fs28  font 5; ord 224\par
+\f1\fs144\i0\b0\ul0 ?\f5 `\f1 ?\f5\i0\b0\ul0\cf0 `\f3\fs28  font 5; ord 225\par
+\f1\fs144\i0\b0\ul0 ?\f5 a\f1 ?\f5\i0\b0\ul0\cf0 a\f3\fs28  font 5; ord 226\par
+\f1\fs144\i0\b0\ul0 ?\f5 b\f1 ?\f5\i0\b0\ul0\cf0 b\f3\fs28  font 5; ord 227\par
+\f1\fs144\i0\b0\ul0 ?\f5 c\f1 ?\f5\i0\b0\ul0\cf0 c\f3\fs28  font 5; ord 228\par
+\f1\fs144\i0\b0\ul0 ?\f5 d\f1 ?\f5\i0\b0\ul0\cf0 d\f3\fs28  font 5; ord 229\par
+\f1\fs144\i0\b0\ul0 ?\f5 e\f1 ?\f5\i0\b0\ul0\cf0 e\f3\fs28  font 5; ord 230\par
+\f1\fs144\i0\b0\ul0 ?\f5 f\f1 ?\f5\i0\b0\ul0\cf0 f\f3\fs28  font 5; ord 231\par
+\f1\fs144\i0\b0\ul0 ?\f5 g\f1 ?\f5\i0\b0\ul0\cf0 g\f3\fs28  font 5; ord 232\par
+\f1\fs144\i0\b0\ul0 ?\f5 h\f1 ?\f5\i0\b0\ul0\cf0 h\f3\fs28  font 5; ord 233\par
+\f1\fs144\i0\b0\ul0 ?\f5 i\f1 ?\f5\i0\b0\ul0\cf0 i\f3\fs28  font 5; ord 234\par
+\f1\fs144\i0\b0\ul0 ?\f5 j\f1 ?\f5\i0\b0\ul0\cf0 j\f3\fs28  font 5; ord 235\par
+\f1\fs144\i0\b0\ul0 ?\f5 k\f1 ?\f5\i0\b0\ul0\cf0 k\f3\fs28  font 5; ord 236\par
+\f1\fs144\i0\b0\ul0 ?\f5 l\f1 ?\f5\i0\b0\ul0\cf0 l\f3\fs28  font 5; ord 237\par
+\f1\fs144\i0\b0\ul0 ?\f5 m\f1 ?\f5\i0\b0\ul0\cf0 m\f3\fs28  font 5; ord 238\par
+\f1\fs144\i0\b0\ul0 ?\f5 n\f1 ?\f5\i0\b0\ul0\cf0 n\f3\fs28  font 5; ord 239\par
+\f1\fs144\i0\b0\ul0 ?\f5 o\f1 ?\f5\i0\b0\ul0\cf0 o\f3\fs28  font 5; ord 240\par
+\f1\fs72\par
+\li0\ri0\fi0\fs24\i0\b0\ul0\par
+}

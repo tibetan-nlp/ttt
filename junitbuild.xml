@@ -1,0 +1,106 @@
+<!-- @author David Chandler, dchandler@users.sourceforge.net
+
+     We have a document,
+     http://thdltools.sourceforge.net/BuildSystems.html, that you
+     probably should read.
+-->
+
+<project name="THDLTools-junit" default="fail-nicely" basedir=".">
+
+  <description>
+    This Jakarta Ant buildfile is used to do the low-level work of
+    unit testing our system.  This is separate from build.xml because
+    to use this build file, you must have installed JUnit and the
+    JUnit Ant tasks (i.e., $ANT_HOME/lib/junit.jar and
+    $ANT_HOME/lib/optional.jar).  Thus, this buildfile contains only
+    targets that must interact with JUnit.
+
+    Read the comments of this buildfile to learn more, or see
+    'http://thdltools.sourceforge.net/BuildSystems.html'.
+  </description>
+
+  <taskdef name="junit"
+           classname="org.apache.tools.ant.taskdefs.optional.junit.JUnitTask"/>
+
+  <taskdef name="junitreport"
+           classname="org.apache.tools.ant.taskdefs.optional.junit.XMLResultAggregator"/>
+
+  <property file="build.properties"/>
+  <property name="halt.after.trouble" value="no"/>
+
+  <target name="fail-nicely"
+          description="Tells the user to use build.xml, not this subbuildfile.">
+    <fail message="Do not use this file directly; use build.xml instead, which then uses this file."/>
+  </target>
+
+
+  <!-- This creates output files TEST* in the Jskad/ directory. -->
+  <target name="run-headed-junit-tests"
+          description="Assuming that compilation of appropriate classes has been done, this target runs all the non-headless JUnit tests in the project.">
+    <junit fork="no" printsummary="yes" haltonfailure="${halt.after.trouble}" haltonerror="${halt.after.trouble}">
+    <!-- we don't halt on error because you get an error when you run
+         on a headless display -->
+      <classpath>
+        <pathelement location="${junitbin}"/>
+        <path refid="entire.class.path"/>
+      </classpath>
+      <formatter type="xml"/><!-- If not XML, then 'ant -buildfile
+                                  build.xml check-report' will fail. -->
+      <test name="org.thdl.tib.input.DuffPaneTest"/>
+      <test name="org.thdl.tib.input.TinyTest"/>
+    </junit>
+  </target>
+  <target name="run-one-junit-test"
+          description="Runs soletest, a single JUnit test [class].">
+    <junit fork="no" printsummary="yes" haltonfailure="true" haltonerror="true">
+      <classpath>
+        <pathelement location="${junitbin}"/>
+        <path refid="entire.class.path"/>
+      </classpath>
+      <formatter type="xml"/><!-- If not XML, then 'ant -buildfile
+                                  build.xml check-report' will fail. -->
+      <test name="${soletest}"/>
+    </junit>
+  </target>
+  <target name="run-headless-junit-tests"
+          description="Assuming that compilation of appropriate classes has been done, this target runs all the headless JUnit tests in the project.">
+    <junit fork="no" printsummary="yes" haltonfailure="yes" haltonerror="yes">
+      <sysproperty key="java.awt.headless" value="true"/>
+      <classpath>
+        <pathelement location="${junitbin}"/>
+        <path refid="entire.class.path"/>
+      </classpath>
+      <formatter type="xml"/><!-- If not XML, then 'ant -buildfile
+                                  build.xml check-report' will fail. -->
+      <sysproperty key="java.awt.headless" value="true"/>
+      <test name="org.thdl.tib.text.reverter.ConverterTest"/>
+      <test name="org.thdl.tib.text.reverter.UnicodeToTranslitForXsltTest"/>
+      <test name="org.thdl.tib.text.ttt.EwtsToUnicodeForXsltTest"/>
+      <test name="org.thdl.tib.text.ttt.EWTSTest"/>
+      <test name="org.thdl.tib.text.ttt.EWTStibwniniTest"/>
+      <test name="org.thdl.tib.input.TMW_RTF_TO_THDL_WYLIETest"/>
+      <test name="org.thdl.tib.text.TibetanMachineWebTest"/>
+      <test name="org.thdl.tib.text.ttt.PackageTest"/>
+      <test name="org.thdl.tib.text.ttt.LotsOfTshegBarsTest"/>
+      <test name="org.thdl.util.RTFFixerInputStreamTest"/>
+      <test name="org.thdl.util.ThdlLazyExceptionTest"/>
+      <test name="org.thdl.util.TrieTest"/>
+      <test name="org.thdl.tib.text.tshegbar.UnicodeUtilsTest"/>
+      <test name="org.thdl.tib.text.tshegbar.LegalTshegBarTest"/>
+      <test name="org.thdl.tib.text.tshegbar.UnicodeGraphemeClusterTest"/>
+      <test name="org.thdl.tib.text.tshegbar.UnicodeCodepointToThdlWylieTest"/>
+    </junit>
+  </target>
+
+  <!-- Note the odd dependencies. -->
+  <target name="make-nightly-report"
+          description="Creates an HTML report about the status of the tests; is dependent (via build.xml) on targets that execute JUnit Ant tasks.">
+    <junitreport todir="${dist}">
+      <fileset dir=".">
+        <include name="TEST-*.xml"/>
+      </fileset>
+      <report format="noframes" todir="${dist}"/>
+    </junitreport>
+    <delete file="${dist}/TESTS-TestSuites.xml"/>
+  </target>
+</project>

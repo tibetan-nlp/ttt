@@ -1,0 +1,911 @@
+{\rtf1\ansi
+{\fonttbl\f0\fnil Monospaced;\f1\fnil TibetanMachine;\f2\fnil Serif;\f3\fnil TibetanMachineSkt1;\f4\fnil TibetanMachineSkt2;\f5\fnil TibetanMachineSkt3;\f6\fnil TibetanMachineSkt4;}
+
+\li0\ri0\fi0\f1\fs144\i0\b0\ul0\cf0 > >\f2\i0\b0\ul0 _\fs28\i0\b0\ul0\cf0  font 1; ord 32\par
+\f1\fs144 >!>\f2\i0\b0\ul0 ka\fs28\i0\b0\ul0\cf0  font 1; ord 33\par
+\f1\fs144 >">\f2\i0\b0\ul0 kha\fs28\i0\b0\ul0\cf0  font 1; ord 34\par
+\f1\fs144 >#>\f2\i0\b0\ul0 ga\fs28\i0\b0\ul0\cf0  font 1; ord 35\par
+\f1\fs144 >$>\f2\i0\b0\ul0 nga\fs28\i0\b0\ul0\cf0  font 1; ord 36\par
+\f1\fs144 >%>\f2\i0\b0\ul0 ca\fs28\i0\b0\ul0\cf0  font 1; ord 37\par
+\f1\fs144 >&>\f2\i0\b0\ul0 cha\fs28\i0\b0\ul0\cf0  font 1; ord 38\par
+\f1\fs144 >'>\f2\i0\b0\ul0 ja\fs28\i0\b0\ul0\cf0  font 1; ord 39\par
+\f1\fs144 >(>\f2\i0\b0\ul0 nya\fs28\i0\b0\ul0\cf0  font 1; ord 40\par
+\f1\fs144 >)>\f2\i0\b0\ul0 ta\fs28\i0\b0\ul0\cf0  font 1; ord 41\par
+\f1\fs144 >*>\f2\i0\b0\ul0 tha\fs28\i0\b0\ul0\cf0  font 1; ord 42\par
+\f1\fs144 >+>\f2\i0\b0\ul0 da\fs28\i0\b0\ul0\cf0  font 1; ord 43\par
+\f1\fs144 >,>\f2\i0\b0\ul0 na\fs28\i0\b0\ul0\cf0  font 1; ord 44\par
+\f1\fs144 >->\f2\i0\b0\ul0  \fs28\i0\b0\ul0\cf0  font 1; ord 45\par
+\f1\fs144 >.>\f2\i0\b0\ul0 pha\fs28\i0\b0\ul0\cf0  font 1; ord 46\par
+\f1\fs144 >/>\f2\i0\b0\ul0 ba\fs28\i0\b0\ul0\cf0  font 1; ord 47\par
+\f1\fs144 >0>\f2\i0\b0\ul0 ma\fs28\i0\b0\ul0\cf0  font 1; ord 48\par
+\f1\fs144 >1>\f2\i0\b0\ul0 tsa\fs28\i0\b0\ul0\cf0  font 1; ord 49\par
+\f1\fs144 >2>\f2\i0\b0\ul0 tsha\fs28\i0\b0\ul0\cf0  font 1; ord 50\par
+\f1\fs144 >3>\f2\i0\b0\ul0 dza\fs28\i0\b0\ul0\cf0  font 1; ord 51\par
+\f1\fs144 >4>\f2\i0\b0\ul0 wa\fs28\i0\b0\ul0\cf0  font 1; ord 52\par
+\f1\fs144 >5>\f2\i0\b0\ul0 zha\fs28\i0\b0\ul0\cf0  font 1; ord 53\par
+\f1\fs144 >6>\f2\i0\b0\ul0 za\fs28\i0\b0\ul0\cf0  font 1; ord 54\par
+\f1\fs144 >7>\f2\i0\b0\ul0 'a\fs28\i0\b0\ul0\cf0  font 1; ord 55\par
+\f1\fs144 >8>\f2\i0\b0\ul0 ya\fs28\i0\b0\ul0\cf0  font 1; ord 56\par
+\f1\fs144 >9>\f2\i0\b0\ul0 ra\fs28\i0\b0\ul0\cf0  font 1; ord 57\par
+\f1\fs144 >:>\f2\i0\b0\ul0 la\fs28\i0\b0\ul0\cf0  font 1; ord 58\par
+\f1\fs144 >;>\f2\i0\b0\ul0 sha\fs28\i0\b0\ul0\cf0  font 1; ord 59\par
+\f1\fs144 ><>\f2\i0\b0\ul0 sa\fs28\i0\b0\ul0\cf0  font 1; ord 60\par
+\f1\fs144 >=>\f2\i0\b0\ul0 ha\fs28\i0\b0\ul0\cf0  font 1; ord 61\par
+\f1\fs144 >>>\f2\i0\b0\ul0 a\fs28\i0\b0\ul0\cf0  font 1; ord 62\par
+\f1\fs144 >?>\f2\i0\b0\ul0 rka\fs28\i0\b0\ul0\cf0  font 1; ord 63\par
+\f1\fs144 >@>\f2\i0\b0\ul0 rga\fs28\i0\b0\ul0\cf0  font 1; ord 64\par
+\f1\fs144 >A>\f2\i0\b0\ul0 rnga\fs28\i0\b0\ul0\cf0  font 1; ord 65\par
+\f1\fs144 >B>\f2\i0\b0\ul0 rja\fs28\i0\b0\ul0\cf0  font 1; ord 66\par
+\f1\fs144 >C>\f2\i0\b0\ul0 rnya\fs28\i0\b0\ul0\cf0  font 1; ord 67\par
+\f1\fs144 >D>\f2\i0\b0\ul0 rta\fs28\i0\b0\ul0\cf0  font 1; ord 68\par
+\f1\fs144 >E>\f2\i0\b0\ul0 rda\fs28\i0\b0\ul0\cf0  font 1; ord 69\par
+\f1\fs144 >F>\f2\i0\b0\ul0 rna\fs28\i0\b0\ul0\cf0  font 1; ord 70\par
+\f1\fs144 >G>\f2\i0\b0\ul0 rba\fs28\i0\b0\ul0\cf0  font 1; ord 71\par
+\f1\fs144 >H>\f2\i0\b0\ul0 rma\fs28\i0\b0\ul0\cf0  font 1; ord 72\par
+\f1\fs144 >I>\f2\i0\b0\ul0 rtsa\fs28\i0\b0\ul0\cf0  font 1; ord 73\par
+\f1\fs144 >J>\f2\i0\b0\ul0 rdza\fs28\i0\b0\ul0\cf0  font 1; ord 74\par
+\f1\fs144 >K>\f2\i0\b0\ul0 lka\fs28\i0\b0\ul0\cf0  font 1; ord 75\par
+\f1\fs144 >L>\f2\i0\b0\ul0 lga\fs28\i0\b0\ul0\cf0  font 1; ord 76\par
+\f1\fs144 >M>\f2\i0\b0\ul0 lnga\fs28\i0\b0\ul0\cf0  font 1; ord 77\par
+\f1\fs144 >N>\f2\i0\b0\ul0 lca\fs28\i0\b0\ul0\cf0  font 1; ord 78\par
+\f1\fs144 >O>\f2\i0\b0\ul0 lja\fs28\i0\b0\ul0\cf0  font 1; ord 79\par
+\f1\fs144 >P>\f2\i0\b0\ul0 lta\fs28\i0\b0\ul0\cf0  font 1; ord 80\par
+\f1\fs144 >Q>\f2\i0\b0\ul0 lda\fs28\i0\b0\ul0\cf0  font 1; ord 81\par
+\f1\fs144 >R>\f2\i0\b0\ul0 lpa\fs28\i0\b0\ul0\cf0  font 1; ord 82\par
+\f1\fs144 >S>\f2\i0\b0\ul0 lba\fs28\i0\b0\ul0\cf0  font 1; ord 83\par
+\f1\fs144 >T>\f2\i0\b0\ul0 lha\fs28\i0\b0\ul0\cf0  font 1; ord 84\par
+\f1\fs144 >U>\f2\i0\b0\ul0 ska\fs28\i0\b0\ul0\cf0  font 1; ord 85\par
+\f1\fs144 >V>\f2\i0\b0\ul0 sga\fs28\i0\b0\ul0\cf0  font 1; ord 86\par
+\f1\fs144 >W>\f2\i0\b0\ul0 snga\fs28\i0\b0\ul0\cf0  font 1; ord 87\par
+\f1\fs144 >X>\f2\i0\b0\ul0 snya\fs28\i0\b0\ul0\cf0  font 1; ord 88\par
+\f1\fs144 >Y>\f2\i0\b0\ul0 sta\fs28\i0\b0\ul0\cf0  font 1; ord 89\par
+\f1\fs144 >Z>\f2\i0\b0\ul0 sda\fs28\i0\b0\ul0\cf0  font 1; ord 90\par
+\f1\fs144 >[>\f2\i0\b0\ul0 sna\fs28\i0\b0\ul0\cf0  font 1; ord 91\par
+\f1\fs144 >\\>\f2\i0\b0\ul0 spa\fs28\i0\b0\ul0\cf0  font 1; ord 92\par
+\f1\fs144 >]>\f2\i0\b0\ul0 sba\fs28\i0\b0\ul0\cf0  font 1; ord 93\par
+\f1\fs144 >^>\f2\i0\b0\ul0 sma\fs28\i0\b0\ul0\cf0  font 1; ord 94\par
+\f1\fs144 >_>\f2\i0\b0\ul0 stsa\fs28\i0\b0\ul0\cf0  font 1; ord 95\par
+\f1\fs144 >`>\f2\i0\b0\ul0 kya\fs28\i0\b0\ul0\cf0  font 1; ord 96\par
+\f1\fs144 >a>\f2\i0\b0\ul0 khya\fs28\i0\b0\ul0\cf0  font 1; ord 97\par
+\f1\fs144 >b>\f2\i0\b0\ul0 gya\fs28\i0\b0\ul0\cf0  font 1; ord 98\par
+\f1\fs144 >c>\f2\i0\b0\ul0 pya\fs28\i0\b0\ul0\cf0  font 1; ord 99\par
+\f1\fs144 >d>\f2\i0\b0\ul0 phya\fs28\i0\b0\ul0\cf0  font 1; ord 100\par
+\f1\fs144 >e>\f2\i0\b0\ul0 bya\fs28\i0\b0\ul0\cf0  font 1; ord 101\par
+\f1\fs144 >f>\f2\i0\b0\ul0 mya\fs28\i0\b0\ul0\cf0  font 1; ord 102\par
+\f1\fs144 >g>\f2\i0\b0\ul0 kra\fs28\i0\b0\ul0\cf0  font 1; ord 103\par
+\f1\fs144 >h>\f2\i0\b0\ul0 khra\fs28\i0\b0\ul0\cf0  font 1; ord 104\par
+\f1\fs144 >i>\f2\i0\b0\ul0 gra\fs28\i0\b0\ul0\cf0  font 1; ord 105\par
+\f1\fs144 >j>\f2\i0\b0\ul0 tra\fs28\i0\b0\ul0\cf0  font 1; ord 106\par
+\f1\fs144 >k>\f2\i0\b0\ul0 thra\fs28\i0\b0\ul0\cf0  font 1; ord 107\par
+\f1\fs144 >l>\f2\i0\b0\ul0 dra\fs28\i0\b0\ul0\cf0  font 1; ord 108\par
+\f1\fs144 >m>\f2\i0\b0\ul0 pra\fs28\i0\b0\ul0\cf0  font 1; ord 109\par
+\f1\fs144 >n>\f2\i0\b0\ul0 phra\fs28\i0\b0\ul0\cf0  font 1; ord 110\par
+\f1\fs144 >o>\f2\i0\b0\ul0 bra\fs28\i0\b0\ul0\cf0  font 1; ord 111\par
+\f1\fs144 >p>\f2\i0\b0\ul0 mra\fs28\i0\b0\ul0\cf0  font 1; ord 112\par
+\f1\fs144 >q>\f2\i0\b0\ul0 shra\fs28\i0\b0\ul0\cf0  font 1; ord 113\par
+\f1\fs144 >r>\f2\i0\b0\ul0 sra\fs28\i0\b0\ul0\cf0  font 1; ord 114\par
+\f1\fs144 >s>\f2\i0\b0\ul0 hra\fs28\i0\b0\ul0\cf0  font 1; ord 115\par
+\f1\fs144 >t>\f2\i0\b0\ul0 kla\fs28\i0\b0\ul0\cf0  font 1; ord 116\par
+\f1\fs144 >u>\f2\i0\b0\ul0 gla\fs28\i0\b0\ul0\cf0  font 1; ord 117\par
+\f1\fs144 >v>\f2\i0\b0\ul0 bla\fs28\i0\b0\ul0\cf0  font 1; ord 118\par
+\f1\fs144 >w>\f2\i0\b0\ul0 zla\fs28\i0\b0\ul0\cf0  font 1; ord 119\par
+\f1\fs144 >x>\f2\i0\b0\ul0 rla\fs28\i0\b0\ul0\cf0  font 1; ord 120\par
+\f1\fs144 >y>\f2\i0\b0\ul0 sla\fs28\i0\b0\ul0\cf0  font 1; ord 121\par
+\f1\fs144 >z>\f2\i0\b0\ul0 rkya\fs28\i0\b0\ul0\cf0  font 1; ord 122\par
+\f1\fs144 >\{>\f2\i0\b0\ul0 rgya\fs28\i0\b0\ul0\cf0  font 1; ord 123\par
+\f1\fs144 >|>\f2\i0\b0\ul0 rmya\fs28\i0\b0\ul0\cf0  font 1; ord 124\par
+\f1\fs144 >\}>\f2\i0\b0\ul0 rgwa\fs28\i0\b0\ul0\cf0  font 1; ord 125\par
+\f1\fs144 >~>\f2\i0\b0\ul0 rtswa\fs28\i0\b0\ul0\cf0  font 1; ord 126\par
+\f1\fs144 >\u128 ?>\f2\i0\b0\ul0 sgya\fs28\i0\b0\ul0\cf0  font 1; ord 128\par
+\f1\fs144 >\u129 ?>\f2\i0\b0\ul0 spya\fs28\i0\b0\ul0\cf0  font 1; ord 129\par
+\f1\fs144 >\u130 ?>\f2\i0\b0\ul0 sbya\fs28\i0\b0\ul0\cf0  font 1; ord 130\par
+\f1\fs144 >\u131 ?>\f2\i0\b0\ul0 smya\fs28\i0\b0\ul0\cf0  font 1; ord 131\par
+\f1\fs144 >\u132 ?>\f2\i0\b0\ul0 skra\fs28\i0\b0\ul0\cf0  font 1; ord 132\par
+\f1\fs144 >\u133 ?>\f2\i0\b0\ul0 sgra\fs28\i0\b0\ul0\cf0  font 1; ord 133\par
+\f1\fs144 >\u134 ?>\f2\i0\b0\ul0 snra\fs28\i0\b0\ul0\cf0  font 1; ord 134\par
+\f1\fs144 >\u135 ?>\f2\i0\b0\ul0 spra\fs28\i0\b0\ul0\cf0  font 1; ord 135\par
+\f1\fs144 >\u136 ?>\f2\i0\b0\ul0 sbra\fs28\i0\b0\ul0\cf0  font 1; ord 136\par
+\f1\fs144 >\u137 ?>\f2\i0\b0\ul0 smra\fs28\i0\b0\ul0\cf0  font 1; ord 137\par
+\f1\fs144 >\u138 ?>\f2\i0\b0\ul0 kwa\fs28\i0\b0\ul0\cf0  font 1; ord 138\par
+\f1\fs144 >\u139 ?>\f2\i0\b0\ul0 khwa\fs28\i0\b0\ul0\cf0  font 1; ord 139\par
+\f1\fs144 >\u140 ?>\f2\i0\b0\ul0 gwa\fs28\i0\b0\ul0\cf0  font 1; ord 140\par
+\f1\fs144 >\u141 ?>\f2\i0\b0\ul0 cwa\fs28\i0\b0\ul0\cf0  font 1; ord 141\par
+\f1\fs144 >\u143 ?>\f2\i0\b0\ul0 twa\fs28\i0\b0\ul0\cf0  font 1; ord 143\par
+\f1\fs144 >\u144 ?>\f2\i0\b0\ul0 dwa\fs28\i0\b0\ul0\cf0  font 1; ord 144\par
+\f1\fs144 >\u145 ?>\f2\i0\b0\ul0 tswa\fs28\i0\b0\ul0\cf0  font 1; ord 145\par
+\f1\fs144 >\u146 ?>\f2\i0\b0\ul0 tshwa\fs28\i0\b0\ul0\cf0  font 1; ord 146\par
+\f1\fs144 >\u147 ?>\f2\i0\b0\ul0 zhwa\fs28\i0\b0\ul0\cf0  font 1; ord 147\par
+\f1\fs144 >\u148 ?>\f2\i0\b0\ul0 zwa\fs28\i0\b0\ul0\cf0  font 1; ord 148\par
+\f1\fs144 >\u149 ?>\f2\i0\b0\ul0 rwa\fs28\i0\b0\ul0\cf0  font 1; ord 149\par
+\f1\fs144 >\u150 ?>\f2\i0\b0\ul0 shwa\fs28\i0\b0\ul0\cf0  font 1; ord 150\par
+\f1\fs144 >\u151 ?>\f2\i0\b0\ul0 swa\fs28\i0\b0\ul0\cf0  font 1; ord 151\par
+\f1\fs144 >\u152 ?>\f2\i0\b0\ul0 hwa\fs28\i0\b0\ul0\cf0  font 1; ord 152\par
+\f1\fs144 >\u153 ?>\f2\i0\b0\ul0 grwa\fs28\i0\b0\ul0\cf0  font 1; ord 153\par
+\f1\fs144 >\u154 ?>\f2\i0\b0\ul0 drwa\fs28\i0\b0\ul0\cf0  font 1; ord 154\par
+\f1\fs144 >\u155 ?>\f2\i0\b0\ul0 phywa\fs28\i0\b0\ul0\cf0  font 1; ord 155\par
+\f1\fs144 >\u156 ?>\f2\i0\b0\ul0 ha\fs28\i0\b0\ul0\cf0  font 1; ord 156\par
+\f1\fs144 >\u157 ?>\f2\i0\b0\ul0 nywa\fs28\i0\b0\ul0\cf0  font 1; ord 157\par
+\f1\fs144 >\u159 ?>\f2\i0\b0\ul0 wa\fs28\i0\b0\ul0\cf0  font 1; ord 159\par
+\f1\fs144 >\'a1>\f2\i0\b0\ul0 A\fs28\i0\b0\ul0\cf0  font 1; ord 161\par
+\f1\fs144 >\'a2>\f2\i0\b0\ul0 A\fs28\i0\b0\ul0\cf0  font 1; ord 162\par
+\f1\fs144 >\'a3>\f2\i0\b0\ul0 A\fs28\i0\b0\ul0\cf0  font 1; ord 163\par
+\f1\fs144 >\'a4>\f2\i0\b0\ul0 A\fs28\i0\b0\ul0\cf0  font 1; ord 164\par
+\f1\fs144 >\'a5>\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 1; ord 165\par
+\f1\fs144 >\'a7>\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 1; ord 167\par
+\f1\fs144 >\'a8>\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 1; ord 168\par
+\f1\fs144 >\'a9>\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 1; ord 169\par
+\f1\fs144 >\'aa>\f2\i0\b0\ul0 Ta\fs28\i0\b0\ul0\cf0  font 1; ord 170\par
+\f1\fs144 >\'ab>\f2\i0\b0\ul0 Tha\fs28\i0\b0\ul0\cf0  font 1; ord 171\par
+\f1\fs144 >\'ac>\f2\i0\b0\ul0 Da\fs28\i0\b0\ul0\cf0  font 1; ord 172\par
+\f1\fs144 >\'ad>\f2\i0\b0\ul0 Na\fs28\i0\b0\ul0\cf0  font 1; ord 173\par
+\f1\fs144 >\'ae>\f2\i0\b0\ul0 Sha\fs28\i0\b0\ul0\cf0  font 1; ord 174\par
+\f1\fs144 >\'af>\f2\i0\b0\ul0 k+Sha\fs28\i0\b0\ul0\cf0  font 1; ord 175\par
+\f1\fs144 >\'b0>\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 1; ord 176\par
+\f1\fs144 >\'b1>\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 1; ord 177\par
+\f1\fs144 >\'b2>\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 1; ord 178\par
+\f1\fs144 >\'b3>\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 1; ord 179\par
+\f1\fs144 >\'b4>\f2\i0\b0\ul0 ka\fs28\i0\b0\ul0\cf0  font 1; ord 180\par
+\f1\fs144 >\'b5>\f2\i0\b0\ul0 ga\fs28\i0\b0\ul0\cf0  font 1; ord 181\par
+\f1\fs144 >\'b6>\f2\i0\b0\ul0 nya\fs28\i0\b0\ul0\cf0  font 1; ord 182\par
+\f1\fs144 >\'b7>\f2\i0\b0\ul0 ta\fs28\i0\b0\ul0\cf0  font 1; ord 183\par
+\f1\fs144 >\'b8>\f2\i0\b0\ul0 da\fs28\i0\b0\ul0\cf0  font 1; ord 184\par
+\f1\fs144 >\'b9>\f2\i0\b0\ul0 na\fs28\i0\b0\ul0\cf0  font 1; ord 185\par
+\f1\fs144 >\'ba>\f2\i0\b0\ul0 zha\fs28\i0\b0\ul0\cf0  font 1; ord 186\par
+\f1\fs144 >\'bb>\f2\i0\b0\ul0 sha\fs28\i0\b0\ul0\cf0  font 1; ord 187\par
+\f1\fs144 >\'bc>\f2\i0\b0\ul0 ha\fs28\i0\b0\ul0\cf0  font 1; ord 188\par
+\f1\fs144 >\'bd>\f2\i0\b0\ul0 rta\fs28\i0\b0\ul0\cf0  font 1; ord 189\par
+\f1\fs144 >\'be>\f2\i0\b0\ul0 0\fs28\i0\b0\ul0\cf0  font 1; ord 190\par
+\f1\fs144 >\'bf>\f2\i0\b0\ul0 1\fs28\i0\b0\ul0\cf0  font 1; ord 191\par
+\f1\fs144 >\'c0>\f2\i0\b0\ul0 2\fs28\i0\b0\ul0\cf0  font 1; ord 192\par
+\f1\fs144 >\'c1>\f2\i0\b0\ul0 3\fs28\i0\b0\ul0\cf0  font 1; ord 193\par
+\f1\fs144 >\'c2>\f2\i0\b0\ul0 4\fs28\i0\b0\ul0\cf0  font 1; ord 194\par
+\f1\fs144 >\'c3>\f2\i0\b0\ul0 5\fs28\i0\b0\ul0\cf0  font 1; ord 195\par
+\f1\fs144 >\'c4>\f2\i0\b0\ul0 6\fs28\i0\b0\ul0\cf0  font 1; ord 196\par
+\f1\fs144 >\'c5>\f2\i0\b0\ul0 7\fs28\i0\b0\ul0\cf0  font 1; ord 197\par
+\f1\fs144 >\'c6>\f2\i0\b0\ul0 8\fs28\i0\b0\ul0\cf0  font 1; ord 198\par
+\f1\fs144 >\'c7>\f2\i0\b0\ul0 9\fs28\i0\b0\ul0\cf0  font 1; ord 199\par
+\f1\fs144 >\'c8>\f2\i0\b0\ul0 #\fs28\i0\b0\ul0\cf0  font 1; ord 200\par
+\f1\fs144 >\'c9>\f2\i0\b0\ul0 @#\fs28\i0\b0\ul0\cf0  font 1; ord 201\par
+\f1\fs144 >\'ca>\f2\i0\b0\ul0 /\fs28\i0\b0\ul0\cf0  font 1; ord 202\par
+\f1\fs144 >\'cb>\f2\i0\b0\ul0 |\fs28\i0\b0\ul0\cf0  font 1; ord 203\par
+\f1\fs144 >\'cc>\f2\i0\b0\ul0 !\fs28\i0\b0\ul0\cf0  font 1; ord 204\par
+\f1\fs144 >\'cd>\f2\i0\b0\ul0 *\fs28\i0\b0\ul0\cf0  font 1; ord 205\par
+\f1\fs144 >\'ce>\f2\i0\b0\ul0 :\fs28\i0\b0\ul0\cf0  font 1; ord 206\par
+\f1\fs144 >\'cf>\f2\i0\b0\ul0 =\fs28\i0\b0\ul0\cf0  font 1; ord 207\par
+\f1\fs144 >\'d0>\f2\i0\b0\ul0 (\fs28\i0\b0\ul0\cf0  font 1; ord 208\par
+\f1\fs144 >\'d1>\f2\i0\b0\ul0 )\fs28\i0\b0\ul0\cf0  font 1; ord 209\par
+\f1\fs144 >\'d2>\f2\i0\b0\ul0 @\fs28\i0\b0\ul0\cf0  font 1; ord 210\par
+\f1\fs144 >\'d3>\f2\i0\b0\ul0 A\fs28\i0\b0\ul0\cf0  font 1; ord 211\par
+\f1\fs144 >\'d4>\f2\i0\b0\ul0 A\fs28\i0\b0\ul0\cf0  font 1; ord 212\par
+\f1\fs144 >\'d5>\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 1; ord 213\par
+\f1\fs144 >\'d6>\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 1; ord 214\par
+\f1\fs144 >\'d7>\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 1; ord 215\par
+\f1\fs144 >\'d8>\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 1; ord 216\par
+\f1\fs144 >\'d9>\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 1; ord 217\par
+\f1\fs144 >\'da>\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 1; ord 218\par
+\f1\fs144 >\'db>\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 1; ord 219\par
+\f1\fs144 >\'dc>\f2\i0\b0\ul0 i\fs28\i0\b0\ul0\cf0  font 1; ord 220\par
+\f1\fs144 >\'dd>\f2\i0\b0\ul0 i\fs28\i0\b0\ul0\cf0  font 1; ord 221\par
+\f1\fs144 >\'de>\f2\i0\b0\ul0 -i\fs28\i0\b0\ul0\cf0  font 1; ord 222\par
+\f1\fs144 >\'df>\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 1; ord 223\par
+\f1\fs144 >\'e0>\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 1; ord 224\par
+\f1\fs144 >\'e1>\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 1; ord 225\par
+\f1\fs144 >\'e2>\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 1; ord 226\par
+\f1\fs144 >\'e3>\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 1; ord 227\par
+\f1\fs144 >\'e4>\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 1; ord 228\par
+\f1\fs144 >\'e5>\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 1; ord 229\par
+\f1\fs144 >\'e6>\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 1; ord 230\par
+\f1\fs144 >\'e7>\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 1; ord 231\par
+\f1\fs144 >\'e8>\f2\i0\b0\ul0 e\fs28\i0\b0\ul0\cf0  font 1; ord 232\par
+\f1\fs144 >\'e9>\f2\i0\b0\ul0 e\fs28\i0\b0\ul0\cf0  font 1; ord 233\par
+\f1\fs144 >\'ea>\f2\i0\b0\ul0 ai\fs28\i0\b0\ul0\cf0  font 1; ord 234\par
+\f1\fs144 >\'eb>\f2\i0\b0\ul0 o\fs28\i0\b0\ul0\cf0  font 1; ord 235\par
+\f1\fs144 >\'ec>\f2\i0\b0\ul0 o\fs28\i0\b0\ul0\cf0  font 1; ord 236\par
+\f1\fs144 >\'ed>\f2\i0\b0\ul0 au\fs28\i0\b0\ul0\cf0  font 1; ord 237\par
+\f1\fs144 >\'ee>\f2\i0\b0\ul0 M\fs28\i0\b0\ul0\cf0  font 1; ord 238\par
+\f1\fs144 >\'ef>\f2\i0\b0\ul0 H\fs28\i0\b0\ul0\cf0  font 1; ord 239\par
+\f1\fs144 >\'f1>\f2\i0\b0\ul0 ~M\fs28\i0\b0\ul0\cf0  font 1; ord 241\par
+\f1\fs144 >\'f2>\f2\i0\b0\ul0 ~M`\fs28\i0\b0\ul0\cf0  font 1; ord 242\par
+\f1\fs144 >\'f3>\f2\i0\b0\ul0 iM\fs28\i0\b0\ul0\cf0  font 1; ord 243\par
+\f1\fs144 >\'f4>\f2\i0\b0\ul0 iM\fs28\i0\b0\ul0\cf0  font 1; ord 244\par
+\f1\fs144 >\'f5>\f2\i0\b0\ul0 -iM\fs28\i0\b0\ul0\cf0  font 1; ord 245\par
+\f1\fs144 >\'f6>\f2\i0\b0\ul0 eM\fs28\i0\b0\ul0\cf0  font 1; ord 246\par
+\f1\fs144 >\'f7>\f2\i0\b0\ul0 eM\fs28\i0\b0\ul0\cf0  font 1; ord 247\par
+\f1\fs144 >\'f8>\f2\i0\b0\ul0 aiM\fs28\i0\b0\ul0\cf0  font 1; ord 248\par
+\f1\fs144 >\'f9>\f2\i0\b0\ul0 oM\fs28\i0\b0\ul0\cf0  font 1; ord 249\par
+\f1\fs144 >\'fa>\f2\i0\b0\ul0 oM\fs28\i0\b0\ul0\cf0  font 1; ord 250\par
+\f1\fs144 >\'fb>\f2\i0\b0\ul0 auM\fs28\i0\b0\ul0\cf0  font 1; ord 251\par
+\f1\fs144 >\'fc>\f2\i0\b0\ul0 ?\fs28\i0\b0\ul0\cf0  font 1; ord 252\par
+\f1\fs144 >\'fd>\f2\i0\b0\ul0 pa\fs28\i0\b0\ul0\cf0  font 1; ord 253\par
+\f1\fs144 >\'fe>\f2\i0\b0\ul0 skya\fs28\i0\b0\ul0\cf0  font 1; ord 254\par
+\f1\fs144 >\f3  \f1 >\f2\i0\b0\ul0 _\fs28\i0\b0\ul0\cf0  font 2; ord 32\par
+\f1\fs144 >\f3 !\f1 >\f2\i0\b0\ul0 k+ka\fs28\i0\b0\ul0\cf0  font 2; ord 33\par
+\f1\fs144 >\f3 "\f1 >\f2\i0\b0\ul0 k+kha\fs28\i0\b0\ul0\cf0  font 2; ord 34\par
+\f1\fs144 >\f3 #\f1 >\f2\i0\b0\ul0 k+nga\fs28\i0\b0\ul0\cf0  font 2; ord 35\par
+\f1\fs144 >\f3 $\f1 >\f2\i0\b0\ul0 k+tsa\fs28\i0\b0\ul0\cf0  font 2; ord 36\par
+\f1\fs144 >\f3 %\f1 >\f2\i0\b0\ul0 k+ta\fs28\i0\b0\ul0\cf0  font 2; ord 37\par
+\f1\fs144 >\f3 &\f1 >\f2\i0\b0\ul0 k+t+ya\fs28\i0\b0\ul0\cf0  font 2; ord 38\par
+\f1\fs144 >\f3 '\f1 >\f2\i0\b0\ul0 k+t+ra\fs28\i0\b0\ul0\cf0  font 2; ord 39\par
+\f1\fs144 >\f3 (\f1 >\f2\i0\b0\ul0 k+t+r+ya\fs28\i0\b0\ul0\cf0  font 2; ord 40\par
+\f1\fs144 >\f3 )\f1 >\f2\i0\b0\ul0 k+t+wa\fs28\i0\b0\ul0\cf0  font 2; ord 41\par
+\f1\fs144 >\f3 *\f1 >\f2\i0\b0\ul0 k+tha\fs28\i0\b0\ul0\cf0  font 2; ord 42\par
+\f1\fs144 >\f3 +\f1 >\f2\i0\b0\ul0 k+th+ya\fs28\i0\b0\ul0\cf0  font 2; ord 43\par
+\f1\fs144 >\f3 ,\f1 >\f2\i0\b0\ul0 k+Na\fs28\i0\b0\ul0\cf0  font 2; ord 44\par
+\f1\fs144 >\f3 .\f1 >\f2\i0\b0\ul0 k+n+ya\fs28\i0\b0\ul0\cf0  font 2; ord 46\par
+\f1\fs144 >\f3 /\f1 >\f2\i0\b0\ul0 k+pha\fs28\i0\b0\ul0\cf0  font 2; ord 47\par
+\f1\fs144 >\f3 0\f1 >\f2\i0\b0\ul0 k+ma\fs28\i0\b0\ul0\cf0  font 2; ord 48\par
+\f1\fs144 >\f3 1\f1 >\f2\i0\b0\ul0 k+m+ya\fs28\i0\b0\ul0\cf0  font 2; ord 49\par
+\f1\fs144 >\f3 2\f1 >\f2\i0\b0\ul0 k+r+ya\fs28\i0\b0\ul0\cf0  font 2; ord 50\par
+\f1\fs144 >\f3 3\f1 >\f2\i0\b0\ul0 k+sha\fs28\i0\b0\ul0\cf0  font 2; ord 51\par
+\f1\fs144 >\f3 4\f1 >\f2\i0\b0\ul0 k+sa\fs28\i0\b0\ul0\cf0  font 2; ord 52\par
+\f1\fs144 >\f3 5\f1 >\f2\i0\b0\ul0 k+s+na\fs28\i0\b0\ul0\cf0  font 2; ord 53\par
+\f1\fs144 >\f3 6\f1 >\f2\i0\b0\ul0 k+s+ma\fs28\i0\b0\ul0\cf0  font 2; ord 54\par
+\f1\fs144 >\f3 7\f1 >\f2\i0\b0\ul0 k+s+ya\fs28\i0\b0\ul0\cf0  font 2; ord 55\par
+\f1\fs144 >\f3 8\f1 >\f2\i0\b0\ul0 k+s+wa\fs28\i0\b0\ul0\cf0  font 2; ord 56\par
+\f1\fs144 >\f3 9\f1 >\f2\i0\b0\ul0\\u0F88+k\fs28\i0\b0\ul0\cf0  font 2; ord 57\par
+\f1\fs144 >\f3 :\f1 >\f2\i0\b0\ul0\\u0F88+kh\fs28\i0\b0\ul0\cf0  font 2; ord 58\par
+\f1\fs144 >\f3 ;\f1 >\f2\i0\b0\ul0 kh+kha\fs28\i0\b0\ul0\cf0  font 2; ord 59\par
+\f1\fs144 >\f3 <\f1 >\f2\i0\b0\ul0 kh+na\fs28\i0\b0\ul0\cf0  font 2; ord 60\par
+\f1\fs144 >\f3 =\f1 >\f2\i0\b0\ul0 kh+la\fs28\i0\b0\ul0\cf0  font 2; ord 61\par
+\f1\fs144 >\f3 >\f1 >\f2\i0\b0\ul0 g+ga\fs28\i0\b0\ul0\cf0  font 2; ord 62\par
+\f1\fs144 >\f3 ?\f1 >\f2\i0\b0\ul0 g+g+ha\fs28\i0\b0\ul0\cf0  font 2; ord 63\par
+\f1\fs144 >\f3 @\f1 >\f2\i0\b0\ul0 g+nya\fs28\i0\b0\ul0\cf0  font 2; ord 64\par
+\f1\fs144 >\f3 A\f1 >\f2\i0\b0\ul0 g+da\fs28\i0\b0\ul0\cf0  font 2; ord 65\par
+\f1\fs144 >\f3 B\f1 >\f2\i0\b0\ul0 g+d+ha\fs28\i0\b0\ul0\cf0  font 2; ord 66\par
+\f1\fs144 >\f3 C\f1 >\f2\i0\b0\ul0 g+d+h+ya\fs28\i0\b0\ul0\cf0  font 2; ord 67\par
+\f1\fs144 >\f3 D\f1 >\f2\i0\b0\ul0 g+d+h+wa\fs28\i0\b0\ul0\cf0  font 2; ord 68\par
+\f1\fs144 >\f3 E\f1 >\f2\i0\b0\ul0 g+na\fs28\i0\b0\ul0\cf0  font 2; ord 69\par
+\f1\fs144 >\f3 F\f1 >\f2\i0\b0\ul0 g+n+ya\fs28\i0\b0\ul0\cf0  font 2; ord 70\par
+\f1\fs144 >\f3 G\f1 >\f2\i0\b0\ul0 g+pa\fs28\i0\b0\ul0\cf0  font 2; ord 71\par
+\f1\fs144 >\f3 H\f1 >\f2\i0\b0\ul0 g+b+ha\fs28\i0\b0\ul0\cf0  font 2; ord 72\par
+\f1\fs144 >\f3 I\f1 >\f2\i0\b0\ul0 g+b+h+ya\fs28\i0\b0\ul0\cf0  font 2; ord 73\par
+\f1\fs144 >\f3 J\f1 >\f2\i0\b0\ul0 g+ma\fs28\i0\b0\ul0\cf0  font 2; ord 74\par
+\f1\fs144 >\f3 K\f1 >\f2\i0\b0\ul0 g+m+ya\fs28\i0\b0\ul0\cf0  font 2; ord 75\par
+\f1\fs144 >\f3 L\f1 >\f2\i0\b0\ul0 g+r+ya\fs28\i0\b0\ul0\cf0  font 2; ord 76\par
+\f1\fs144 >\f3 M\f1 >\f2\i0\b0\ul0 g+ha\fs28\i0\b0\ul0\cf0  font 2; ord 77\par
+\f1\fs144 >\f3 N\f1 >\f2\i0\b0\ul0 g+h+g+ha\fs28\i0\b0\ul0\cf0  font 2; ord 78\par
+\f1\fs144 >\f3 O\f1 >\f2\i0\b0\ul0 g+h+nya\fs28\i0\b0\ul0\cf0  font 2; ord 79\par
+\f1\fs144 >\f3 P\f1 >\f2\i0\b0\ul0 g+h+na\fs28\i0\b0\ul0\cf0  font 2; ord 80\par
+\f1\fs144 >\f3 Q\f1 >\f2\i0\b0\ul0 g+h+n+ya\fs28\i0\b0\ul0\cf0  font 2; ord 81\par
+\f1\fs144 >\f3 R\f1 >\f2\i0\b0\ul0 g+h+ma\fs28\i0\b0\ul0\cf0  font 2; ord 82\par
+\f1\fs144 >\f3 S\f1 >\f2\i0\b0\ul0 g+h+la\fs28\i0\b0\ul0\cf0  font 2; ord 83\par
+\f1\fs144 >\f3 T\f1 >\f2\i0\b0\ul0 g+h+ya\fs28\i0\b0\ul0\cf0  font 2; ord 84\par
+\f1\fs144 >\f3 U\f1 >\f2\i0\b0\ul0 g+h+ra\fs28\i0\b0\ul0\cf0  font 2; ord 85\par
+\f1\fs144 >\f3 V\f1 >\f2\i0\b0\ul0 g+h+wa\fs28\i0\b0\ul0\cf0  font 2; ord 86\par
+\f1\fs144 >\f3 W\f1 >\f2\i0\b0\ul0 ng+ka\fs28\i0\b0\ul0\cf0  font 2; ord 87\par
+\f1\fs144 >\f3 X\f1 >\f2\i0\b0\ul0 ng+k+ta\fs28\i0\b0\ul0\cf0  font 2; ord 88\par
+\f1\fs144 >\f3 Y\f1 >\f2\i0\b0\ul0 ng+k+t+ya\fs28\i0\b0\ul0\cf0  font 2; ord 89\par
+\f1\fs144 >\f3 Z\f1 >\f2\i0\b0\ul0 ng+k+ya\fs28\i0\b0\ul0\cf0  font 2; ord 90\par
+\f1\fs144 >\f3 [\f1 >\f2\i0\b0\ul0 ng+kha\fs28\i0\b0\ul0\cf0  font 2; ord 91\par
+\f1\fs144 >\f3\\\f1 >\f2\i0\b0\ul0 ng+kh+ya\fs28\i0\b0\ul0\cf0  font 2; ord 92\par
+\f1\fs144 >\f3 ]\f1 >\f2\i0\b0\ul0 ng+ga\fs28\i0\b0\ul0\cf0  font 2; ord 93\par
+\f1\fs144 >\f3 ^\f1 >\f2\i0\b0\ul0 ng+g+ra\fs28\i0\b0\ul0\cf0  font 2; ord 94\par
+\f1\fs144 >\f3 _\f1 >\f2\i0\b0\ul0 ng+g+ya\fs28\i0\b0\ul0\cf0  font 2; ord 95\par
+\f1\fs144 >\f3 `\f1 >\f2\i0\b0\ul0 ng+g+ha\fs28\i0\b0\ul0\cf0  font 2; ord 96\par
+\f1\fs144 >\f3 a\f1 >\f2\i0\b0\ul0 ng+g+h+ya\fs28\i0\b0\ul0\cf0  font 2; ord 97\par
+\f1\fs144 >\f3 b\f1 >\f2\i0\b0\ul0 ng+g+h+ra\fs28\i0\b0\ul0\cf0  font 2; ord 98\par
+\f1\fs144 >\f3 c\f1 >\f2\i0\b0\ul0 ng+nga\fs28\i0\b0\ul0\cf0  font 2; ord 99\par
+\f1\fs144 >\f3 d\f1 >\f2\i0\b0\ul0 ng+ta\fs28\i0\b0\ul0\cf0  font 2; ord 100\par
+\f1\fs144 >\f3 e\f1 >\f2\i0\b0\ul0 ng+na\fs28\i0\b0\ul0\cf0  font 2; ord 101\par
+\f1\fs144 >\f3 f\f1 >\f2\i0\b0\ul0 ng+ma\fs28\i0\b0\ul0\cf0  font 2; ord 102\par
+\f1\fs144 >\f3 g\f1 >\f2\i0\b0\ul0 ng+ya\fs28\i0\b0\ul0\cf0  font 2; ord 103\par
+\f1\fs144 >\f3 h\f1 >\f2\i0\b0\ul0 ng+la\fs28\i0\b0\ul0\cf0  font 2; ord 104\par
+\f1\fs144 >\f3 i\f1 >\f2\i0\b0\ul0 ng+sha\fs28\i0\b0\ul0\cf0  font 2; ord 105\par
+\f1\fs144 >\f3 j\f1 >\f2\i0\b0\ul0 ng+ha\fs28\i0\b0\ul0\cf0  font 2; ord 106\par
+\f1\fs144 >\f3 k\f1 >\f2\i0\b0\ul0 ng+k+Sha\fs28\i0\b0\ul0\cf0  font 2; ord 107\par
+\f1\fs144 >\f3 l\f1 >\f2\i0\b0\ul0 ng+k+Sh+wa\fs28\i0\b0\ul0\cf0  font 2; ord 108\par
+\f1\fs144 >\f3 m\f1 >\f2\i0\b0\ul0 ng+k+Sh+ya\fs28\i0\b0\ul0\cf0  font 2; ord 109\par
+\f1\fs144 >\f3 n\f1 >\f2\i0\b0\ul0 ts+tsa\fs28\i0\b0\ul0\cf0  font 2; ord 110\par
+\f1\fs144 >\f3 o\f1 >\f2\i0\b0\ul0 ts+tsha\fs28\i0\b0\ul0\cf0  font 2; ord 111\par
+\f1\fs144 >\f3 p\f1 >\f2\i0\b0\ul0 ts+tsh+wa\fs28\i0\b0\ul0\cf0  font 2; ord 112\par
+\f1\fs144 >\f3 q\f1 >\f2\i0\b0\ul0 ts+tsh+ra\fs28\i0\b0\ul0\cf0  font 2; ord 113\par
+\f1\fs144 >\f3 r\f1 >\f2\i0\b0\ul0 ts+nya\fs28\i0\b0\ul0\cf0  font 2; ord 114\par
+\f1\fs144 >\f3 s\f1 >\f2\i0\b0\ul0 ts+n+ya\fs28\i0\b0\ul0\cf0  font 2; ord 115\par
+\f1\fs144 >\f3 t\f1 >\f2\i0\b0\ul0 ts+ma\fs28\i0\b0\ul0\cf0  font 2; ord 116\par
+\f1\fs144 >\f3 u\f1 >\f2\i0\b0\ul0 ts+ya\fs28\i0\b0\ul0\cf0  font 2; ord 117\par
+\f1\fs144 >\f3 v\f1 >\f2\i0\b0\ul0 ts+ra\fs28\i0\b0\ul0\cf0  font 2; ord 118\par
+\f1\fs144 >\f3 w\f1 >\f2\i0\b0\ul0 ts+la\fs28\i0\b0\ul0\cf0  font 2; ord 119\par
+\f1\fs144 >\f3 x\f1 >\f2\i0\b0\ul0 ts+h+ya\fs28\i0\b0\ul0\cf0  font 2; ord 120\par
+\f1\fs144 >\f3 y\f1 >\f2\i0\b0\ul0 tsh+tha\fs28\i0\b0\ul0\cf0  font 2; ord 121\par
+\f1\fs144 >\f3 z\f1 >\f2\i0\b0\ul0 tsh+tsha\fs28\i0\b0\ul0\cf0  font 2; ord 122\par
+\f1\fs144 >\f3\{\f1 >\f2\i0\b0\ul0 tsh+ya\fs28\i0\b0\ul0\cf0  font 2; ord 123\par
+\f1\fs144 >\f3 |\f1 >\f2\i0\b0\ul0 tsh+ra\fs28\i0\b0\ul0\cf0  font 2; ord 124\par
+\f1\fs144 >\f3\}\f1 >\f2\i0\b0\ul0 tsh+la\fs28\i0\b0\ul0\cf0  font 2; ord 125\par
+\f1\fs144 >\f3 ~\f1 >\f2\i0\b0\ul0 dz+dza\fs28\i0\b0\ul0\cf0  font 2; ord 126\par
+\f1\fs144 >\f3\u128 ?\f1 >\f2\i0\b0\ul0 dz+dz+wa\fs28\i0\b0\ul0\cf0  font 2; ord 128\par
+\f1\fs144 >\f3\u129 ?\f1 >\f2\i0\b0\ul0 dz+dz+ha\fs28\i0\b0\ul0\cf0  font 2; ord 129\par
+\f1\fs144 >\f3\u130 ?\f1 >\f2\i0\b0\ul0 dz+h+dz+ha\fs28\i0\b0\ul0\cf0  font 2; ord 130\par
+\f1\fs144 >\f3\u131 ?\f1 >\f2\i0\b0\ul0 dz+nya\fs28\i0\b0\ul0\cf0  font 2; ord 131\par
+\f1\fs144 >\f3\u132 ?\f1 >\f2\i0\b0\ul0 dz+ny+ya\fs28\i0\b0\ul0\cf0  font 2; ord 132\par
+\f1\fs144 >\f3\u133 ?\f1 >\f2\i0\b0\ul0 dz+na\fs28\i0\b0\ul0\cf0  font 2; ord 133\par
+\f1\fs144 >\f3\u134 ?\f1 >\f2\i0\b0\ul0 dz+n+wa\fs28\i0\b0\ul0\cf0  font 2; ord 134\par
+\f1\fs144 >\f3\u135 ?\f1 >\f2\i0\b0\ul0 dz+ma\fs28\i0\b0\ul0\cf0  font 2; ord 135\par
+\f1\fs144 >\f3\u136 ?\f1 >\f2\i0\b0\ul0 dz+ya\fs28\i0\b0\ul0\cf0  font 2; ord 136\par
+\f1\fs144 >\f3\u137 ?\f1 >\f2\i0\b0\ul0 dz+ra\fs28\i0\b0\ul0\cf0  font 2; ord 137\par
+\f1\fs144 >\f3\u138 ?\f1 >\f2\i0\b0\ul0 dz+wa\fs28\i0\b0\ul0\cf0  font 2; ord 138\par
+\f1\fs144 >\f3\u139 ?\f1 >\f2\i0\b0\ul0 dz+ha\fs28\i0\b0\ul0\cf0  font 2; ord 139\par
+\f1\fs144 >\f3\u140 ?\f1 >\f2\i0\b0\ul0 dz+h+ya\fs28\i0\b0\ul0\cf0  font 2; ord 140\par
+\f1\fs144 >\f3\u141 ?\f1 >\f2\i0\b0\ul0 dz+h+ra\fs28\i0\b0\ul0\cf0  font 2; ord 141\par
+\f1\fs144 >\f3\u143 ?\f1 >\f2\i0\b0\ul0 dz+h+wa\fs28\i0\b0\ul0\cf0  font 2; ord 143\par
+\f1\fs144 >\f3\u144 ?\f1 >\f2\i0\b0\ul0 ny+tsa\fs28\i0\b0\ul0\cf0  font 2; ord 144\par
+\f1\fs144 >\f3\u145 ?\f1 >\f2\i0\b0\ul0 ny+ts+ma\fs28\i0\b0\ul0\cf0  font 2; ord 145\par
+\f1\fs144 >\f3\u146 ?\f1 >\f2\i0\b0\ul0 ny+ts+ya\fs28\i0\b0\ul0\cf0  font 2; ord 146\par
+\f1\fs144 >\f3\u147 ?\f1 >\f2\i0\b0\ul0 ny+tsha\fs28\i0\b0\ul0\cf0  font 2; ord 147\par
+\f1\fs144 >\f3\u148 ?\f1 >\f2\i0\b0\ul0 ny+dza\fs28\i0\b0\ul0\cf0  font 2; ord 148\par
+\f1\fs144 >\f3\u149 ?\f1 >\f2\i0\b0\ul0 ny+dz+ya\fs28\i0\b0\ul0\cf0  font 2; ord 149\par
+\f1\fs144 >\f3\u150 ?\f1 >\f2\i0\b0\ul0 ny+dz+ha\fs28\i0\b0\ul0\cf0  font 2; ord 150\par
+\f1\fs144 >\f3\u151 ?\f1 >\f2\i0\b0\ul0 ny+nya\fs28\i0\b0\ul0\cf0  font 2; ord 151\par
+\f1\fs144 >\f3\u152 ?\f1 >\f2\i0\b0\ul0 ny+pa\fs28\i0\b0\ul0\cf0  font 2; ord 152\par
+\f1\fs144 >\f3\u153 ?\f1 >\f2\i0\b0\ul0 ny+pha\fs28\i0\b0\ul0\cf0  font 2; ord 153\par
+\f1\fs144 >\f3\u154 ?\f1 >\f2\i0\b0\ul0 ny+ya\fs28\i0\b0\ul0\cf0  font 2; ord 154\par
+\f1\fs144 >\f3\u155 ?\f1 >\f2\i0\b0\ul0 ny+ra\fs28\i0\b0\ul0\cf0  font 2; ord 155\par
+\f1\fs144 >\f3\u156 ?\f1 >\f2\i0\b0\ul0 ny+la\fs28\i0\b0\ul0\cf0  font 2; ord 156\par
+\f1\fs144 >\f3\u157 ?\f1 >\f2\i0\b0\ul0 ny+sha\fs28\i0\b0\ul0\cf0  font 2; ord 157\par
+\f1\fs144 >\f3\u159 ?\f1 >\f2\i0\b0\ul0 T+Ta\fs28\i0\b0\ul0\cf0  font 2; ord 159\par
+\f1\fs144 >\f3\'a1\f1 >\f2\i0\b0\ul0 T+pa\fs28\i0\b0\ul0\cf0  font 2; ord 161\par
+\f1\fs144 >\f3\'a2\f1 >\f2\i0\b0\ul0 T+ma\fs28\i0\b0\ul0\cf0  font 2; ord 162\par
+\f1\fs144 >\f3\'a3\f1 >\f2\i0\b0\ul0 T+ya\fs28\i0\b0\ul0\cf0  font 2; ord 163\par
+\f1\fs144 >\f3\'a4\f1 >\f2\i0\b0\ul0 T+wa\fs28\i0\b0\ul0\cf0  font 2; ord 164\par
+\f1\fs144 >\f3\'a5\f1 >\f2\i0\b0\ul0 T+sa\fs28\i0\b0\ul0\cf0  font 2; ord 165\par
+\f1\fs144 >\f3\'a7\f1 >\f2\i0\b0\ul0 Th+ra\fs28\i0\b0\ul0\cf0  font 2; ord 167\par
+\f1\fs144 >\f3\'a8\f1 >\f2\i0\b0\ul0 D+ga\fs28\i0\b0\ul0\cf0  font 2; ord 168\par
+\f1\fs144 >\f3\'a9\f1 >\f2\i0\b0\ul0 D+g+ya\fs28\i0\b0\ul0\cf0  font 2; ord 169\par
+\f1\fs144 >\f3\'aa\f1 >\f2\i0\b0\ul0 D+g+ha\fs28\i0\b0\ul0\cf0  font 2; ord 170\par
+\f1\fs144 >\f3\'ab\f1 >\f2\i0\b0\ul0 D+g+h+ra\fs28\i0\b0\ul0\cf0  font 2; ord 171\par
+\f1\fs144 >\f3\'ac\f1 >\f2\i0\b0\ul0 D+Da\fs28\i0\b0\ul0\cf0  font 2; ord 172\par
+\f1\fs144 >\f3\'ad\f1 >\f2\i0\b0\ul0 D+D+ha\fs28\i0\b0\ul0\cf0  font 2; ord 173\par
+\f1\fs144 >\f3\'ae\f1 >\f2\i0\b0\ul0 D+D+h+ya\fs28\i0\b0\ul0\cf0  font 2; ord 174\par
+\f1\fs144 >\f3\'af\f1 >\f2\i0\b0\ul0 D+na\fs28\i0\b0\ul0\cf0  font 2; ord 175\par
+\f1\fs144 >\f3\'b0\f1 >\f2\i0\b0\ul0 D+ma\fs28\i0\b0\ul0\cf0  font 2; ord 176\par
+\f1\fs144 >\f3\'b1\f1 >\f2\i0\b0\ul0 D+ya\fs28\i0\b0\ul0\cf0  font 2; ord 177\par
+\f1\fs144 >\f3\'b2\f1 >\f2\i0\b0\ul0 D+ra\fs28\i0\b0\ul0\cf0  font 2; ord 178\par
+\f1\fs144 >\f3\'b3\f1 >\f2\i0\b0\ul0 D+wa\fs28\i0\b0\ul0\cf0  font 2; ord 179\par
+\f1\fs144 >\f3\'b4\f1 >\f2\i0\b0\ul0 D+ha\fs28\i0\b0\ul0\cf0  font 2; ord 180\par
+\f1\fs144 >\f3\'b5\f1 >\f2\i0\b0\ul0 D+h+D+ha\fs28\i0\b0\ul0\cf0  font 2; ord 181\par
+\f1\fs144 >\f3\'b6\f1 >\f2\i0\b0\ul0 D+h+ma\fs28\i0\b0\ul0\cf0  font 2; ord 182\par
+\f1\fs144 >\f3\'b7\f1 >\f2\i0\b0\ul0 D+h+ya\fs28\i0\b0\ul0\cf0  font 2; ord 183\par
+\f1\fs144 >\f3\'b8\f1 >\f2\i0\b0\ul0 D+h+ra\fs28\i0\b0\ul0\cf0  font 2; ord 184\par
+\f1\fs144 >\f3\'b9\f1 >\f2\i0\b0\ul0 D+h+wa\fs28\i0\b0\ul0\cf0  font 2; ord 185\par
+\f1\fs144 >\f3\'ba\f1 >\f2\i0\b0\ul0 N+Ta\fs28\i0\b0\ul0\cf0  font 2; ord 186\par
+\f1\fs144 >\f3\'bb\f1 >\f2\i0\b0\ul0 N+Tha\fs28\i0\b0\ul0\cf0  font 2; ord 187\par
+\f1\fs144 >\f3\'bc\f1 >\f2\i0\b0\ul0 N+Da\fs28\i0\b0\ul0\cf0  font 2; ord 188\par
+\f1\fs144 >\f3\'bd\f1 >\f2\i0\b0\ul0 N+D+Ya\fs28\i0\b0\ul0\cf0  font 2; ord 189\par
+\f1\fs144 >\f3\'be\f1 >\f2\i0\b0\ul0 N+D+R+ya\fs28\i0\b0\ul0\cf0  font 2; ord 190\par
+\f1\fs144 >\f3\'bf\f1 >\f2\i0\b0\ul0 N+D+ha\fs28\i0\b0\ul0\cf0  font 2; ord 191\par
+\f1\fs144 >\f3\'c0\f1 >\f2\i0\b0\ul0 N+Na\fs28\i0\b0\ul0\cf0  font 2; ord 192\par
+\f1\fs144 >\f3\'c1\f1 >\f2\i0\b0\ul0 N+d+ra\fs28\i0\b0\ul0\cf0  font 2; ord 193\par
+\f1\fs144 >\f3\'c2\f1 >\f2\i0\b0\ul0 N+ma\fs28\i0\b0\ul0\cf0  font 2; ord 194\par
+\f1\fs144 >\f3\'c3\f1 >\f2\i0\b0\ul0 N+ya\fs28\i0\b0\ul0\cf0  font 2; ord 195\par
+\f1\fs144 >\f3\'c4\f1 >\f2\i0\b0\ul0 N+wa\fs28\i0\b0\ul0\cf0  font 2; ord 196\par
+\f1\fs144 >\f3\'c5\f1 >\f2\i0\b0\ul0 t+ka\fs28\i0\b0\ul0\cf0  font 2; ord 197\par
+\f1\fs144 >\f3\'c6\f1 >\f2\i0\b0\ul0 t+k+ra\fs28\i0\b0\ul0\cf0  font 2; ord 198\par
+\f1\fs144 >\f3\'c7\f1 >\f2\i0\b0\ul0 t+k+sa\fs28\i0\b0\ul0\cf0  font 2; ord 199\par
+\f1\fs144 >\f3\'c9\f1 >\f2\i0\b0\ul0 A\fs28\i0\b0\ul0\cf0  font 2; ord 201\par
+\f1\fs144 >\f3\'ca\f1 >\f2\i0\b0\ul0 A\fs28\i0\b0\ul0\cf0  font 2; ord 202\par
+\f1\fs144 >\f3\'cb\f1 >\f2\i0\b0\ul0 A\fs28\i0\b0\ul0\cf0  font 2; ord 203\par
+\f1\fs144 >\f3\'cc\f1 >\f2\i0\b0\ul0 A\fs28\i0\b0\ul0\cf0  font 2; ord 204\par
+\f1\fs144 >\f3\'cd\f1 >\f2\i0\b0\ul0 A\fs28\i0\b0\ul0\cf0  font 2; ord 205\par
+\f1\fs144 >\f3\'ce\f1 >\f2\i0\b0\ul0 A\fs28\i0\b0\ul0\cf0  font 2; ord 206\par
+\f1\fs144 >\f3\'cf\f1 >\f2\i0\b0\ul0 A\fs28\i0\b0\ul0\cf0  font 2; ord 207\par
+\f1\fs144 >\f3\'d3\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 2; ord 211\par
+\f1\fs144 >\f3\'d4\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 2; ord 212\par
+\f1\fs144 >\f3\'d5\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 2; ord 213\par
+\f1\fs144 >\f3\'d6\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 2; ord 214\par
+\f1\fs144 >\f3\'d7\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 2; ord 215\par
+\f1\fs144 >\f3\'d8\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 2; ord 216\par
+\f1\fs144 >\f3\'d9\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 2; ord 217\par
+\f1\fs144 >\f3\'e0\f1 >\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 2; ord 224\par
+\f1\fs144 >\f3\'e1\f1 >\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 2; ord 225\par
+\f1\fs144 >\f3\'e2\f1 >\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 2; ord 226\par
+\f1\fs144 >\f3\'e3\f1 >\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 2; ord 227\par
+\f1\fs144 >\f3\'e4\f1 >\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 2; ord 228\par
+\f1\fs144 >\f3\'e5\f1 >\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 2; ord 229\par
+\f1\fs144 >\f3\'e6\f1 >\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 2; ord 230\par
+\f1\fs144 >\f3\'f9\f1 >\f2\i0\b0\ul0 dz+h+la\fs28\i0\b0\ul0\cf0  font 2; ord 249\par
+\f1\fs144 >\f3\'fa\f1 >\f2\i0\b0\ul0 T+ka\fs28\i0\b0\ul0\cf0  font 2; ord 250\par
+\f1\fs144 >\f3\'fb\f1 >\f2\i0\b0\ul0 Th+ya\fs28\i0\b0\ul0\cf0  font 2; ord 251\par
+\f1\fs144 >\f3\'fc\f1 >\f2\i0\b0\ul0 k+na\fs28\i0\b0\ul0\cf0  font 2; ord 252\par
+\f1\fs144 >\f3\'fd\f1 >\f2\i0\b0\ul0 dz+dz+nya\fs28\i0\b0\ul0\cf0  font 2; ord 253\par
+\f1\fs144 >\f3\'fe\f1 >\f2\i0\b0\ul0 T+T+ha\fs28\i0\b0\ul0\cf0  font 2; ord 254\par
+\f1\fs144 >\f4  \f1 >\f2\i0\b0\ul0 _\fs28\i0\b0\ul0\cf0  font 3; ord 32\par
+\f1\fs144 >\f4 !\f1 >\f2\i0\b0\ul0 t+k+wa\fs28\i0\b0\ul0\cf0  font 3; ord 33\par
+\f1\fs144 >\f4 "\f1 >\f2\i0\b0\ul0 t+nya\fs28\i0\b0\ul0\cf0  font 3; ord 34\par
+\f1\fs144 >\f4 #\f1 >\f2\i0\b0\ul0 t+Tha\fs28\i0\b0\ul0\cf0  font 3; ord 35\par
+\f1\fs144 >\f4 $\f1 >\f2\i0\b0\ul0 t+ta\fs28\i0\b0\ul0\cf0  font 3; ord 36\par
+\f1\fs144 >\f4 %\f1 >\f2\i0\b0\ul0 t+t+ya\fs28\i0\b0\ul0\cf0  font 3; ord 37\par
+\f1\fs144 >\f4 &\f1 >\f2\i0\b0\ul0 t+t+ra\fs28\i0\b0\ul0\cf0  font 3; ord 38\par
+\f1\fs144 >\f4 '\f1 >\f2\i0\b0\ul0 t+t+wa\fs28\i0\b0\ul0\cf0  font 3; ord 39\par
+\f1\fs144 >\f4 (\f1 >\f2\i0\b0\ul0 t+tha\fs28\i0\b0\ul0\cf0  font 3; ord 40\par
+\f1\fs144 >\f4 )\f1 >\f2\i0\b0\ul0 t+th+ya\fs28\i0\b0\ul0\cf0  font 3; ord 41\par
+\f1\fs144 >\f4 *\f1 >\f2\i0\b0\ul0 t+na\fs28\i0\b0\ul0\cf0  font 3; ord 42\par
+\f1\fs144 >\f4 +\f1 >\f2\i0\b0\ul0 t+n+ya\fs28\i0\b0\ul0\cf0  font 3; ord 43\par
+\f1\fs144 >\f4 ,\f1 >\f2\i0\b0\ul0 t+pa\fs28\i0\b0\ul0\cf0  font 3; ord 44\par
+\f1\fs144 >\f4 .\f1 >\f2\i0\b0\ul0 t+pha\fs28\i0\b0\ul0\cf0  font 3; ord 46\par
+\f1\fs144 >\f4 /\f1 >\f2\i0\b0\ul0 t+ma\fs28\i0\b0\ul0\cf0  font 3; ord 47\par
+\f1\fs144 >\f4 0\f1 >\f2\i0\b0\ul0 t+m+ya\fs28\i0\b0\ul0\cf0  font 3; ord 48\par
+\f1\fs144 >\f4 1\f1 >\f2\i0\b0\ul0 t+ya\fs28\i0\b0\ul0\cf0  font 3; ord 49\par
+\f1\fs144 >\f4 2\f1 >\f2\i0\b0\ul0 t+r+na\fs28\i0\b0\ul0\cf0  font 3; ord 50\par
+\f1\fs144 >\f4 3\f1 >\f2\i0\b0\ul0 t+sa\fs28\i0\b0\ul0\cf0  font 3; ord 51\par
+\f1\fs144 >\f4 4\f1 >\f2\i0\b0\ul0 t+s+tha\fs28\i0\b0\ul0\cf0  font 3; ord 52\par
+\f1\fs144 >\f4 5\f1 >\f2\i0\b0\ul0 t+s+na\fs28\i0\b0\ul0\cf0  font 3; ord 53\par
+\f1\fs144 >\f4 6\f1 >\f2\i0\b0\ul0 t+s+n+ya\fs28\i0\b0\ul0\cf0  font 3; ord 54\par
+\f1\fs144 >\f4 7\f1 >\f2\i0\b0\ul0 t+s+ma\fs28\i0\b0\ul0\cf0  font 3; ord 55\par
+\f1\fs144 >\f4 8\f1 >\f2\i0\b0\ul0 t+s+m+ya\fs28\i0\b0\ul0\cf0  font 3; ord 56\par
+\f1\fs144 >\f4 9\f1 >\f2\i0\b0\ul0 t+s+ya\fs28\i0\b0\ul0\cf0  font 3; ord 57\par
+\f1\fs144 >\f4 :\f1 >\f2\i0\b0\ul0 t+s+ra\fs28\i0\b0\ul0\cf0  font 3; ord 58\par
+\f1\fs144 >\f4 ;\f1 >\f2\i0\b0\ul0 t+s+wa\fs28\i0\b0\ul0\cf0  font 3; ord 59\par
+\f1\fs144 >\f4 <\f1 >\f2\i0\b0\ul0 t+r+ya\fs28\i0\b0\ul0\cf0  font 3; ord 60\par
+\f1\fs144 >\f4 =\f1 >\f2\i0\b0\ul0 t+w+ya\fs28\i0\b0\ul0\cf0  font 3; ord 61\par
+\f1\fs144 >\f4 >\f1 >\f2\i0\b0\ul0 t+k+Sha\fs28\i0\b0\ul0\cf0  font 3; ord 62\par
+\f1\fs144 >\f4 ?\f1 >\f2\i0\b0\ul0 th+ya\fs28\i0\b0\ul0\cf0  font 3; ord 63\par
+\f1\fs144 >\f4 @\f1 >\f2\i0\b0\ul0 th+wa\fs28\i0\b0\ul0\cf0  font 3; ord 64\par
+\f1\fs144 >\f4 A\f1 >\f2\i0\b0\ul0 d+ga\fs28\i0\b0\ul0\cf0  font 3; ord 65\par
+\f1\fs144 >\f4 B\f1 >\f2\i0\b0\ul0 d+g+ya\fs28\i0\b0\ul0\cf0  font 3; ord 66\par
+\f1\fs144 >\f4 C\f1 >\f2\i0\b0\ul0 d+g+ra\fs28\i0\b0\ul0\cf0  font 3; ord 67\par
+\f1\fs144 >\f4 D\f1 >\f2\i0\b0\ul0 d+g+ha\fs28\i0\b0\ul0\cf0  font 3; ord 68\par
+\f1\fs144 >\f4 E\f1 >\f2\i0\b0\ul0 d+g+h+ra\fs28\i0\b0\ul0\cf0  font 3; ord 69\par
+\f1\fs144 >\f4 F\f1 >\f2\i0\b0\ul0 d+dza\fs28\i0\b0\ul0\cf0  font 3; ord 70\par
+\f1\fs144 >\f4 G\f1 >\f2\i0\b0\ul0 d+da\fs28\i0\b0\ul0\cf0  font 3; ord 71\par
+\f1\fs144 >\f4 H\f1 >\f2\i0\b0\ul0 d+d+ya\fs28\i0\b0\ul0\cf0  font 3; ord 72\par
+\f1\fs144 >\f4 I\f1 >\f2\i0\b0\ul0 d+d+ra\fs28\i0\b0\ul0\cf0  font 3; ord 73\par
+\f1\fs144 >\f4 J\f1 >\f2\i0\b0\ul0 d+d+wa\fs28\i0\b0\ul0\cf0  font 3; ord 74\par
+\f1\fs144 >\f4 K\f1 >\f2\i0\b0\ul0 d+d+ha\fs28\i0\b0\ul0\cf0  font 3; ord 75\par
+\f1\fs144 >\f4 L\f1 >\f2\i0\b0\ul0 d+d+h+na\fs28\i0\b0\ul0\cf0  font 3; ord 76\par
+\f1\fs144 >\f4 M\f1 >\f2\i0\b0\ul0 d+d+h+ya\fs28\i0\b0\ul0\cf0  font 3; ord 77\par
+\f1\fs144 >\f4 N\f1 >\f2\i0\b0\ul0 d+d+h+ra\fs28\i0\b0\ul0\cf0  font 3; ord 78\par
+\f1\fs144 >\f4 O\f1 >\f2\i0\b0\ul0 d+d+h+wa\fs28\i0\b0\ul0\cf0  font 3; ord 79\par
+\f1\fs144 >\f4 P\f1 >\f2\i0\b0\ul0 d+na\fs28\i0\b0\ul0\cf0  font 3; ord 80\par
+\f1\fs144 >\f4 Q\f1 >\f2\i0\b0\ul0 d+ba\fs28\i0\b0\ul0\cf0  font 3; ord 81\par
+\f1\fs144 >\f4 R\f1 >\f2\i0\b0\ul0 d+b+ra\fs28\i0\b0\ul0\cf0  font 3; ord 82\par
+\f1\fs144 >\f4 S\f1 >\f2\i0\b0\ul0 d+b+ha\fs28\i0\b0\ul0\cf0  font 3; ord 83\par
+\f1\fs144 >\f4 T\f1 >\f2\i0\b0\ul0 d+b+h+ya\fs28\i0\b0\ul0\cf0  font 3; ord 84\par
+\f1\fs144 >\f4 U\f1 >\f2\i0\b0\ul0 d+b+h+ra\fs28\i0\b0\ul0\cf0  font 3; ord 85\par
+\f1\fs144 >\f4 V\f1 >\f2\i0\b0\ul0 d+ma\fs28\i0\b0\ul0\cf0  font 3; ord 86\par
+\f1\fs144 >\f4 W\f1 >\f2\i0\b0\ul0 d+ya\fs28\i0\b0\ul0\cf0  font 3; ord 87\par
+\f1\fs144 >\f4 X\f1 >\f2\i0\b0\ul0 d+r+ya\fs28\i0\b0\ul0\cf0  font 3; ord 88\par
+\f1\fs144 >\f4 Y\f1 >\f2\i0\b0\ul0 d+w+ya\fs28\i0\b0\ul0\cf0  font 3; ord 89\par
+\f1\fs144 >\f4 Z\f1 >\f2\i0\b0\ul0 d+ha\fs28\i0\b0\ul0\cf0  font 3; ord 90\par
+\f1\fs144 >\f4 [\f1 >\f2\i0\b0\ul0 d+h+na\fs28\i0\b0\ul0\cf0  font 3; ord 91\par
+\f1\fs144 >\f4\\\f1 >\f2\i0\b0\ul0 d+h+n+ya\fs28\i0\b0\ul0\cf0  font 3; ord 92\par
+\f1\fs144 >\f4 ]\f1 >\f2\i0\b0\ul0 d+h+ma\fs28\i0\b0\ul0\cf0  font 3; ord 93\par
+\f1\fs144 >\f4 ^\f1 >\f2\i0\b0\ul0 d+h+ya\fs28\i0\b0\ul0\cf0  font 3; ord 94\par
+\f1\fs144 >\f4 _\f1 >\f2\i0\b0\ul0 d+h+ra\fs28\i0\b0\ul0\cf0  font 3; ord 95\par
+\f1\fs144 >\f4 `\f1 >\f2\i0\b0\ul0 d+h+r+ya\fs28\i0\b0\ul0\cf0  font 3; ord 96\par
+\f1\fs144 >\f4 a\f1 >\f2\i0\b0\ul0 d+h+wa\fs28\i0\b0\ul0\cf0  font 3; ord 97\par
+\f1\fs144 >\f4 b\f1 >\f2\i0\b0\ul0 n+ka\fs28\i0\b0\ul0\cf0  font 3; ord 98\par
+\f1\fs144 >\f4 c\f1 >\f2\i0\b0\ul0 n+k+ta\fs28\i0\b0\ul0\cf0  font 3; ord 99\par
+\f1\fs144 >\f4 e\f1 >\f2\i0\b0\ul0 n+g+ha\fs28\i0\b0\ul0\cf0  font 3; ord 101\par
+\f1\fs144 >\f4 f\f1 >\f2\i0\b0\ul0 n+nga\fs28\i0\b0\ul0\cf0  font 3; ord 102\par
+\f1\fs144 >\f4 g\f1 >\f2\i0\b0\ul0 n+dza\fs28\i0\b0\ul0\cf0  font 3; ord 103\par
+\f1\fs144 >\f4 h\f1 >\f2\i0\b0\ul0 n+dz+ya\fs28\i0\b0\ul0\cf0  font 3; ord 104\par
+\f1\fs144 >\f4 i\f1 >\f2\i0\b0\ul0 n+Da\fs28\i0\b0\ul0\cf0  font 3; ord 105\par
+\f1\fs144 >\f4 j\f1 >\f2\i0\b0\ul0 n+ta\fs28\i0\b0\ul0\cf0  font 3; ord 106\par
+\f1\fs144 >\f4 k\f1 >\f2\i0\b0\ul0 n+t+ya\fs28\i0\b0\ul0\cf0  font 3; ord 107\par
+\f1\fs144 >\f4 l\f1 >\f2\i0\b0\ul0 n+t+ra\fs28\i0\b0\ul0\cf0  font 3; ord 108\par
+\f1\fs144 >\f4 m\f1 >\f2\i0\b0\ul0 n+t+r+ya\fs28\i0\b0\ul0\cf0  font 3; ord 109\par
+\f1\fs144 >\f4 n\f1 >\f2\i0\b0\ul0 n+t+wa\fs28\i0\b0\ul0\cf0  font 3; ord 110\par
+\f1\fs144 >\f4 o\f1 >\f2\i0\b0\ul0 n+t+sa\fs28\i0\b0\ul0\cf0  font 3; ord 111\par
+\f1\fs144 >\f4 p\f1 >\f2\i0\b0\ul0 n+tha\fs28\i0\b0\ul0\cf0  font 3; ord 112\par
+\f1\fs144 >\f4 q\f1 >\f2\i0\b0\ul0 n+da\fs28\i0\b0\ul0\cf0  font 3; ord 113\par
+\f1\fs144 >\f4 r\f1 >\f2\i0\b0\ul0 n+d+da\fs28\i0\b0\ul0\cf0  font 3; ord 114\par
+\f1\fs144 >\f4 s\f1 >\f2\i0\b0\ul0 n+d+d+ra\fs28\i0\b0\ul0\cf0  font 3; ord 115\par
+\f1\fs144 >\f4 t\f1 >\f2\i0\b0\ul0 n+d+ya\fs28\i0\b0\ul0\cf0  font 3; ord 116\par
+\f1\fs144 >\f4 u\f1 >\f2\i0\b0\ul0 n+d+ra\fs28\i0\b0\ul0\cf0  font 3; ord 117\par
+\f1\fs144 >\f4 v\f1 >\f2\i0\b0\ul0 n+d+ha\fs28\i0\b0\ul0\cf0  font 3; ord 118\par
+\f1\fs144 >\f4 w\f1 >\f2\i0\b0\ul0 n+d+h+ra\fs28\i0\b0\ul0\cf0  font 3; ord 119\par
+\f1\fs144 >\f4 x\f1 >\f2\i0\b0\ul0 n+d+h+ya\fs28\i0\b0\ul0\cf0  font 3; ord 120\par
+\f1\fs144 >\f4 y\f1 >\f2\i0\b0\ul0 n+na\fs28\i0\b0\ul0\cf0  font 3; ord 121\par
+\f1\fs144 >\f4\{\f1 >\f2\i0\b0\ul0 n+n+ya\fs28\i0\b0\ul0\cf0  font 3; ord 123\par
+\f1\fs144 >\f4 |\f1 >\f2\i0\b0\ul0 n+pa\fs28\i0\b0\ul0\cf0  font 3; ord 124\par
+\f1\fs144 >\f4\}\f1 >\f2\i0\b0\ul0 n+p+ra\fs28\i0\b0\ul0\cf0  font 3; ord 125\par
+\f1\fs144 >\f4 ~\f1 >\f2\i0\b0\ul0 n+pha\fs28\i0\b0\ul0\cf0  font 3; ord 126\par
+\f1\fs144 >\f4\u128 ?\f1 >\f2\i0\b0\ul0 n+b+h+ya\fs28\i0\b0\ul0\cf0  font 3; ord 128\par
+\f1\fs144 >\f4\u129 ?\f1 >\f2\i0\b0\ul0 n+tsa\fs28\i0\b0\ul0\cf0  font 3; ord 129\par
+\f1\fs144 >\f4\u130 ?\f1 >\f2\i0\b0\ul0 n+ya\fs28\i0\b0\ul0\cf0  font 3; ord 130\par
+\f1\fs144 >\f4\u131 ?\f1 >\f2\i0\b0\ul0 n+ra\fs28\i0\b0\ul0\cf0  font 3; ord 131\par
+\f1\fs144 >\f4\u132 ?\f1 >\f2\i0\b0\ul0 n+wa\fs28\i0\b0\ul0\cf0  font 3; ord 132\par
+\f1\fs144 >\f4\u133 ?\f1 >\f2\i0\b0\ul0 n+w+ya\fs28\i0\b0\ul0\cf0  font 3; ord 133\par
+\f1\fs144 >\f4\u134 ?\f1 >\f2\i0\b0\ul0 n+sa\fs28\i0\b0\ul0\cf0  font 3; ord 134\par
+\f1\fs144 >\f4\u135 ?\f1 >\f2\i0\b0\ul0 n+s+ya\fs28\i0\b0\ul0\cf0  font 3; ord 135\par
+\f1\fs144 >\f4\u136 ?\f1 >\f2\i0\b0\ul0 n+ha\fs28\i0\b0\ul0\cf0  font 3; ord 136\par
+\f1\fs144 >\f4\u137 ?\f1 >\f2\i0\b0\ul0 n+h+ra\fs28\i0\b0\ul0\cf0  font 3; ord 137\par
+\f1\fs144 >\f4\u138 ?\f1 >\f2\i0\b0\ul0 p+ta\fs28\i0\b0\ul0\cf0  font 3; ord 138\par
+\f1\fs144 >\f4\u139 ?\f1 >\f2\i0\b0\ul0 p+t+ya\fs28\i0\b0\ul0\cf0  font 3; ord 139\par
+\f1\fs144 >\f4\u140 ?\f1 >\f2\i0\b0\ul0 p+t+r+ya\fs28\i0\b0\ul0\cf0  font 3; ord 140\par
+\f1\fs144 >\f4\u141 ?\f1 >\f2\i0\b0\ul0 p+na\fs28\i0\b0\ul0\cf0  font 3; ord 141\par
+\f1\fs144 >\f4\u143 ?\f1 >\f2\i0\b0\ul0 p+pa\fs28\i0\b0\ul0\cf0  font 3; ord 143\par
+\f1\fs144 >\f4\u144 ?\f1 >\f2\i0\b0\ul0 p+ma\fs28\i0\b0\ul0\cf0  font 3; ord 144\par
+\f1\fs144 >\f4\u145 ?\f1 >\f2\i0\b0\ul0 p+la\fs28\i0\b0\ul0\cf0  font 3; ord 145\par
+\f1\fs144 >\f4\u146 ?\f1 >\f2\i0\b0\ul0 p+wa\fs28\i0\b0\ul0\cf0  font 3; ord 146\par
+\f1\fs144 >\f4\u147 ?\f1 >\f2\i0\b0\ul0 p+sa\fs28\i0\b0\ul0\cf0  font 3; ord 147\par
+\f1\fs144 >\f4\u148 ?\f1 >\f2\i0\b0\ul0 p+s+n+ya\fs28\i0\b0\ul0\cf0  font 3; ord 148\par
+\f1\fs144 >\f4\u149 ?\f1 >\f2\i0\b0\ul0 p+s+wa\fs28\i0\b0\ul0\cf0  font 3; ord 149\par
+\f1\fs144 >\f4\u150 ?\f1 >\f2\i0\b0\ul0 p+s+ya\fs28\i0\b0\ul0\cf0  font 3; ord 150\par
+\f1\fs144 >\f4\u151 ?\f1 >\f2\i0\b0\ul0 b+g+ha\fs28\i0\b0\ul0\cf0  font 3; ord 151\par
+\f1\fs144 >\f4\u152 ?\f1 >\f2\i0\b0\ul0 b+dza\fs28\i0\b0\ul0\cf0  font 3; ord 152\par
+\f1\fs144 >\f4\u153 ?\f1 >\f2\i0\b0\ul0 b+da\fs28\i0\b0\ul0\cf0  font 3; ord 153\par
+\f1\fs144 >\f4\u154 ?\f1 >\f2\i0\b0\ul0 b+d+dza\fs28\i0\b0\ul0\cf0  font 3; ord 154\par
+\f1\fs144 >\f4\u155 ?\f1 >\f2\i0\b0\ul0 b+d+ha\fs28\i0\b0\ul0\cf0  font 3; ord 155\par
+\f1\fs144 >\f4\u156 ?\f1 >\f2\i0\b0\ul0 b+d+h+wa\fs28\i0\b0\ul0\cf0  font 3; ord 156\par
+\f1\fs144 >\f4\u157 ?\f1 >\f2\i0\b0\ul0 b+ta\fs28\i0\b0\ul0\cf0  font 3; ord 157\par
+\f1\fs144 >\f4\u159 ?\f1 >\f2\i0\b0\ul0 b+ba\fs28\i0\b0\ul0\cf0  font 3; ord 159\par
+\f1\fs144 >\f4\'a1\f1 >\f2\i0\b0\ul0 b+b+h+ya\fs28\i0\b0\ul0\cf0  font 3; ord 161\par
+\f1\fs144 >\f4\'a2\f1 >\f2\i0\b0\ul0 b+ma\fs28\i0\b0\ul0\cf0  font 3; ord 162\par
+\f1\fs144 >\f4\'a3\f1 >\f2\i0\b0\ul0 b+ha\fs28\i0\b0\ul0\cf0  font 3; ord 163\par
+\f1\fs144 >\f4\'a4\f1 >\f2\i0\b0\ul0 b+h+Na\fs28\i0\b0\ul0\cf0  font 3; ord 164\par
+\f1\fs144 >\f4\'a5\f1 >\f2\i0\b0\ul0 b+h+na\fs28\i0\b0\ul0\cf0  font 3; ord 165\par
+\f1\fs144 >\f4\'a7\f1 >\f2\i0\b0\ul0 b+h+ya\fs28\i0\b0\ul0\cf0  font 3; ord 167\par
+\f1\fs144 >\f4\'a8\f1 >\f2\i0\b0\ul0 b+h+ra\fs28\i0\b0\ul0\cf0  font 3; ord 168\par
+\f1\fs144 >\f4\'a9\f1 >\f2\i0\b0\ul0 b+h+wa\fs28\i0\b0\ul0\cf0  font 3; ord 169\par
+\f1\fs144 >\f4\'aa\f1 >\f2\i0\b0\ul0 m+nya\fs28\i0\b0\ul0\cf0  font 3; ord 170\par
+\f1\fs144 >\f4\'ab\f1 >\f2\i0\b0\ul0 m+Na\fs28\i0\b0\ul0\cf0  font 3; ord 171\par
+\f1\fs144 >\f4\'ac\f1 >\f2\i0\b0\ul0 m+na\fs28\i0\b0\ul0\cf0  font 3; ord 172\par
+\f1\fs144 >\f4\'ad\f1 >\f2\i0\b0\ul0 m+n+ya\fs28\i0\b0\ul0\cf0  font 3; ord 173\par
+\f1\fs144 >\f4\'ae\f1 >\f2\i0\b0\ul0 m+pa\fs28\i0\b0\ul0\cf0  font 3; ord 174\par
+\f1\fs144 >\f4\'af\f1 >\f2\i0\b0\ul0 m+p+ra\fs28\i0\b0\ul0\cf0  font 3; ord 175\par
+\f1\fs144 >\f4\'b0\f1 >\f2\i0\b0\ul0 m+pha\fs28\i0\b0\ul0\cf0  font 3; ord 176\par
+\f1\fs144 >\f4\'b1\f1 >\f2\i0\b0\ul0 m+ba\fs28\i0\b0\ul0\cf0  font 3; ord 177\par
+\f1\fs144 >\f4\'b2\f1 >\f2\i0\b0\ul0 m+b+ha\fs28\i0\b0\ul0\cf0  font 3; ord 178\par
+\f1\fs144 >\f4\'b3\f1 >\f2\i0\b0\ul0 m+b+h+ya\fs28\i0\b0\ul0\cf0  font 3; ord 179\par
+\f1\fs144 >\f4\'b4\f1 >\f2\i0\b0\ul0 m+ma\fs28\i0\b0\ul0\cf0  font 3; ord 180\par
+\f1\fs144 >\f4\'b5\f1 >\f2\i0\b0\ul0 m+la\fs28\i0\b0\ul0\cf0  font 3; ord 181\par
+\f1\fs144 >\f4\'b6\f1 >\f2\i0\b0\ul0 m+wa\fs28\i0\b0\ul0\cf0  font 3; ord 182\par
+\f1\fs144 >\f4\'b7\f1 >\f2\i0\b0\ul0 m+sa\fs28\i0\b0\ul0\cf0  font 3; ord 183\par
+\f1\fs144 >\f4\'b8\f1 >\f2\i0\b0\ul0 m+ha\fs28\i0\b0\ul0\cf0  font 3; ord 184\par
+\f1\fs144 >\f4\'b9\f1 >\f2\i0\b0\ul0 y+Ya\fs28\i0\b0\ul0\cf0  font 3; ord 185\par
+\f1\fs144 >\f4\'ba\f1 >\f2\i0\b0\ul0 y+ra\fs28\i0\b0\ul0\cf0  font 3; ord 186\par
+\f1\fs144 >\f4\'bb\f1 >\f2\i0\b0\ul0 y+wa\fs28\i0\b0\ul0\cf0  font 3; ord 187\par
+\f1\fs144 >\f4\'bc\f1 >\f2\i0\b0\ul0 y+sa\fs28\i0\b0\ul0\cf0  font 3; ord 188\par
+\f1\fs144 >\f4\'bd\f1 >\f2\i0\b0\ul0 r+kha\fs28\i0\b0\ul0\cf0  font 3; ord 189\par
+\f1\fs144 >\f4\'be\f1 >\f2\i0\b0\ul0 r+g+ha\fs28\i0\b0\ul0\cf0  font 3; ord 190\par
+\f1\fs144 >\f4\'bf\f1 >\f2\i0\b0\ul0 r+g+h+ya\fs28\i0\b0\ul0\cf0  font 3; ord 191\par
+\f1\fs144 >\f4\'c0\f1 >\f2\i0\b0\ul0 r+ts+ya\fs28\i0\b0\ul0\cf0  font 3; ord 192\par
+\f1\fs144 >\f4\'c1\f1 >\f2\i0\b0\ul0 r+tsha\fs28\i0\b0\ul0\cf0  font 3; ord 193\par
+\f1\fs144 >\f4\'c2\f1 >\f2\i0\b0\ul0 r+dz+nya\fs28\i0\b0\ul0\cf0  font 3; ord 194\par
+\f1\fs144 >\f4\'c3\f1 >\f2\i0\b0\ul0 r+dz+ya\fs28\i0\b0\ul0\cf0  font 3; ord 195\par
+\f1\fs144 >\f4\'c4\f1 >\f2\i0\b0\ul0 r+Ta\fs28\i0\b0\ul0\cf0  font 3; ord 196\par
+\f1\fs144 >\f4\'c5\f1 >\f2\i0\b0\ul0 r+Tha\fs28\i0\b0\ul0\cf0  font 3; ord 197\par
+\f1\fs144 >\f4\'c6\f1 >\f2\i0\b0\ul0 r+Da\fs28\i0\b0\ul0\cf0  font 3; ord 198\par
+\f1\fs144 >\f4\'c7\f1 >\f2\i0\b0\ul0 r+Na\fs28\i0\b0\ul0\cf0  font 3; ord 199\par
+\f1\fs144 >\f4\'c9\f1 >\f2\i0\b0\ul0 A\fs28\i0\b0\ul0\cf0  font 3; ord 201\par
+\f1\fs144 >\f4\'ca\f1 >\f2\i0\b0\ul0 A\fs28\i0\b0\ul0\cf0  font 3; ord 202\par
+\f1\fs144 >\f4\'cb\f1 >\f2\i0\b0\ul0 A\fs28\i0\b0\ul0\cf0  font 3; ord 203\par
+\f1\fs144 >\f4\'cc\f1 >\f2\i0\b0\ul0 A\fs28\i0\b0\ul0\cf0  font 3; ord 204\par
+\f1\fs144 >\f4\'cd\f1 >\f2\i0\b0\ul0 A\fs28\i0\b0\ul0\cf0  font 3; ord 205\par
+\f1\fs144 >\f4\'ce\f1 >\f2\i0\b0\ul0 A\fs28\i0\b0\ul0\cf0  font 3; ord 206\par
+\f1\fs144 >\f4\'cf\f1 >\f2\i0\b0\ul0 A\fs28\i0\b0\ul0\cf0  font 3; ord 207\par
+\f1\fs144 >\f4\'d3\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 3; ord 211\par
+\f1\fs144 >\f4\'d4\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 3; ord 212\par
+\f1\fs144 >\f4\'d5\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 3; ord 213\par
+\f1\fs144 >\f4\'d6\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 3; ord 214\par
+\f1\fs144 >\f4\'d7\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 3; ord 215\par
+\f1\fs144 >\f4\'d8\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 3; ord 216\par
+\f1\fs144 >\f4\'d9\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 3; ord 217\par
+\f1\fs144 >\f4\'e0\f1 >\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 3; ord 224\par
+\f1\fs144 >\f4\'e1\f1 >\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 3; ord 225\par
+\f1\fs144 >\f4\'e2\f1 >\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 3; ord 226\par
+\f1\fs144 >\f4\'e3\f1 >\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 3; ord 227\par
+\f1\fs144 >\f4\'e4\f1 >\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 3; ord 228\par
+\f1\fs144 >\f4\'e5\f1 >\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 3; ord 229\par
+\f1\fs144 >\f4\'e6\f1 >\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 3; ord 230\par
+\f1\fs144 >\f4\'f9\f1 >\f2\i0\b0\ul0 p+n+ya\fs28\i0\b0\ul0\cf0  font 3; ord 249\par
+\f1\fs144 >\f4\'fa\f1 >\f2\i0\b0\ul0 b+na\fs28\i0\b0\ul0\cf0  font 3; ord 250\par
+\f1\fs144 >\f4\'fb\f1 >\f2\i0\b0\ul0 b+h+ma\fs28\i0\b0\ul0\cf0  font 3; ord 251\par
+\f1\fs144 >\f4\'fc\f1 >\f2\i0\b0\ul0 t+p+ra\fs28\i0\b0\ul0\cf0  font 3; ord 252\par
+\f1\fs144 >\f4\'fd\f1 >\f2\i0\b0\ul0 n+ma\fs28\i0\b0\ul0\cf0  font 3; ord 253\par
+\f1\fs144 >\f4\'fe\f1 >\f2\i0\b0\ul0 b+b+ha\fs28\i0\b0\ul0\cf0  font 3; ord 254\par
+\f1\fs144 >\f5  \f1 >\f2\i0\b0\ul0 _\fs28\i0\b0\ul0\cf0  font 4; ord 32\par
+\f1\fs144 >\f5 !\f1 >\f2\i0\b0\ul0 r+t+wa\fs28\i0\b0\ul0\cf0  font 4; ord 33\par
+\f1\fs144 >\f5 "\f1 >\f2\i0\b0\ul0 r+t+ta\fs28\i0\b0\ul0\cf0  font 4; ord 34\par
+\f1\fs144 >\f5 #\f1 >\f2\i0\b0\ul0 r+t+sa\fs28\i0\b0\ul0\cf0  font 4; ord 35\par
+\f1\fs144 >\f5 $\f1 >\f2\i0\b0\ul0 r+t+s+na\fs28\i0\b0\ul0\cf0  font 4; ord 36\par
+\f1\fs144 >\f5 %\f1 >\f2\i0\b0\ul0 r+t+s+n+ya\fs28\i0\b0\ul0\cf0  font 4; ord 37\par
+\f1\fs144 >\f5 &\f1 >\f2\i0\b0\ul0 r+tha\fs28\i0\b0\ul0\cf0  font 4; ord 38\par
+\f1\fs144 >\f5 '\f1 >\f2\i0\b0\ul0 r+th+ya\fs28\i0\b0\ul0\cf0  font 4; ord 39\par
+\f1\fs144 >\f5 (\f1 >\f2\i0\b0\ul0 r+d+d+ha\fs28\i0\b0\ul0\cf0  font 4; ord 40\par
+\f1\fs144 >\f5 )\f1 >\f2\i0\b0\ul0 r+d+d+h+ya\fs28\i0\b0\ul0\cf0  font 4; ord 41\par
+\f1\fs144 >\f5 *\f1 >\f2\i0\b0\ul0 r+d+ya\fs28\i0\b0\ul0\cf0  font 4; ord 42\par
+\f1\fs144 >\f5 +\f1 >\f2\i0\b0\ul0 r+d+ha\fs28\i0\b0\ul0\cf0  font 4; ord 43\par
+\f1\fs144 >\f5 ,\f1 >\f2\i0\b0\ul0 r+d+h+ma\fs28\i0\b0\ul0\cf0  font 4; ord 44\par
+\f1\fs144 >\f5 .\f1 >\f2\i0\b0\ul0 r+d+h+ra\fs28\i0\b0\ul0\cf0  font 4; ord 46\par
+\f1\fs144 >\f5 /\f1 >\f2\i0\b0\ul0 r+pa\fs28\i0\b0\ul0\cf0  font 4; ord 47\par
+\f1\fs144 >\f5 0\f1 >\f2\i0\b0\ul0 r+b+pa\fs28\i0\b0\ul0\cf0  font 4; ord 48\par
+\f1\fs144 >\f5 1\f1 >\f2\i0\b0\ul0 r+b+ba\fs28\i0\b0\ul0\cf0  font 4; ord 49\par
+\f1\fs144 >\f5 2\f1 >\f2\i0\b0\ul0 r+b+ha\fs28\i0\b0\ul0\cf0  font 4; ord 50\par
+\f1\fs144 >\f5 3\f1 >\f2\i0\b0\ul0 r+m+ma\fs28\i0\b0\ul0\cf0  font 4; ord 51\par
+\f1\fs144 >\f5 4\f1 >\f2\i0\b0\ul0 R+Ya\fs28\i0\b0\ul0\cf0  font 4; ord 52\par
+\f1\fs144 >\f5 5\f1 >\f2\i0\b0\ul0 R+sha\fs28\i0\b0\ul0\cf0  font 4; ord 53\par
+\f1\fs144 >\f5 6\f1 >\f2\i0\b0\ul0 R+sh+ya\fs28\i0\b0\ul0\cf0  font 4; ord 54\par
+\f1\fs144 >\f5 7\f1 >\f2\i0\b0\ul0 R+Sha\fs28\i0\b0\ul0\cf0  font 4; ord 55\par
+\f1\fs144 >\f5 8\f1 >\f2\i0\b0\ul0 R+Sh+Na\fs28\i0\b0\ul0\cf0  font 4; ord 56\par
+\f1\fs144 >\f5 9\f1 >\f2\i0\b0\ul0 R+Sh+N+ya\fs28\i0\b0\ul0\cf0  font 4; ord 57\par
+\f1\fs144 >\f5 :\f1 >\f2\i0\b0\ul0 R+Sh+ma\fs28\i0\b0\ul0\cf0  font 4; ord 58\par
+\f1\fs144 >\f5 ;\f1 >\f2\i0\b0\ul0 R+Sh+ya\fs28\i0\b0\ul0\cf0  font 4; ord 59\par
+\f1\fs144 >\f5 <\f1 >\f2\i0\b0\ul0 R+sa\fs28\i0\b0\ul0\cf0  font 4; ord 60\par
+\f1\fs144 >\f5 =\f1 >\f2\i0\b0\ul0 r+ha\fs28\i0\b0\ul0\cf0  font 4; ord 61\par
+\f1\fs144 >\f5 >\f1 >\f2\i0\b0\ul0 r+k+Sha\fs28\i0\b0\ul0\cf0  font 4; ord 62\par
+\f1\fs144 >\f5 ?\f1 >\f2\i0\b0\ul0 l+g+wa\fs28\i0\b0\ul0\cf0  font 4; ord 63\par
+\f1\fs144 >\f5 @\f1 >\f2\i0\b0\ul0 l+b+ya\fs28\i0\b0\ul0\cf0  font 4; ord 64\par
+\f1\fs144 >\f5 A\f1 >\f2\i0\b0\ul0 l+ma\fs28\i0\b0\ul0\cf0  font 4; ord 65\par
+\f1\fs144 >\f5 B\f1 >\f2\i0\b0\ul0 l+ya\fs28\i0\b0\ul0\cf0  font 4; ord 66\par
+\f1\fs144 >\f5 C\f1 >\f2\i0\b0\ul0 l+wa\fs28\i0\b0\ul0\cf0  font 4; ord 67\par
+\f1\fs144 >\f5 D\f1 >\f2\i0\b0\ul0 l+la\fs28\i0\b0\ul0\cf0  font 4; ord 68\par
+\f1\fs144 >\f5 E\f1 >\f2\i0\b0\ul0 w+ya\fs28\i0\b0\ul0\cf0  font 4; ord 69\par
+\f1\fs144 >\f5 F\f1 >\f2\i0\b0\ul0 w+ra\fs28\i0\b0\ul0\cf0  font 4; ord 70\par
+\f1\fs144 >\f5 G\f1 >\f2\i0\b0\ul0 sh+tsa\fs28\i0\b0\ul0\cf0  font 4; ord 71\par
+\f1\fs144 >\f5 H\f1 >\f2\i0\b0\ul0 sh+ts+ya\fs28\i0\b0\ul0\cf0  font 4; ord 72\par
+\f1\fs144 >\f5 I\f1 >\f2\i0\b0\ul0 sh+tsha\fs28\i0\b0\ul0\cf0  font 4; ord 73\par
+\f1\fs144 >\f5 J\f1 >\f2\i0\b0\ul0 sh+Na\fs28\i0\b0\ul0\cf0  font 4; ord 74\par
+\f1\fs144 >\f5 K\f1 >\f2\i0\b0\ul0 sh+na\fs28\i0\b0\ul0\cf0  font 4; ord 75\par
+\f1\fs144 >\f5 L\f1 >\f2\i0\b0\ul0 sh+pa\fs28\i0\b0\ul0\cf0  font 4; ord 76\par
+\f1\fs144 >\f5 M\f1 >\f2\i0\b0\ul0 sh+b+ya\fs28\i0\b0\ul0\cf0  font 4; ord 77\par
+\f1\fs144 >\f5 N\f1 >\f2\i0\b0\ul0 sh+ma\fs28\i0\b0\ul0\cf0  font 4; ord 78\par
+\f1\fs144 >\f5 O\f1 >\f2\i0\b0\ul0 sh+ya\fs28\i0\b0\ul0\cf0  font 4; ord 79\par
+\f1\fs144 >\f5 P\f1 >\f2\i0\b0\ul0 sh+r+ya\fs28\i0\b0\ul0\cf0  font 4; ord 80\par
+\f1\fs144 >\f5 Q\f1 >\f2\i0\b0\ul0 sh+la\fs28\i0\b0\ul0\cf0  font 4; ord 81\par
+\f1\fs144 >\f5 R\f1 >\f2\i0\b0\ul0 sh+w+ga\fs28\i0\b0\ul0\cf0  font 4; ord 82\par
+\f1\fs144 >\f5 S\f1 >\f2\i0\b0\ul0 sh+w+ya\fs28\i0\b0\ul0\cf0  font 4; ord 83\par
+\f1\fs144 >\f5 T\f1 >\f2\i0\b0\ul0 sh+sha\fs28\i0\b0\ul0\cf0  font 4; ord 84\par
+\f1\fs144 >\f5 U\f1 >\f2\i0\b0\ul0 Sh+ka\fs28\i0\b0\ul0\cf0  font 4; ord 85\par
+\f1\fs144 >\f5 V\f1 >\f2\i0\b0\ul0 Sh+k+ra\fs28\i0\b0\ul0\cf0  font 4; ord 86\par
+\f1\fs144 >\f5 W\f1 >\f2\i0\b0\ul0 Sh+Ta\fs28\i0\b0\ul0\cf0  font 4; ord 87\par
+\f1\fs144 >\f5 X\f1 >\f2\i0\b0\ul0 Sh+T+ya\fs28\i0\b0\ul0\cf0  font 4; ord 88\par
+\f1\fs144 >\f5 Y\f1 >\f2\i0\b0\ul0 Sh+T+ra\fs28\i0\b0\ul0\cf0  font 4; ord 89\par
+\f1\fs144 >\f5 Z\f1 >\f2\i0\b0\ul0 Sh+T+r+ya\fs28\i0\b0\ul0\cf0  font 4; ord 90\par
+\f1\fs144 >\f5 [\f1 >\f2\i0\b0\ul0 Sh+T+wa\fs28\i0\b0\ul0\cf0  font 4; ord 91\par
+\f1\fs144 >\f5\\\f1 >\f2\i0\b0\ul0 Sh+Tha\fs28\i0\b0\ul0\cf0  font 4; ord 92\par
+\f1\fs144 >\f5 ]\f1 >\f2\i0\b0\ul0 Sh+Th+ya\fs28\i0\b0\ul0\cf0  font 4; ord 93\par
+\f1\fs144 >\f5 ^\f1 >\f2\i0\b0\ul0 Sh+Na\fs28\i0\b0\ul0\cf0  font 4; ord 94\par
+\f1\fs144 >\f5 _\f1 >\f2\i0\b0\ul0 Sh+N+ya\fs28\i0\b0\ul0\cf0  font 4; ord 95\par
+\f1\fs144 >\f5 `\f1 >\f2\i0\b0\ul0 Sh+Da\fs28\i0\b0\ul0\cf0  font 4; ord 96\par
+\f1\fs144 >\f5 a\f1 >\f2\i0\b0\ul0 Sh+pa\fs28\i0\b0\ul0\cf0  font 4; ord 97\par
+\f1\fs144 >\f5 b\f1 >\f2\i0\b0\ul0 Sh+p+ra\fs28\i0\b0\ul0\cf0  font 4; ord 98\par
+\f1\fs144 >\f5 c\f1 >\f2\i0\b0\ul0 Sh+ma\fs28\i0\b0\ul0\cf0  font 4; ord 99\par
+\f1\fs144 >\f5 d\f1 >\f2\i0\b0\ul0 Sh+ya\fs28\i0\b0\ul0\cf0  font 4; ord 100\par
+\f1\fs144 >\f5 e\f1 >\f2\i0\b0\ul0 Sh+wa\fs28\i0\b0\ul0\cf0  font 4; ord 101\par
+\f1\fs144 >\f5 f\f1 >\f2\i0\b0\ul0 Sh+Sha\fs28\i0\b0\ul0\cf0  font 4; ord 102\par
+\f1\fs144 >\f5 g\f1 >\f2\i0\b0\ul0 s+k+sa\fs28\i0\b0\ul0\cf0  font 4; ord 103\par
+\f1\fs144 >\f5 h\f1 >\f2\i0\b0\ul0 s+kha\fs28\i0\b0\ul0\cf0  font 4; ord 104\par
+\f1\fs144 >\f5 i\f1 >\f2\i0\b0\ul0 s+ts+ya\fs28\i0\b0\ul0\cf0  font 4; ord 105\par
+\f1\fs144 >\f5 j\f1 >\f2\i0\b0\ul0 s+Ta\fs28\i0\b0\ul0\cf0  font 4; ord 106\par
+\f1\fs144 >\f5 k\f1 >\f2\i0\b0\ul0 s+Tha\fs28\i0\b0\ul0\cf0  font 4; ord 107\par
+\f1\fs144 >\f5 l\f1 >\f2\i0\b0\ul0 s+t+ya\fs28\i0\b0\ul0\cf0  font 4; ord 108\par
+\f1\fs144 >\f5 m\f1 >\f2\i0\b0\ul0 s+t+ra\fs28\i0\b0\ul0\cf0  font 4; ord 109\par
+\f1\fs144 >\f5 n\f1 >\f2\i0\b0\ul0 s+t+wa\fs28\i0\b0\ul0\cf0  font 4; ord 110\par
+\f1\fs144 >\f5 o\f1 >\f2\i0\b0\ul0 s+tha\fs28\i0\b0\ul0\cf0  font 4; ord 111\par
+\f1\fs144 >\f5 p\f1 >\f2\i0\b0\ul0 s+th+ya\fs28\i0\b0\ul0\cf0  font 4; ord 112\par
+\f1\fs144 >\f5 q\f1 >\f2\i0\b0\ul0 s+n+ya\fs28\i0\b0\ul0\cf0  font 4; ord 113\par
+\f1\fs144 >\f5 r\f1 >\f2\i0\b0\ul0 s+n+wa\fs28\i0\b0\ul0\cf0  font 4; ord 114\par
+\f1\fs144 >\f5 s\f1 >\f2\i0\b0\ul0 s+pha\fs28\i0\b0\ul0\cf0  font 4; ord 115\par
+\f1\fs144 >\f5 t\f1 >\f2\i0\b0\ul0 s+ph+ya\fs28\i0\b0\ul0\cf0  font 4; ord 116\par
+\f1\fs144 >\f5 u\f1 >\f2\i0\b0\ul0 s+ya\fs28\i0\b0\ul0\cf0  font 4; ord 117\par
+\f1\fs144 >\f5 v\f1 >\f2\i0\b0\ul0 s+r+wa\fs28\i0\b0\ul0\cf0  font 4; ord 118\par
+\f1\fs144 >\f5 w\f1 >\f2\i0\b0\ul0 s+sa\fs28\i0\b0\ul0\cf0  font 4; ord 119\par
+\f1\fs144 >\f5 x\f1 >\f2\i0\b0\ul0 s+s+wa\fs28\i0\b0\ul0\cf0  font 4; ord 120\par
+\f1\fs144 >\f5 y\f1 >\f2\i0\b0\ul0 s+ha\fs28\i0\b0\ul0\cf0  font 4; ord 121\par
+\f1\fs144 >\f5 z\f1 >\f2\i0\b0\ul0 s+w+ya\fs28\i0\b0\ul0\cf0  font 4; ord 122\par
+\f1\fs144 >\f5\{\f1 >\f2\i0\b0\ul0 h+nya\fs28\i0\b0\ul0\cf0  font 4; ord 123\par
+\f1\fs144 >\f5 |\f1 >\f2\i0\b0\ul0 h+Na\fs28\i0\b0\ul0\cf0  font 4; ord 124\par
+\f1\fs144 >\f5\}\f1 >\f2\i0\b0\ul0 h+ta\fs28\i0\b0\ul0\cf0  font 4; ord 125\par
+\f1\fs144 >\f5 ~\f1 >\f2\i0\b0\ul0 h+na\fs28\i0\b0\ul0\cf0  font 4; ord 126\par
+\f1\fs144 >\f5\u128 ?\f1 >\f2\i0\b0\ul0 h+pa\fs28\i0\b0\ul0\cf0  font 4; ord 128\par
+\f1\fs144 >\f5\u129 ?\f1 >\f2\i0\b0\ul0 h+pha\fs28\i0\b0\ul0\cf0  font 4; ord 129\par
+\f1\fs144 >\f5\u130 ?\f1 >\f2\i0\b0\ul0 h+ma\fs28\i0\b0\ul0\cf0  font 4; ord 130\par
+\f1\fs144 >\f5\u131 ?\f1 >\f2\i0\b0\ul0 h+ya\fs28\i0\b0\ul0\cf0  font 4; ord 131\par
+\f1\fs144 >\f5\u132 ?\f1 >\f2\i0\b0\ul0 h+la\fs28\i0\b0\ul0\cf0  font 4; ord 132\par
+\f1\fs144 >\f5\u133 ?\f1 >\f2\i0\b0\ul0 h+sa\fs28\i0\b0\ul0\cf0  font 4; ord 133\par
+\f1\fs144 >\f5\u134 ?\f1 >\f2\i0\b0\ul0 h+s+wa\fs28\i0\b0\ul0\cf0  font 4; ord 134\par
+\f1\fs144 >\f5\u135 ?\f1 >\f2\i0\b0\ul0 h+w+ya\fs28\i0\b0\ul0\cf0  font 4; ord 135\par
+\f1\fs144 >\f5\u136 ?\f1 >\f2\i0\b0\ul0 k+Sh+Na\fs28\i0\b0\ul0\cf0  font 4; ord 136\par
+\f1\fs144 >\f5\u137 ?\f1 >\f2\i0\b0\ul0 k+Sh+ma\fs28\i0\b0\ul0\cf0  font 4; ord 137\par
+\f1\fs144 >\f5\u138 ?\f1 >\f2\i0\b0\ul0 k+Sh+m+ya\fs28\i0\b0\ul0\cf0  font 4; ord 138\par
+\f1\fs144 >\f5\u139 ?\f1 >\f2\i0\b0\ul0 k+Sh+ya\fs28\i0\b0\ul0\cf0  font 4; ord 139\par
+\f1\fs144 >\f5\u140 ?\f1 >\f2\i0\b0\ul0 k+Sh+Ra\fs28\i0\b0\ul0\cf0  font 4; ord 140\par
+\f1\fs144 >\f5\u141 ?\f1 >\f2\i0\b0\ul0 k+Sh+la\fs28\i0\b0\ul0\cf0  font 4; ord 141\par
+\f1\fs144 >\f5\u143 ?\f1 >\f2\i0\b0\ul0 a+ya\fs28\i0\b0\ul0\cf0  font 4; ord 143\par
+\f1\fs144 >\f5\u144 ?\f1 >\f2\i0\b0\ul0 a+ra\fs28\i0\b0\ul0\cf0  font 4; ord 144\par
+\f1\fs144 >\f5\u145 ?\f1 >\f2\i0\b0\ul0 a+r+ya\fs28\i0\b0\ul0\cf0  font 4; ord 145\par
+\f1\fs144 >\f5\'ad\f1 >\f2\i0\b0\ul0 ra\fs28\i0\b0\ul0\cf0  font 4; ord 173\par
+\f1\fs144 >\f5\'ae\f1 >\f2\i0\b0\ul0 ^\fs28\i0\b0\ul0\cf0  font 4; ord 174\par
+\f1\fs144 >\f5\'af\f1 >\f2\i0\b0\ul0 ya\fs28\i0\b0\ul0\cf0  font 4; ord 175\par
+\f1\fs144 >\f5\'b0\f1 >\f2\i0\b0\ul0 ra\fs28\i0\b0\ul0\cf0  font 4; ord 176\par
+\f1\fs144 >\f5\'b1\f1 >\f2\i0\b0\ul0 &\fs28\i0\b0\ul0\cf0  font 4; ord 177\par
+\f1\fs144 >\f5\'b2\f1 >\f2\i0\b0\ul0\\u0F88\fs28\i0\b0\ul0\cf0  font 4; ord 178\par
+\f1\fs144 >\f5\'b3\f1 >\f2\i0\b0\ul0\\u0F01\fs28\i0\b0\ul0\cf0  font 4; ord 179\par
+\f1\fs144 >\f5\'b4\f1 >\f2\i0\b0\ul0 <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb7 charNum=74 character=J/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>>\fs28\i0\b0\ul0\cf0  font 4; ord 180\par
+\f1\fs144 >\f5\'b5\f1 >\f2\i0\b0\ul0\\uF023\fs28\i0\b0\ul0\cf0  font 4; ord 181\par
+\f1\fs144 >\f5\'b6\f1 >\f2\i0\b0\ul0\\uF022\fs28\i0\b0\ul0\cf0  font 4; ord 182\par
+\f1\fs144 >\f5\'b7\f1 >\f2\i0\b0\ul0\\uF021\fs28\i0\b0\ul0\cf0  font 4; ord 183\par
+\f1\fs144 >\f5\'b8\f1 >\f2\i0\b0\ul0\\uF02D\fs28\i0\b0\ul0\cf0  font 4; ord 184\par
+\f1\fs144 >\f5\'b9\f1 >\f2\i0\b0\ul0\\uF02E\fs28\i0\b0\ul0\cf0  font 4; ord 185\par
+\f1\fs144 >\f5\'ba\f1 >\f2\i0\b0\ul0\\uF02F\fs28\i0\b0\ul0\cf0  font 4; ord 186\par
+\f1\fs144 >\f5\'bb\f1 >\f2\i0\b0\ul0\\uF030\fs28\i0\b0\ul0\cf0  font 4; ord 187\par
+\f1\fs144 >\f5\'bc\f1 >\f2\i0\b0\ul0 T+na\fs28\i0\b0\ul0\cf0  font 4; ord 188\par
+\f1\fs144 >\f5\'bd\f1 >\f2\i0\b0\ul0 t+ga\fs28\i0\b0\ul0\cf0  font 4; ord 189\par
+\f1\fs144 >\f5\'be\f1 >\f2\i0\b0\ul0 p+da\fs28\i0\b0\ul0\cf0  font 4; ord 190\par
+\f1\fs144 >\f5\'bf\f1 >\f2\i0\b0\ul0 Sh+tha\fs28\i0\b0\ul0\cf0  font 4; ord 191\par
+\f1\fs144 >\f5\'c0\f1 >\f2\i0\b0\ul0 k+w+ya\fs28\i0\b0\ul0\cf0  font 4; ord 192\par
+\f1\fs144 >\f5\'c1\f1 >\f2\i0\b0\ul0 N+D+ra\fs28\i0\b0\ul0\cf0  font 4; ord 193\par
+\f1\fs144 >\f5\'c2\f1 >\f2\i0\b0\ul0 w+Wa\fs28\i0\b0\ul0\cf0  font 4; ord 194\par
+\f1\fs144 >\f5\'c3\f1 >\f2\i0\b0\ul0 w+na\fs28\i0\b0\ul0\cf0  font 4; ord 195\par
+\f1\fs144 >\f5\'c4\f1 >\f2\i0\b0\ul0 R+Wa\fs28\i0\b0\ul0\cf0  font 4; ord 196\par
+\f1\fs144 >\f5\'c5\f1 >\f2\i0\b0\ul0 l+h+wa\fs28\i0\b0\ul0\cf0  font 4; ord 197\par
+\f1\fs144 >\f5\'c9\f1 >\f2\i0\b0\ul0 A\fs28\i0\b0\ul0\cf0  font 4; ord 201\par
+\f1\fs144 >\f5\'ca\f1 >\f2\i0\b0\ul0 A\fs28\i0\b0\ul0\cf0  font 4; ord 202\par
+\f1\fs144 >\f5\'cb\f1 >\f2\i0\b0\ul0 A\fs28\i0\b0\ul0\cf0  font 4; ord 203\par
+\f1\fs144 >\f5\'cc\f1 >\f2\i0\b0\ul0 A\fs28\i0\b0\ul0\cf0  font 4; ord 204\par
+\f1\fs144 >\f5\'cd\f1 >\f2\i0\b0\ul0 A\fs28\i0\b0\ul0\cf0  font 4; ord 205\par
+\f1\fs144 >\f5\'ce\f1 >\f2\i0\b0\ul0 A\fs28\i0\b0\ul0\cf0  font 4; ord 206\par
+\f1\fs144 >\f5\'cf\f1 >\f2\i0\b0\ul0 A\fs28\i0\b0\ul0\cf0  font 4; ord 207\par
+\f1\fs144 >\f5\'d3\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 4; ord 211\par
+\f1\fs144 >\f5\'d4\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 4; ord 212\par
+\f1\fs144 >\f5\'d5\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 4; ord 213\par
+\f1\fs144 >\f5\'d6\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 4; ord 214\par
+\f1\fs144 >\f5\'d7\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 4; ord 215\par
+\f1\fs144 >\f5\'d8\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 4; ord 216\par
+\f1\fs144 >\f5\'d9\f1 >\f2\i0\b0\ul0 U\fs28\i0\b0\ul0\cf0  font 4; ord 217\par
+\f1\fs144 >\f5\'e0\f1 >\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 4; ord 224\par
+\f1\fs144 >\f5\'e1\f1 >\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 4; ord 225\par
+\f1\fs144 >\f5\'e2\f1 >\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 4; ord 226\par
+\f1\fs144 >\f5\'e3\f1 >\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 4; ord 227\par
+\f1\fs144 >\f5\'e4\f1 >\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 4; ord 228\par
+\f1\fs144 >\f5\'e5\f1 >\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 4; ord 229\par
+\f1\fs144 >\f5\'e6\f1 >\f2\i0\b0\ul0 u\fs28\i0\b0\ul0\cf0  font 4; ord 230\par
+\f1\fs144 >\f5\'f9\f1 >\f2\i0\b0\ul0 k+Sh+wa\fs28\i0\b0\ul0\cf0  font 4; ord 249\par
+\f1\fs144 >\f5\'fc\f1 >\f2\i0\b0\ul0 r+d+h+ya\fs28\i0\b0\ul0\cf0  font 4; ord 252\par
+\f1\fs144 >\f5\'fd\f1 >\f2\i0\b0\ul0 h+n+ya\fs28\i0\b0\ul0\cf0  font 4; ord 253\par
+\f1\fs144 >\f6  \f1 >\f2\i0\b0\ul0 _\fs28\i0\b0\ul0\cf0  font 5; ord 32\par
+\f1\fs144 >\f6 !\f1 >\f2\i0\b0\ul0\\u0F0A\fs28\i0\b0\ul0\cf0  font 5; ord 33\par
+\f1\fs144 >\f6 "\f1 >\f2\i0\b0\ul0\\uF024\fs28\i0\b0\ul0\cf0  font 5; ord 34\par
+\f1\fs144 >\f6 #\f1 >\f2\i0\b0\ul0\\uF025\fs28\i0\b0\ul0\cf0  font 5; ord 35\par
+\f1\fs144 >\f6 $\f1 >\f2\i0\b0\ul0\\u0F09\fs28\i0\b0\ul0\cf0  font 5; ord 36\par
+\f1\fs144 >\f6 %\f1 >\f2\i0\b0\ul0\\uF026\fs28\i0\b0\ul0\cf0  font 5; ord 37\par
+\f1\fs144 >\f6 &\f1 >\f2\i0\b0\ul0 $\fs28\i0\b0\ul0\cf0  font 5; ord 38\par
+\f1\fs144 >\f6 '\f1 >\f2\i0\b0\ul0 %\fs28\i0\b0\ul0\cf0  font 5; ord 39\par
+\f1\fs144 >\f6 (\f1 >\f2\i0\b0\ul0 ;\fs28\i0\b0\ul0\cf0  font 5; ord 40\par
+\f1\fs144 >\f6 )\f1 >\f2\i0\b0\ul0\\uF02B\fs28\i0\b0\ul0\cf0  font 5; ord 41\par
+\f1\fs144 >\f6 *\f1 >\f2\i0\b0\ul0\\uF02C\fs28\i0\b0\ul0\cf0  font 5; ord 42\par
+\f1\fs144 >\f6 +\f1 >\f2\i0\b0\ul0\\u0F10\fs28\i0\b0\ul0\cf0  font 5; ord 43\par
+\f1\fs144 >\f6 ,\f1 >\f2\i0\b0\ul0\\uF028\fs28\i0\b0\ul0\cf0  font 5; ord 44\par
+\f1\fs144 >\f6 .\f1 >\f2\i0\b0\ul0\\uF02A\fs28\i0\b0\ul0\cf0  font 5; ord 46\par
+\f1\fs144 >\f6 /\f1 >\f2\i0\b0\ul0\\uF029\fs28\i0\b0\ul0\cf0  font 5; ord 47\par
+\f1\fs144 >\f6 0\f1 >\f2\i0\b0\ul0\\u0F12\fs28\i0\b0\ul0\cf0  font 5; ord 48\par
+\f1\fs144 >\f6 2\f1 >\f2\i0\b0\ul0 <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=53 character=5/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>>\fs28\i0\b0\ul0\cf0  font 5; ord 50\par
+\f1\fs144 >\f6 3\f1 >\f2\i0\b0\ul0 <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=54 character=6/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>>\fs28\i0\b0\ul0\cf0  font 5; ord 51\par
+\f1\fs144 >\f6 4\f1 >\f2\i0\b0\ul0 <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=55 character=7/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>>\fs28\i0\b0\ul0\cf0  font 5; ord 52\par
+\f1\fs144 >\f6 5\f1 >\f2\i0\b0\ul0 <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=56 character=8/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>>\fs28\i0\b0\ul0\cf0  font 5; ord 53\par
+\f1\fs144 >\f6 6\f1 >\f2\i0\b0\ul0 <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=57 character=9/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>>\fs28\i0\b0\ul0\cf0  font 5; ord 54\par
+\f1\fs144 >\f6 7\f1 >\f2\i0\b0\ul0 <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=58 character=:/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>>\fs28\i0\b0\ul0\cf0  font 5; ord 55\par
+\f1\fs144 >\f6 8\f1 >\f2\i0\b0\ul0 <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=59 character=;/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>>\fs28\i0\b0\ul0\cf0  font 5; ord 56\par
+\f1\fs144 >\f6 9\f1 >\f2\i0\b0\ul0 <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=60 character=</> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>>\fs28\i0\b0\ul0\cf0  font 5; ord 57\par
+\f1\fs144 >\f6 :\f1 >\f2\i0\b0\ul0 <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=61 character==/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>>\fs28\i0\b0\ul0\cf0  font 5; ord 58\par
+\f1\fs144 >\f6 ;\f1 >\f2\i0\b0\ul0 <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=62 character=>/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>>\fs28\i0\b0\ul0\cf0  font 5; ord 59\par
+\f1\fs144 >\f6 <\f1 >\f2\i0\b0\ul0 <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=63 character=?/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>>\fs28\i0\b0\ul0\cf0  font 5; ord 60\par
+\f1\fs144 >\f6 =\f1 >\f2\i0\b0\ul0 <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=64 character=@/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>>\fs28\i0\b0\ul0\cf0  font 5; ord 61\par
+\f1\fs144 >\f6 >\f1 >\f2\i0\b0\ul0 <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=65 character=A/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>>\fs28\i0\b0\ul0\cf0  font 5; ord 62\par
+\f1\fs144 >\f6 ?\f1 >\f2\i0\b0\ul0 <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=66 character=B/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>>\fs28\i0\b0\ul0\cf0  font 5; ord 63\par
+\f1\fs144 >\f6 @\f1 >\f2\i0\b0\ul0 <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=67 character=C/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>>\fs28\i0\b0\ul0\cf0  font 5; ord 64\par
+\f1\fs144 >\f6 A\f1 >\f2\i0\b0\ul0 <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=68 character=D/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>>\fs28\i0\b0\ul0\cf0  font 5; ord 65\par
+\f1\fs144 >\f6 B\f1 >\f2\i0\b0\ul0 <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=69 character=E/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>>\fs28\i0\b0\ul0\cf0  font 5; ord 66\par
+\f1\fs144 >\f6 C\f1 >\f2\i0\b0\ul0 <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=70 character=F/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>>\fs28\i0\b0\ul0\cf0  font 5; ord 67\par
+\f1\fs144 >\f6 D\f1 >\f2\i0\b0\ul0 <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=71 character=G/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>>\fs28\i0\b0\ul0\cf0  font 5; ord 68\par
+\f1\fs144 >\f6 E\f1 >\f2\i0\b0\ul0 <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb8 charNum=72 character=H/> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>>\fs28\i0\b0\ul0\cf0  font 5; ord 69\par
+\f1\fs144 >\f6 F\f1 >\f2\i0\b0\ul0\\u0F33\fs28\i0\b0\ul0\cf0  font 5; ord 70\par
+\f1\fs144 >\f6 G\f1 >\f2\i0\b0\ul0\\u0F2A\fs28\i0\b0\ul0\cf0  font 5; ord 71\par
+\f1\fs144 >\f6 H\f1 >\f2\i0\b0\ul0\\u0F2B\fs28\i0\b0\ul0\cf0  font 5; ord 72\par
+\f1\fs144 >\f6 I\f1 >\f2\i0\b0\ul0\\u0F2C\fs28\i0\b0\ul0\cf0  font 5; ord 73\par
+\f1\fs144 >\f6 J\f1 >\f2\i0\b0\ul0\\u0F2D\fs28\i0\b0\ul0\cf0  font 5; ord 74\par
+\f1\fs144 >\f6 K\f1 >\f2\i0\b0\ul0\\u0F2E\fs28\i0\b0\ul0\cf0  font 5; ord 75\par
+\f1\fs144 >\f6 L\f1 >\f2\i0\b0\ul0\\u0F2F\fs28\i0\b0\ul0\cf0  font 5; ord 76\par
+\f1\fs144 >\f6 M\f1 >\f2\i0\b0\ul0\\u0F30\fs28\i0\b0\ul0\cf0  font 5; ord 77\par
+\f1\fs144 >\f6 N\f1 >\f2\i0\b0\ul0\\u0F31\fs28\i0\b0\ul0\cf0  font 5; ord 78\par
+\f1\fs144 >\f6 O\f1 >\f2\i0\b0\ul0\\u0F32\fs28\i0\b0\ul0\cf0  font 5; ord 79\par
+\f1\fs144 >\f6 P\f1 >\f2\i0\b0\ul0\\u0FC0\fs28\i0\b0\ul0\cf0  font 5; ord 80\par
+\f1\fs144 >\f6 Q\f1 >\f2\i0\b0\ul0\\u0FC1\fs28\i0\b0\ul0\cf0  font 5; ord 81\par
+\f1\fs144 >\f6 R\f1 >\f2\i0\b0\ul0\\u0FC2\fs28\i0\b0\ul0\cf0  font 5; ord 82\par
+\f1\fs144 >\f6 S\f1 >\f2\i0\b0\ul0\\u0FC3\fs28\i0\b0\ul0\cf0  font 5; ord 83\par
+\f1\fs144 >\f6 T\f1 >\f2\i0\b0\ul0\\uF03B\fs28\i0\b0\ul0\cf0  font 5; ord 84\par
+\f1\fs144 >\f6 Z\f1 >\f2\i0\b0\ul0\\uF039\fs28\i0\b0\ul0\cf0  font 5; ord 90\par
+\f1\fs144 >\f6 [\f1 >\f2\i0\b0\ul0\\uF03A\fs28\i0\b0\ul0\cf0  font 5; ord 91\par
+\f1\fs144 >\f6\\\f1 >\f2\i0\b0\ul0\\uF035\fs28\i0\b0\ul0\cf0  font 5; ord 92\par
+\f1\fs144 >\f6 ]\f1 >\f2\i0\b0\ul0\\uF036\fs28\i0\b0\ul0\cf0  font 5; ord 93\par
+\f1\fs144 >\f6 ^\f1 >\f2\i0\b0\ul0\\u0F13\fs28\i0\b0\ul0\cf0  font 5; ord 94\par
+\f1\fs144 >\f6 _\f1 >\f2\i0\b0\ul0 <\fs28\i0\b0\ul0\cf0  font 5; ord 95\par
+\f1\fs144 >\f6 `\f1 >\f2\i0\b0\ul0 >\fs28\i0\b0\ul0\cf0  font 5; ord 96\par
+\f1\fs144 >\f6 a\f1 >\f2\i0\b0\ul0\\u5350\fs28\i0\b0\ul0\cf0  font 5; ord 97\par
+\f1\fs144 >\f6 b\f1 >\f2\i0\b0\ul0\\u534D\fs28\i0\b0\ul0\cf0  font 5; ord 98\par
+\f1\fs144 >\f6 c\f1 >\f2\i0\b0\ul0\\uF038\fs28\i0\b0\ul0\cf0  font 5; ord 99\par
+\f1\fs144 >\f6 d\f1 >\f2\i0\b0\ul0\\uF037\fs28\i0\b0\ul0\cf0  font 5; ord 100\par
+\f1\fs144 >\f6 e\f1 >\f2\i0\b0\ul0 X\fs28\i0\b0\ul0\cf0  font 5; ord 101\par
+\f1\fs144 >\f6 f\f1 >\f2\i0\b0\ul0 ~X\fs28\i0\b0\ul0\cf0  font 5; ord 102\par
+\f1\fs144 >\f6 g\f1 >\f2\i0\b0\ul0\\u0F38\fs28\i0\b0\ul0\cf0  font 5; ord 103\par
+\f1\fs144 >\f6 h\f1 >\f2\i0\b0\ul0\\u0FBE\fs28\i0\b0\ul0\cf0  font 5; ord 104\par
+\f1\fs144 >\f6 i\f1 >\f2\i0\b0\ul0\\u0FBF\fs28\i0\b0\ul0\cf0  font 5; ord 105\par
+\f1\fs144 >\f6 j\f1 >\f2\i0\b0\ul0\\u0F36\fs28\i0\b0\ul0\cf0  font 5; ord 106\par
+\f1\fs144 >\f6 k\f1 >\f2\i0\b0\ul0\\u0F87\fs28\i0\b0\ul0\cf0  font 5; ord 107\par
+\f1\fs144 >\f6 l\f1 >\f2\i0\b0\ul0\\u0F86\fs28\i0\b0\ul0\cf0  font 5; ord 108\par
+\f1\fs144 >\f6 m\f1 >\f2\i0\b0\ul0\\u0F89\fs28\i0\b0\ul0\cf0  font 5; ord 109\par
+\f1\fs144 >\f6 n\f1 >\f2\i0\b0\ul0\\u0F8A\fs28\i0\b0\ul0\cf0  font 5; ord 110\par
+\f1\fs144 >\f6 o\f1 >\f2\i0\b0\ul0\\u0F8B\fs28\i0\b0\ul0\cf0  font 5; ord 111\par
+\f1\fs144 >\f6 s\f1 >\f2\i0\b0\ul0\\u0F1A\fs28\i0\b0\ul0\cf0  font 5; ord 115\par
+\f1\fs144 >\f6 t\f1 >\f2\i0\b0\ul0\\u0F1D\fs28\i0\b0\ul0\cf0  font 5; ord 116\par
+\f1\fs144 >\f6 u\f1 >\f2\i0\b0\ul0\\u0F1B\fs28\i0\b0\ul0\cf0  font 5; ord 117\par
+\f1\fs144 >\f6 v\f1 >\f2\i0\b0\ul0\\u0F1E\fs28\i0\b0\ul0\cf0  font 5; ord 118\par
+\f1\fs144 >\f6 w\f1 >\f2\i0\b0\ul0\\u0F1F\fs28\i0\b0\ul0\cf0  font 5; ord 119\par
+\f1\fs144 >\f6 x\f1 >\f2\i0\b0\ul0\\u0F1C\fs28\i0\b0\ul0\cf0  font 5; ord 120\par
+\f1\fs144 >\f6 y\f1 >\f2\i0\b0\ul0\\u0FCF\fs28\i0\b0\ul0\cf0  font 5; ord 121\par
+\f1\fs144 >\f6 z\f1 >\f2\i0\b0\ul0\\uF03C\fs28\i0\b0\ul0\cf0  font 5; ord 122\par
+\f1\fs144 >\f6\{\f1 >\f2\i0\b0\ul0\\uF03D\fs28\i0\b0\ul0\cf0  font 5; ord 123\par
+\f1\fs144 >\f6 |\f1 >\f2\i0\b0\ul0\\uF03E\fs28\i0\b0\ul0\cf0  font 5; ord 124\par
+\f1\fs144 >\f6\}\f1 >\f2\i0\b0\ul0\\uF03F\fs28\i0\b0\ul0\cf0  font 5; ord 125\par
+\f1\fs144 >\f6 ~\f1 >\f2\i0\b0\ul0\\uF040\fs28\i0\b0\ul0\cf0  font 5; ord 126\par
+\f1\fs144 >\f6\u128 ?\f1 >\f2\i0\b0\ul0\\uF041\fs28\i0\b0\ul0\cf0  font 5; ord 128\par
+\f1\fs144 >\f6\u129 ?\f1 >\f2\i0\b0\ul0\\u0F15\fs28\i0\b0\ul0\cf0  font 5; ord 129\par
+\f1\fs144 >\f6\u130 ?\f1 >\f2\i0\b0\ul0\\u0F16\fs28\i0\b0\ul0\cf0  font 5; ord 130\par
+\f1\fs144 >\f6\u131 ?\f1 >\f2\i0\b0\ul0\\u0F17\fs28\i0\b0\ul0\cf0  font 5; ord 131\par
+\f1\fs144 >\f6\u132 ?\f1 >\f2\i0\b0\ul0\\u0F18\fs28\i0\b0\ul0\cf0  font 5; ord 132\par
+\f1\fs144 >\f6\u133 ?\f1 >\f2\i0\b0\ul0\\u0F19\fs28\i0\b0\ul0\cf0  font 5; ord 133\par
+\f1\fs144 >\f6\u134 ?\f1 >\f2\i0\b0\ul0\{\fs28\i0\b0\ul0\cf0  font 5; ord 134\par
+\f1\fs144 >\f6\u135 ?\f1 >\f2\i0\b0\ul0\}\fs28\i0\b0\ul0\cf0  font 5; ord 135\par
+\f1\fs144 >\f6\u145 ?\f1 >\f2\i0\b0\ul0\\uF034\fs28\i0\b0\ul0\cf0  font 5; ord 145\par
+\f1\fs144 >\f6\u146 ?\f1 >\f2\i0\b0\ul0\\uF031a\fs28\i0\b0\ul0\cf0  font 5; ord 146\par
+\f1\fs144 >\f6\u147 ?\f1 >\f2\i0\b0\ul0\\uF032\fs28\i0\b0\ul0\cf0  font 5; ord 147\par
+\f1\fs144 >\f6\u148 ?\f1 >\f2\i0\b0\ul0\\uF033\fs28\i0\b0\ul0\cf0  font 5; ord 148\par
+\f1\fs144 >\f6\u149 ?\f1 >\f2\i0\b0\ul0\\uF027\fs28\i0\b0\ul0\cf0  font 5; ord 149\par
+\f1\fs144 >\f6\u153 ?\f1 >\f2\i0\b0\ul0 fa\fs28\i0\b0\ul0\cf0  font 5; ord 153\par
+\f1\fs144 >\f6\u154 ?\f1 >\f2\i0\b0\ul0 va\fs28\i0\b0\ul0\cf0  font 5; ord 154\par
+\f1\fs144 >\f6\u155 ?\f1 >\f2\i0\b0\ul0 <<[[JSKAD_TMW_TO_WYLIE_ERROR_NO_SUCH_WYLIE: Cannot convert <glyph font=TibetanMachineWeb9 charNum=60 character=</> to THDL Extended Wylie.  Please see the documentation for the TM or TMW font and transcribe this yourself.]]>>\fs28\i0\b0\ul0\cf0  font 5; ord 155\par
+\f1\fs144 >\f6\u156 ?\f1 >\f2\i0\b0\ul0 o'i\fs28\i0\b0\ul0\cf0  font 5; ord 156\par
+\f1\fs144 >\f6\'be\f1 >\f2\i0\b0\ul0\\u0FC4\fs28\i0\b0\ul0\cf0  font 5; ord 190\par
+\f1\fs144 >\f6\'bf\f1 >\f2\i0\b0\ul0\\u0FC5\fs28\i0\b0\ul0\cf0  font 5; ord 191\par
+\f1\fs144 >\f6\'c0\f1 >\f2\i0\b0\ul0\\u0FC6\fs28\i0\b0\ul0\cf0  font 5; ord 192\par
+\f1\fs144 >\f6\'c1\f1 >\f2\i0\b0\ul0\\u0FC7\fs28\i0\b0\ul0\cf0  font 5; ord 193\par
+\f1\fs144 >\f6\'c2\f1 >\f2\i0\b0\ul0\\u0FC8\fs28\i0\b0\ul0\cf0  font 5; ord 194\par
+\f1\fs144 >\f6\'c3\f1 >\f2\i0\b0\ul0\\u0FC9\fs28\i0\b0\ul0\cf0  font 5; ord 195\par
+\f1\fs144 >\f6\'c4\f1 >\f2\i0\b0\ul0\\u0FCA\fs28\i0\b0\ul0\cf0  font 5; ord 196\par
+\f1\fs144 >\f6\'c5\f1 >\f2\i0\b0\ul0\\u0FCB\fs28\i0\b0\ul0\cf0  font 5; ord 197\par
+\f1\fs144 >\f6\'c6\f1 >\f2\i0\b0\ul0\\u0FCC\fs28\i0\b0\ul0\cf0  font 5; ord 198\par
+\f1\fs144 >\f6\'c8\f1 >\f2\i0\b0\ul0 ka\fs28\i0\b0\ul0\cf0  font 5; ord 200\par
+\f1\fs144 >\f6\'c9\f1 >\f2\i0\b0\ul0 kha\fs28\i0\b0\ul0\cf0  font 5; ord 201\par
+\f1\fs144 >\f6\'ca\f1 >\f2\i0\b0\ul0 ga\fs28\i0\b0\ul0\cf0  font 5; ord 202\par
+\f1\fs144 >\f6\'cb\f1 >\f2\i0\b0\ul0 g+ha\fs28\i0\b0\ul0\cf0  font 5; ord 203\par
+\f1\fs144 >\f6\'cc\f1 >\f2\i0\b0\ul0 nga\fs28\i0\b0\ul0\cf0  font 5; ord 204\par
+\f1\fs144 >\f6\'cd\f1 >\f2\i0\b0\ul0 ca\fs28\i0\b0\ul0\cf0  font 5; ord 205\par
+\f1\fs144 >\f6\'ce\f1 >\f2\i0\b0\ul0 cha\fs28\i0\b0\ul0\cf0  font 5; ord 206\par
+\f1\fs144 >\f6\'cf\f1 >\f2\i0\b0\ul0 ja\fs28\i0\b0\ul0\cf0  font 5; ord 207\par
+\f1\fs144 >\f6\'d0\f1 >\f2\i0\b0\ul0 nya\fs28\i0\b0\ul0\cf0  font 5; ord 208\par
+\f1\fs144 >\f6\'d1\f1 >\f2\i0\b0\ul0 Ta\fs28\i0\b0\ul0\cf0  font 5; ord 209\par
+\f1\fs144 >\f6\'d2\f1 >\f2\i0\b0\ul0 Tha\fs28\i0\b0\ul0\cf0  font 5; ord 210\par
+\f1\fs144 >\f6\'d3\f1 >\f2\i0\b0\ul0 Da\fs28\i0\b0\ul0\cf0  font 5; ord 211\par
+\f1\fs144 >\f6\'d4\f1 >\f2\i0\b0\ul0 D+ha\fs28\i0\b0\ul0\cf0  font 5; ord 212\par
+\f1\fs144 >\f6\'d5\f1 >\f2\i0\b0\ul0 Na\fs28\i0\b0\ul0\cf0  font 5; ord 213\par
+\f1\fs144 >\f6\'d6\f1 >\f2\i0\b0\ul0 ta\fs28\i0\b0\ul0\cf0  font 5; ord 214\par
+\f1\fs144 >\f6\'d7\f1 >\f2\i0\b0\ul0 tha\fs28\i0\b0\ul0\cf0  font 5; ord 215\par
+\f1\fs144 >\f6\'d8\f1 >\f2\i0\b0\ul0 da\fs28\i0\b0\ul0\cf0  font 5; ord 216\par
+\f1\fs144 >\f6\'d9\f1 >\f2\i0\b0\ul0 d+ha\fs28\i0\b0\ul0\cf0  font 5; ord 217\par
+\f1\fs144 >\f6\'da\f1 >\f2\i0\b0\ul0 na\fs28\i0\b0\ul0\cf0  font 5; ord 218\par
+\f1\fs144 >\f6\'db\f1 >\f2\i0\b0\ul0 pa\fs28\i0\b0\ul0\cf0  font 5; ord 219\par
+\f1\fs144 >\f6\'dc\f1 >\f2\i0\b0\ul0 pha\fs28\i0\b0\ul0\cf0  font 5; ord 220\par
+\f1\fs144 >\f6\'dd\f1 >\f2\i0\b0\ul0 ba\fs28\i0\b0\ul0\cf0  font 5; ord 221\par
+\f1\fs144 >\f6\'de\f1 >\f2\i0\b0\ul0 b+ha\fs28\i0\b0\ul0\cf0  font 5; ord 222\par
+\f1\fs144 >\f6\'df\f1 >\f2\i0\b0\ul0 ma\fs28\i0\b0\ul0\cf0  font 5; ord 223\par
+\f1\fs144 >\f6\'e0\f1 >\f2\i0\b0\ul0 tsa\fs28\i0\b0\ul0\cf0  font 5; ord 224\par
+\f1\fs144 >\f6\'e1\f1 >\f2\i0\b0\ul0 tsha\fs28\i0\b0\ul0\cf0  font 5; ord 225\par
+\f1\fs144 >\f6\'e2\f1 >\f2\i0\b0\ul0 dza\fs28\i0\b0\ul0\cf0  font 5; ord 226\par
+\f1\fs144 >\f6\'e3\f1 >\f2\i0\b0\ul0 dz+ha\fs28\i0\b0\ul0\cf0  font 5; ord 227\par
+\f1\fs144 >\f6\'e4\f1 >\f2\i0\b0\ul0 Wa\fs28\i0\b0\ul0\cf0  font 5; ord 228\par
+\f1\fs144 >\f6\'e5\f1 >\f2\i0\b0\ul0 zha\fs28\i0\b0\ul0\cf0  font 5; ord 229\par
+\f1\fs144 >\f6\'e6\f1 >\f2\i0\b0\ul0 za\fs28\i0\b0\ul0\cf0  font 5; ord 230\par
+\f1\fs144 >\f6\'e7\f1 >\f2\i0\b0\ul0 'a\fs28\i0\b0\ul0\cf0  font 5; ord 231\par
+\f1\fs144 >\f6\'e8\f1 >\f2\i0\b0\ul0 Ya\fs28\i0\b0\ul0\cf0  font 5; ord 232\par
+\f1\fs144 >\f6\'e9\f1 >\f2\i0\b0\ul0 Ra\fs28\i0\b0\ul0\cf0  font 5; ord 233\par
+\f1\fs144 >\f6\'ea\f1 >\f2\i0\b0\ul0 la\fs28\i0\b0\ul0\cf0  font 5; ord 234\par
+\f1\fs144 >\f6\'eb\f1 >\f2\i0\b0\ul0 sha\fs28\i0\b0\ul0\cf0  font 5; ord 235\par
+\f1\fs144 >\f6\'ec\f1 >\f2\i0\b0\ul0 Sha\fs28\i0\b0\ul0\cf0  font 5; ord 236\par
+\f1\fs144 >\f6\'ed\f1 >\f2\i0\b0\ul0 sa\fs28\i0\b0\ul0\cf0  font 5; ord 237\par
+\f1\fs144 >\f6\'ee\f1 >\f2\i0\b0\ul0 ha\fs28\i0\b0\ul0\cf0  font 5; ord 238\par
+\f1\fs144 >\f6\'ef\f1 >\f2\i0\b0\ul0 a\fs28\i0\b0\ul0\cf0  font 5; ord 239\par
+\f1\fs144 >\f6\'f0\f1 >\f2\i0\b0\ul0 k+Sha\fs28\i0\b0\ul0\cf0  font 5; ord 240\par
+\fs72\i0\b0\ul0\par
+\fs24\par
+}

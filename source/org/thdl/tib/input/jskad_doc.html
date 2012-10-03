@@ -1,0 +1,739 @@
+<html>
+<head>
+<title>Help on Jskad</title>
+</head>
+
+<body topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">
+
+<a name="top"></a>
+<h2>Jskad Documentation</h2>
+
+<ul>
+   <li><a href="#latest">Latest Changes</a></li>
+   <li><a href="#install">Running Jskad</a></li>
+   <li><a href="#start">Getting Started</a></li>
+   <li><a href="#tibetan">Typing Tibetan</a></li>
+   <li><a href="#english">Typing English</a></li>
+   <li><a href="#copypaste">Copying and Pasting TM/TMW</a></li>
+   <li><a href="#copyasunicode">Copying as Unicode</a></li>
+   <li><a href="#wylietotmw">Converting Wylie to Tibetan</a></li>
+   <li><a href="#tmwtowylie">Converting Tibetan to Wylie</a></li>
+   <li><a href="#ttot">Converting Tibetan to Tibetan</a></li>
+   <li><a href="#converter">GUI Converter</a></li>
+   <li><a href="#viewer">External Viewers</a></li>
+   <li><a href="#keyboards">Changing Keyboards</a></li>
+   <li><a href="#preferences">Preferences</a></li>
+   <li><a href="#thanks">Thanks</a></li>
+   <li><a href="#trouble">Troubleshooting</a></li>
+   <li><a href="#advancedkeyboards">More on Keyboards</a></li>
+   <li><a href="http://orion.lib.virginia.edu/thdl/tools/jskad.html">Jskad on the Web</a></li>
+</ul>
+
+
+<!-- DLC NOTE: 3. To produce Wylie from ACIP, first convert ACIP to TMW, then TMW to Wylie. -->
+<!-- 
+DLC add something like this:
+1. Be careful that your file to be converted is in the right format - i.e.
+ACIP files must be in txt format, Tibet Machine/Web files must be in RTF
+format and so forth.  
+2.   Please note that the warning box allows you to specify whether Jskad
+writes warnings of failed conversions into your converted document. This is
+useful to see the level of accuracy of the conversion, but then also
+produces a document with English warning messages. Thus you may want to
+first run the conversion with the warning level set at "most" to see
+potential problems, but then rerun it with it set at "none" if you want to
+produce a document without the warning messages.
+-->
+
+<a name="latest"></a>
+<h3>Latest Changes</h3>
+
+<p>
+Jskad now has first-class support for converting entire
+documents.&nbsp; You can convert ACIP to Unicode, ACIP to Tibetan
+Machine Web ("TMW", or simply "Tibetan" in the menus), Tibetan Machine
+("TM") to TMW and vice versa, TMW to ACIP, TMW to Unicode, and TMW to
+Wylie (i.e., EWTS).&nbsp; Try it from the Tools menu.&nbsp; Full
+documentation is <a
+href="http://thdltools.sourceforge.net/TMW_RTF_TO_THDL_WYLIE.html">online</a>.
+</p>
+
+<p>
+  Be on the lookout for formatting changes; Java's RTF support is
+  currently poor and it's hard to fix Java because (as of February
+  2005) Java is not available under an OSI-approved open-source
+  license.&nbsp; You will lose some formatting like centering and some
+  indention when to convert from RTF to RTF.<!-- DLC FIXME: do this
+  correctly, not in a "Latest Changes" section. -->
+</p>
+
+<p>
+<center><font size="-1"><a href="#top">Back to top</a></font></center>
+</p>
+
+<a name="install"></a>
+<h3>Running Jskad</h3>
+
+<p>
+Jskad is launched via Java Web Start.&nbsp; Java Web Start is a
+technology from Sun which allows users to launch Java applications
+directly from a web browser.&nbsp; Java Web Start is supported by
+Windows, Linux, Solaris, and Mac OS X 10.1, and so Jskad should work
+on all of these platforms.&nbsp; (You don't need Java Web Start, but
+it does make upgrades much easier.)
+</p>
+
+<p>
+Note that after you've run Jskad twice, it will ask you whether or not
+you want to create a shortcut to Jskad on your desktop.&nbsp; If you
+say yes, then you can launch Jskad from your desktop in future,
+without having to visit our web site.&nbsp; Every time Jskad runs, it
+will automatically check our site for updates - unless you're offline,
+in which case Jskad will just run the version which is cached on your
+computer.
+</p>
+
+<p>
+Note that to run Jskad you no longer need to have the <a
+href="http://orion.lib.virginia.edu/thdl/tools/tmw.html">Tibetan
+Machine Web</a> family of fonts installed; they are now embedded in
+Jskad itself along with the <a
+href="http://orion.lib.virginia.edu/thdl/tools/tm.html">Tibetan
+Machine</a> family of fonts.&nbsp; But if you wish to copy and paste
+into another application as Tibetan Machine Web (rather than as
+Unicode), then you do need the <a
+href="http://orion.lib.virginia.edu/thdl/tools/tmw.html">Tibetan
+Machine Web</a> family of fonts installed.
+</p>
+
+<p>
+Note also that due to a bug in earlier versions of Java, you should
+run Jskad under Java Runtime v. 1.4.&nbsp; If you are running Windows,
+Linux, or Solaris and you have an earlier version installed, please
+uninstall it, and then install <a
+href="http://java.sun.com/j2se/1.4/download.html" target="_blank">Java
+Runtime v. 1.4</a>.
+</p>
+
+<p>
+<center><font size="-1"><a href="#top">Back to top</a></font></center>
+</p>
+
+<a name="#start"></a>
+<h3>Getting Started</h3>
+
+<p>
+When you fire up Jskad, a glitz-free window will pop up in the center
+of your screen.&nbsp; Start typing and you'll get Tibetan.
+</p>
+
+<p>
+A menu bar appears at the top of the window.&nbsp; If you are running
+Jskad as an application, you'll see four menus: File, Edit, Tools, and
+Help.&nbsp; If you're running Jskad as an applet, you'll only see
+Edit, Tools, and Help.
+</p>
+
+<p>
+'File' provides basic options for opening, closing, saving, and
+printing Rich Text Format (RTF) documents.&nbsp; To start a new
+document, choose 'New'.&nbsp; To open an already existing document,
+choose 'Open...' or select from the list of recently opened
+documents.&nbsp; In any case, if there is any text in the current
+Jskad window, a new window will be opened up.&nbsp; To close a Jskad
+window, choose 'Close' or press the 'X' button.&nbsp; To close all
+Jskad windows, choose 'Exit'.&nbsp; You will be prompted to save if
+you haven't already done so.<!-- done so in regular (non-Unicode) Rich
+Text Format, that is -->
+</p>
+
+<p>
+To save in Rich Text Format, choose 'Save' or 'Save As...'.&nbsp; Like
+other applications, 'Save' saves under the current name, while 'Save
+As...' lets you save under a new name.
+</p>
+
+<p>
+As a convenience, 'Save as Unicode&nbsp;RTF...' and 'Save as
+Unicode&nbsp;UTF-8...' are provided.&nbsp; An ordinary 'Save' or 'Save
+As...' command saves as Rich Text Format using the legacy Tibetan
+Machine Web font, but these two options convert the Tibetan Machine
+Web to Unicode.&nbsp; These are convenient, but if you encounter
+problems you will need to take the long road by first saving normally
+and then choosing 'Tools - Launch Converter...' and converting from
+TMW to Unicode.&nbsp; (A good Unicode font is Tibetan Machine Uni, by
+the way.)
+</p>
+
+<p>
+The 'Edit' menu lets you cut, copy, and paste Tibetan text and set
+document preferences.&nbsp; These topics are covered elsewhere, in <a
+href="#copypaste">Copying and Pasting TM/TMW</a>, <a
+href="#copyasunicode">Copying as Unicode</a>, <a
+href="#tibetan">Typing Tibetan</a>, <a href="#english">Typing
+English</a>, and <a href="#preferences">Preferences</a>.
+</p>
+
+<p>
+The 'Tools' menu provides options to help users who are converting
+Tibetan from one form to another and who wish to view the current
+document in an external viewer, such as Microsoft Word.
+
+<!-- FIXME DLC <a
+href="#wylietotmw">Converting Wylie to Tibetan</a> and <a
+href="#tmwtowylie">Converting Tibetan to Wylie</a>. -->
+</p>
+
+<p>
+<center><font size="-1"><a href="#top">Back to top</a></font></center>
+</p>
+
+<a name="tibetan"></a>
+<h2>Typing Tibetan</h2>
+
+<p>
+Jskad lets you input Tibetan text according to several popular
+keyboard input methods.&nbsp; When you type, the Tibetan characters
+that appear are stored internally as Tibetan Machine Web, not
+Unicode.&nbsp; If you want Unicode, there are numerous ways in Jskad
+to convert Tibetan Machine Web to it.
+</p>
+
+<p>
+The default keyboard is the <!-- <a
+href="http://orion.lib.virginia.edu/thdl/tools/jskad_docs/Wylie_keyboard.rtf"
+target="_blank"> -->Extended Wylie<!-- </a> --> keyboard.&nbsp; Other
+supported keyboards include <!-- <a
+href="http://orion.lib.virginia.edu/thdl/tools/jskad_docs/TCC_keyboard_1.rtf"
+target="_blank"> -->Tibetan Computer Company Keyboard #1<!-- </a> -->,
+<!-- <a
+href="http://orion.lib.virginia.edu/thdl/tools/jskad_docs/TCC_keyboard_2.rtf"
+target="_blank"> -->Tibetan Computer Company Keyboard #2<!-- </a> -->
+, and Nitharta's <!-- <a
+href="http://orion.lib.virginia.edu/thdl/tools/jskad_docs/Sambhota_keymap_one.rtf"
+target="_blank"> -->Sambhota Keymap One<!-- </a> -->.&nbsp; For
+documentation of these keyboards, see Jskad's 'Help' menu.
+</p>
+
+<p>
+Jskad automatically opens up in Tibetan-entry mode upon starting it
+for the first time, so all you have to do to get Tibetan is start
+typing.&nbsp; Jskad subsequently remembers the keyboard you were using
+when you last exited Jskad.&nbsp; If you are in Roman-entry mode, then
+you will need to first switch to Tibetan-entry mode.&nbsp; Do this by
+selecting "Tibetan" from the "Input mode:" selection.&nbsp; The
+default point size for Tibetan text is 36.&nbsp; To change this go to
+'Preferences' in the 'Edit' menu.
+</p>
+
+<p>
+<center><font size="-1"><a href="#top">Back to top</a></font></center>
+</p>
+
+<a name="english"></a>
+<h2>Typing English</h2>
+
+<p>
+With Jskad you are not restricted to just typing Tibetan.&nbsp; You
+can also type English or other European languages.&nbsp; If you are in
+Tibetan-entry mode, you can switch to Roman entry-mode by selection
+"Roman" from the "Input mode:" drop-down box.&nbsp; (If this doesn't
+get you into Roman-entry mode, then Roman entry-mode has been disabled
+by your alterations to your <tt>my_thdl_preferences.txt</tt> file and
+you should use 'Edit-&gt;Clear Preferences'.)
+</p>
+
+<p>
+You can change the font and/or point size of Roman-based text entry by
+selecting 'Preferences' from the 'Edit' menu.
+</p>
+
+<p>
+<center><font size="-1"><a href="#top">Back to top</a></font></center>
+</p>
+
+
+<a name="copyasunicode"></a>
+<h3>Copying as Unicode</h3>
+
+<p>
+In addition to supporting <a href="#copypaste">copying and pasting TM
+and TMW</a>, Jskad supports copying Tibetan Machine Web as Unicode.
+</p>
+
+<p>
+This effectively does a <a
+href="http://thdltools.sourceforge.net/TMW_RTF_TO_THDL_WYLIE.html">TMW-&gt;Unicode</a>
+conversion and then copies the output to the system clipboard, ready
+to be pasted into MS Word, OpenOffice, Notepad, or wherever.
+Depending on how smart the target application is, you may have to
+explicitly tell it to use a Tibetan Unicode font such as THDL's own
+Tibetan Machine Uni.
+</p>
+
+<p>
+<font color="red">NOTE WELL</font> that OpenOffice 1.1.4 has a bug
+whereby the parts of your selection that were not Tibetan Machine Web
+are silently dropped if you paste into a section of Tibetan Unicode.
+If this affects you, you should paste into a section of English text
+or upgrade to OpenOffice 1.9.79 or later.
+</p>
+
+
+<a name="copypaste"></a>
+<h3>Copying and Pasting TM/TMW</h3>
+
+<p>
+In addition to supporting <a href="#copyasunicode">copying to Unicode
+text</a>, Jskad supports copying and pasting Tibetan Machine Web.
+</p>
+
+<p>
+Jskad supports RTF copy and paste.&nbsp; That means, among other
+things, that you can copy Tibetan Machine and Tibetan Machine Web back
+and forth between Jskad and Microsoft Word or OpenOffice.&nbsp; To do
+so, you can use standard keyboard shortcuts (Ctrl-A for select all,
+Ctrl-X for cut, Ctrl-C for copy, and Ctrl-V for paste).&nbsp; Note
+that you must have the <a
+href="http://orion.lib.virginia.edu/thdl/tools/tmw.html">Tibetan
+Machine Web</a> family of fonts installed on your computer for
+applications besides Jskad to be aware of them.
+</p>
+
+<p>
+Note that not all applications support RTF copy and paste.&nbsp;
+Therefore, you cannot, for example, copy from Jskad and paste into
+Microsoft Excel.&nbsp; You can, though, copy into Word, select the
+snippet of Tibetan again, copy again, and then paste into Excel.
+</p>
+
+<p>
+<center><font size="-1"><a href="#top">Back to top</a></font></center>
+</p>
+
+<a name="wylietotmw"></a>
+<h3>Converting Wylie to Tibetan</h3>
+
+<p>
+One of the most useful features of Jskad is its ability to convert
+from Extended Wylie to Tibetan.&nbsp; <em>Note that there are several
+known bugs with this conversion, so study your output.</em>&nbsp;
+There are three ways to do this:
+</p>
+
+<ol>
+<li><b>Copy and Paste from Another Application</b>
+
+<br>Copy a block of Wylie text from Microsoft Word, and then paste it
+in Jskad.</li>
+
+<p><li><b>Select Text and Convert to Tibetan</b>
+
+<br>Select the block of text you want to convert, and then choose
+'Tools - Convert Selection - Convert Wylie to Tibetan' from the menu
+bar.&nbsp; Note that if you try to convert a chunk of text in which
+Tibetan text is surrounded by Wylie, the Wylie will convert, and the
+Tibetan will remain unchanged.</li>
+
+<p><li><b>Import Wylie and Save as RTF</b>
+
+<br>Choose 'Tools - Import Wylie as Tibetan' from the menu bar.&nbsp;
+You will be prompted to 'Import Wylie'.&nbsp; Use the file chooser to
+select a .txt (text) file which contains nothing but Extended
+Wylie.&nbsp; Then you'll be prompted to 'Save as Tibetan'.&nbsp; Type
+a new name for your document.&nbsp; If the Wylie is valid, it will be
+converted and saved as RTF.&nbsp; This document can then be opened in
+Jskad.</li>
+</ol>
+
+<p>
+All three of these options are suitable for most situations.&nbsp;
+However, if you are converting a lengthy document, you are advised to
+use the 'Import' option.
+</p>
+
+<p>
+In all cases, Wylie can only be converted to Tibetan if it is valid
+Extended Wylie.&nbsp; If there is any invalidity, the entire
+conversion will halt.&nbsp; An informational message will appear, with
+a guess as to what the problem is.&nbsp; Take special note of the fact
+that Microsoft Word's 'smart quotes' cannot be converted.&nbsp; If you
+are copying from Microsoft Word, please turn off smart quotes (see <a
+href="#trouble">Troubleshooting</a>).&nbsp; Remember also that Jskad
+does not know the difference between Wylie and English.&nbsp; Just
+because you can see that a string of text is Wylie doesn't mean that a
+computer knows that it is!
+</p>
+
+<p>
+<center><font size="-1"><a href="#top">Back to top</a></font></center>
+</p>
+
+<a name="tmwtowylie"></a>
+<h3>Converting Tibetan to Wylie</h3>
+
+<p>
+Another useful feature of Jskad is its ability to convert from Tibetan
+to Extended Wylie.&nbsp; Simply select the Tibetan you want to
+convert, and then choose 'Tools - Convert Selection - Convert Tibetan
+to Wylie' from the menu bar.&nbsp; The text will be converted, and
+will appear (if you are using 'Tools - Convert Selection - Convert
+Tibetan to Wylie') as Wylie in the default Roman font and point size
+(see <a href="#english">Typing English</a>).&nbsp; Alternatively, <a
+href="#converter">launch the Converter</a> and use it to convert whole
+documents with ease.
+</p>
+
+<p>
+Jskad is very smart about determining which Tibetan letter is the root
+letter when there is ambiguity.&nbsp; (It compares against a
+hard-coded list of words for the ambiguous three-consonant cases, such
+as '-g-s).&nbsp; Jskad always produces 100% unambiguous Wylie, which
+you can feel certain will be read back in later as the very same
+Tibetan you started with.&nbsp; (Although, at this time, the
+Wylie-to-Tibetan side of the equation is not nearly as well tested,
+and in fact has known bugs.)
+</p>
+
+<p>
+Remember that Jskad only works fully with the TibetanMachineWeb family
+of fonts.&nbsp; (It can open TibetanMachine documents for viewing and
+for converting to TibetanMachineWeb, but you cannot type in new
+TibetanMachine.)&nbsp; Therefore, it will only recognize
+TibetanMachineWeb as Tibetan.&nbsp; Any other Tibetan fonts will be
+assumed to be non-Tibetan.&nbsp; Note that you can convert
+TibetanMachine to TibetanMachineWeb and then convert that to Wylie if
+need be.
+</p>
+
+<p>
+<center><font size="-1"><a href="#top">Back to top</a></font></center>
+</p>
+
+<a name="ttot"></a>
+<h3>Converting Tibetan to Tibetan</h3>
+
+<p>
+  Jskad also has the ability to convert from one digital form of
+  Tibetan to another, with perfect results (as far as we know).&nbsp;
+  You can convert Tibetan Machine Web to Tibetan Machine (use 'Tools -
+  Convert All - Convert Tibetan to TM') and vice versa (use 'Tools -
+  Convert All - Convert TM to Tibetan').&nbsp; You can also convert
+  Tibetan Machine Web to Unicode (using 'Tools - Convert All - Convert
+  Tibetan to Unicode').&nbsp; To convert Tibetan Machine to Unicode,
+  simply convert from Tibetan Machine to Tibetan Machine Web and then
+  convert from Tibetan Machine Web to Unicode.
+</p>
+
+<p>
+  To convert whole documents the easy way, just launch the <a
+  href="#converter">converter</a>.
+</p>
+
+<p>
+<center><font size="-1"><a href="#top">Back to top</a></font></center>
+</p>
+
+<a name="converter"></a>
+<h3>GUI Converter</h3>
+
+<p>
+  Jskad features a built-in converter with a user-friendly graphical
+  user interface.&nbsp; This converter does not show you the documents
+  as it is converting, though it allows you to view documents in an <a
+  href="#viewer">external RTF file viewer</a> using the 'Open With...'
+  button.
+</p>
+
+<p>
+  The converter handles all exceptional cases well.&nbsp; Thus, if the
+  converter says that it succeeded, it really did succeed
+  perfectly.&nbsp; You can rest assured that at least one character
+  was converted (it being a common error to open a Tibetan Machine
+  file and select a TMW-&gt;Wylie conversion), and that each character
+  in the original document was correctly converted to a character in
+  the new document.&nbsp; Even uncommon errors like running out of
+  memory are skillfully handled.
+</p>
+
+<p>
+  The TM-&gt;TMW and TMW-&gt;TM conversions have been hand-verified
+  using a document that lists each TMW glyph and its TM equivalent,
+  and two bugs in Java's RTF support have been worked around.&nbsp;
+  Moreover, the TM&lt;-&gt;TMW tables were input by two separate teams
+  and results compared.&nbsp; JUnit tests are used to verify that bugs
+  do not sneak into future revisions.&nbsp; Ask David Chandler to
+  elaborate on the verification and validation for the conversions,
+  but the bottom line is that there are no known bugs in the
+  TM-&gt;TMW, TMW-&gt;TM, TMW-&gt;Wylie, or TMW-&gt;Unicode
+  conversions.
+</p>
+
+<p>
+  The user interface is fairly straightforward, except for the 'Find
+  Some/All' options, which are used to create a list of the characters
+  that are not in the desired font.&nbsp; These options are for those
+  who want to be sure that they are converting a document that really
+  is wholly in Tibetan Machine or Tibetan Machine Web.
+</p>
+
+<p>
+  At present, the TMW-&gt;Unicode conversion converts to the Tibetan Machine Uni
+  font.&nbsp; If users ask for it, the converter can easily be
+  extended to convert to the font of the user's choice.<!-- FIXME:
+  what about 0020, 2003, 54xx, etc.?  Allow for specifying the fonts
+  for those ranges separately. -->
+</p>
+
+<!-- FIXME: expound! -->
+
+<p>
+<center><font size="-1"><a href="#top">Back to top</a></font></center>
+</p>
+
+<a name="viewer"></a>
+<h3>External Viewers</h3>
+
+<p>
+  Jskad allows you to view an RTF document with an external viewer,
+  such as Microsoft Word.&nbsp; To use this feature, just select the
+  menu item 'Tools - Open With External Viewer...'.&nbsp; The first
+  time you use this command, it will ask you to locate a program to
+  view RTF files.&nbsp; Navigate to the program of your choice, such
+  as "C:\Program Files\Microsoft Office\Office10\WINWORD.EXE".&nbsp;
+  This program must be set up to accept the path of the RTF file as
+  the sole command-line argument.
+</p>
+
+<p>
+  On subsequent invocations of the 'Tools - Open With External
+  Viewer...' menu item, you will not be asked to choose the program
+  again.&nbsp; If you wish to change programs, you must either
+  manually edit your <tt>my_thdl_preferences.txt</tt> file or use
+  'Edit - Clear Preferences'.
+</p>
+
+<p>
+<center><font size="-1"><a href="#top">Back to top</a></font></center>
+</p>
+
+<a name="keyboards"></a>
+<h3>Changing Keyboards</h3>
+
+<p>
+As already mentioned, Jskad supports four different keyboard input methods:
+</p>
+
+<ol>
+<li><!-- <a
+href="http://orion.lib.virginia.edu/thdl/tools/jskad_docs/Wylie_keyboard.rtf"
+target="_blank"> -->Extended Wylie<!-- </a> --></li>
+
+<li><!-- <a
+href="http://orion.lib.virginia.edu/thdl/tools/jskad_docs/TCC_keyboard_1.rtf"
+target="_blank"> -->Tibetan Computer Company Keyboard #1<!-- </a> --></li>
+
+<li><!-- <a
+href="http://orion.lib.virginia.edu/thdl/tools/jskad_docs/TCC_keyboard_2.rtf"
+target="_blank"> -->Tibetan Computer Company Keyboard #2<!-- </a> --></li>
+
+<li><!-- <a
+href="http://orion.lib.virginia.edu/thdl/tools/jskad_docs/Sambhota_keymap_one.rtf"
+target="_blank"> -->Sambhota Keymap One<!-- </a> --></li>
+</ol>
+
+<p>
+The default keyboard is Extended Wylie.&nbsp; To change to another
+keyboard, choose 'Tools - Keyboards' and then select the keyboard you
+want to use.
+<p>
+<center><font size="-1"><a href="#top">Back to top</a></font></center>
+</p>
+
+<a name="preferences"></a>
+<h3>Preferences</h3>
+
+<p>
+Jskad remembers your preferences for a few things, such as the working
+directory, the keyboard to use, the font size, etc.&nbsp; Your
+preferences are saved automatically at program exit.&nbsp; If you want
+to reset your preferences, you must use 'Clear Preferences' from the
+'Edit' menu.
+</p>
+
+<p>
+  Jskad has a multi-level preferences mechanism available, which means
+  that system administrators can configure Jskad as desired for all
+  users on a certain computer, and then the users can have their
+  overriding preferences.&nbsp; Further, power users can override
+  their preferences' files using Java system properties.&nbsp; Contact
+  Jskad's maintainers for more information about these advanced
+  options if any of them interest you.
+</p>
+
+<p>
+<center><font size="-1"><a href="#top">Back to top</a></font></center>
+</p>
+
+
+<a name="thanks"></a>
+<h3>Thanks</h3>
+
+<p>
+  Portions of this software are copyright Andrew Moulden.&nbsp; Our
+  thanks go to him.&nbsp; Without his hard work, our users wouldn't be
+  able to browse this very document with the ease they can.
+</p>
+
+<p>
+<center><font size="-1"><a href="#top">Back to top</a></font></center>
+</p>
+
+<a name="trouble"></a>
+<h3>Troubleshooting</h3>
+
+<p>
+The following are some common problems:
+</p>
+
+<ul>
+<li><b>I can't open a document I converted using Jskad.&nbsp; It opens
+fine in Microsoft Word, but not in Jskad itself.</b>
+
+<br>Java's RTF support is poor, so when Jskad converts a document,
+e.g. from Tibetan Machine to Tibetan Machine Web, sometimes Jskad
+cannot open the Tibetan Machine Web output.&nbsp; Microsoft Word can
+open it, though.&nbsp; The solution is to do any further work on the
+hard-to-handle document from within Jskad's converter (i.e., the
+converter that comes up when you choose 'Tools - Launch
+Converter...').&nbsp; You might have luck with opening the
+hard-to-handle document in MS Word and saving as RTF.</li>
+
+<p><li><b>When I paste Tibetan into another application, it shows up
+as garbage like <tt>0C-&lt;m=-0+{;-{</tt>.</b>
+
+<br>Either you haven't installed the <a
+href="http://orion.lib.virginia.edu/thdl/tools/tmw.html">Tibetan
+Machine Web</a> family of fonts, or the application you're pasting
+into doesn't support RTF copying and pasting.&nbsp; To work around
+this latter problem, try pasting into an application that does support
+RTF copy and paste (such as Microsoft Word), and then select the
+Tibetan from there, copy it again, and paste into the third
+application.</li>
+
+<p><li><b>The vowels don't look right.</b>
+
+<br>Due to <a
+href="http://developer.java.sun.com/developer/bugParade/bugs/4498203.html"
+target="_blank">Java Bug Id 4498203</a>, Tibetan vowels do not display
+properly in some versions of Java.&nbsp; Problematic versions include
+1.3.0-02, 1.3.1, and the 1.4 beta 2.&nbsp; Uninstall Java, and
+reinstall Java 1.4.&nbsp; The vowels should look better.</li>
+
+<p><li><b>I can't convert from Wylie to Tibetan.</b>
+
+<br>Make sure the Wylie you are using is <a
+href="http://orion.lib.virginia.edu/thdl/tools/jskad_docs/Wylie_keyboard.rtf"
+target="_blank">valid Extended Wylie</a>.&nbsp; Also, check to make
+sure you aren't using any illegal characters such as Microsoft Word's
+'smart quotes'.&nbsp; If smart quotes occur in your Microsoft Word
+document, you can eliminate them by choosing the 'Save As Text Only'
+option under 'Save'.&nbsp; Be warned that 'Save As Text Only With Line
+Breaks' does not remove smart quotes.&nbsp; Finally, be aware that
+there are known bugs with the Wylie-to-Tibetan conversions; you may
+have run into a bug.</li>
+
+<p><li><b>I opened up an RTF document in Jskad and some of the formatting was lost.</b>
+
+<br>Java's RTF support has some problems.&nbsp; Therefore not all
+formatting information will be retained when an RTF file is opened in
+Jskad.</li>
+
+<p><li><b>Jskad runs slow or is error-prone on my Mac.</b>
+
+<br>We are aware of this problem, and hope that things will get better
+as both Jskad and Apple's implementation of Java improve.</li>
+
+<p><li><b>I get garbage when I type Tibetan.</b>
+
+<br>This shouldn't happen now that the fonts are bundled inside
+Jskad's JAR.&nbsp; But if it does, make sure the TibetanMachineWeb fonts
+are installed.&nbsp; See <a href="#install">Running Jskad</a>.</li>
+
+</ul>
+
+<p>
+If all else fails, remove Java and Jskad from your computer, and then
+reinstall both.
+</p>
+
+<p>
+<center><font size="-1"><a href="#top">Back to top</a></font></center>
+</p>
+
+<a name="advancedkeyboards"></a>
+<h3>More on Keyboards</h3>
+
+<p>
+If you are brave, you can create your own keyboards.&nbsp; A keyboard
+file has five parts:
+
+<ol type=a>
+<li>Comments</li>
+<li>A list of parameters</li>
+<li>A list of characters</li>
+<li>A list of vowels</li>
+<li>A list of punctuation</li>
+</ol>
+
+<p>
+Sections (c)-(e) are structured in exactly the same way.&nbsp; A line consists of a value, an equals sign, and another value, for example &quot;k=K&quot;.&nbsp; This means that to get the Tibetan character associated with Wylie 'k', you must press 'K'.&nbsp; If there is no right part of the equation, then there is no way in this keyboard to get the relevant character.&nbsp; For example, if you see &quot;k=&quot;, that means that there is no way in this keyboard to get the Tibetan character associated with Wylie 'k'.&nbsp; Be careful with whitespace, which is not ignored: for example, &quot; = &quot; means [space bar] = [space bar].
+</p>
+
+<p>
+Although the three additional production-quality keyboards included in
+this installation always define only one keystroke per
+character/vowel, it is possible to define a keyboard in which multiple
+keystrokes correspond to single characters/vowels, as in the Extended
+Wylie keyboard.&nbsp; However, punctuation is only ever allowed to
+correspond to a single keystroke.&nbsp; Below is a sample (partial)
+keyboard, with key parts explained, and much omitted:
+</p>
+
+<p>
+Sambhota keyboard //Everything before &lt?parameters?&gt; is taken to be a comment.
+</p>
+
+<p>
+&lt?parameters?&gt; //describes the logic of the keyboard
+<br>has sanskrit stacking=true //is there a stack key for sanskrit stacks?
+<br>has tibetan stacking=true //is there a stack key for tibetan stacks?
+<br>is stacking medial=false //is the stack key medial, ie like '+' in g+y, or not, as in +gy
+<br>stack key=f //what is the stack key? must be single character
+<br>has disambiguating key=false //is there a key to distinguish between Wylie gy and g.y?
+<br>disambiguating key= //if so, what is it?
+<br>needs a chen before vowels=true //for a-chen plus vowel, must you type a-chen first?
+<br>has 'a' vowel=false //is there a dummy 'a' vowel?
+<br>is achung consonant=true //can achung take part in consonantal stacks?
+<p>
+&lt?characters?&gt; //characters include consonants and numerals
+<br>k=k
+<br>kh=K //left value is Extended Wylie &amp; right is equivalent in Sambhota
+<br>g=g
+<br>ng=G
+<br>f= //no equivalent of 'f' in Sambhota
+<p>
+&lt?vowels?&gt;
+<br>a=a
+<br>i=i
+<br>u=u
+<br>e=e
+<br>o=o
+<p>
+&lt?punctuation?&gt;
+<br> = //read as [Space] = [Space]
+<br>/=,
+</p>
+
+</body>
+</html>
