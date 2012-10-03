@@ -1259,7 +1259,7 @@ the jvm starting tomcat:
     <fail message="Can't find the file '${source}/${my.included.source.file}' to compile it!  Don't worry about forward vs. backward slashes, by the way--Ant is smart about those."
           unless="found.file.to.compile"/>
 
-    <javac destdir="${mybin}" debug="${javacdashg}" target="${target.jvm}" source="${source.jvm}">
+    <javac includeantruntime="false" destdir="${mybin}" debug="${javacdashg}" target="${target.jvm}" source="${source.jvm}">
       <classpath refid="${our.javac.classpathref}"/>
       <src path="${source}"/>
       <include name="${my.included.source.file}" />
