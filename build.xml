@@ -51,7 +51,7 @@ Contributor(s): ______________________________________.
 
 -->
 
-<project name="THDLTools" default="dist" basedir=".">
+<project name="ttt" default="dist" basedir=".">
 
 
   <description>
@@ -162,11 +162,8 @@ the jvm starting tomcat:
   <!-- Set to the name of the dictionary used by the Translation Tool: -->
   <property name="arch.dict" value="architecture_dictionary"/>
 
-  <!-- Set this to 1.2 if you want J2SDK 1.4's default.  1.1 gives us
-       more compatibility, but maybe there will be a performance hit
-       or something.  -->
-  <property name="target.jvm" value="1.4"/>
-  <property name="source.jvm" value="1.4"/>
+  <property name="target.jvm" value="1.6"/>
+  <property name="source.jvm" value="1.6"/>
 
   <!-- Only the tt-servlet-compile target changes this.  Humans
        shouldn't mess with this. -->
@@ -599,6 +596,11 @@ the jvm starting tomcat:
       <param name="mybin" value="${ttstandalonebin}"/>
       <param name="my.included.source.file"
              value="org/thdl/tib/scanner/ConsoleScannerFilter.java"/>
+    </antcall>
+    <antcall target="our-internal-javac-task">
+      <param name="mybin" value="${ttstandalonebin}"/>
+      <param name="my.included.source.file"
+             value="org/thdl/tib/scanner/CachedSyllableListTree.java"/>
     </antcall>
     <antcall target="our-internal-javac-task">
       <param name="mybin" value="${ttstandalonebin}"/>
