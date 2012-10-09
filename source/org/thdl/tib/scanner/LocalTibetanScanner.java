@@ -32,6 +32,7 @@ public class LocalTibetanScanner extends TibetanScanner
 	public static String archivo;
 	private SyllableListTree raiz, silActual, lastCompSil, silAnterior;
 	private String wordActual, lastCompWord;
+	private int wordActualOffset, lastCompWordOffset;
 	private Vector floatingSil;
 	
 	static
@@ -66,8 +67,10 @@ public class LocalTibetanScanner extends TibetanScanner
 		wordActual = lastCompWord = null;
 	}
 	
-	private void scanSyllable(String sil)
+	private void scanSyllable(Token silToken)
 	{
+		String sil = silToken.getRawValue();
+		
 		SyllableListTree resultado=null;
 		Enumeration enumeration;
 		Word w;
@@ -84,6 +87,12 @@ public class LocalTibetanScanner extends TibetanScanner
 		{
 			if (silActual.hasDef())
 			{
+				if (wordActual == null) {
+					lastCompWordOffset = silToken.getOffset();
+				}
+				else {
+					lastCompWordOffset = wordActualOffset;
+				}
 				lastCompWord = concatWithSpace(wordActual, sil);
 				lastCompSil = silActual;
 				floatingSil.removeAllElements();
@@ -106,8 +115,17 @@ public class LocalTibetanScanner extends TibetanScanner
 					
 					if (resultado!=null && resultado.hasDef())
 					{
+						if (wordActual == null) {
+							lastCompWordOffset = silToken.getOffset();
+						}
+						else {
+							lastCompWordOffset = wordActualOffset;
+						}
 						lastCompWord = concatWithSpace(wordActual, silSinDec);
 						lastCompSil = resultado;
+						if (wordActual == null) {
+							wordActualOffset = silToken.getOffset();
+						}
 						wordActual = concatWithSpace(wordActual, sil);
 						floatingSil.removeAllElements();
 					}
@@ -121,7 +139,10 @@ public class LocalTibetanScanner extends TibetanScanner
 				if (resultado!=null) return;
 				
 				if (lastCompSil!=null)
-					floatingSil.addElement(sil);
+					floatingSil.addElement(silToken);
+			}
+			if (wordActual == null) {
+				wordActualOffset = silToken.getOffset();
 			}
 			wordActual = concatWithSpace(wordActual, sil);
 		}
@@ -147,7 +168,10 @@ public class LocalTibetanScanner extends TibetanScanner
 				// si funciona sin declension arreglado problema
 				if (resultado!=null && resultado.hasDef())
 				{
-					wordList.addLast(new Word(concatWithSpace(wordActual, silSinDec), concatWithSpace(wordActual,sil), resultado.getDefs()));
+					if (wordActual == null) {
+						wordActualOffset = silToken.getOffset();
+					}
+					wordList.addLast(new Word(concatWithSpace(wordActual, silSinDec), concatWithSpace(wordActual,sil), resultado.getDefs(), wordActualOffset));
 					resetAll();
 					floatingSil.removeAllElements();
 				}
@@ -163,30 +187,30 @@ public class LocalTibetanScanner extends TibetanScanner
 			
 			if (lastCompSil!=null)
 			{
-				if (lastCompWord.equals(wordActual)) w = new Word(lastCompWord, lastCompSil.getDefs());
-				else w = new Word(lastCompWord, wordActual, lastCompSil.getDefs());
+				if (lastCompWord.equals(wordActual)) w = new Word(lastCompWord, lastCompSil.getDefs(), lastCompWordOffset);
+				else w = new Word(lastCompWord, wordActual, lastCompSil.getDefs(), lastCompWordOffset);
 				wordList.addLast(w);
 				this.resetAll();
 				
 				enumeration = floatingSil.elements();
 				floatingSil = new Vector();
 				while (enumeration.hasMoreElements())
-					scanSyllable((String)enumeration.nextElement());
+					scanSyllable((Token)enumeration.nextElement());
 				
-				scanSyllable(sil);
+				scanSyllable(silToken);
 			}
 			else
 			{
 				if (silAnterior!=raiz)
 				{
-					w = new Word(wordActual, "[incomplete word]");
+					w = new Word(wordActual, "[incomplete word]", wordActualOffset);
 					wordList.addLast(w);
 					this.resetAll();
-					scanSyllable(sil);
+					scanSyllable(silToken);
 				}
 				else
 				{
-					w = new Word(sil, "[not found]");
+					w = new Word(sil, "[not found]", silToken.getOffset());
 					wordList.addLast(w);
 					this.resetAll();
 				}
@@ -201,20 +225,20 @@ public class LocalTibetanScanner extends TibetanScanner
 		
 		while (lastCompSil!=null)
 		{
-			if (lastCompWord.equals(wordActual)) w = new Word(lastCompWord, lastCompSil.getDefs());
-			else w = new Word(lastCompWord, wordActual, lastCompSil.getDefs());
+			if (lastCompWord.equals(wordActual)) w = new Word(lastCompWord, lastCompSil.getDefs(), lastCompWordOffset);
+			else w = new Word(lastCompWord, wordActual, lastCompSil.getDefs(), lastCompWordOffset);
 			wordList.addLast(w);
 			this.resetAll();
 			
 			enumeration = floatingSil.elements();
 			floatingSil = new Vector();
 			while (enumeration.hasMoreElements())
-				scanSyllable((String)enumeration.nextElement());
+				scanSyllable((Token)enumeration.nextElement());
 		}
 		
 		if (silActual!=null)
 		{
-			wordList.addLast(new Word(wordActual, "[incomplete word]"));
+			wordList.addLast(new Word(wordActual, "[incomplete word]", wordActualOffset));
 			this.resetAll();
 		}
 	}
@@ -283,27 +307,27 @@ public class LocalTibetanScanner extends TibetanScanner
 				if (linea.equals(""))
 				{
 					finishUp();
-					wordList.addLast(new PunctuationMark('\n'));
+					wordList.addLast(new PunctuationMark('\n',init));
 				}
 				else
-					scanLine(linea);
+					scanLine(linea, init);
 				
 				init = fin+1;
 			}
 		}
 	}
 	
-	public void scanLine(String linea)
+	public void scanLine(String linea, int adjust)
 	{
 		int init = 0, fin;
 		char ch;
-		String sil;
+		Token silToken;
 		boolean doNotFinishUp;
 		
 		if (linea.equals(""))
 		{
 			finishUp();
-			wordList.addLast(new PunctuationMark('\n'));
+			wordList.addLast(new PunctuationMark('\n',init+adjust));
 			return;
 		}
 		
@@ -325,7 +349,7 @@ public class LocalTibetanScanner extends TibetanScanner
 							finishUp();
 							doNotFinishUp=false;
 						}
-						wordList.addLast(new PunctuationMark(ch));
+						wordList.addLast(new PunctuationMark(ch,init+adjust));
 					}
 					else if (!Manipulate.isEndOfSyllableMark(ch))
 						break;
@@ -360,13 +384,13 @@ public class LocalTibetanScanner extends TibetanScanner
 					}
 				}
 				
-				sil = linea.substring(init, fin);
-				scanSyllable(sil);
+				silToken = new Token(linea.substring(init, fin),init+adjust);
+				scanSyllable(silToken);
 				
 				if (!doNotFinishUp)
 				{
 					finishUp();
-					wordList.addLast(new PunctuationMark(ch));
+					wordList.addLast(new PunctuationMark(ch,fin+adjust));
 				}
 				init = fin+1;
 			}

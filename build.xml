@@ -89,6 +89,8 @@ Contributor(s): ______________________________________.
   <property name="ttappletjwsbin" location="bin/tt-applet-and-java-web-start"/>
   <property name="tthandheldbin" location="bin/tt-handheld"/>
   <property name="ttservletbin" location="bin/tt-servlet"/>
+  <property name="uimabin" location="bin/uima-annotators"/>
+  <property name="uimadesc" location="config/uima/desc"/>
 
   <property name="docs" location="docs"/>
   <property name="dist"  location="dist"/>
@@ -181,6 +183,11 @@ the jvm starting tomcat:
          responsible for finding them and putting them into
          'extensions/': -->
     <pathelement location="${ext}/jdom.jar"/>
+    
+    <!-- jars needed for uima and solr -->
+    <pathelement location="${ext}/uima/uimaj-core-2.3.1.jar"/>
+    <pathelement location="${ext}/solr/apache-solr-core-4.0.0-BETA.jar"/>
+    <pathelement location="${ext}/solr/apache-solr-solrj-4.0.0-BETA.jar"/>
 
     <!-- this gets Ant's jars, so leave it out:
         <pathelement path="${java.class.path}/"/> -->
@@ -344,7 +351,7 @@ the jvm starting tomcat:
           description="JARs up everything into self-contained JARs for double-click, classpath-worry-free joy" />
 
   <target name="dist"
-          depends="jskad-dist,tt-handheld-dist,tt-standalone-dist,tt-applet-plus-jws-dist,tt-servlet-dist,tibledit-dist,convertergui-dist"
+          depends="uima-annotators-dist,jskad-dist,tt-handheld-dist,tt-standalone-dist,tt-applet-plus-jws-dist,tt-servlet-dist,tibledit-dist,convertergui-dist"
           description="JARs up everything" />
 
   <target name="compile"
@@ -727,6 +734,53 @@ the jvm starting tomcat:
     </antcall>
   </target>
 
+  <!-- Builds the standalone translation tool: -->
+  <target name="uima-annotators-compile" depends="init"
+          description="compiles the UIMA annotators" >
+    <mkdir dir="${uimabin}"/>
+    <antcall target="create-timestamp-source-code"/>
+    <antcall target="our-internal-javac-task">
+      <param name="mybin" value="${uimabin}"/>
+      <param name="my.included.source.file"
+             value="org/thdl/tib/uima/DictionaryScannerTokenizer.java"/>
+    </antcall>
+    <antcall target="our-internal-javac-task">
+      <param name="mybin" value="${uimabin}"/>
+      <param name="my.included.source.file"
+             value="org/thdl/tib/solr/PageTransitionUpdateProcessorFactory.java"/>
+    </antcall>
+    <antcall target="our-internal-javac-task">
+      <param name="mybin" value="${uimabin}"/>
+      <param name="my.included.source.file"
+             value="org/thdl/tib/solr/UnicodeToWylieUpdateProcessorFactory.java"/>
+    </antcall>
+    <antcall target="our-internal-javac-task">
+      <param name="mybin" value="${uimabin}"/>
+      <param name="my.included.source.file"
+             value="org/thdl/tib/solr/WylieToUnicodeUpdateProcessorFactory.java"/>
+    </antcall>
+    <!-- copy uima descriptors -->
+    <copy todir="${uimabin}/org/thdl/tib/uima">
+      <fileset dir="${uimadesc}">
+        <include name="*.xml"/>
+      </fileset>
+    </copy>
+    <!-- copy property files -->
+    <copy todir="${uimabin}/org/thdl/tib/uima">
+      <fileset dir="${source}/org/thdl/tib/uima">
+        <include name="*.properties"/>
+      </fileset>
+    </copy>
+  </target>
+
+  <target name="uima-annotators-dist" depends="uima-annotators-compile"
+          description="generates the uima-tibetan.jar file" >
+    <!-- Put everything in ${uimabin} into the JAR file -->
+    <jar jarfile="${lib}/uima-tibetan${my.jar.suffix}.jar"
+         basedir="${uimabin}">
+    </jar>
+  </target>
+  
   <!-- DLC FIXME: add tibledit-jws -->
   <!--
        Note that jardiffs for the JWS stuff are done by the JWS system

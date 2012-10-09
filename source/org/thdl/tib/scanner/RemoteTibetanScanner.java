@@ -46,7 +46,7 @@ public class RemoteTibetanScanner extends TibetanScanner
 	}
 	
 	/** dont use */
-	public void scanLine(String linea)
+	public void scanLine(String linea, int adjust)
 	{
 		scanBody(linea);
 	}

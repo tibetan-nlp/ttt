@@ -59,7 +59,7 @@ public abstract class TibetanScanner
 		"my current translations. A small number are simply wrong; others need to be " + 
 		"updated; and all will receive much more attention and, hence, detail.<p>\n" + 
 		"The Dictionary has been entered into a database with fields for the entry, " + 
-		"Sanskrit, tenses, my English, a few others’ interests, examples, " + 
+		"Sanskrit, tenses, my English, a few othersÂ’ interests, examples, " + 
 		"definition, divisions, and comments. At this point, very few entries " + 
 		"contain all of these items, but the plan is provide these, where " + 
 		"appropriate, over the years. Translations for entries that have arisen from " + 
@@ -245,7 +245,7 @@ public abstract class TibetanScanner
 		return array;
 	}
 
-	public abstract void scanLine(String linea);
+	public abstract void scanLine(String linea, int adjust);
 	public abstract void scanBody(String linea);
 	public abstract void finishUp();
 	public abstract BitDictionarySource getDictionarySource();

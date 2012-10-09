@@ -141,7 +141,7 @@ public class RemoteScannerFilter extends GenericServlet
 				br = req.getReader();
 				sl.writeLog("4\t2");
 				while((linea = br.readLine())!= null)
-					scanner.scanLine(linea);
+					scanner.scanLine(linea,0);
 				br.close();
 			break;
 			case JSON:
@@ -151,7 +151,7 @@ public class RemoteScannerFilter extends GenericServlet
 					linea = Manipulate.NCR2UnicodeString(linea);
 					if (Manipulate.guessIfUnicode(linea)) linea = BasicTibetanTranscriptionConverter.unicodeToWylie(linea);
 					else if (Manipulate.guessIfAcip(linea)) linea = BasicTibetanTranscriptionConverter.acipToWylie(linea);
-					scanner.scanLine(linea);
+					scanner.scanLine(linea,0);
 				}
 			}
 		}

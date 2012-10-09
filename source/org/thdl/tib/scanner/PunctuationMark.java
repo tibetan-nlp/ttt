@@ -33,6 +33,11 @@ public class PunctuationMark extends Token
         super(String.valueOf(ch));
     }
     
+    public PunctuationMark(char ch, int offset)
+    {
+        super(String.valueOf(ch), offset);
+    }
+    
     public String toString()
     {
         return super.token;
