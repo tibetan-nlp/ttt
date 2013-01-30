@@ -1,0 +1,17 @@
+package org.thdl.tib.solr.analysis;
+
+import org.apache.lucene.analysis.util.TokenizerFactory;
+import java.io.Reader;
+
+public class TshegBarTokenizerFactory extends TokenizerFactory {
+	@Override
+	public void init(Map<String,String> args) {
+		super.init(args);
+		assureMatchVersion();
+	}
+	
+    public TshegBarTokenizer create(Reader input) {
+        return new TshegBarTokenizer(input);
+    }
+}
+

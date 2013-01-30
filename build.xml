@@ -186,8 +186,12 @@ the jvm starting tomcat:
     
     <!-- jars needed for uima and solr -->
     <pathelement location="${ext}/uima/uimaj-core-2.3.1.jar"/>
-    <pathelement location="${ext}/solr/apache-solr-core-4.0.0-BETA.jar"/>
-    <pathelement location="${ext}/solr/apache-solr-solrj-4.0.0-BETA.jar"/>
+    <pathelement location="${ext}/uima/uimaj-core-2.3.1.jar"/>
+    <pathelement location="${ext}/solr/apache-solr-core-4.0.0.jar"/>
+    <pathelement location="${ext}/solr/apache-solr-solrj-4.0.0.jar"/>
+    <pathelement location="${ext}/solr/lucene-core-4.0.0.jar"/>
+    <pathelement location="${ext}/solr/lucene-analyzers-common-4.0.0.jar"/>
+    <pathelement location="${ext}/crf/CRFPP.jar"/>
 
     <!-- this gets Ant's jars, so leave it out:
         <pathelement path="${java.class.path}/"/> -->
@@ -747,17 +751,88 @@ the jvm starting tomcat:
     <antcall target="our-internal-javac-task">
       <param name="mybin" value="${uimabin}"/>
       <param name="my.included.source.file"
-             value="org/thdl/tib/solr/PageTransitionUpdateProcessorFactory.java"/>
+             value="org/thdl/tib/solr/PageTransitionUPF.java"/>
     </antcall>
     <antcall target="our-internal-javac-task">
       <param name="mybin" value="${uimabin}"/>
       <param name="my.included.source.file"
-             value="org/thdl/tib/solr/UnicodeToWylieUpdateProcessorFactory.java"/>
+             value="org/thdl/tib/solr/SegScoreUPF.java"/>
     </antcall>
     <antcall target="our-internal-javac-task">
       <param name="mybin" value="${uimabin}"/>
       <param name="my.included.source.file"
-             value="org/thdl/tib/solr/WylieToUnicodeUpdateProcessorFactory.java"/>
+             value="org/thdl/tib/solr/TagScoreUPF.java"/>
+    </antcall>
+    <antcall target="our-internal-javac-task">
+      <param name="mybin" value="${uimabin}"/>
+      <param name="my.included.source.file"
+             value="org/thdl/tib/solr/TagCompareUPF.java"/>
+    </antcall>
+    <antcall target="our-internal-javac-task">
+      <param name="mybin" value="${uimabin}"/>
+      <param name="my.included.source.file"
+             value="org/thdl/tib/solr/UnicodeToWylieUPF.java"/>
+    </antcall>
+    <antcall target="our-internal-javac-task">
+      <param name="mybin" value="${uimabin}"/>
+      <param name="my.included.source.file"
+             value="org/thdl/tib/solr/WylieToUnicodeUPF.java"/>
+    </antcall>
+    <antcall target="our-internal-javac-task">
+      <param name="mybin" value="${uimabin}"/>
+      <param name="my.included.source.file"
+             value="org/thdl/tib/solr/TshegBarSplitterUPF.java"/>
+    </antcall>
+    <antcall target="our-internal-javac-task">
+      <param name="mybin" value="${uimabin}"/>
+      <param name="my.included.source.file"
+             value="org/thdl/tib/solr/TshegBarJoinerUPF.java"/>
+    </antcall>
+    <antcall target="our-internal-javac-task">
+      <param name="mybin" value="${uimabin}"/>
+      <param name="my.included.source.file"
+             value="org/thdl/tib/solr/TshegBarTaggerUPF.java"/>
+    </antcall>
+    <antcall target="our-internal-javac-task">
+      <param name="mybin" value="${uimabin}"/>
+      <param name="my.included.source.file"
+             value="org/thdl/tib/solr/TshegBarTagMergerUPF.java"/>
+    </antcall>
+    <antcall target="our-internal-javac-task">
+      <param name="mybin" value="${uimabin}"/>
+      <param name="my.included.source.file"
+             value="org/thdl/tib/solr/DropTagsUPF.java"/>
+    </antcall>
+    <antcall target="our-internal-javac-task">
+      <param name="mybin" value="${uimabin}"/>
+      <param name="my.included.source.file"
+             value="org/thdl/tib/solr/CrfppTaggerUPF.java"/>
+    </antcall>
+    <antcall target="our-internal-javac-task">
+      <param name="mybin" value="${uimabin}"/>
+      <param name="my.included.source.file"
+             value="org/thdl/tib/solr/CrfppTaggerUpdateProcessor.java"/>
+    </antcall>
+    <antcall target="our-internal-javac-task">
+      <param name="mybin" value="${uimabin}"/>
+      <param name="my.included.source.file"
+             value="org/thdl/tib/solr/DictionaryBreakerUPF.java"/>
+    </antcall>
+    <!-- solr analysis -->
+    <antcall target="our-internal-javac-task">
+      <param name="mybin" value="${uimabin}"/>
+      <param name="my.included.source.file"
+             value="org/thdl/tib/solr/analysis/TshigGrubTokenizerFactory.java"/>
+    </antcall>
+    <antcall target="our-internal-javac-task">
+      <param name="mybin" value="${uimabin}"/>
+      <param name="my.included.source.file"
+             value="org/thdl/tib/solr/analysis/TshegBarTokenizerFactory.java"/>
+    </antcall>
+    <antcall target="our-internal-javac-task">
+      <param name="mybin" value="${uimabin}"/>
+      <param name="my.included.source.file"
+             value="org/thdl/tib/solr/util/TshegBarUtils.java"/>
     </antcall>
     <!-- copy uima descriptors -->
     <copy todir="${uimabin}/org/thdl/tib/uima">
