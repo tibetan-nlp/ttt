@@ -192,6 +192,7 @@ the jvm starting tomcat:
     <pathelement location="${ext}/solr/lucene-core-4.0.0.jar"/>
     <pathelement location="${ext}/solr/lucene-analyzers-common-4.0.0.jar"/>
     <pathelement location="${ext}/crf/CRFPP.jar"/>
+    <pathelement location="${ext}/tt4j/org.annolab.tt4j-1.1.2-SNAPSHOT.jar"/>
 
     <!-- this gets Ant's jars, so leave it out:
         <pathelement path="${java.class.path}/"/> -->
@@ -756,17 +757,17 @@ the jvm starting tomcat:
     <antcall target="our-internal-javac-task">
       <param name="mybin" value="${uimabin}"/>
       <param name="my.included.source.file"
-             value="org/thdl/tib/solr/SegScoreUPF.java"/>
+             value="org/soas/solr/update/processor/SegScoreUPF.java"/>
     </antcall>
     <antcall target="our-internal-javac-task">
       <param name="mybin" value="${uimabin}"/>
       <param name="my.included.source.file"
-             value="org/thdl/tib/solr/TagScoreUPF.java"/>
+             value="org/soas/solr/update/processor/TagScoreUPF.java"/>
     </antcall>
     <antcall target="our-internal-javac-task">
       <param name="mybin" value="${uimabin}"/>
       <param name="my.included.source.file"
-             value="org/thdl/tib/solr/TagCompareUPF.java"/>
+             value="org/soas/solr/update/processor/TagCompareUPF.java"/>
     </antcall>
     <antcall target="our-internal-javac-task">
       <param name="mybin" value="${uimabin}"/>
@@ -801,17 +802,17 @@ the jvm starting tomcat:
     <antcall target="our-internal-javac-task">
       <param name="mybin" value="${uimabin}"/>
       <param name="my.included.source.file"
-             value="org/thdl/tib/solr/DropTagsUPF.java"/>
+             value="org/soas/solr/update/processor/DropTagsUPF.java"/>
     </antcall>
     <antcall target="our-internal-javac-task">
       <param name="mybin" value="${uimabin}"/>
       <param name="my.included.source.file"
-             value="org/thdl/tib/solr/CrfppTaggerUPF.java"/>
+             value="org/soas/solr/update/processor/CrfppTaggerUPF.java"/>
     </antcall>
     <antcall target="our-internal-javac-task">
       <param name="mybin" value="${uimabin}"/>
       <param name="my.included.source.file"
-             value="org/thdl/tib/solr/CrfppTaggerUpdateProcessor.java"/>
+             value="org/soas/solr/update/processor/CrfppTaggerUpdateProcessor.java"/>
     </antcall>
     <antcall target="our-internal-javac-task">
       <param name="mybin" value="${uimabin}"/>
