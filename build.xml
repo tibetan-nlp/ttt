@@ -802,7 +802,22 @@ the jvm starting tomcat:
     <antcall target="our-internal-javac-task">
       <param name="mybin" value="${uimabin}"/>
       <param name="my.included.source.file"
+             value="org/thdl/tib/solr/SimpleRuleTaggerUPF.java"/>
+    </antcall>
+    <antcall target="our-internal-javac-task">
+      <param name="mybin" value="${uimabin}"/>
+      <param name="my.included.source.file"
+             value="org/soas/solr/update/processor/WhereDifferentUPF.java"/>
+    </antcall>
+    <antcall target="our-internal-javac-task">
+      <param name="mybin" value="${uimabin}"/>
+      <param name="my.included.source.file"
              value="org/soas/solr/update/processor/DropTagsUPF.java"/>
+    </antcall>
+    <antcall target="our-internal-javac-task">
+      <param name="mybin" value="${uimabin}"/>
+      <param name="my.included.source.file"
+             value="org/soas/solr/update/processor/LexiconTaggerUPF.java"/>
     </antcall>
     <antcall target="our-internal-javac-task">
       <param name="mybin" value="${uimabin}"/>
@@ -813,6 +828,16 @@ the jvm starting tomcat:
       <param name="mybin" value="${uimabin}"/>
       <param name="my.included.source.file"
              value="org/soas/solr/update/processor/CrfppTaggerUpdateProcessor.java"/>
+    </antcall>
+    <antcall target="our-internal-javac-task">
+      <param name="mybin" value="${uimabin}"/>
+      <param name="my.included.source.file"
+             value="org/soas/solr/update/processor/Tt4jTaggerUPF.java"/>
+    </antcall>
+    <antcall target="our-internal-javac-task">
+      <param name="mybin" value="${uimabin}"/>
+      <param name="my.included.source.file"
+             value="org/soas/solr/update/processor/Tt4jTaggerUpdateProcessor.java"/>
     </antcall>
     <antcall target="our-internal-javac-task">
       <param name="mybin" value="${uimabin}"/>

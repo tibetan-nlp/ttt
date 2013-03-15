@@ -8,7 +8,7 @@ import org.apache.solr.common.util.NamedList;
 import org.apache.solr.request.SolrQueryRequest;
 import org.apache.solr.response.SolrQueryResponse;
 
-public class CrfppTaggerUPF extends UpdateRequestProcessorFactory {
+public class Tt4jTaggerUPF extends UpdateRequestProcessorFactory {
     
 	protected SolrParams defaults;
 	protected SolrParams appends;
@@ -44,27 +44,11 @@ public class CrfppTaggerUPF extends UpdateRequestProcessorFactory {
 
     @Override
     public UpdateRequestProcessor getInstance(SolrQueryRequest req, SolrQueryResponse rsp, UpdateRequestProcessor next) {
-        // Process defaults, appends and invariants if we got a request
-        //if(req != null) {
-           // SolrPluginUtils.setDefaults(req, defaults, appends, invariants);
-        //}
         SolrParams p = req.getParams();
         p = SolrParams.wrapDefaults(p, defaults);
         p = SolrParams.wrapAppended(p, appends);
         p = SolrParams.wrapDefaults(invariants, p);
         
-        return new CrfppTaggerUpdateProcessor(p, next);
+        return new Tt4jTaggerUpdateProcessor(p, next);
     }
-  
-    static {
-        try {
-            System.loadLibrary("CRFPP");
-        } catch (UnsatisfiedLinkError e) {
-            System.err.println("Cannot load the example native code.\nMake sure your LD_LIBRARY_PATH contains \'.\'\n" + e);
-          
-            //probably shouldn't do this, as for example it won't load tomcat, then
-            System.exit(1);
-        }
-    }
-    
 }

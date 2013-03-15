@@ -2,6 +2,12 @@ package org.soas.solr.update.processor;
 
 import java.util.List;
 import java.util.LinkedList;
+import java.util.HashMap;
+
+import java.io.InputStreamReader;
+import java.io.FileInputStream;
+import java.io.DataInputStream;
+import java.io.BufferedReader;
 
 import org.apache.commons.lang3.StringUtils;
 
@@ -15,13 +21,22 @@ import org.apache.solr.core.SolrCore;
 import org.apache.solr.request.SolrQueryRequest;
 import org.apache.solr.response.SolrQueryResponse;
 
-public class DropTagsUPF extends FieldMutatingUpdateProcessorFactory {
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class LexiconTaggerUPF extends FieldMutatingUpdateProcessorFactory {
+    private final static Logger log = LoggerFactory.getLogger(Tt4jTaggerUpdateProcessor.class);
+    
+    private static final String LEXICON_PARAM = "lexicon";
+    
 	private static final String TAG_DELIMITER_PARAM = "tagDelimiter";
     private static final String TAG_DELIMITER_DEFAULT = "|";
 	private static final String DELIMIT_OUTPUT_PARAM = "delimitOutput";
 	private static final String DELIMIT_OUTPUT_DEFAULT = " ";
     private String tagDelimiter, delimitOutput;
-
+    private HashMap<String,String> lexicon = new HashMap();
+    
+    
 	@SuppressWarnings("unchecked")
 	@Override
 	public void init(NamedList args) {
@@ -40,6 +55,34 @@ public class DropTagsUPF extends FieldMutatingUpdateProcessorFactory {
 	    else {
 	        delimitOutput = (String)delimitOutputParam;
 	    }
+	
+	    Object lexiconParam = args.remove(LEXICON_PARAM);
+	    if (null == lexiconParam || !(lexiconParam instanceof String)) {
+	        //error
+	    }
+	    else {
+	        String lexiconFile = (String)lexiconParam;
+	        
+	        try {
+	            FileInputStream fstream = new FileInputStream(lexiconFile);
+	            DataInputStream in = new DataInputStream(fstream);
+                BufferedReader br = new BufferedReader(new InputStreamReader(in));
+                String strLine;
+                while ((strLine = br.readLine()) != null)   {
+                    String[] tags = strLine.substring(strLine.indexOf('\t')+1).split("\\s+");
+                    if (tags.length > 1) {
+                        StringBuilder sb = new StringBuilder();
+                        for (int i=0; i<tags.length-1; i+=2) {
+                            sb.append("[" + tags[i] + "]");
+                        }
+                        lexicon.put(strLine.substring(0, strLine.indexOf('\t')), sb.toString());
+                    }
+                }
+                in.close();
+            } catch (Exception e){
+                log.error("error", e);
+            }
+        }
 	    
         super.init(args);
     }
@@ -55,13 +98,18 @@ public class DropTagsUPF extends FieldMutatingUpdateProcessorFactory {
             protected Object mutateValue(final Object src) {
                 if (src instanceof CharSequence) {
                     CharSequence s = (CharSequence)src;
-                    String[] tokens = s.toString().split("\\s+");
-                    List<String> syllables = new LinkedList<String>();
-                    
-                    for (int j=0; j<tokens.length; j++) {
-                        syllables.add(tokens[j].substring(0, tokens[j].indexOf(tagDelimiter)));
+                    String[] in = s.toString().split("\\s+");
+                    List<String> out = new LinkedList<String>();
+                    for (int j=0; j<in.length; j++) {
+                        if (lexicon.containsKey(in[j])) {
+                            out.add(in[j] + tagDelimiter + lexicon.get(in[j]));
+                        }
+                        else {
+                            out.add(in[j]);
+                        }
                     }
-                    return StringUtils.join(syllables.iterator(), delimitOutput);
+                    
+                    return StringUtils.join(out.iterator(), delimitOutput);
                 }
                 else 
                 {

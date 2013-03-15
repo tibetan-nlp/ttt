@@ -1,11 +1,17 @@
 package org.soas.solr.update.processor;
 
-import org.chasen.crfpp.Tagger;
+import org.annolab.tt4j.TreeTaggerWrapper;
+import org.annolab.tt4j.TreeTaggerException;
+import org.annolab.tt4j.TokenHandler;
 
+import static java.util.Arrays.asList;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 import java.util.LinkedList;
+
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;
 
 import org.apache.commons.lang3.StringUtils;
 
@@ -24,8 +30,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 
-public class CrfppTaggerUpdateProcessor extends UpdateRequestProcessor {
-    private final static Logger log = LoggerFactory.getLogger(CrfppTaggerUpdateProcessor.class);
+public class Tt4jTaggerUpdateProcessor extends UpdateRequestProcessor {
+    private final static Logger log = LoggerFactory.getLogger(Tt4jTaggerUpdateProcessor.class);
   
     private static final String TAG_PARAM = "datatags";
     private String tagFieldName;
@@ -35,15 +41,13 @@ public class CrfppTaggerUpdateProcessor extends UpdateRequestProcessor {
     
     private static final String MODEL_PARAM = "model";
     
-    private static final String SPLIT_INPUT_PARAM = "splitInput";
 	private static final String TAG_DELIMITER_PARAM = "tagDelimiter";
 	private static final String DELIMIT_OUTPUT_PARAM = "delimitOutput";
     
-    private static final String SPLIT_INPUT_DEFAULT = "\\s+";
     private static final String TAG_DELIMITER_DEFAULT = "|";
 	private static final String DELIMIT_OUTPUT_DEFAULT = " ";
 	
-    private String model, splitInput, tagDelimiter, delimitOutput;
+    private String model, tagDelimiter, delimitOutput;
     
 	private static final String UUID_PARAM = "uuidField";
     private String uuidFieldName;
@@ -59,7 +63,7 @@ public class CrfppTaggerUpdateProcessor extends UpdateRequestProcessor {
 	protected SolrParams appends;
 	protected SolrParams invariants;
 	
-	public CrfppTaggerUpdateProcessor(SolrParams params, UpdateRequestProcessor next) {
+	public Tt4jTaggerUpdateProcessor(SolrParams params, UpdateRequestProcessor next) {
 	    super(next);
 	    initParams(params);
 	}
@@ -86,7 +90,6 @@ public class CrfppTaggerUpdateProcessor extends UpdateRequestProcessor {
                 }
 	        }
 	        
-	        splitInput = params.get(SPLIT_INPUT_PARAM, SPLIT_INPUT_DEFAULT);
 	        tagDelimiter = params.get(TAG_DELIMITER_PARAM, TAG_DELIMITER_DEFAULT);
 	        delimitOutput = params.get(DELIMIT_OUTPUT_PARAM, DELIMIT_OUTPUT_DEFAULT);
         }
@@ -109,11 +112,10 @@ public class CrfppTaggerUpdateProcessor extends UpdateRequestProcessor {
                 
                 if (doc.containsKey(field)) {
                     SolrInputField guessField = doc.getField(field);
+
                     String val = (String)guessField.getValue();
                     
                     if (!val.equals("")) {
-                        String[] syllables = val.split(splitInput);
-                                
                         String suffix = "";
                         if (!uuidFieldName.equals("") && folds != null) {
                             SolrInputField uuidField = doc.getField(uuidFieldName);
@@ -127,31 +129,44 @@ public class CrfppTaggerUpdateProcessor extends UpdateRequestProcessor {
                         
                         log.info("Model = " + modelFile);
                         
-                        //use lm extension for language model
-                        Tagger tagger = new Tagger("-m " + modelFile + " -v 3 -n2");
-                        tagger.clear();
-
-                        for (int i=0; i<syllables.length; i++) {
-                            tagger.add(syllables[i]);
-                            //tagger.add(syllables[i].replace('|','\t'));
-                        }
+                        final List<String> tags = new LinkedList<String>();
                         
-                        if (tagger.parse()) {
-                            List<String> tags = new LinkedList<String>();
-                              
-                            for (int i = 0; i < tagger.size(); ++i) {
-                                String tag = "";
-                                for (int j = 0; j < tagger.xsize(); ++j) {
-                                    tag = tag + tagger.x(i, j) + tagDelimiter;
-                                }
-                                tag = tag + tagger.y2(i);
-                                tags.add(tag);
+                        // Point TT4J to the TreeTagger installation directory. The executable is expected
+                        // in the "bin" subdirectory - in this example at "/opt/treetagger/bin/tree-tagger"
+                        System.setProperty("treetagger.home", "/opt/treetagger");
+                        TreeTaggerWrapper tt = new TreeTaggerWrapper<String>();
+                        //tt.setPerformanceMode(true);
+                        //tt.setStrictMode(true);
+                        try {
+                            tt.setModel(modelFile); //move to initParams
+                            tt.setHandler(new TokenHandler<String>() {
+                                    public void token(String token, String pos, String lemma) {
+                                        tags.add(token + tagDelimiter + pos);
+                                    }
+                            });
+                            Pattern pattern = Pattern.compile("\\S+");
+                            Matcher matcher = pattern.matcher(val);
+                            List<String> tokens = new LinkedList(); 
+                            while (matcher.find()) {
+                                String s = matcher.group().replace('|', '\t').replace('/', '\t');
+                                //log.info("Token = " + s);
+                                tokens.add(s);
                             }
-                              
-                            String result = StringUtils.join(tags.iterator(), delimitOutput);
-                            guessField.setValue(result, 1.0f);
-                            doc.put(field, guessField);
+                            tt.process(tokens);
                         }
+                        catch (IOException ioe) {
+                            log.error("Failed", ioe);
+                        }
+                        catch (TreeTaggerException tte) {
+                            log.error("Failed", tte);
+                        }
+                        finally {
+                            tt.destroy();
+                        }
+                              
+                        String result = StringUtils.join(tags.iterator(), delimitOutput);
+                        guessField.setValue(result, 1.0f);
+                        doc.put(field, guessField);
                     }
                 }
             }
