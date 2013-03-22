@@ -27,7 +27,7 @@ public class TshegBarUtils {
    	   return Character.isLetterOrDigit(c) || Character.getType(c) == Character.NON_SPACING_MARK;
    }
    
-   public static boolean isTshegBarEdge(int c) {
+   public static boolean isPunctuation(int c) {
    	   return Character.getType(c) == Character.OTHER_PUNCTUATION; //includes tsheg and shad
    }
    

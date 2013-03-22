@@ -52,7 +52,18 @@ public class TshegBarSplitterUPF extends FieldMutatingUpdateProcessorFactory {
                     for (int j=0; j<tokens.length; j++) {
                         int start = 0;
                         for (int i=0; i<tokens[j].length(); i++) {
-                            if (TshegBarUtils.isTshegBarEdge(tokens[j].charAt(i)) || i == tokens[j].length()-1) {
+                            if (TshegBarUtils.isTshegBar(tokens[j].charAt(i))) { //first tsheg bar part of previous syllable
+                                syllables.add(tokens[j].subSequence(start, i+1).toString());
+                                start = i+1;
+                            }
+                            else if (TshegBarUtils.isPunctuation(tokens[j].charAt(i)) || i == tokens[j].length()-1) { //all other punctuation gets own syllable
+                                if (start != i) {
+                                    syllables.add(tokens[j].subSequence(start, i).toString());
+                                }
+                                syllables.add(tokens[j].substring(i, i+1));
+                                start = i+1;
+                            }
+                            else if (i == tokens[j].length()-1) {
                                 syllables.add(tokens[j].subSequence(start, i+1).toString());
                                 start = i+1;
                             }
