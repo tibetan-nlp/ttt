@@ -3,6 +3,7 @@ package org.soas.solr.update.processor;
 import java.util.List;
 import java.util.LinkedList;
 import java.util.HashMap;
+//import java.util.Arrays;
 
 import java.io.InputStreamReader;
 import java.io.FileInputStream;
@@ -71,6 +72,7 @@ public class LexiconTaggerUPF extends FieldMutatingUpdateProcessorFactory {
                 while ((strLine = br.readLine()) != null)   {
                     String[] tags = strLine.substring(strLine.indexOf('\t')+1).split("\\s+");
                     if (tags.length > 1) {
+                        //should perhaps sort tags but they are already sorted by faceting
                         StringBuilder sb = new StringBuilder();
                         for (int i=0; i<tags.length-1; i+=2) {
                             sb.append("[" + tags[i] + "]");
@@ -101,11 +103,24 @@ public class LexiconTaggerUPF extends FieldMutatingUpdateProcessorFactory {
                     String[] in = s.toString().split("\\s+");
                     List<String> out = new LinkedList<String>();
                     for (int j=0; j<in.length; j++) {
-                        if (lexicon.containsKey(in[j])) {
-                            out.add(in[j] + tagDelimiter + lexicon.get(in[j]));
+                        int k = in[j].indexOf('|');
+                        if (k == -1) {
+                            if (lexicon.containsKey(in[j])) {
+                                out.add(in[j] + tagDelimiter + lexicon.get(in[j]));
+                            }
+                            else {
+                                out.add(in[j]);
+                            }
                         }
                         else {
-                            out.add(in[j]);
+                            String word = in[j].substring(0,k);
+                            String pos =  in[j].substring(k+1);
+                            if (lexicon.containsKey(word)) {
+                                out.add(word + tagDelimiter + lexicon.get(word) + tagDelimiter + pos);
+                            }
+                            else {
+                                out.add(word + tagDelimiter + pos);
+                            }
                         }
                     }
                     
