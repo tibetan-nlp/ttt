@@ -186,11 +186,10 @@ the jvm starting tomcat:
     
     <!-- jars needed for uima and solr -->
     <pathelement location="${ext}/uima/uimaj-core-2.3.1.jar"/>
-    <pathelement location="${ext}/uima/uimaj-core-2.3.1.jar"/>
-    <pathelement location="${ext}/solr/apache-solr-core-4.0.0.jar"/>
-    <pathelement location="${ext}/solr/apache-solr-solrj-4.0.0.jar"/>
-    <pathelement location="${ext}/solr/lucene-core-4.0.0.jar"/>
-    <pathelement location="${ext}/solr/lucene-analyzers-common-4.0.0.jar"/>
+    <pathelement location="${ext}/solr/solr-core-4.2.0.jar"/>
+    <pathelement location="${ext}/solr/solr-solrj-4.2.0.jar"/>
+    <pathelement location="${ext}/solr/lucene-core-4.2.0.jar"/>
+    <pathelement location="${ext}/solr/lucene-analyzers-common-4.2.0.jar"/>
     <pathelement location="${ext}/crf/CRFPP.jar"/>
     <pathelement location="${ext}/tt4j/org.annolab.tt4j-1.1.2-SNAPSHOT.jar"/>
 

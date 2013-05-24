@@ -113,7 +113,7 @@ public class TshegBarTaggerUPF extends FieldMutatingUpdateProcessorFactory {
                         int start = 0;
                         List<String> wordSyl = new LinkedList<String>();
                         for (int i=0; i<tokens[j].length(); i++) {
-                            if (TshegBarUtils.isTshegBarEdge(tokens[j].charAt(i)) || i == tokens[j].length()-1) {
+                            if (TshegBarUtils.isPunctuation(tokens[j].charAt(i)) || i == tokens[j].length()-1) {
                                 wordSyl.add(tokens[j].subSequence(start, i+1).toString());
                                 start = i+1;
                             }

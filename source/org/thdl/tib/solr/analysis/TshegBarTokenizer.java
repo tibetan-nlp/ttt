@@ -83,11 +83,11 @@ public class TshegBarTokenizer extends Tokenizer {
   private final CharacterBuffer ioBuffer = CharacterUtils.newCharacterBuffer(IO_BUFFER_SIZE);
   
    public boolean isTokenChar(int c) {
-   	   return TshegBarUtils.isTshegBarInternal(c) || TshegBarUtils.isTshegBarEdge(c);
+   	   return TshegBarUtils.isTshegBarInternal(c) || TshegBarUtils.isPunctuation(c);
    }
    
    public boolean isTokenEdge(int c) {
-   	   return TshegBarUtils.isTshegBarEdge(c);
+   	   return TshegBarUtils.isPunctuation(c);
    }
 
   /**

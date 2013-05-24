@@ -67,7 +67,7 @@ public class LexiconTaggerUPF extends FieldMutatingUpdateProcessorFactory {
 	        try {
 	            FileInputStream fstream = new FileInputStream(lexiconFile);
 	            DataInputStream in = new DataInputStream(fstream);
-                BufferedReader br = new BufferedReader(new InputStreamReader(in));
+                BufferedReader br = new BufferedReader(new InputStreamReader(in, "UTF-8"));
                 String strLine;
                 while ((strLine = br.readLine()) != null)   {
                     String[] tags = strLine.substring(strLine.indexOf('\t')+1).split("\\s+");
