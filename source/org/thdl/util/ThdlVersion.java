@@ -12,6 +12,6 @@ public class ThdlVersion {
 
     /** Returns a string indicating the time this program was compiled. */
     public static String getTimeOfCompilation() {
-        return "16-marzo-2013 02:09 PM";
+        return "4-June-2013 03:02 PM";
     }
 }

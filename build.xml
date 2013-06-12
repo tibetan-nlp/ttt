@@ -845,6 +845,11 @@ the jvm starting tomcat:
       <param name="my.included.source.file"
              value="org/thdl/tib/solr/DictionaryBreakerUPF.java"/>
     </antcall>
+    <antcall target="our-internal-javac-task">
+      <param name="mybin" value="${uimabin}"/>
+      <param name="my.included.source.file"
+             value="org/thdl/tib/crf/SyllableFinalUPF.java"/>
+    </antcall>
     <!-- solr analysis -->
     <!--
     <antcall target="our-internal-javac-task">
