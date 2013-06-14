@@ -128,12 +128,13 @@ public class CrfppTaggerUpdateProcessor extends UpdateRequestProcessor {
                         log.info("Model = " + modelFile);
                         
                         //use lm extension for language model
-                        Tagger tagger = new Tagger("-m " + modelFile + " -v 3 -n2");
+                        //Tagger tagger = new Tagger("-m " + modelFile + " -v 3 -n2");
+                        Tagger tagger = new Tagger("-v1 -m " + modelFile);
                         tagger.clear();
 
                         for (int i=0; i<syllables.length; i++) {
-                            tagger.add(syllables[i]);
-                            //tagger.add(syllables[i].replace('|','\t'));
+                            //tagger.add(syllables[i]);
+                            tagger.add(syllables[i].replace('|','\t'));
                         }
                         
                         if (tagger.parse()) {
