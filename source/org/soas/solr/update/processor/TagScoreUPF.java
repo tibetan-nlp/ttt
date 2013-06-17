@@ -217,7 +217,13 @@ public class TagScoreUPF extends UpdateRequestProcessorFactory {
                                         
                                         if (g_start == w_start && g_end == w_end && w_tag.equals(g_tag)) {
                                             if (null != errorField) {
-                                                errorOut.add(guess.substring(guessMatcher.start(), guessMatcher.end()));
+                                                String wordtag = guess.substring(guessMatcher.start(), guessMatcher.end());
+                                                StringBuilder sb = new StringBuilder("<tr>");
+                                                sb.append("<td>" + wordtag.substring(0, wordtag.indexOf('|')) + "</td>");
+                                                sb.append("<td>" + wordtag.substring(wordtag.indexOf('|')+1) + "</td>");
+                                                sb.append("</tr>");
+                                                errorOut.add(sb.toString());
+                                                //errorOut.add("<li>" + guess.substring(guessMatcher.start(), guessMatcher.end()) + "</li>");
                                                 
                                             }
                                             if (null != errorEField) {
@@ -228,7 +234,13 @@ public class TagScoreUPF extends UpdateRequestProcessorFactory {
                                         else {
                                             prefix = "<" + errorTag + " data-correct='" + words.substring(wordsMatcher.start(), wordsMatcher.end()) + "'>";
                                             if (null != errorField) {
-                                                errorOut.add(prefix + guess.substring(guessMatcher.start(), guessMatcher.end()) + suffix);
+                                                String wordtag = guess.substring(guessMatcher.start(), guessMatcher.end());
+                                                StringBuilder sb = new StringBuilder("<tr>");
+                                                sb.append("<td>" + wordtag.substring(0, wordtag.indexOf('|')) + "</td>");
+                                                sb.append("<td>" + prefix + wordtag.substring(wordtag.indexOf('|')+1) + suffix + "</td>");
+                                                sb.append("</tr>");
+                                                errorOut.add(sb.toString());
+                                                //errorOut.add("<li>" + prefix + guess.substring(guessMatcher.start(), guessMatcher.end()) + suffix + "</li>");
                                             }
                                             if (null != errorEField) {
                                                 errorEOut.add(prefix + "E|" + guess.substring(guessMatcher.start(), guessMatcher.end()) + suffix);
@@ -250,7 +262,7 @@ public class TagScoreUPF extends UpdateRequestProcessorFactory {
                                 doc.put(correctCountFieldName + "_" + next, correctCountField);
                                 
                                 if (null != errorField) {
-                                    errorField.addValue(StringUtils.join(errorOut.iterator(), DELIMITER), 1.0f);
+                                    errorField.addValue("<div class='pretagging'><table>" + StringUtils.join(errorOut.iterator(), DELIMITER) + "</table></div>", 1.0f);
                                     doc.put(errorFieldName + "_" + next, errorField);
                                 }
                                 if (null != errorEField) {
