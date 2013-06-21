@@ -63,7 +63,9 @@ public class DropFeaturesUPF extends FieldMutatingUpdateProcessorFactory {
                         if (bits.length > 2) {
                             syllables.add(bits[0] + tagDelimiter + bits[bits.length-1]);
                         }
-                        else {
+                        else if (bits.length == 2) {
+                            syllables.add(bits[0] + tagDelimiter + bits[1]);
+                        } else {
                             syllables.add("ERROR"); //FIXME
                         }
                     }
