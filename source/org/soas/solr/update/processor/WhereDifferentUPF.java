@@ -121,13 +121,14 @@ public class WhereDifferentUPF extends UpdateRequestProcessorFactory {
 				            String[] compare = compareFieldValue.split("\\s+");
 
 				            if (compare.length == pos.length && compare.length > 0) {
-				                Pattern oneTag = Pattern.compile("\\[[^\\]]+\\]");
+				                Pattern oneTag = Pattern.compile("\\[?([^\\]]+)\\]?");
                                 StringBuffer sb = new StringBuffer();
                                 for (int i=0; i<compare.length; i++) {
                                     sb.append(pos[i]);
                                     String tags = compare[i].substring(compare[i].indexOf('|')+1);
-                                    if (oneTag.matcher(tags).matches()) {
-                                        String tag = tags.substring(1, tags.length()-1);
+                                    Matcher m = oneTag.matcher(tags);
+                                    if (m.matches()) {
+                                        String tag = m.group(1); //tags.substring(1, tags.length()-1);
                                         if (!tag.equals(pos[i].substring(pos[i].indexOf('|')+1))) {
                                             sb.append(diffDelim);
                                             sb.append(tag);
