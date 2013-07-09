@@ -24,10 +24,6 @@ import java.io.IOException;
 
 import java.util.Collection;
 import java.util.Iterator;
-import java.util.List;
-import java.util.LinkedList;
-
-import org.apache.commons.lang3.StringUtils;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -46,12 +42,14 @@ public class WhereDifferentUPF extends UpdateRequestProcessorFactory {
 	public static final String DELIMITER = " ";
 	public static final String POS_PARAM = "pos";
 	public static final String COMPARE_PARAM = "compare";
-	public static final String RESULT_PARAM = "result";
+	public static final String DIFFERENT_PARAM = "different";
+	public static final String CHANGE_PARAM = "change";
 	public static final String DIFF_DELIM_PARAM = "diffDelim";
   
 	private String posFieldName = null;
 	private String compareFieldName = null;
-	private String resultFieldName = null;
+	private String differentFieldName = null;
+	private String changeFieldName = null;
 	private String diffDelim = null;
   
 	public void init(NamedList args) {
@@ -71,12 +69,20 @@ public class WhereDifferentUPF extends UpdateRequestProcessorFactory {
 		    compareFieldName = o.toString();
 		}
 		
-		o = args.remove(RESULT_PARAM);
+		o = args.remove(DIFFERENT_PARAM);
 		if (null == o || !(o instanceof String)) {
 		    //error
 		}
 		else {
-		    resultFieldName = o.toString();
+		    differentFieldName = o.toString();
+		}
+		
+		o = args.remove(CHANGE_PARAM);
+		if (null == o || !(o instanceof String)) {
+		    //error
+		}
+		else {
+		    changeFieldName = o.toString();
 		}
 		
 		o = args.remove(TAG_PARAM);
@@ -107,40 +113,59 @@ public class WhereDifferentUPF extends UpdateRequestProcessorFactory {
 
 				Collection c = doc.getFieldValues(tagFieldName);
 	    
-				if (c != null && doc.containsKey(posFieldName)) {
-				    String posFieldValue = (String)doc.getFieldValue(posFieldName);
-				    String[] pos = posFieldValue.split("\\s+");
-				    
+				if (c != null) {
 				    Iterator it = c.iterator();
 	        
 				    while (it.hasNext()) {
 				        String next = (String)it.next();
                         
-				        if (doc.containsKey(compareFieldName + "_" + next)) {
+				        if (doc.containsKey(posFieldName + "_" + next) && doc.containsKey(compareFieldName + "_" + next)) {
+                            String posFieldValue = (String)doc.getFieldValue(posFieldName + "_" + next);
+                            String[] pos = posFieldValue.split("\\s+");
 				            String compareFieldValue = (String)doc.getFieldValue(compareFieldName + "_" + next);
 				            String[] compare = compareFieldValue.split("\\s+");
 
 				            if (compare.length == pos.length && compare.length > 0) {
 				                Pattern oneTag = Pattern.compile("\\[?([^\\]]+)\\]?");
-                                StringBuffer sb = new StringBuffer();
+                                StringBuffer sbDiff = new StringBuffer();
+                                StringBuffer sbChange = new StringBuffer();
                                 for (int i=0; i<compare.length; i++) {
-                                    sb.append(pos[i]);
+                                    sbDiff.append(pos[i]);
                                     String tags = compare[i].substring(compare[i].indexOf('|')+1);
                                     Matcher m = oneTag.matcher(tags);
                                     if (m.matches()) {
                                         String tag = m.group(1); //tags.substring(1, tags.length()-1);
                                         if (!tag.equals(pos[i].substring(pos[i].indexOf('|')+1))) {
-                                            sb.append(diffDelim);
-                                            sb.append(tag);
+                                            sbDiff.append(diffDelim);
+                                            sbDiff.append(tag);
+                                            sbChange.append(pos[i].substring(0, pos[i].indexOf('|')));
+                                            sbChange.append(diffDelim);
+                                            sbChange.append(tag);
+                                        }
+                                        else {
+                                            sbChange.append(pos[i]);
                                         }
                                     }
-                                    sb.append(' ');
+                                    else {
+                                        sbChange.append(pos[i]);
+                                    }
+                                    sbDiff.append(' ');
+                                    sbChange.append(' ');
                                 }
-                                sb.deleteCharAt(sb.length()-1); //remove final space                                
+                                sbDiff.deleteCharAt(sbDiff.length()-1); //remove final space  
+                                sbChange.deleteCharAt(sbChange.length()-1); //remove final space
                                 
-                                SolrInputField resultField = new SolrInputField(resultFieldName + "_" + next);
-                                resultField.setValue(sb.toString(), 1.0f);
-                                doc.put(resultFieldName + "_" + next, resultField);
+                                if (differentFieldName != null) {
+                                    SolrInputField differentField = new SolrInputField(differentFieldName + "_" + next);
+                                    differentField.setValue(sbDiff.toString(), 1.0f);
+                                    doc.put(differentFieldName + "_" + next, differentField);
+                                }
+                                
+                                if (changeFieldName != null) {
+                                    SolrInputField changeField = new SolrInputField(changeFieldName + "_" + next);
+                                    changeField.setValue(sbChange.toString(), 1.0f);
+                                    doc.put(changeFieldName + "_" + next, changeField);
+                                }
 				            }
 				        }
                     }

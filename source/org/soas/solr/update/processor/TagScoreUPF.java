@@ -49,19 +49,14 @@ public class TagScoreUPF extends UpdateRequestProcessorFactory {
 	public static final String TOKEN_COUNT_PARAM = "tokenCount";
 	public static final String GUESS_COUNT_PARAM = "guessCount";
 	public static final String CORRECT_COUNT_PARAM = "correctCount";
-	public static final String DEFAULT_ERROR_TAG = "em";
-	public static final String ERROR_FIELD_PARAM = "errorField";
 	public static final String ERROR_E_FIELD_PARAM = "errorE";
-	public static final String ERROR_TAG_PARAM = "errorTag";
   
 	private String wordsFieldName = null;
 	private String guessFieldName = null;
 	private String tokenCountFieldName = null;
 	private String guessCountFieldName = null;
 	private String correctCountFieldName = null;
-	private String errorFieldName = null;
 	private String errorEFieldName = null;
-	private String errorTag = null;
   
 	public void init(NamedList args) {
 		Object o = args.remove(WORDS_PARAM);
@@ -112,28 +107,12 @@ public class TagScoreUPF extends UpdateRequestProcessorFactory {
 		    errorEFieldName = o.toString();
 		}
 		
-		o = args.remove(ERROR_TAG_PARAM);
-		if (null == o || !(o instanceof String)) {
-		    errorTag = null;
-		}
-		else {
-		    errorTag = o.toString();
-		}
-		
 		o = args.remove(TAG_PARAM);
 		if (null == o || !(o instanceof String)) {
 		    //error
 		}
 		else {
 		    tagFieldName = o.toString();
-		}
-		
-		o = args.remove(ERROR_FIELD_PARAM);
-		if (null == o || !(o instanceof String)) {
-		    //ok
-		}
-		else {
-		    errorFieldName = o.toString();
 		}
 	}
 	    
@@ -153,16 +132,6 @@ public class TagScoreUPF extends UpdateRequestProcessorFactory {
 	        
 				    while (it.hasNext()) {
 				        String next = (String)it.next();
-				        
-                        // preserve initial values and boost (if any)
-                        String prefix = null;
-                        if (errorTag == null) errorTag = DEFAULT_ERROR_TAG;
-                        String suffix = "</" + errorTag + ">";
-                        
-                        SolrInputField errorField = null;
-                        if (errorFieldName != null) {
-                            errorField = new SolrInputField(errorFieldName + "_" + next);
-                        }
                         
                         SolrInputField errorEField = null;
                         if (errorEFieldName != null) {
@@ -193,8 +162,7 @@ public class TagScoreUPF extends UpdateRequestProcessorFactory {
                         
                                 String w_tag = new String("");
                                 String g_tag = new String("");
-                        
-                                List<String> errorOut = new LinkedList<String>();
+                                
                                 List<String> errorEOut = new LinkedList<String>();
          
                                 while (wordsMatcher.find()) {
@@ -216,34 +184,15 @@ public class TagScoreUPF extends UpdateRequestProcessorFactory {
                                         g_count += 1;
                                         
                                         if (g_start == w_start && g_end == w_end && w_tag.equals(g_tag)) {
-                                            if (null != errorField) {
-                                                String wordtag = guess.substring(guessMatcher.start(), guessMatcher.end());
-                                                StringBuilder sb = new StringBuilder("<tr>");
-                                                sb.append("<td>" + wordtag.substring(0, wordtag.indexOf('|')) + "</td>");
-                                                sb.append("<td>" + wordtag.substring(wordtag.indexOf('|')+1) + "</td>");
-                                                sb.append("</tr>");
-                                                errorOut.add(sb.toString());
-                                                //errorOut.add("<li>" + guess.substring(guessMatcher.start(), guessMatcher.end()) + "</li>");
-                                                
-                                            }
                                             if (null != errorEField) {
                                                 errorEOut.add("A|" + guess.substring(guessMatcher.start(), guessMatcher.end()));
                                             }
                                             correct += 1;
                                         }
                                         else {
-                                            prefix = "<" + errorTag + " data-correct='" + words.substring(wordsMatcher.start(), wordsMatcher.end()) + "'>";
-                                            if (null != errorField) {
-                                                String wordtag = guess.substring(guessMatcher.start(), guessMatcher.end());
-                                                StringBuilder sb = new StringBuilder("<tr>");
-                                                sb.append("<td>" + wordtag.substring(0, wordtag.indexOf('|')) + "</td>");
-                                                sb.append("<td>" + prefix + wordtag.substring(wordtag.indexOf('|')+1) + suffix + "</td>");
-                                                sb.append("</tr>");
-                                                errorOut.add(sb.toString());
-                                                //errorOut.add("<li>" + prefix + guess.substring(guessMatcher.start(), guessMatcher.end()) + suffix + "</li>");
-                                            }
+                                            //prefix = "<" + errorTag + " data-correct='" + words.substring(wordsMatcher.start(), wordsMatcher.end()) + "'>";
                                             if (null != errorEField) {
-                                                errorEOut.add(prefix + "E|" + guess.substring(guessMatcher.start(), guessMatcher.end()) + suffix);
+                                                errorEOut.add("E|" + guess.substring(guessMatcher.start(), guessMatcher.end()));
                                             }
                                         }
                                     }
@@ -261,10 +210,6 @@ public class TagScoreUPF extends UpdateRequestProcessorFactory {
                                 correctCountField.addValue(new Integer(correct), 1.0f);
                                 doc.put(correctCountFieldName + "_" + next, correctCountField);
                                 
-                                if (null != errorField) {
-                                    errorField.addValue("<div class='pretagging'><table>" + StringUtils.join(errorOut.iterator(), DELIMITER) + "</table></div>", 1.0f);
-                                    doc.put(errorFieldName + "_" + next, errorField);
-                                }
                                 if (null != errorEField) {
                                     errorEField.addValue(StringUtils.join(errorEOut.iterator(), DELIMITER), 1.0f);
                                     doc.put(errorEFieldName + "_" + next, errorEField);
