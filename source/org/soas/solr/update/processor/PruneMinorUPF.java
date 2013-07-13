@@ -20,7 +20,12 @@ import org.apache.solr.core.SolrCore;
 import org.apache.solr.request.SolrQueryRequest;
 import org.apache.solr.response.SolrQueryResponse;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class PruneMinorUPF extends FieldMutatingUpdateProcessorFactory {
+    private final static Logger log = LoggerFactory.getLogger(PruneMinorUPF.class);
+    
 	private static final String TAG_DELIMITER_PARAM = "tagDelimiter";
     private static final String TAG_DELIMITER_DEFAULT = "|";
 	private static final String DELIMIT_OUTPUT_PARAM = "delimitOutput";
@@ -156,6 +161,7 @@ public class PruneMinorUPF extends FieldMutatingUpdateProcessorFactory {
                     
                     for (int j=0; j<tokens.length; j++) {
                         int n = tokens[j].indexOf(tagDelimiter);
+                        
                         String tagString = tokens[j].substring(n+1);
                         if (tagString.charAt(0) != '[') {
                             String mappedTag = remap.containsKey(tagString) ? remap.get(tagString) : tagString;
