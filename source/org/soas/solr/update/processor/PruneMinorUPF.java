@@ -8,6 +8,11 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.regex.Pattern;
 
+import java.io.InputStreamReader;
+import java.io.FileInputStream;
+import java.io.DataInputStream;
+import java.io.BufferedReader;
+
 import org.apache.commons.lang3.StringUtils;
 
 import org.apache.solr.update.processor.FieldMutatingUpdateProcessor;
@@ -30,125 +35,10 @@ public class PruneMinorUPF extends FieldMutatingUpdateProcessorFactory {
     private static final String TAG_DELIMITER_DEFAULT = "|";
 	private static final String DELIMIT_OUTPUT_PARAM = "delimitOutput";
 	private static final String DELIMIT_OUTPUT_DEFAULT = " ";
+	private static final String TAG_MAPPING_PARAM = "tagMapping";
     private String tagDelimiter, delimitOutput;
 
-    private static final Map<String,String> remap;
-    
-    static {
-        remap = new HashMap<String,String>();
-        //remap.put("adj","adj");
-        remap.put("adv.dir",            "adv.dir");
-        remap.put("adv.intense",        "adv.intense");
-        remap.put("adv.proclausal",     "adv.proclausal");
-        remap.put("adv.temp",           "adv.temp");
-
-        remap.put("case.abl",           "case");
-        remap.put("case.agn",           "case");
-        remap.put("case.all",           "case");
-        remap.put("case.ass",           "case");
-        remap.put("case.comp",          "case");
-        remap.put("case.ela",           "case");
-        remap.put("case.gen",           "case");
-        remap.put("case.loc",           "case");
-        remap.put("case.term",          "case");
-        
-        /*
-        remap.put("case.abl",           "case.abl");
-        remap.put("case.agn",           "case.agn");
-        remap.put("case.all",           "case.all");
-        remap.put("case.ass",           "case.ass");
-        remap.put("case.comp",          "case.comp");
-        remap.put("case.ela",           "case.ela");
-        remap.put("case.gen",           "case.gen");
-        remap.put("case.loc",           "case.loc");
-        remap.put("case.term",          "case.term");
-        */
-        
-        remap.put("cl.focus",           "cl.focus");
-        remap.put("cl.lta",             "cl.lta");
-        remap.put("cl.quot",            "cl.quot");
-        remap.put("cl.tsam",            "cl.tsam");
-        
-        remap.put("cv.abl",             "cv");
-        remap.put("cv.agn",             "cv");
-        remap.put("cv.all",             "cv");
-        remap.put("cv.are",             "cv");
-        remap.put("cv.ela",             "cv");
-        remap.put("cv.fin",             "cv");
-        remap.put("cv.gen",             "cv");
-        remap.put("cv.imp",             "cv");
-        remap.put("cv.impf",            "cv");
-        remap.put("cv.loc",             "cv");
-        remap.put("cv.ques",            "cv");
-        remap.put("cv.sem",             "cv");
-        remap.put("cv.term",            "cv");
-        
-        /*
-        remap.put("cv.abl",             "cv.abl");
-        remap.put("cv.agn",             "cv.agn");
-        remap.put("cv.all",             "cv.all");
-        remap.put("cv.are",             "cv.are");
-        remap.put("cv.ela",             "cv.ela");
-        remap.put("cv.fin",             "cv.fin");
-        remap.put("cv.gen",             "cv.gen");
-        remap.put("cv.imp",             "cv.imp");
-        remap.put("cv.impf",            "cv.impf");
-        remap.put("cv.loc",             "cv.loc");
-        remap.put("cv.ques",            "cv.ques");
-        remap.put("cv.sem",             "cv.sem");
-        remap.put("cv.term",            "cv.term");
-        */
-        
-        remap.put("d.dem",              "d.dem");
-        remap.put("d.det",              "d.det");
-        remap.put("d.emph",             "d.emph");
-        remap.put("d.indef",            "d.indef");
-        remap.put("d.plural",           "d.plural");
-        
-        //remap.put("dunno","dunno");
-        
-        remap.put("n.count",            "n");
-        remap.put("n.mass",             "n");
-        remap.put("n.prop",             "n");
-        remap.put("n.rel",              "n");
-        
-        remap.put("n.v.aux",            "n.v.aux");
-        remap.put("n.v.cop",            "n.v.cop");
-        remap.put("n.v.fut",            "n.v");
-        remap.put("n.v.fut.n.v.past",   "n.v");
-        remap.put("n.v.fut.n.v.pres",   "n.v");
-        remap.put("n.v.invar",          "n.v");
-        remap.put("n.v.neg",            "n.v.neg");
-        remap.put("n.v.past",           "n.v");
-        remap.put("n.v.past.n.v.pres",  "n.v");
-        remap.put("n.v.pres",           "n.v");
-        remap.put("n.v.redup",          "n.v.redup");
-        
-        remap.put("neg",                "neg");
-        
-        remap.put("num.card",           "num.card");
-        remap.put("num.ord",            "num.ord");
-        
-        remap.put("p.indef",            "p.indef");
-        remap.put("p.interrog",         "p.interrog");
-        remap.put("p.pers",             "p.pers");
-        remap.put("p.refl",             "p.refl");
-        
-        remap.put("punc",               "punc");
-        
-        remap.put("v.aux",              "v.aux");
-        remap.put("v.cop",              "v.cop");
-        remap.put("v.cop.neg",          "v.cop.neg");
-        remap.put("v.fut",              "v");
-        remap.put("v.fut.v.past",       "v");
-        remap.put("v.fut.v.pres",       "v");
-        remap.put("v.imp",              "v");
-        remap.put("v.invar",            "v");
-        remap.put("v.neg",              "v.neg");
-        remap.put("v.past",             "v");
-        remap.put("v.past.v.pres",      "v");
-        remap.put("v.pres",             "v");
-    }
+    private Map<String,String> remap = new HashMap<String,String>();
     
 	@SuppressWarnings("unchecked")
 	@Override
@@ -167,6 +57,30 @@ public class PruneMinorUPF extends FieldMutatingUpdateProcessorFactory {
 	    }
 	    else {
 	        delimitOutput = (String)delimitOutputParam;
+	    }
+	    
+	    Object tagMappingParam = args.remove(TAG_MAPPING_PARAM);
+	    if (null == tagMappingParam || !(tagMappingParam instanceof String)) {
+	        //error
+	    }
+	    else {
+	        String mappingFile = (String)tagMappingParam;
+	        
+	        try {
+	            FileInputStream fstream = new FileInputStream(mappingFile);
+	            DataInputStream in = new DataInputStream(fstream);
+                BufferedReader br = new BufferedReader(new InputStreamReader(in));
+                String strLine;
+                while ((strLine = br.readLine()) != null)   {
+                    int n = strLine.indexOf('>');
+                    if (!(strLine.trim().isEmpty() || n == -1)) {
+                        remap.put(strLine.substring(0, n).trim(), strLine.substring(n+1).trim());
+                    }
+                }
+                in.close();
+	        } catch (Exception e) {
+	            log.error("error", e);
+	        }
 	    }
 	    
         super.init(args);
@@ -194,16 +108,12 @@ public class PruneMinorUPF extends FieldMutatingUpdateProcessorFactory {
                         if (tagString.charAt(0) != '[') {
                             String mappedTag = remap.containsKey(tagString) ? remap.get(tagString) : tagString;
                             words.add(tokens[j].substring(0, n) + tagDelimiter + mappedTag);
-                            //int dot = tagString.indexOf('.');
-                            //words.add(tokens[j].substring(0, n) + tagDelimiter + (dot == -1 ? tagString : tagString.substring(0, dot)));
                         }
                         else {
                             String[] tags = pattern.split(tagString.substring(1));
                             Set<String> major = new TreeSet<String>();
                             for (int k=0; k<tags.length; k++) {
                                 major.add(remap.containsKey(tags[k]) ? remap.get(tags[k]) : tags[k]);
-                                //int dot = tags[k].indexOf('.');
-                                //major.add(dot == -1 ? tags[k] : tags[k].substring(0, dot));
                             }
                             words.add(tokens[j].substring(0, n) + tagDelimiter + "[" + StringUtils.join(major.iterator(), "][") + "]");
                         }
