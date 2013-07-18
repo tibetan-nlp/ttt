@@ -19,7 +19,8 @@ Contributor(s): ______________________________________.
 package org.thdl.tib.solr.util;
 
 public class TshegBarUtils {
-
+   public static final String TSHEG = Character.toString((char)3851);
+    
     /** Do not instantiate this class. */
    private TshegBarUtils() { }
 

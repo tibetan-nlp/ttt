@@ -37,11 +37,11 @@ public class PruneMinorUPF extends FieldMutatingUpdateProcessorFactory {
     static {
         remap = new HashMap<String,String>();
         //remap.put("adj","adj");
-        remap.put("adv.dir",            "adv");
-        remap.put("adv.intense",        "adv");
-        remap.put("adv.proclausal",     "adv");
-        remap.put("adv.temp",           "adv");
-        
+        remap.put("adv.dir",            "adv.dir");
+        remap.put("adv.intense",        "adv.intense");
+        remap.put("adv.proclausal",     "adv.proclausal");
+        remap.put("adv.temp",           "adv.temp");
+
         remap.put("case.abl",           "case");
         remap.put("case.agn",           "case");
         remap.put("case.all",           "case");
@@ -52,10 +52,22 @@ public class PruneMinorUPF extends FieldMutatingUpdateProcessorFactory {
         remap.put("case.loc",           "case");
         remap.put("case.term",          "case");
         
-        remap.put("cl.focus",           "cl");
-        remap.put("cl.lta",             "cl");
-        remap.put("cl.quot",            "cl");
-        remap.put("cl.tsam",            "cl");
+        /*
+        remap.put("case.abl",           "case.abl");
+        remap.put("case.agn",           "case.agn");
+        remap.put("case.all",           "case.all");
+        remap.put("case.ass",           "case.ass");
+        remap.put("case.comp",          "case.comp");
+        remap.put("case.ela",           "case.ela");
+        remap.put("case.gen",           "case.gen");
+        remap.put("case.loc",           "case.loc");
+        remap.put("case.term",          "case.term");
+        */
+        
+        remap.put("cl.focus",           "cl.focus");
+        remap.put("cl.lta",             "cl.lta");
+        remap.put("cl.quot",            "cl.quot");
+        remap.put("cl.tsam",            "cl.tsam");
         
         remap.put("cv.abl",             "cv");
         remap.put("cv.agn",             "cv");
@@ -71,11 +83,27 @@ public class PruneMinorUPF extends FieldMutatingUpdateProcessorFactory {
         remap.put("cv.sem",             "cv");
         remap.put("cv.term",            "cv");
         
-        remap.put("d.dem",              "d");
-        remap.put("d.det",              "d");
-        remap.put("d.emph",             "d");
-        remap.put("d.indef",            "d");
-        remap.put("d.plural",           "d");
+        /*
+        remap.put("cv.abl",             "cv.abl");
+        remap.put("cv.agn",             "cv.agn");
+        remap.put("cv.all",             "cv.all");
+        remap.put("cv.are",             "cv.are");
+        remap.put("cv.ela",             "cv.ela");
+        remap.put("cv.fin",             "cv.fin");
+        remap.put("cv.gen",             "cv.gen");
+        remap.put("cv.imp",             "cv.imp");
+        remap.put("cv.impf",            "cv.impf");
+        remap.put("cv.loc",             "cv.loc");
+        remap.put("cv.ques",            "cv.ques");
+        remap.put("cv.sem",             "cv.sem");
+        remap.put("cv.term",            "cv.term");
+        */
+        
+        remap.put("d.dem",              "d.dem");
+        remap.put("d.det",              "d.det");
+        remap.put("d.emph",             "d.emph");
+        remap.put("d.indef",            "d.indef");
+        remap.put("d.plural",           "d.plural");
         
         //remap.put("dunno","dunno");
         
@@ -84,7 +112,7 @@ public class PruneMinorUPF extends FieldMutatingUpdateProcessorFactory {
         remap.put("n.prop",             "n");
         remap.put("n.rel",              "n");
         
-        remap.put("n.v.aux",            "n.v");
+        remap.put("n.v.aux",            "n.v.aux");
         remap.put("n.v.cop",            "n.v.cop");
         remap.put("n.v.fut",            "n.v");
         remap.put("n.v.fut.n.v.past",   "n.v");
@@ -94,21 +122,21 @@ public class PruneMinorUPF extends FieldMutatingUpdateProcessorFactory {
         remap.put("n.v.past",           "n.v");
         remap.put("n.v.past.n.v.pres",  "n.v");
         remap.put("n.v.pres",           "n.v");
-        remap.put("n.v.redup",          "n.v");
+        remap.put("n.v.redup",          "n.v.redup");
         
         remap.put("neg",                "neg");
         
-        remap.put("num.card",           "num");
-        remap.put("num.ord",            "num");
+        remap.put("num.card",           "num.card");
+        remap.put("num.ord",            "num.ord");
         
-        remap.put("p.indef",            "p");
-        remap.put("p.interrog",         "p");
-        remap.put("p.pers",             "p");
-        remap.put("p.refl",             "p");
+        remap.put("p.indef",            "p.indef");
+        remap.put("p.interrog",         "p.interrog");
+        remap.put("p.pers",             "p.pers");
+        remap.put("p.refl",             "p.refl");
         
         remap.put("punc",               "punc");
         
-        remap.put("v.aux",              "v");
+        remap.put("v.aux",              "v.aux");
         remap.put("v.cop",              "v.cop");
         remap.put("v.cop.neg",          "v.cop.neg");
         remap.put("v.fut",              "v");
@@ -116,7 +144,7 @@ public class PruneMinorUPF extends FieldMutatingUpdateProcessorFactory {
         remap.put("v.fut.v.pres",       "v");
         remap.put("v.imp",              "v");
         remap.put("v.invar",            "v");
-        remap.put("v.neg",              "v");
+        remap.put("v.neg",              "v.neg");
         remap.put("v.past",             "v");
         remap.put("v.past.v.pres",      "v");
         remap.put("v.pres",             "v");

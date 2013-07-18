@@ -29,7 +29,6 @@ public class SyllableFinalUPF extends FieldMutatingUpdateProcessorFactory {
 	private static final String DELIMIT_OUTPUT_DEFAULT = " ";
     private String tagDelimiter, delimitOutput;
     
-    
 	@SuppressWarnings("unchecked")
 	@Override
 	public void init(NamedList args) {
@@ -71,7 +70,20 @@ public class SyllableFinalUPF extends FieldMutatingUpdateProcessorFactory {
                         String word = (k == -1) ? in[j] : in[j].substring(0,k);
                         int tsheg = TshegBarUtils.isTshegBar(word.charAt(word.length()-1)) ? 1 : 0;
                         String last = word.substring(word.length()-1-tsheg, word.length()-tsheg);
-                        out.add(word + tagDelimiter + last + tagDelimiter + Integer.toString(tsheg) + rest);
+                        String[] syllables = word.split(TshegBarUtils.TSHEG);
+                        String sils =
+                            syllables[0] + tagDelimiter +
+                            (syllables.length > 1 ? syllables[1] : "0") + tagDelimiter +
+                            (syllables.length > 2 ? syllables[2] : "0");
+                            
+                        out.add(
+                            word + tagDelimiter + //entire word
+                            last + tagDelimiter + //last character of word
+                            Integer.toString(tsheg) + tagDelimiter + //whether or not word ends in tsheg
+                            Integer.toString(syllables.length) + tagDelimiter + //word length in syllables
+                            sils +
+                            rest //whatever else is there
+                        );
                     }
                     
                     return StringUtils.join(out.iterator(), delimitOutput);
