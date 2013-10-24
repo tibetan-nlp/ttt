@@ -56,7 +56,7 @@ public class TshegBarSplitterUPF extends FieldMutatingUpdateProcessorFactory {
                                 syllables.add(tokens[j].subSequence(start, i+1).toString());
                                 start = i+1;
                             }
-                            else if (TshegBarUtils.isPunctuation(tokens[j].charAt(i)) || i == tokens[j].length()-1) { //all other punctuation gets own syllable
+                            else if (TshegBarUtils.isPunctuation(tokens[j].charAt(i))) { //all other punctuation gets own syllable
                                 if (start != i) {
                                     syllables.add(tokens[j].subSequence(start, i).toString());
                                 }
