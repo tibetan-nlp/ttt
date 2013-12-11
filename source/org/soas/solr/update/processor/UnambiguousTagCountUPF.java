@@ -24,6 +24,8 @@ import java.io.IOException;
 
 import java.util.Collection;
 import java.util.Iterator;
+import java.util.Arrays;
+import java.util.List;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -40,21 +42,35 @@ public class UnambiguousTagCountUPF extends UpdateRequestProcessorFactory {
     private String tagFieldName;
 
 	public static final String DELIMITER = " ";
-	public static final String POS_PARAM = "pos";
+	public static final String WORDS_PARAM = "words";
+	public static final String GUESS_PARAM = "guess";
 	public static final String TOKEN_COUNT_PARAM = "tokenCount";
-	public static final String UNAMBIG_COUNT_PARAM = "unambigCount";
+	public static final String MATCH_COUNT_PARAM = "matchCount";
+	public static final String CORRECT_COUNT_PARAM = "correctCount";
+	public static final String TAG_COUNT_PARAM = "tagCount";
   
-	private String posFieldName = null;
+	private String wordsFieldName = null;
+	private String guessFieldName = null;
 	private String tokenCountFieldName = null;
-	private String unambigCountFieldName = null;
+	private String matchCountFieldName = null;
+	private String correctCountFieldName = null;
+	private String tagCountFieldName = null;
   
 	public void init(NamedList args) {
-		Object o = args.remove(POS_PARAM);
+		Object o = args.remove(WORDS_PARAM);
 		if (null == o || !(o instanceof String)) {
 		    //error
 		}
 		else {
-		    posFieldName = o.toString();
+		    wordsFieldName = o.toString();
+		}
+		
+		o = args.remove(GUESS_PARAM);
+		if (null == o || !(o instanceof String)) {
+		    //error
+		}
+		else {
+		    guessFieldName = o.toString();
 		}
 		
 		o = args.remove(TOKEN_COUNT_PARAM);
@@ -65,12 +81,28 @@ public class UnambiguousTagCountUPF extends UpdateRequestProcessorFactory {
 		    tokenCountFieldName = o.toString();
 		}
 		
-		o = args.remove(UNAMBIG_COUNT_PARAM);
+		o = args.remove(MATCH_COUNT_PARAM);
 		if (null == o || !(o instanceof String)) {
 		    //error
 		}
 		else {
-		    unambigCountFieldName = o.toString();
+		    matchCountFieldName = o.toString();
+		}
+		
+		o = args.remove(CORRECT_COUNT_PARAM);
+		if (null == o || !(o instanceof String)) {
+		    //error
+		}
+		else {
+		    correctCountFieldName = o.toString();
+		}
+		
+		o = args.remove(TAG_COUNT_PARAM);
+		if (null == o || !(o instanceof String)) {
+		    //error
+		}
+		else {
+		    tagCountFieldName = o.toString();
 		}
 		
 		o = args.remove(TAG_PARAM);
@@ -90,42 +122,70 @@ public class UnambiguousTagCountUPF extends UpdateRequestProcessorFactory {
 			public void processAdd(AddUpdateCommand cmd) throws IOException {
 
 				final SolrInputDocument doc = cmd.getSolrInputDocument();
-				
-				Pattern oneTag = Pattern.compile("\\[?([^\\]]+)\\]?");
 
-				Collection c = doc.getFieldValues(tagFieldName);
-				if (c != null) {
-				    Iterator it = c.iterator();
-	        
-				    while (it.hasNext()) {
-				        String next = (String)it.next();
-                        
-				        if (doc.containsKey(posFieldName + "_" + next)) {
-				            int token_count = 0;
-				            int unambig_count = 0;
-				            
-                            String posFieldValue = (String)doc.getFieldValue(posFieldName + "_" + next);
-                            String[] pos = posFieldValue.split("\\s+");
-
-				            for (int i=0; i<pos.length; i++) {
-				                String tags = pos[i].substring(pos[i].indexOf('|')+1);
-				                Matcher m = oneTag.matcher(tags);
-                                if (m.matches()) {
-                                    unambig_count += 1;
+				if (doc.containsKey(wordsFieldName)) {
+				    String[] words = ((String)doc.getField(wordsFieldName).getValue()).trim().split("\\s+");
+                               				
+				    //Pattern tagPattern = Pattern.compile("\\[[^\\]]+\\]");
+				    
+				    Pattern tagPattern = Pattern.compile("\\]\\[");
+				    
+                    Collection c = doc.getFieldValues(tagFieldName);
+                    if (c != null) {
+                        Iterator it = c.iterator();
+                
+                        while (it.hasNext()) {
+                            String next = (String)it.next();
+                            
+                            if (doc.containsKey(guessFieldName + "_" + next)) {
+                                String[] guess = ((String)doc.getField(guessFieldName + "_" + next).getValue()).trim().split("\\s+");
+                                
+                                int match_count = 0;
+                                int correct_count = 0;
+                                int tag_count = 0;
+    
+                                for (int i=0; i<words.length; i++) {
+                                    String wTag = words[i].substring(words[i].indexOf('|')+1);
+                                    String gTag = guess[i].substring(guess[i].indexOf('|')+1);
+                                    
+                                    if (gTag.length() > 0) {
+                                        if (gTag.charAt(0) != '[') {
+                                            tag_count++;
+                                            if (wTag.equals(gTag)) {
+                                                match_count++;
+                                                correct_count++;
+                                            }
+                                        }
+                                        else {
+                                            List<String> guessedTags = Arrays.asList(tagPattern.split(gTag.substring(1,gTag.length()-1)));
+                                            if (guessedTags.contains(wTag)) {
+                                                match_count++;
+                                                if (guessedTags.size() == 1) {
+                                                    correct_count++;
+                                                }
+                                            }
+                                            tag_count += guessedTags.size();
+                                        }
+                                    }
                                 }
+                                
+                                SolrInputField tokenCountField = new SolrInputField(tokenCountFieldName + "_" + next);
+                                tokenCountField.addValue(new Integer(words.length), 1.0f);
+                                doc.put(tokenCountFieldName + "_" + next, tokenCountField);
+                                    
+                                SolrInputField matchCountField = new SolrInputField(matchCountFieldName + "_" + next);
+                                matchCountField.addValue(new Integer(match_count), 1.0f);
+                                doc.put(matchCountFieldName + "_" + next, matchCountField);
+                                    
+                                SolrInputField correctCountField = new SolrInputField(correctCountFieldName + "_" + next);
+                                correctCountField.addValue(new Integer(correct_count), 1.0f);
+                                doc.put(correctCountFieldName + "_" + next, correctCountField);
+                                    
+                                SolrInputField tagCountField = new SolrInputField(tagCountFieldName + "_" + next);
+                                tagCountField.addValue(new Integer(tag_count), 1.0f);
+                                doc.put(tagCountFieldName + "_" + next, tagCountField);
                             }
-                            
-                            token_count += pos.length;
-                            
-                            SolrInputField tokenCountField = new SolrInputField(tokenCountFieldName + "_" + next);
-                            tokenCountField.addValue(new Integer(token_count), 1.0f);
-                            doc.put(tokenCountFieldName + "_" + next, tokenCountField);
-                                
-                            SolrInputField unambigCountField = new SolrInputField(unambigCountFieldName + "_" + next);
-                            unambigCountField.addValue(new Integer(unambig_count), 1.0f);
-                            doc.put(unambigCountFieldName + "_" + next, unambigCountField);
-                                
-				        }
+                        }
                     }
                 }
 				

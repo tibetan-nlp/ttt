@@ -56,6 +56,8 @@ public class TagScoreUPF extends UpdateRequestProcessorFactory {
 	private String tokenCountFieldName = null;
 	private String guessCountFieldName = null;
 	private String correctCountFieldName = null;
+	private String matchCountFieldName = null;
+	private String tagCountFieldName = null;
 	private String errorEFieldName = null;
   
 	public void init(NamedList args) {
