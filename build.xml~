@@ -870,26 +870,6 @@ the jvm starting tomcat:
       <param name="my.included.source.file"
              value="org/thdl/tib/crf/SyllableFinalUPF.java"/>
     </antcall>
-    <antcall target="our-internal-javac-task">
-      <param name="mybin" value="${uimabin}"/>
-      <param name="my.included.source.file"
-             value="org/soas/solr/analysis/MagicPrefixFilterFactory.java"/>
-    </antcall>
-    <antcall target="our-internal-javac-task">
-      <param name="mybin" value="${uimabin}"/>
-      <param name="my.included.source.file"
-             value="org/soas/solr/analysis/MagicPrefixTokenFilter.java"/>
-    </antcall>
-    <antcall target="our-internal-javac-task">
-      <param name="mybin" value="${uimabin}"/>
-      <param name="my.included.source.file"
-             value="org/soas/solr/analysis/PermuteShingleFilterFactory.java"/>
-    </antcall>
-    <antcall target="our-internal-javac-task">
-      <param name="mybin" value="${uimabin}"/>
-      <param name="my.included.source.file"
-             value="org/soas/solr/analysis/PermuteShingleTokenFilter.java"/>
-    </antcall>
     <!-- solr analysis -->
     <!--
     <antcall target="our-internal-javac-task">
