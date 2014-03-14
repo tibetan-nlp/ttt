@@ -23,7 +23,7 @@ public final class MagicPrefixTokenFilter extends TokenFilter {
         this.posIncAttr = addAttribute(PositionIncrementAttribute.class);
         this.terms = new LinkedList<char[]>();
         this.tokenDelimiter = ' ';
-        this.prefix = '#';
+        this.prefix = '~';
     }
 
     @Override
