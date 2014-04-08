@@ -25,8 +25,10 @@ import java.io.IOException;
 import java.util.Collection;
 import java.util.Iterator;
 
-import java.util.regex.Matcher;
+//import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import org.apache.commons.lang3.StringUtils;
 
 import org.apache.solr.common.SolrInputDocument;
 import org.apache.solr.common.SolrInputField;
@@ -126,16 +128,37 @@ public class WhereDifferentUPF extends UpdateRequestProcessorFactory {
 				            String[] compare = compareFieldValue.split("\\s+");
 
 				            if (compare.length == pos.length && compare.length > 0) {
-				                Pattern oneTag = Pattern.compile("\\[?([^\\]]+)\\]?");
+				                //Pattern oneTag = Pattern.compile("\\[?([^\\]]+)\\]?");
+				                Pattern splitter = Pattern.compile("\\]\\[");
                                 StringBuffer sbDiff = new StringBuffer();
                                 StringBuffer sbChange = new StringBuffer();
                                 for (int i=0; i<compare.length; i++) {
                                     sbDiff.append(pos[i]);
                                     String tags = compare[i].substring(compare[i].indexOf('|')+1);
-                                    Matcher m = oneTag.matcher(tags);
-                                    if (m.matches()) {
-                                        String tag = m.group(1); //tags.substring(1, tags.length()-1);
-                                        if (!tag.equals(pos[i].substring(pos[i].indexOf('|')+1))) {
+                                    if (tags.charAt(0) == '[') {
+                                        tags = tags.substring(1, tags.length()-1); //strip [ and ]
+                                    }
+                                    
+                                    //Matcher m = oneTag.matcher(tags);
+                                    //if (m.matches()) {
+                                    
+                                    String[] tagList = splitter.split(tags);
+                                    String posRef = pos[i].substring(pos[i].indexOf('|')+1);
+                                    boolean match = false;
+                                    for (int k=0; k<tagList.length; k++) {
+                                        //String tag = m.group(1); //tags.substring(1, tags.length()-1);
+                                        //if (!tag.equals(pos[i].substring(pos[i].indexOf('|')+1))) {
+                                        if (tagList[k].equals(posRef)) {
+                                            match = true;
+                                            break;
+                                        }
+                                    }
+                                    
+                                    if (!match) {
+                                        sbDiff.append(diffDelim);
+                                        sbDiff.append(StringUtils.join(tagList, ":"));
+                                    }
+                                    /*
                                             sbDiff.append(diffDelim);
                                             sbDiff.append(tag);
                                             sbChange.append(pos[i].substring(0, pos[i].indexOf('|')));
@@ -149,6 +172,7 @@ public class WhereDifferentUPF extends UpdateRequestProcessorFactory {
                                     else {
                                         sbChange.append(pos[i]);
                                     }
+                                    */
                                     sbDiff.append(' ');
                                     sbChange.append(' ');
                                 }
