@@ -156,7 +156,7 @@ public class WhereDifferentUPF extends UpdateRequestProcessorFactory {
                                     
                                     if (!match) {
                                         sbDiff.append(diffDelim);
-                                        sbDiff.append(StringUtils.join(tagList, ":"));
+                                        sbDiff.append(StringUtils.join(tagList, "~"));
                                     }
                                     /*
                                             sbDiff.append(diffDelim);
