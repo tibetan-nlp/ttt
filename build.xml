@@ -843,6 +843,11 @@ the jvm starting tomcat:
     <antcall target="our-internal-javac-task">
       <param name="mybin" value="${uimabin}"/>
       <param name="my.included.source.file"
+             value="org/soas/solr/update/processor/AmbiguousTagCountUPF.java"/>
+    </antcall>
+    <antcall target="our-internal-javac-task">
+      <param name="mybin" value="${uimabin}"/>
+      <param name="my.included.source.file"
              value="org/soas/solr/update/processor/CrfppTaggerUPF.java"/>
     </antcall>
     <antcall target="our-internal-javac-task">
