@@ -37,7 +37,12 @@ import org.apache.solr.request.SolrQueryRequest;
 import org.apache.solr.response.SolrQueryResponse;
 import org.apache.solr.update.AddUpdateCommand;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class AmbiguousTagCountUPF extends UpdateRequestProcessorFactory {
+    private final static Logger log = LoggerFactory.getLogger(AmbiguousTagCountUPF.class);
+    
     private static final String TAG_PARAM = "datatags";
     private String tagFieldName;
 
@@ -147,21 +152,24 @@ public class AmbiguousTagCountUPF extends UpdateRequestProcessorFactory {
                                 //assume all tags include brackets
                                 for (int i=0; i<words.length; i++) {
                                     String wTag = words[i].substring(words[i].indexOf('|')+1);
-                                    String gTag = guess[i].substring(guess[i].indexOf('|')+1);
                                     
-                                    if (gTag.length() > 0) {
-                                        List<String> wordTags = Arrays.asList(tagPattern.split(wTag.substring(1,wTag.length()-1)));
-                                        List<String> guessedTags = Arrays.asList(tagPattern.split(gTag.substring(1,gTag.length()-1)));
-                                        
-                                        if (guessedTags.equals(wordTags)) {
-                                            correct_count++;
-                                            match_count++;
+                                    int gIndex = guess[i].indexOf('|');
+                                    if (gIndex != -1) {
+                                        String gTag = guess[i].substring(gIndex+1);
+                                        if (gTag.length() > 0) {
+                                            List<String> wordTags = Arrays.asList(tagPattern.split(wTag.substring(1,wTag.length()-1)));
+                                            List<String> guessedTags = Arrays.asList(tagPattern.split(gTag.substring(1,gTag.length()-1)));
+                                            
+                                            if (guessedTags.equals(wordTags)) {
+                                                correct_count++;
+                                                match_count++;
+                                            }
+                                            else if (guessedTags.containsAll(wordTags)) {
+                                                match_count++;
+                                            }
+                                            
+                                            tag_count += guessedTags.size();
                                         }
-                                        else if (guessedTags.containsAll(wordTags)) {
-                                            match_count++;
-                                        }
-                                        
-                                        tag_count += guessedTags.size();
                                     }
                                 }
                                 

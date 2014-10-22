@@ -37,7 +37,12 @@ import org.apache.solr.request.SolrQueryRequest;
 import org.apache.solr.response.SolrQueryResponse;
 import org.apache.solr.update.AddUpdateCommand;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class WhereDifferentUPF extends UpdateRequestProcessorFactory {
+    private final static Logger log = LoggerFactory.getLogger(WhereDifferentUPF.class);
+    
     private static final String TAG_PARAM = "datatags";
     private String tagFieldName;
 
@@ -126,8 +131,11 @@ public class WhereDifferentUPF extends UpdateRequestProcessorFactory {
                             String[] pos = posFieldValue.split("\\s+");
 				            String compareFieldValue = (String)doc.getFieldValue(compareFieldName + "_" + next);
 				            String[] compare = compareFieldValue.split("\\s+");
+				            
+				            //log.info("posFieldValue = " + posFieldValue);
+				            //log.info("compareFieldValue = " + compareFieldValue);
 
-				            if (compare.length == pos.length && compare.length > 0) {
+				            if (compare.length == pos.length && !(compare.length == 1 && compare[0].equals(compareFieldValue))) {
 				                //Pattern oneTag = Pattern.compile("\\[?([^\\]]+)\\]?");
 				                Pattern splitter = Pattern.compile("\\]\\[");
                                 StringBuffer sbDiff = new StringBuffer();
