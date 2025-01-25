@@ -164,8 +164,8 @@ the jvm starting tomcat:
   <!-- Set to the name of the dictionary used by the Translation Tool: -->
   <property name="arch.dict" value="architecture_dictionary"/>
 
-  <property name="target.jvm" value="1.6"/>
-  <property name="source.jvm" value="1.6"/>
+  <property name="target.jvm" value="11"/>
+  <property name="source.jvm" value="11"/>
 
   <!-- Only the tt-servlet-compile target changes this.  Humans
        shouldn't mess with this. -->
@@ -642,8 +642,8 @@ the jvm starting tomcat:
     </antcall>
     <antcall target="create-timestamp-source-code"/>
     <antcall target="our-internal-javac-task">
-      <param name="target.jvm" value="1.4"/>
-      <param name="source.jvm" value="1.4"/>
+      <param name="target.jvm" value="1.7"/>
+      <param name="source.jvm" value="1.7"/>
       <param name="mybin" value="${tthandheldbin}"/>
       <param name="my.included.source.file"
              value="org/thdl/tib/scanner/PocketWindowScannerFilter.java"/>
@@ -713,8 +713,8 @@ the jvm starting tomcat:
     </path>
     <antcall target="our-internal-javac-task">
       <reference torefid="ttsc.class.path" refid="ttsc.class.path"/>
-      <param name="target.jvm" value="1.3"/>
-      <param name="source.jvm" value="1.3"/>
+      <param name="target.jvm" value="11"/>
+      <param name="source.jvm" value="11"/>
       <param name="our.javac.classpathref" value="ttsc.class.path"/>
       <param name="mybin" value="${ttservletbin}"/>
       <param name="my.included.source.file"
@@ -722,8 +722,8 @@ the jvm starting tomcat:
     </antcall>
     <antcall target="our-internal-javac-task">
       <reference torefid="ttsc.class.path" refid="ttsc.class.path"/>
-      <param name="target.jvm" value="1.3"/>
-      <param name="source.jvm" value="1.3"/>
+      <param name="target.jvm" value="11"/>
+      <param name="source.jvm" value="11"/>
       <param name="our.javac.classpathref" value="ttsc.class.path"/>
       <param name="mybin" value="${ttservletbin}"/>
       <param name="my.included.source.file"

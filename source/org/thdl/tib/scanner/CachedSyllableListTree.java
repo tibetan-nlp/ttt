@@ -94,6 +94,11 @@ public class CachedSyllableListTree implements SyllableListTree
 		return null;
 	}
 	
+	public Definitions getDefs(Boolean includeDefaultDefinition)
+	{
+		return null;
+	}
+	
 	public DictionarySource getDictionarySource()
 	{
 	    return null;

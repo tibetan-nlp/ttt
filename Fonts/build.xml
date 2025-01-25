@@ -1,0 +1,60 @@
+<project name="THDLToolsFonts" default="dist" basedir=".">
+
+  <description>
+    This Jakarta Ant buildfile is used to build the release, i.e. the
+    file we put up on SF.net's FRS.
+  </description>
+
+
+  <!-- set global properties for this build -->
+  <property name="dist" location="dist"/>
+  <property name="tm" location="TibetanMachine"/>
+  <property name="tmw" location="TibetanMachineWeb"/>
+
+
+  <target name="init"
+          description="initializes the build system" >
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <!-- Create the build directory structure -->
+    <mkdir dir="${dist}"/>
+    <mkdir dir="${tm}"/>
+    <mkdir dir="${tmw}"/>
+  </target>
+
+
+  <target name="clean"
+          description="cleans up everything" >
+    <!-- Delete the ${dist} directory tree -->
+    <delete dir="${bin}"/>
+    <delete dir="${jskadbin}"/>
+    <delete dir="${dist}"/>
+  </target>
+
+
+  <target name="tmw-dist" depends="init"
+          description="generates the Tibetan Machine Web distribution" >
+    <!-- Put everything necessary into the zip file -->
+    <zip destfile="${dist}/TibetanMachineWeb-${DSTAMP}.zip">
+      <zipfileset dir="${tmw}"
+                  includes="**"
+                  prefix="TibetanMachineWebFonts"/>
+    </zip>
+  </target>
+
+
+  <target name="tm-dist" depends="init"
+          description="generates the Tibetan Machine distribution" >
+    <!-- Put everything necessary into the zip file -->
+    <zip destfile="${dist}/TibetanMachine-${DSTAMP}.zip">
+      <zipfileset dir="${tm}"
+                  includes="**"
+                  excludes="Licence.txt"
+                  prefix="TibetanMachineFonts"/>
+    </zip>
+  </target>
+
+
+  <target name="dist" depends="tmw-dist,tm-dist"
+          description="generates both distributions" />
+</project>

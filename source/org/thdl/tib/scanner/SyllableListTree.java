@@ -37,9 +37,9 @@ public interface SyllableListTree
 {
 	public String getDef();
 	public Definitions getDefs();
+	public Definitions getDefs(Boolean includeDefaultDefinition);
 	public boolean hasDef();
 	public SyllableListTree lookUp(String silStr);	
-	
 	public DictionarySource getDictionarySource();
 	public BitDictionarySource getDictionarySourcesWanted();
 }

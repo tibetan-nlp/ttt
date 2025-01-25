@@ -1,0 +1,107 @@
+<HTML>
+<BODY bgcolor=ffffff>
+<P>
+<TABLE width=100% cellspacing=0 cellpadding=0>
+<TR>
+<TD>
+<FONT size=-1><B>CalHTMLPane v2.0 Guide</B></FONT>
+</TD>
+<TD align=right>
+<FONT size=-1><B>Example Tag Usage</B></FONT>
+</TD>
+</TR>
+</TABLE>
+<HR width=100% size=1 color=black>
+<P>
+<FONT size=+1><B>1: Tables</B></FONT>
+<P>
+<BLOCKQUOTE>
+<P>
+<B>Attr: bordercolor</B><BR>
+<B>Attr: bordercolorlight</B><BR>
+<B>Attr: bordercolordark</B>
+<P>
+<BLOCKQUOTE>
+<TABLE border cellpadding=6 align=center>
+
+<TR>
+<TD>
+<B>Use Within:</B><BR>
+&lt;TABLE&gt; &lt;THEAD&gt;, &lt;TBODY&gt;, &lt;TFOOT&gt;,
+ &lt;TR&gt;, &lt;COLGROUP&gt;, &lt;COL&gt;, &lt;TH&gt;, and &lt;TD&gt;
+</TD>
+</TR>
+
+
+<TR>
+<TD>
+<B>Arguments:</B> A hexidecimal color code or default color name<BR>
+e.g. bordercolorlight="#4444dd" bordercolordark=navy
+</TD>
+</TR>
+
+<TR>
+<TD>
+<B>Synopsis:</B><BR>Set the highlight color of table borders and rules
+ with <B>bordercolorlight</B>.
+<P>Set the shadow color with <B>bordercolordark</B>.
+<P>For single-color borders and rules use <B>bordercolor</B>.
+</TD>
+</TR>
+
+<TR>
+<TD>
+<B>Example:</B>
+<P>
+<table align=center bgcolor=ffffdd cellspacing=0 cellpadding=4 rules=none bordercolor=black frame=border>
+<tr>
+<td><FONT color=navy>
+&lt;TABLE border=3 cellspacing=3 cellpadding=5 bgcolor=aaccdd&gt;<BR>
+<code>&nbsp;&nbsp;</code>&lt;TR&gt;<BR>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;</code>&lt;TD bordercolor=red&gt; Red border
+&lt;/TD&gt;<BR>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;</code>&lt;TD bordercolorlight=yellow bordercolordark=blue&gt;<BR>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code> Blue shadow 
+&lt;BR&gt; Yellow highlight <BR>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;</code>&lt;/TD&gt;<BR>
+<code>&nbsp;&nbsp;</code>&lt;/TR&gt;<BR>
+&lt;/TABLE&gt;</FONT>
+</td>
+</tr>
+</table>
+<P>
+</TR>
+</TD>
+
+<TR>
+<TD>
+<B>Rendering:</B>
+<BR>
+<table align=center border=3 cellspacing=3 cellpadding=5 bgcolor=aaccdd>
+<tr><td bordercolor=red>Red border</td>
+<td bordercolorlight=yellow bordercolordark=blue>
+Blue shadow <BR> Yellow highlight </td>
+</tr>
+</table>
+<br>
+</TD>
+</TR>
+
+
+</TABLE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+
+<TABLE align=center width=50%>
+<TR>
+<TD align=center>
+<A href="../CalGuide.html">Guide Index</A> &nbsp;&#124;
+<A href="../javadoc/overview-tree.html">&nbsp;JavaDoc</A> &nbsp;&#124;
+<A href="guide-Tables-borders.html">&nbsp;Previous</A> &nbsp;&#124;
+<A href="guide-Tables-widths.html">&nbsp;Next</A>
+</TD>
+</TR>
+</TABLE>
+
+</BODY>
+</HTML>

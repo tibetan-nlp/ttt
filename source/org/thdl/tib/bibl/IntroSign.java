@@ -67,7 +67,7 @@ public class IntroSign extends JFrame implements Runnable
 		ImageIcon knot = new ImageIcon(imageURL);
 		title = "TiblEdit: XML Editor for Tibbibl Mark Up";
 		byline = "Written by Than Garson, UVa";
-		org = "©2002, Tibetan & Himalayan Digital Library";
+		org = "Â©2002, Tibetan & Himalayan Digital Library";
 
 		cp = new JPanel();
 		cp.setPreferredSize(frameSize);

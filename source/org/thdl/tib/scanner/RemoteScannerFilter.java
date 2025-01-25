@@ -34,7 +34,7 @@ import javax.servlet.ServletResponse;
  */
 public class RemoteScannerFilter extends GenericServlet
 {
-	private TibetanScanner scanner;
+	private LocalTibetanScanner scanner;
 	private BitDictionarySource ds;
 	private ScannerLogger sl;
 	private static final int INTERNAL = 1;
@@ -73,7 +73,8 @@ public class RemoteScannerFilter extends GenericServlet
 		{
 			// do nothing
 		}
-		String linea = null, dicts = req.getParameter("dicts"), dicDescrip[], jwf = req.getParameter("jwf"), tag;
+		String linea = null, dicts = req.getParameter("dicts"), dicDescrip[], jwf = req.getParameter("jwf"), tag, definitions[];
+		Boolean includeDefaultDefinition=false;
 		Definitions defs;
 		ByteDictionarySource dict_source;
 		if (jwf!=null) format = JSON;
@@ -85,11 +86,13 @@ public class RemoteScannerFilter extends GenericServlet
 		  break;
 		case JSON:
 		  res.setContentType ("text/x-json");
+		  includeDefaultDefinition=true;
 		}
 		sl.setUserIP(req.getRemoteAddr());
 
 		Word word = null, words[] = null;
 		PrintWriter out;
+		String localWord=null;
 
 		try
 		{
@@ -151,7 +154,7 @@ public class RemoteScannerFilter extends GenericServlet
 					linea = Manipulate.NCR2UnicodeString(linea);
 					if (Manipulate.guessIfUnicode(linea)) linea = BasicTibetanTranscriptionConverter.unicodeToWylie(linea);
 					else if (Manipulate.guessIfAcip(linea)) linea = BasicTibetanTranscriptionConverter.acipToWylie(linea);
-					scanner.scanLine(linea);
+					scanner.scanLine(linea, includeDefaultDefinition);
 				}
 			}
 		}
@@ -160,7 +163,7 @@ public class RemoteScannerFilter extends GenericServlet
 			if (linea!=null) sl.writeLog("1\t2\t" + linea);
 			sl.writeException(e);
 		}
-		scanner.finishUp();
+		scanner.finishUp(includeDefaultDefinition);
 		try
 		{
 			words = scanner.getWordArray();
@@ -181,28 +184,53 @@ public class RemoteScannerFilter extends GenericServlet
 					case JSON:
 						defs = word.getDefs();
 						dict_source = (ByteDictionarySource)defs.getDictionarySource();
-						if(dict_source==null) out.println("\"" + word.token + "\": [");
+						if(dict_source==null) out.print("\"" + word.token + "\": [");
 						else
 						{
-							out.println("\"" + BasicTibetanTranscriptionConverter.wylieToHTMLUnicode(word.token) + "\": [");
+							out.print("\"" + BasicTibetanTranscriptionConverter.wylieToHTMLUnicode(word.token) + "\":\n[");
 							k=0;
-							for (j=0; j<defs.def.length; j++)
+							definitions = defs.def;
+							for (j=0; j<definitions.length; j++)
 							{
 								while (dict_source.isEmpty(k)) k++;
 								tag = dict_source.getTag(k);
 								k++;
-								out.println("\"" + tag + "\",");
-								out.print("\"" + Manipulate.toJSON(defs.def[j]) + "\"");
-								if (j==defs.def.length-1) out.println();
-								else out.println(",");
-							}							
+								out.print("\"" + tag + "\",\"" + Manipulate.toJSON(definitions[j]) + "\"");
+								if (j<definitions.length-1) out.println(",");
+							}
 						}
 						out.print("]");
 						if (i<words.length-1) out.println(",");
 					}
 				}				
 			}
-			if (format==JSON) out.println("}});");
+			if (format==JSON)
+			{
+				out.print("}");
+				Token token, tokens[] = scanner.getTokenArray();
+				if (tokens!=null)
+				{
+					out.println(",\n\"tokens\":[");
+					for (i=0; i<tokens.length; i++)
+					{
+						token = tokens[i];
+						if (token instanceof Word)
+						{
+							word = (Word)token;
+							definitions = word.getDefs().def;
+							if (definitions.length==0) tag = BasicTibetanTranscriptionConverter.wylieToHTMLUnicode(word.token);
+							else tag = definitions[0];
+							if (word.wordSinDec==null) localWord = word.token;
+							else localWord = word.wordSinDec;
+							out.print("\"" + BasicTibetanTranscriptionConverter.wylieToHTMLUnicode(localWord) + "\", \"" + tag + "\"");
+						}
+						else out.print("\"" + token.toString() + "\", \"\"");
+						if (i<tokens.length-1) out.println(",");
+					}
+					out.print("]");
+				}
+				out.println("});");
+			}
 		}
 		catch (Exception e)
 		{

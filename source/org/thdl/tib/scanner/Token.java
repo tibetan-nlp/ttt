@@ -26,25 +26,9 @@ package org.thdl.tib.scanner;
 public class Token
 {
     protected String token;
-    protected int offset;
     
     public Token (String token)
     {
-        this(token, -1); //no offset
-    }
-    
-    public Token (String token, int offset)
-    {
         this.token = token;
-        this.offset = offset;
-    }
-    
-    public String getRawValue() 
-    {
-    	return token;
-    }
-    
-    public int getOffset() {
-    	return offset;
     }
 }

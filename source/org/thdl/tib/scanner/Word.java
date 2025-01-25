@@ -43,13 +43,6 @@ public class Word extends Token
 		this.wordSinDec=wordSinDec;
 		this.def=new Definitions(def);
 	}
-	
-	public Word (String word, String wordSinDec, String def, int offset)
-	{
-		super(word, offset);
-		this.wordSinDec=wordSinDec;
-		this.def=new Definitions(def);
-	}
 
 	public Word (String word, String wordSinDec, Definitions def)
 	{
@@ -58,31 +51,14 @@ public class Word extends Token
 		this.def=def;
 	}
 	
-	public Word (String word, String wordSinDec, Definitions def, int offset)
-	{
-		super(word, offset);
-		this.wordSinDec=wordSinDec;
-		this.def=def;
-	}
-	
 	public Word (String word, String def)
 	{
 		this(word, null, def);
-	}
-	
-	public Word (String word, String def, int offset)
-	{
-		this(word, null, def, offset);
 	}
 
 	public Word (String word, Definitions def)
 	{
 		this(word, null, def);
-	}
-	
-	public Word (String word, Definitions def, int offset)
-	{
-		this(word, null, def, offset);
 	}
 	
 	public boolean equals(Object o)

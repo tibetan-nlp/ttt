@@ -177,7 +177,7 @@ public class StandardPronounciationEngine
     {
       //
       // 6. When ba and bo appear as the final syllable of a word, they are transcribed as "wa" and "wo," respectively.
-      // This also includes ba'i ( > wé, about which see rule 16 below) and bar ( > war) as final syllables, although the latter is
+      // This also includes ba'i ( > wÃ©, about which see rule 16 below) and bar ( > war) as final syllables, although the latter is
       // more evident in literary forms
       //
       new Rule ( Rule.EQUALS, "ba", Rule.REPLACE_IF_LAST_SYLLABLE_ENDED_WITH_VOWEL, "wa" ),
@@ -269,7 +269,7 @@ public class StandardPronounciationEngine
       // Note: there are some exceptions to the form the nasalization takes:
       // skyabs 'gro > kyamdro
       // rten 'brel > temdrel
-      // lam 'bras > lamdré
+      // lam 'bras > lamdrÃ©
 
       //
       // http://www.thdl.org/xml/showEssay.php?xml=/collections/langling/THDL_phonetics.xml&l=d1e294
@@ -306,19 +306,19 @@ public class StandardPronounciationEngine
       new Rule ( Rule.CONTAINS, "o'o", Rule.REPLACE_MATCH, "o" ),
       new Rule ( Rule.CONTAINS, "u'u", Rule.REPLACE_MATCH, "u" ),
 
-      new Rule ( Rule.ENDS_WITH, "as", Rule.REPLACE_MATCH, "é" ) ,
-      new Rule ( Rule.ENDS_WITH, "ad", Rule.REPLACE_MATCH, "é" ) ,
-      new Rule ( Rule.ENDS_WITH, "an", Rule.REPLACE_MATCH, "én" ) ,
-      new Rule ( Rule.ENDS_WITH, "al", Rule.REPLACE_MATCH, "él" ) ,
-      new Rule ( Rule.ENDS_WITH, "os", Rule.REPLACE_MATCH, "ö" ) ,
-      new Rule ( Rule.ENDS_WITH, "od", Rule.REPLACE_MATCH, "ö" ) ,
-      new Rule ( Rule.ENDS_WITH, "on", Rule.REPLACE_MATCH, "ön" ) ,
-      new Rule ( Rule.ENDS_WITH, "ol", Rule.REPLACE_MATCH, "öl" ) ,
+      new Rule ( Rule.ENDS_WITH, "as", Rule.REPLACE_MATCH, "Ã©" ) ,
+      new Rule ( Rule.ENDS_WITH, "ad", Rule.REPLACE_MATCH, "Ã©" ) ,
+      new Rule ( Rule.ENDS_WITH, "an", Rule.REPLACE_MATCH, "Ã©n" ) ,
+      new Rule ( Rule.ENDS_WITH, "al", Rule.REPLACE_MATCH, "Ã©l" ) ,
+      new Rule ( Rule.ENDS_WITH, "os", Rule.REPLACE_MATCH, "Ã¶" ) ,
+      new Rule ( Rule.ENDS_WITH, "od", Rule.REPLACE_MATCH, "Ã¶" ) ,
+      new Rule ( Rule.ENDS_WITH, "on", Rule.REPLACE_MATCH, "Ã¶n" ) ,
+      new Rule ( Rule.ENDS_WITH, "ol", Rule.REPLACE_MATCH, "Ã¶l" ) ,
       new Rule ( Rule.ENDS_WITH, "u'", Rule.REPLACE_MATCH, "u" ) ,
-      new Rule ( Rule.ENDS_WITH, "us", Rule.REPLACE_MATCH, "ü" ) ,
-      new Rule ( Rule.ENDS_WITH, "ud", Rule.REPLACE_MATCH, "ü" ) ,
-      new Rule ( Rule.ENDS_WITH, "un", Rule.REPLACE_MATCH, "ün" ) ,
-      new Rule ( Rule.ENDS_WITH, "ul", Rule.REPLACE_MATCH, "ül" ) ,
+      new Rule ( Rule.ENDS_WITH, "us", Rule.REPLACE_MATCH, "Ã¼" ) ,
+      new Rule ( Rule.ENDS_WITH, "ud", Rule.REPLACE_MATCH, "Ã¼" ) ,
+      new Rule ( Rule.ENDS_WITH, "un", Rule.REPLACE_MATCH, "Ã¼n" ) ,
+      new Rule ( Rule.ENDS_WITH, "ul", Rule.REPLACE_MATCH, "Ã¼l" ) ,
       new Rule ( Rule.ENDS_WITH, "es", Rule.REPLACE_MATCH, "e" ) ,
       new Rule ( Rule.ENDS_WITH, "ed", Rule.REPLACE_MATCH, "e" ) ,
       new Rule ( Rule.ENDS_WITH, "en", Rule.REPLACE_MATCH, "en" ) ,
@@ -340,8 +340,8 @@ public class StandardPronounciationEngine
 
       new Rule ( Rule.ENDS_WITH, "a'i", Rule.REPLACE_MATCH, "e" ) ,
       new Rule ( Rule.ENDS_WITH, "e'i", Rule.REPLACE_MATCH, "e" ) ,
-      new Rule ( Rule.ENDS_WITH, "o'i", Rule.REPLACE_MATCH, "ö" ) ,
-      new Rule ( Rule.ENDS_WITH, "u'i", Rule.REPLACE_MATCH, "ü" ),
+      new Rule ( Rule.ENDS_WITH, "o'i", Rule.REPLACE_MATCH, "Ã¶" ) ,
+      new Rule ( Rule.ENDS_WITH, "u'i", Rule.REPLACE_MATCH, "Ã¼" ),
 
       //
       // 14. Multiple vowels that have discrete sounds and are connected by an achung (') are transcribed by dropping the achung
@@ -461,7 +461,7 @@ public class StandardPronounciationEngine
 
   private static boolean isVowel ( char c )
   {
-    return ( -1 != "aeiouéöü".indexOf ( c ) ) ;
+    return ( -1 != "aeiouÃ©Ã¶Ã¼".indexOf ( c ) ) ;
   }
 
   private static String dropSuffix ( String in )

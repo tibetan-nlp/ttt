@@ -27,10 +27,10 @@ import org.thdl.util.ThdlVersion;
  */
 public abstract class TibetanScanner
 {
-	public static final String version = "The Tibetan to English Translation Tool, version 3.3.0 compiled on " + ThdlVersion.getTimeOfCompilation() + ". ";
-	public static final String copyrightUnicode="Copyright " + '\u00A9' + " 2000-2009 by Andr" + '\u00E9' + "s Montano Pellegrini, all rights reserved.";
-	public static final String copyrightASCII="Copyright 2000-2009 by Andres Montano Pellegrini, all rights reserved.";
-	public static final String copyrightHTML="<hr><small><strong>" + version + "Copyright &copy; 2000-2009 by <a href=\"http://www.gaugeus.com/ramblings\" target=\"_blank\">Andr&eacute;s Montano Pellegrini.</a> All rights reserved.</strong></small>";
+	public static final String version = "The Tibetan to English Translation Tool, version 4.0.0 compiled on " + ThdlVersion.getTimeOfCompilation() + ". ";
+	public static final String copyrightUnicode="Copyright " + '\u00A9' + " 2000-2025 by Andr" + '\u00E9' + "s Montano Pellegrini, all rights reserved.";
+	public static final String copyrightASCII="Copyright 2000-2025 by Andres Montano Pellegrini, all rights reserved.";
+	public static final String copyrightHTML="<hr><small><strong>" + version + "Copyright &copy; 2000-2025 by Andr&eacute;s Montano. All rights reserved.</strong></small>";
 
 	public static final int NORMAL_MODE=1;
 	public static final int DEBUG_MODE=2;
@@ -59,7 +59,7 @@ public abstract class TibetanScanner
 		"my current translations. A small number are simply wrong; others need to be " + 
 		"updated; and all will receive much more attention and, hence, detail.<p>\n" + 
 		"The Dictionary has been entered into a database with fields for the entry, " + 
-		"Sanskrit, tenses, my English, a few others interests, examples, " + 
+		"Sanskrit, tenses, my English, a few others� interests, examples, " + 
 		"definition, divisions, and comments. At this point, very few entries " + 
 		"contain all of these items, but the plan is provide these, where " + 
 		"appropriate, over the years. Translations for entries that have arisen from " + 
@@ -245,7 +245,7 @@ public abstract class TibetanScanner
 		return array;
 	}
 
-	public abstract void scanLine(String linea, int adjust);
+	public abstract void scanLine(String linea);
 	public abstract void scanBody(String linea);
 	public abstract void finishUp();
 	public abstract BitDictionarySource getDictionarySource();

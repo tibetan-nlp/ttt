@@ -1,0 +1,114 @@
+
+******************** About Tibetan Machine Uni File ***************************
+
+Author: Than Garson
+Date: August 18, 2004
+Organization: Tibetan & Himalayan Digital Library (http://thdl.org)
+
+The SourceForge CVS folder, thdltools/Fonts/TibetanMachineUni, contains
+the alpha version of the Tibetan Machine Uni font, which is an
+OpenType, Unicode version of the original Tibetan Machine font.  The
+original font, Tibetan Machine, was designed and created by Tony Duff
+of the Tibetan Computer company (http://www.tibet.dk/tcc/).  Tibetan
+Machine was purchased and made available to the public under the GNU
+Public License by the Trace Foundation (http://trace.org/).  This
+suite of fonts was converted into a single OpenType Unicode font by
+the Than Garson of the Tibetan & Himalayan Digital Library and Chris
+Fynn. Tibetan Machine Uni is also governed by the GPL
+(http://www.gnu.org/copyleft/gpl.html).
+
+To use the font, you will need software that correctly lays out
+Tibetan Unicode fonts.  Some recent versions of Microsoft's Uniscribe
+work (but have these been released to end users yet or just
+developers?).  Pango 1.8.0 supposedly works, but we haven't tested the
+font with it.  Hopefully there are other packages that work also.
+
+The folder contains several versions of the font plus the table data
+embedded in the font with the OpenType rendering instructions.  The
+following files have been included:
+
+        * TibetanMachineUniAlpha.ttf - This is the "shipped" True Type
+                                       version of the font with all
+                                       production tables removed.  It
+                                       functions as a regular font but
+                                       the user cannot view the lookup
+                                       tables.
+        
+        * TibetanMachineUniAlphaFL.vfb - This is the FontLab file from
+                                         which the True Type font was
+                                         created.
+
+        * TibetanMachineUniAlphaVolt.ttf - This is the True Type
+                                           version of the font WITH
+                                           the production tables
+                                           embedded.  One can view
+                                           these tables through using
+                                           Microsoft's VOLT program.
+                                           VOLT stands for Visual
+                                           OpenType Layout Tool. For
+                                           details, see:
+                                           http://www.microsoft.com/typography/developers/volt/default.htm
+
+        * TableData [folder] - This folder contains the data exported
+                               from VOLT that makes up the OpenType
+                               Layout tables.  It contains the
+                               following files and folders:
+
+                * TMUniAlphaGlyphs.vtd - This is the glyph-definition
+                                         table that assigns names and
+                                         types to the glyphs based on
+                                         their index number.
+
+                * GlyphGroups [folder] - This folder contains 24
+                                         tables that define the glyph
+                                         groups within VOLT.  The
+                                         files are named as they
+                                         appear in the VOLT interface.
+
+                * Lookups [folder] - This folder contains 27 tables
+                                     the define the lookups within
+                                     VOLT.
+
+The naming of the glyph groups is based on the following abbreviations:
+
+        U - refers to a group that takes a certain "u" or zhabs kyu.
+
+        V - refers to a group that takes a certain set of (subscribed)
+            vowels that are all at the same height.
+
+        N - means "negative" because the minus sign cannot be used in
+            a group name.
+        
+        B - means an alternative set of glyphs
+
+        ### - numbers in the name refer to the height of the vowel or
+              zhabs kyu used.
+
+Example: VN324GLYPHS.vtg - is a group of glyphs which take vowels at
+                           the height of -324.
+         U0BGLYPHS.vtg - is a group of glyphs which take an alternate
+                         zhabs kyu whose height is the baseline (0).
+                         The zhabs kyu glyph is itself called
+                         uni0F74.alt0b.
+
+The names of the vowel glphys in FontLab and in Volt were created in
+the following way: "uni" + hex unicode + ".alt" + height.  Thus,
+"uni0F71.altN180" is the subscribed a-chung whose uppermost height is
+-180. In this way, the glyph groups are named in a way that easily
+corresponds them to the appropriate vowel glyphs. Because there was
+greater variety of zhabs kyus (u) in the original fonts, these have
+sometimes required a second layer of lookups to apply the most
+appropriate version.
+
+The Lookup tables follow the same naming procedure, except that they
+do not have "GLYPHS" appended at the end of their names. Thus,
+"V252.vtl" contains the lookups for substituting vowels whose max
+height is 252. Of course, these lookups are applied to the
+"V252GLYPHS.vtg" glyph group, and so on.
+
+Please refer any questions to thdltools-devel@lists.sourceforge.net
+
+        or
+
+to Chris Fynn or Than Garson through the THDL Tools project at
+SourceForge: http://sourceforge.net/projects/thdltools

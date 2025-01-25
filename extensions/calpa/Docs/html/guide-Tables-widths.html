@@ -1,0 +1,104 @@
+<HTML>
+<BODY bgcolor=ffffff>
+<P>
+<TABLE width=100% cellspacing=0 cellpadding=0>
+<TR>
+<TD>
+<FONT size=-1><B>CalHTMLPane v2.0 Guide</B></FONT>
+</TD>
+<TD align=right>
+<FONT size=-1><B>Example Tag Usage</B></FONT>
+</TD>
+</TR>
+</TABLE>
+<HR width=100% size=1 color=black>
+<P>
+<FONT size=+1><B>1: Tables</B></FONT>
+<P>
+<BLOCKQUOTE>
+<P>
+<B>Column widths</B><BR>
+
+<P>
+<TABLE border cellpadding=6 align=center>
+<TR>
+<TD>
+<B>Synopsis:</B><BR>
+Table column widths can be expressed in absolute, percentage, or relative
+form. See HTML4.0 spec for details.
+</TD>
+</TR>
+
+<TR>
+<TD>
+<B>Example:</B>
+<P>
+<table align=center bgcolor=ffffdd cellspacing=0 cellpadding=4 rules=none bordercolor=black frame=border>
+<tr>
+<td><FONT color=navy>
+
+&lt;TABLE border=1 width=100% align=center cellpadding=2 bgcolor=sandybrown&gt;<BR>
+<code>&nbsp;&nbsp;</code>&lt;COLGROUP align=center&gt;<BR>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;</code>&lt;COL width=100&gt;<BR>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;</code>&lt;COL width=10%&gt;<BR>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;</code>&lt;COL width=0*&gt;<BR>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;</code>&lt;COL span=3 width=*&gt;<BR>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;</code>&lt;COL width=2*&gt;<BR>
+<code>&nbsp;&nbsp;</code>&lt;/COLGROUP&gt;<BR>
+<code>&nbsp;&nbsp;</code>&lt;TR&gt;<BR>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;</code>&lt;TD&gt;100 Pixels&lt;/TD&gt;&lt;TD&gt;10%&lt/TD&gt;&lt;TD&gt;0*&lt;/TD&gt;<BR>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;</code>&lt;TD&gt;1*&lt;/TD&gt;&lt;TD&gt;1*&lt/TD&gt;&lt;TD&gt;1*&lt;/TD&gt;&lt;TD&gt;2*&lt;/TD&gt;<BR>
+<code>&nbsp;&nbsp;</code>&lt;/TR&gt;<BR>
+&lt;/TABLE&gt;<BR>
+</td>
+</tr>
+</table>
+<P>
+
+
+<TR><TD>
+<B>Rendering:</B>
+<P>
+<table border=1 width=100% align=center cellpadding=2 bgcolor=sandybrown>
+<colgroup align=center>
+<col width=100>
+<col width=10%>
+<col width=0*>
+<col span=3 width=*>
+<col width=2*>
+</colgroup>
+<tr>
+<td>100 Pixels</td><td>10%</td><td>0*</td>
+<td>1*</td><td>1*</td><td>1*</td><td>2*</td>
+</tr>
+</table>
+<blockquote>
+Column 1 requests an absolute width of 100 pixels<BR>
+Column 2 requests 10% of available width<BR>
+Column 3 requests that it always be set to its minimum width<BR>
+Columns 4-7 request proportions of the remaining width
+<LI>Columns 4, 5 and 6 each request one portion of the remainder
+<LI>Column 7 requests two portions of the remainder
+
+<P>Note that the eventual apportionment of widths to each column depends
+very much on the amount of space available to the table.
+</blockquote>
+</TD>
+</TR>
+
+</TABLE>
+</BLOCKQUOTE>
+
+<TABLE align=center width=50%>
+<TR>
+<TD align=center>
+<A href="../CalGuide.html">Guide Index</A> &nbsp;&#124;
+<A href="../javadoc/overview-tree.html">&nbsp;JavaDoc</A> &nbsp;&#124;
+<A href="guide-Tables-bordercolors.html">&nbsp;Previous</A> &nbsp;&#124;
+<A href="guide-Forms-style.html">&nbsp;Next</A>
+</TD>
+</TR>
+</TABLE>
+
+</BODY>
+</HTML>

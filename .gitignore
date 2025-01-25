@@ -1,0 +1,13 @@
+/bin_for_eclipse/
+.DS_Store
+.classpath
+.project
+.settings/
+bin/
+build.properties
+dist/
+internal-stuff/
+source/.DS_Store
+source/org/.DS_Store
+webroot/
+

@@ -208,11 +208,18 @@ public class FileSyllableListTree implements SyllableListTree
 	{
 		return getDefs().toString();
 	}
-
+	
 	public Definitions getDefs()
 	{
+		return getDefs(false);
+	}
+	
+	public Definitions getDefs(Boolean includeDefault)
+	{
             if (def==null) return null;
-            DictionarySource defSourceAvail = defSource.intersection(defSourcesWanted);
+            DictionarySource defSourceAvail;
+            if (includeDefault) defSourceAvail = defSource.intersection(new BitDictionarySource(defSourcesWanted.getDicts() | 1));
+            else defSourceAvail = defSource.intersection(defSourcesWanted);
             String defs[];
             int i, n=0;
 

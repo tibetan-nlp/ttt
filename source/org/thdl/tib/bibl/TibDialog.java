@@ -101,9 +101,9 @@ public class TibDialog extends JDialog implements ActionListener, TibConstants
         firePropertyChange(RESPONSE_PROPERTY, oldValue, value);
     }
 
-	public String getType()
+	public Type getType()
 	{
-		return (String)results.get(TYPE);
+		return (Type)results.get(TYPE);
 	}
 
 	public void setValue(int index, String value)

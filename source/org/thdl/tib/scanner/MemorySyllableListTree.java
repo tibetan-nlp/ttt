@@ -160,6 +160,11 @@ public class MemorySyllableListTree extends SimplifiedLinkedList implements Syll
 		return new Definitions(def);
 	}
 	
+	public Definitions getDefs(Boolean includeDefault)
+	{
+		return getDefs();
+	}
+	
 	public boolean hasDef()
 	{
 		return def!=null;

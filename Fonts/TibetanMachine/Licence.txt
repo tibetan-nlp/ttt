@@ -1,0 +1,45 @@
+The rights to the Tibetan! 5 for Word, Tibetan! 5 for WordPerfect, and Tibetan Machine
+typeface are owned by Tony Duff (c) 2000-2001. The software mentioned was licenced
+to Trace Foundation, New York, by Tony Duff under a non-exlusive, world-wide licence
+in April, 2001.  Trace Foundation has provided the software to the public under GNU
+General Public Licence version 2.
+
+In general, you may use the software mentioned above for free and you may distribute
+it to others with the use and distribution being governed by the terms of the GNU
+General Public Licence provided with the software.  If you intend to  distribute or
+modify the software, it is important that you read and understand the licence.
+If you have any doubts about the files covered by the licence, please read the
+filelist.rtf or filelist.pdf files distributed with the software.  
+
+Please note that Tibetan Computer Company has other products and typefaces.
+These are NOT free and are NOT being distributed under General Public Licence.
+Those software packages and typefaces must be purchased by individual users for use on
+their machines from an authorized distributor of the software.  Any illegal distribution
+of the other software or typefaces will be fully prosecuted under law.
+
+
+-------------The actual licence-----------------------------------------------
+The following software programs:
+
+Tibetan! 5 for Word For Windows
+Tibetan! 5 for WordPerfect For Windows
+Tibetan Machine typeface
+are all authored by Tony Duff and are all
+copyright (c) 2000-2001 Tony Duff.
+Contact the author at tdolma@wlink.com.np
+
+The above programs and typeface were licenced to the Trace Foundation, New York, USA
+in April, 2001 by the author.  Trace Foundation is providing the programs and typeface to
+the public via General Public Licence as follows.
+
+The programs and typeface are free software; you can redistribute them and/or modify
+them under the terms of the GNU General Public License as published by the Free Software
+Foundation; either version 2 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+without even the implied warranty of'MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE'.
+See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program;
+if not, write to the Free Software Foundation, Inc.,
+59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.

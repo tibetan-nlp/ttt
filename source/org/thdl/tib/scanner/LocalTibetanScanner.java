@@ -32,7 +32,6 @@ public class LocalTibetanScanner extends TibetanScanner
 	public static String archivo;
 	private SyllableListTree raiz, silActual, lastCompSil, silAnterior;
 	private String wordActual, lastCompWord;
-	private int wordActualOffset, lastCompWordOffset;
 	private Vector floatingSil;
 	
 	static
@@ -66,11 +65,14 @@ public class LocalTibetanScanner extends TibetanScanner
 		silAnterior = silActual = lastCompSil = null;
 		wordActual = lastCompWord = null;
 	}
-	
-	private void scanSyllable(Token silToken)
+
+	private void scanSyllable(String sil)
 	{
-		String sil = silToken.getRawValue();
-		
+		scanSyllable(sil, false);
+	}
+	
+	private void scanSyllable(String sil, Boolean includeDefaultDefinition)
+	{
 		SyllableListTree resultado=null;
 		Enumeration enumeration;
 		Word w;
@@ -87,12 +89,6 @@ public class LocalTibetanScanner extends TibetanScanner
 		{
 			if (silActual.hasDef())
 			{
-				if (wordActual == null) {
-					lastCompWordOffset = silToken.getOffset();
-				}
-				else {
-					lastCompWordOffset = wordActualOffset;
-				}
 				lastCompWord = concatWithSpace(wordActual, sil);
 				lastCompSil = silActual;
 				floatingSil.removeAllElements();
@@ -115,17 +111,8 @@ public class LocalTibetanScanner extends TibetanScanner
 					
 					if (resultado!=null && resultado.hasDef())
 					{
-						if (wordActual == null) {
-							lastCompWordOffset = silToken.getOffset();
-						}
-						else {
-							lastCompWordOffset = wordActualOffset;
-						}
 						lastCompWord = concatWithSpace(wordActual, silSinDec);
 						lastCompSil = resultado;
-						if (wordActual == null) {
-							wordActualOffset = silToken.getOffset();
-						}
 						wordActual = concatWithSpace(wordActual, sil);
 						floatingSil.removeAllElements();
 					}
@@ -139,10 +126,7 @@ public class LocalTibetanScanner extends TibetanScanner
 				if (resultado!=null) return;
 				
 				if (lastCompSil!=null)
-					floatingSil.addElement(silToken);
-			}
-			if (wordActual == null) {
-				wordActualOffset = silToken.getOffset();
+					floatingSil.addElement(sil);
 			}
 			wordActual = concatWithSpace(wordActual, sil);
 		}
@@ -168,10 +152,7 @@ public class LocalTibetanScanner extends TibetanScanner
 				// si funciona sin declension arreglado problema
 				if (resultado!=null && resultado.hasDef())
 				{
-					if (wordActual == null) {
-						wordActualOffset = silToken.getOffset();
-					}
-					wordList.addLast(new Word(concatWithSpace(wordActual, silSinDec), concatWithSpace(wordActual,sil), resultado.getDefs(), wordActualOffset));
+					wordList.addLast(new Word(concatWithSpace(wordActual, silSinDec), concatWithSpace(wordActual,sil), resultado.getDefs(includeDefaultDefinition)));
 					resetAll();
 					floatingSil.removeAllElements();
 				}
@@ -187,58 +168,63 @@ public class LocalTibetanScanner extends TibetanScanner
 			
 			if (lastCompSil!=null)
 			{
-				if (lastCompWord.equals(wordActual)) w = new Word(lastCompWord, lastCompSil.getDefs(), lastCompWordOffset);
-				else w = new Word(lastCompWord, wordActual, lastCompSil.getDefs(), lastCompWordOffset);
+				if (lastCompWord.equals(wordActual) || !floatingSil.isEmpty()) w = new Word(lastCompWord, lastCompSil.getDefs(includeDefaultDefinition));
+				else w = new Word(lastCompWord, wordActual, lastCompSil.getDefs(includeDefaultDefinition));
 				wordList.addLast(w);
 				this.resetAll();
 				
 				enumeration = floatingSil.elements();
 				floatingSil = new Vector();
 				while (enumeration.hasMoreElements())
-					scanSyllable((Token)enumeration.nextElement());
+					scanSyllable((String)enumeration.nextElement());
 				
-				scanSyllable(silToken);
+				scanSyllable(sil);
 			}
 			else
 			{
 				if (silAnterior!=raiz)
 				{
-					w = new Word(wordActual, "[incomplete word]", wordActualOffset);
+					w = new Word(wordActual, "[incomplete word]");
 					wordList.addLast(w);
 					this.resetAll();
-					scanSyllable(silToken);
+					scanSyllable(sil);
 				}
 				else
 				{
-					w = new Word(sil, "[not found]", silToken.getOffset());
+					w = new Word(sil, "[not found]");
 					wordList.addLast(w);
 					this.resetAll();
 				}
 			}
 		}
 	}
-	
+
 	public void finishUp()
+	{
+		finishUp(false);
+	}
+	
+	public void finishUp(Boolean includeDefaultDefinition)
 	{
 		Enumeration enumeration;
 		Word w;
 		
 		while (lastCompSil!=null)
 		{
-			if (lastCompWord.equals(wordActual)) w = new Word(lastCompWord, lastCompSil.getDefs(), lastCompWordOffset);
-			else w = new Word(lastCompWord, wordActual, lastCompSil.getDefs(), lastCompWordOffset);
+			if (lastCompWord.equals(wordActual) || !floatingSil.isEmpty()) w = new Word(lastCompWord, lastCompSil.getDefs(includeDefaultDefinition));
+			else w = new Word(lastCompWord, wordActual, lastCompSil.getDefs(includeDefaultDefinition));
 			wordList.addLast(w);
 			this.resetAll();
 			
 			enumeration = floatingSil.elements();
 			floatingSil = new Vector();
 			while (enumeration.hasMoreElements())
-				scanSyllable((Token)enumeration.nextElement());
+				scanSyllable((String)enumeration.nextElement());
 		}
 		
 		if (silActual!=null)
 		{
-			wordList.addLast(new Word(wordActual, "[incomplete word]", wordActualOffset));
+			wordList.addLast(new Word(wordActual, "[incomplete word]"));
 			this.resetAll();
 		}
 	}
@@ -307,27 +293,33 @@ public class LocalTibetanScanner extends TibetanScanner
 				if (linea.equals(""))
 				{
 					finishUp();
-					wordList.addLast(new PunctuationMark('\n',init));
+					wordList.addLast(new PunctuationMark('\n'));
 				}
 				else
-					scanLine(linea, init);
+					scanLine(linea);
 				
 				init = fin+1;
 			}
 		}
 	}
 	
-	public void scanLine(String linea, int adjust)
+	public void scanLine(String linea)
+	{
+		scanLine(linea, false);
+	}
+
+	
+	public void scanLine(String linea, Boolean includeDefaultDefinition)
 	{
 		int init = 0, fin;
 		char ch;
-		Token silToken;
+		String sil;
 		boolean doNotFinishUp;
 		
 		if (linea.equals(""))
 		{
-			finishUp();
-			wordList.addLast(new PunctuationMark('\n',init+adjust));
+			finishUp(includeDefaultDefinition);
+			wordList.addLast(new PunctuationMark('\n'));
 			return;
 		}
 		
@@ -346,10 +338,10 @@ public class LocalTibetanScanner extends TibetanScanner
 					{
 						if (doNotFinishUp)
 						{
-							finishUp();
+							finishUp(includeDefaultDefinition);
 							doNotFinishUp=false;
 						}
-						wordList.addLast(new PunctuationMark(ch,init+adjust));
+						wordList.addLast(new PunctuationMark(ch));
 					}
 					else if (!Manipulate.isEndOfSyllableMark(ch))
 						break;
@@ -384,13 +376,13 @@ public class LocalTibetanScanner extends TibetanScanner
 					}
 				}
 				
-				silToken = new Token(linea.substring(init, fin),init+adjust);
-				scanSyllable(silToken);
+				sil = linea.substring(init, fin);
+				scanSyllable(sil, includeDefaultDefinition);
 				
 				if (!doNotFinishUp)
 				{
-					finishUp();
-					wordList.addLast(new PunctuationMark(ch,fin+adjust));
+					finishUp(includeDefaultDefinition);
+					wordList.addLast(new PunctuationMark(ch));
 				}
 				init = fin+1;
 			}
