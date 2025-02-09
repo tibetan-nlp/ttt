@@ -78,6 +78,7 @@ public class LocalTibetanScanner extends TibetanScanner
 		Word w;
 		String silSinDec;
 		boolean aadded;
+		Definitions defs;
 		
 		if (silActual==null)
 			silActual = raiz;
@@ -176,18 +177,23 @@ public class LocalTibetanScanner extends TibetanScanner
 				enumeration = floatingSil.elements();
 				floatingSil = new Vector();
 				while (enumeration.hasMoreElements())
-					scanSyllable((String)enumeration.nextElement());
+					scanSyllable((String)enumeration.nextElement(), includeDefaultDefinition);
 				
-				scanSyllable(sil);
+				scanSyllable(sil, includeDefaultDefinition);
 			}
 			else
 			{
 				if (silAnterior!=raiz)
 				{
-					w = new Word(wordActual, "[incomplete word]");
+					if (includeDefaultDefinition)
+					{
+						defs = silAnterior.getDefs(includeDefaultDefinition);
+						if (defs.def.length>0) w = new Word(wordActual, defs);
+						else w = new Word(wordActual, "[incomplete word]");
+					} else w = new Word(wordActual, "[incomplete word]"); 
 					wordList.addLast(w);
 					this.resetAll();
-					scanSyllable(sil);
+					scanSyllable(sil, includeDefaultDefinition);
 				}
 				else
 				{
@@ -219,7 +225,7 @@ public class LocalTibetanScanner extends TibetanScanner
 			enumeration = floatingSil.elements();
 			floatingSil = new Vector();
 			while (enumeration.hasMoreElements())
-				scanSyllable((String)enumeration.nextElement());
+				scanSyllable((String)enumeration.nextElement(), includeDefaultDefinition);
 		}
 		
 		if (silActual!=null)
