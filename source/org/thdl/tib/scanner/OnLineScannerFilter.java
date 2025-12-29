@@ -176,7 +176,7 @@ public class OnLineScannerFilter extends HttpServlet
 
 			for (String lang : languages) {
 			    label   = Character.toUpperCase(lang.charAt(0)) + lang.substring(1);
-			    checked = (selected_lang == null || selected_lang.equals("all")) || selected_lang.equals(lang) ? " checked" : "";
+			    checked = selected_lang == null && lang.equals("all") || selected_lang != null && selected_lang.equals(lang) ? " checked" : "";
 			    out.println("<input type=\"radio\" name=\"lang\" value=\"" + lang + "\"" + checked + "> " + label);
 			}
 			out.println("  </td></tr>");
