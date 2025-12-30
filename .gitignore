@@ -9,5 +9,5 @@ dist/
 internal-stuff/
 source/.DS_Store
 source/org/.DS_Store
-webroot/
+webroot/WEB-INF/classes/dictionary.properties
 
