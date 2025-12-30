@@ -108,16 +108,13 @@ public class OnLineScannerFilter extends HttpServlet
 		BitDictionarySource ds=null;
 		boolean checkedDicts[], allUnchecked, wantsTibetan;
 		// int percent=100;
-		
 		out.println("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"  \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">");
 		out.println("<html xmlns=\"http://www.w3.org/1999/xhtml\">");
 		out.println("<head>");
 		out.println(" <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />");
-		
 		out.println(" <title>The Online Tibetan to English Dictionary and Translation Tool</title>");
 		out.println(" <link rel=\"stylesheet\" type=\"text/css\" href=\"stylesheets/base.css\"/>");
 		out.println(" <script src=\"javascripts/base.js\"></script>");
-		
 		out.println(" <meta name=\"keywords\" content=\"tibetan, english, dictionary, jim valby, rangjung yeshe, jeffrey hopkins, tsig mdzod chen mo, online, translation, scanner, parser, buddhism, language, processing, font, dharma, chos, tibet\">");
 		out.println(" <meta name=\"Description\" content=\"This Java tool takes Tibetan language passages and divides the passages up into their component phrases and words, and displays corresponding dictionary definitions.\">");
 		out.println(" <meta name=\"MSSmartTagsPreventParsing\" content=\"TRUE\">");
@@ -130,7 +127,6 @@ public class OnLineScannerFilter extends HttpServlet
 			// do nothing
 		}
 		answer = request.getParameter(scriptStr);
-		
 		/* script==null || makes default tibetan
 		 script!=null && makes default roman
 		 */
@@ -151,29 +147,26 @@ public class OnLineScannerFilter extends HttpServlet
 		}*/
 		out.println("</head>");
 		out.println("<body>");
-
 		out.println("<form action=\"org.thdl.tib.scanner.OnLineScannerFilter\" method=POST>");
-
 		out.println("<table border=\"0\" width=\"100%\">");
 		out.println("  <tr>");
-		out.println("    <td width=\"18%\" align=\"left\"><strong>Display results in:</strong></td>");
-		out.println("    <td width=\"41%\" align=\"right\">");
+		out.println("    <td width=\"20%\" align=\"left\"><strong>Display results in:</strong></td>");
+		out.println("    <td width=\"30%\" align=\"right\">");
 		out.println("      <input type=\"radio\" value=\"" + tibetanStr + "\" ");
 		if (wantsTibetan) out.println("checked ");
-		out.println("name=\"" + scriptStr + "\">Tibetan script (<a href=\"http://www.thlib.org/tools/#wiki=/access/wiki/site/26a34146-33a6-48ce-001e-f16ce7908a6a/tibetan%20machine%20uni.html\" target=\"_top\">Tibetan Machine Uni</a> font)</td>");
-		out.println("    <td width=\"16%\" align=\"left\">");
+		out.println("name=\"" + scriptStr + "\">Tibetan script</td>");
+		out.println("    <td width=\"30%\" align=\"left\">");
 		out.println("      <input type=\"radio\" value=\"roman\" ");
 		if (!wantsTibetan) out.println("checked ");
 		out.println("name=\"" + scriptStr + "\">Roman script</td>");
-		out.println("    <td width=\"25%\" align=\"right\">");
-		out.println("<a href=\"http://www.thlib.org/tools/#wiki=/access/wiki/site/c06fa8cf-c49c-4ebc-007f-482de5382105/tibetan%20translation%20tool.html\" target=\"_top\">Help & Offline Installation</a></td>");
+		out.println("    <td width=\"20%\" align=\"right\">");
+		out.println("<a href=\"https://thlib.org/terms/#/translate/tibetan\" target=\"_top\">Javascript version</a></td>");
 		out.println("  </tr>");
 		if (dictionaries!=null)
 		{
-			String checked, label, selected_lang = request.getParameter("lang"), languages[] = {"all","english","tibetan","sanskrit","user"};
+			String checked, label, selected_lang = request.getParameter("lang"), languages[] = {"all","english","tibetan","sanskrit","custom"};
 			out.println("  <tr>");
 			out.println("    <td><strong>Search in dictionaries:</strong></td><td colspan=\"3\">");
-
 			for (String lang : languages) {
 			    label   = Character.toUpperCase(lang.charAt(0)) + lang.substring(1);
 			    checked = selected_lang == null && lang.equals("all") || selected_lang != null && selected_lang.equals(lang) ? " checked" : "";
@@ -199,14 +192,12 @@ public class OnLineScannerFilter extends HttpServlet
 					break;
 				}
 			}
-			
 			if (allUnchecked)
 			{
 				for (i=0; i<dictionaries.length; i++)
 					checkedDicts[i] = true;
 			}
 			out.print("  <tr><td colspan=\"4\">");
-			
 			for (i=0; i<dictionaries.length; i++)
 			{
 				checkboxName = "dict"+ i;
@@ -252,7 +243,6 @@ public class OnLineScannerFilter extends HttpServlet
 			{
 				// do nothing
 			}
-
 		}
 		if (smallerLinks!=null)
 		{
@@ -260,7 +250,6 @@ public class OnLineScannerFilter extends HttpServlet
 			out.println("<tr>");
 			out.println("<td>");
 		}
-		
 		out.print("<textarea rows=\"5\" name=\"parrafo\" cols=\"40\"");
 		if (wantsTibetan) out.print(" class=\"tib\"");
 		out.println(">");
@@ -281,9 +270,7 @@ public class OnLineScannerFilter extends HttpServlet
 			out.println("</tr>");
 			out.println("</table>");
 		}
-		
 		out.println("</form>");
-
 		if (parrafo != null)
 		{
 			sl.writeLog("4\t1");
@@ -293,9 +280,7 @@ public class OnLineScannerFilter extends HttpServlet
 			}
 		}
 		else sl.writeLog("3\t1");
-		
 		out.println(TibetanScanner.copyrightHTML);
-
 		out.println("</body>");
 		out.println("</html>");
 	}
