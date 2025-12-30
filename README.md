@@ -1,6 +1,6 @@
 # Tibetan Translation Tool
 
-The Tibetan to English Dictionary and Translation Tool is one of several tools that can be built from this **Java Tools for Tibetan Text Processing** repository. The Translation Tool takes Tibetan language passages – which can be cut and pasted in, typed in Wylie transliteration, or typed in Tibetan script – and breaks down the passages into their component phrases and words, and displays corresponding dictionary definitions. The Tibetan Translation Tool can be used [online on THL](ttt.thlib.org) without any installation. However, with some simple installation, you can also run it accessing the dictionary online with more advanced functionality, such as typing in Tibetan script instead of roman script transliteration. In addition, it is also possible to install the software on your own computer and then run the Tibetan Translation Tool offline without an Internet connection.
+The Tibetan to English Dictionary and Translation Tool is one of several tools that can be built from this **Java Tools for Tibetan Text Processing** repository. The Translation Tool takes Tibetan language passages – which can be cut and pasted in, typed in Wylie transliteration, or typed in Tibetan script – and breaks down the passages into their component phrases and words, and displays corresponding dictionary definitions. The Tibetan Translation Tool can be used [online on THL](https://ttt.thlib.org) without any installation. However, with some simple installation, you can also run it accessing the dictionary online with more advanced functionality, such as typing in Tibetan script instead of roman script transliteration. In addition, it is also possible to install the software on your own computer and then run the Tibetan Translation Tool offline without an Internet connection.
 
 The tool was developed and implemented in its current state by Andrés Montano Pellegrini at the University of Virginia, while the Tibetan script input facility was built by Edward Garrett while working at the University of Virginia.
 
@@ -11,7 +11,7 @@ This tool partially automates the process of translation by breaking up a senten
 
 ### Accessing the Translation Tool as Webapp
 
-Visiting [ttt.thlib.org](ttt.thlib.org) is the easiest way to access the Translation Tool from any device that is connected to the Internet.
+Visiting [ttt.thlib.org](https://ttt.thlib.org) is the easiest way to access the Translation Tool from any device that is connected to the Internet.
 
 ### Accessing the Translation Tool online dictionaries through a Java program running locally
 
