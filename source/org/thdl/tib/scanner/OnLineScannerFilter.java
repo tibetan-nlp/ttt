@@ -150,17 +150,17 @@ public class OnLineScannerFilter extends HttpServlet
 		out.println("<form action=\"org.thdl.tib.scanner.OnLineScannerFilter\" method=POST>");
 		out.println("<table border=\"0\" width=\"100%\">");
 		out.println("  <tr>");
-		out.println("    <td width=\"20%\" align=\"left\"><strong>Display results in:</strong></td>");
-		out.println("    <td width=\"30%\" align=\"right\">");
+		out.println("    <td width=\"18%\" align=\"left\"><strong>Display results in:</strong></td>");
+		out.println("    <td width=\"41%\" align=\"right\">");
 		out.println("      <input type=\"radio\" value=\"" + tibetanStr + "\" ");
 		if (wantsTibetan) out.println("checked ");
-		out.println("name=\"" + scriptStr + "\">Tibetan script</td>");
-		out.println("    <td width=\"30%\" align=\"left\">");
+		out.println("name=\"" + scriptStr + "\">Tibetan script (<a href=\"https://github.com/tibetan-nlp/ttt/tree/master/Fonts/TibetanMachineUni\" target=\"_top\">Tibetan Machine Uni</a> font)</td>");
+		out.println("    <td width=\"16%\" align=\"left\">");
 		out.println("      <input type=\"radio\" value=\"roman\" ");
 		if (!wantsTibetan) out.println("checked ");
 		out.println("name=\"" + scriptStr + "\">Roman script</td>");
-		out.println("    <td width=\"20%\" align=\"right\">");
-		out.println("<a href=\"https://thlib.org/terms/#/translate/tibetan\" target=\"_top\">Javascript version</a></td>");
+		out.println("    <td width=\"25%\" align=\"right\">");
+		out.println("<a href=\"https://github.com/tibetan-nlp/ttt\" target=\"_top\">Help & Offline Installation</a></td>");
 		out.println("  </tr>");
 		if (dictionaries!=null)
 		{
