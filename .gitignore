@@ -5,9 +5,13 @@
 .settings/
 bin/
 build.properties
-dist/
 internal-stuff/
 source/.DS_Store
 source/org/.DS_Store
 webroot/WEB-INF/classes/dictionary.properties
-
+dist/docs
+dist/java-web-start
+dist/lib-jws
+dist/releases
+dist/source
+Fonts/dist
