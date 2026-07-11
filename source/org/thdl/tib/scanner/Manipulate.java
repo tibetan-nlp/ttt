@@ -26,7 +26,7 @@ public class Manipulate
 {
 	private static String endOfParagraphMarks = "/;|!:^@#$%=,";
 	private static String bracketMarks = "<>(){}[]";
-	private static String endOfSyllableMarks = " _\t\u00A0";
+	private static String endOfSyllableMarks = " _\t\u00A0\u2028";
 	private static String allStopMarkers = endOfSyllableMarks + endOfParagraphMarks + bracketMarks;
 	private static final int TIBETAN_UNICODE_RANGE[] = {3840, 4095};
 	private static String JSON_ESCAPABLES = "\"\\/";
